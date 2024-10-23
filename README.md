@@ -17,12 +17,10 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 
 The following outlines the steps to build and run the Docker container that generates the `README.md` file using the `generate_readme.py` script.
 
-### Prerequisites
+#### 0. Prerequisites
 
+- Clone this repository.
 - Ensure that Docker is installed and running on your system.
-- You have cloned this repository.
-
-### Steps to Build and Run the Docker Container
 
 #### 1. Make the Bash Script Executable
 
@@ -34,10 +32,8 @@ chmod +x ./generate_readme_using_docker.sh
 
 #### 2. Build and Run the Docker Container
 
-To build the Docker image and run the container, execute the following command in your terminal:
-
 ```bash
-././generate_readme_using_docker.sh
+./generate_readme_using_docker.sh
 ```
 
 - This will build the Docker image every time it is run (to avoid caching)
