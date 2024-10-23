@@ -30,6 +30,19 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 3105 | Longest Strictly Increasing or Strictly Decreasing Subarray | O(n) | O(1) | [python](leetcode/easy/3105.%20Longest%20Strictly%20Increasing%20or%20Strictly%20Decreasing%20Subarray.py) | N/A |
 | 3110 | Score of a String | N/A | N/A | [python](leetcode/easy/3110.%20Score%20of%20a%20String.py) | N/A |
 
+### Hard
+| Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
+| --- | --- | --- | --- | --- | --- |
+| 42 | Trapping Rain Water | O(n) | O(1) | [python](leetcode/hard/42.%20Trapping%20Rain%20Water.py) | N/A |
+| 84 | Largest Rectangle in Histogram | O(n) | O(n) | [python](leetcode/hard/84.%20Largest%20Rectangle%20in%20Histogram.py) | N/A |
+| 85 | Maximal Rectangle | O(n* m) | O(n) | [python](leetcode/hard/85.%20Maximal%20Rectangle.py) | N/A |
+| 305 | Number of Islands II | O(n) | O(n) | [python](leetcode/hard/305.%20Number%20of%20Islands%20II.py) | N/A |
+| 514 | Freedom Trail | O(n * m) | O(m) | [python](leetcode/hard/514.%20Freedom%20Trail.py) | N/A |
+| 552 | Student Attendance Record II | N/A | N/A | [python](leetcode/hard/552.%20Student%20Attendance%20Record%20II.py) | N/A |
+| 857 | Minimum Cost to Hire K Workers | O(n log n) | O(n) | [python](leetcode/hard/857.%20Minimum%20Cost%20to%20Hire%20K%20Workers.py) | N/A |
+| 1289 | Minimum Falling Path Sum II | O(width * height) | O(width) | [python](leetcode/hard/1289.%20Minimum%20Falling%20Path%20Sum%20II.py) | N/A |
+| 2751 | Robot Collisions | O(n log n) | O(n) | [python](leetcode/hard/2751.%20Robot%20Collisions.py) | N/A |
+
 ### Medium
 | Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- | --- |
