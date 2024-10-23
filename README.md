@@ -6,6 +6,30 @@ ___Leetcode___
 
 The ```./leetcode/``` directory is structured into categories such as "Easy," "Medium," and "Hard" for ease of navigation, with future expansions for more types of challenges. For each problem, you’ll find a detailed solution along with its associated time and space complexities, parsed directly from the solution file.
 
+## Deep-ml
+
+### Easy
+| Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
+| --- | --- | --- | --- | --- | --- |
+| 1 | Matrix times Vector | O(n*m) | O(m) | [python](deep-ml/easy/1%20Matrix%20times%20Vector.py) | [deep-ml.com](https://www.deep-ml.com/problem/Matrix%20times%20Vector) |
+| 2 | Transpose of a Matrix | O(width * height) | O(width * height) | [python](deep-ml/easy/2%20Transpose%20of%20a%20Matrix.py) | N/A |
+| 3 | Reshape Matrix | N/A | N/A | [python](deep-ml/easy/3%20Reshape%20Matrix.py) | N/A |
+| 4 | Calculate Mean by Row or Column | N/A | N/A | [python](deep-ml/easy/4%20Calculate%20Mean%20by%20Row%20or%20Column.py) | N/A |
+| 5 | Scalar Multiplication of a Matrix | N/A | N/A | [python](deep-ml/easy/5%20Scalar%20Multiplication%20of%20a%20Matrix.py) | N/A |
+| 10 | Sigmoid Activation Function Understanding | N/A | N/A | [python](deep-ml/easy/Sigmoid%20Activation%20Function%20Understanding.py) | N/A |
+| 16 | Feature Scaling Implementation | N/A | N/A | [python](deep-ml/easy/16%20Feature%20Scaling%20Implementation.py) | N/A |
+| 23 | Softmax Activation Function Implementation | N/A | N/A | [python](deep-ml/easy/23%20Softmax%20Activation%20Function%20Implementation.py) | N/A |
+| 24 | Single Neuron | N/A | N/A | [python](deep-ml/easy/24%20Single%20Neuron.py) | N/A |
+
+### Medium
+| Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
+| --- | --- | --- | --- | --- | --- |
+| 4 | Calculate 2x2 Matrix Inverse | N/A | N/A | [python](deep-ml/medium/Calculate%202x2%20Matrix%20Inverse.py) | N/A |
+| 5 | Calculate Covariance Matrix | N/A | N/A | [python](deep-ml/medium/Calculate%20Covariance%20Matrix.py) | N/A |
+| 9 | Matrix times Matrix | O(n^3) | O(n^2) | [python](deep-ml/medium/9%20Matrix%20times%20Matrix.py) | N/A |
+| 11 | Solve Linear Equations using Jacobi Method | N/A | N/A | [python](deep-ml/medium/11%20Solve%20Linear%20Equations%20using%20Jacobi%20Method.py) | N/A |
+| 18 | Cross-Validation Data Split Implementation | N/A | N/A | [python](deep-ml/medium/18%20Cross-Validation%20Data%20Split%20Implementation.py) | N/A |
+
 ## Leetcode
 
 ### Easy
