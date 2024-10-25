@@ -1,5 +1,5 @@
 from typing import List
-
+# source: https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/
 
 class Solution:
 
