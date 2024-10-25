@@ -16,7 +16,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 3 | Reshape Matrix | N/A | N/A | [python](deep-ml/easy/3%20Reshape%20Matrix.py) | N/A |
 | 4 | Calculate Mean by Row or Column | N/A | N/A | [python](deep-ml/easy/4%20Calculate%20Mean%20by%20Row%20or%20Column.py) | N/A |
 | 5 | Scalar Multiplication of a Matrix | N/A | N/A | [python](deep-ml/easy/5%20Scalar%20Multiplication%20of%20a%20Matrix.py) | N/A |
-| 10 | Sigmoid Activation Function Understanding | N/A | N/A | [python](deep-ml/easy/Sigmoid%20Activation%20Function%20Understanding.py) | N/A |
+| 9 | Sigmoid Activation Function Understanding | N/A | N/A | [python](deep-ml/easy/Sigmoid%20Activation%20Function%20Understanding.py) | N/A |
 | 16 | Feature Scaling Implementation | N/A | N/A | [python](deep-ml/easy/16%20Feature%20Scaling%20Implementation.py) | N/A |
 | 23 | Softmax Activation Function Implementation | N/A | N/A | [python](deep-ml/easy/23%20Softmax%20Activation%20Function%20Implementation.py) | N/A |
 | 24 | Single Neuron | N/A | N/A | [python](deep-ml/easy/24%20Single%20Neuron.py) | N/A |
@@ -100,6 +100,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 1190 | Reverse Substrings Between Each Pair of Parentheses | O(n) | O(n) | [python](leetcode/medium/1190.%20Reverse%20Substrings%20Between%20Each%20Pair%20of%20Parentheses.py) | N/A |
 | 1208 | Get Equal Substrings Within Budget | O(n) | O(1) | [python](leetcode/medium/1208.%20Get%20Equal%20Substrings%20Within%20Budget.py) | N/A |
 | 1219 | Path with Maximum Gold | O(n*m*4^(n*m) | O(n*m) | [python](leetcode/medium/1219.%20Path%20with%20Maximum%20Gold.py) | N/A |
+| 1233 | Remove Sub-Folders from the Filesystem | O(n * m) | O(n * m) | [python](leetcode/medium/1233.%20Remove%20Sub-Folders%20from%20the%20Filesystem.py) | N/A |
 | 1248 | Count Number of Nice Subarrays | O(n) | O(1) | [python](leetcode/medium/1248.%20Count%20Number%20of%20Nice%20Subarrays.py) | N/A |
 | 1249 | Minimum Remove to Make Valid Parentheses | O(n) | O(n) | [python](leetcode/medium/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.py) | N/A |
 | 1404 | Number of Steps to Reduce a Number in Binary | O(n) | O(1) | [python](leetcode/medium/1404.%20Number%20of%20Steps%20to%20Reduce%20a%20Number%20in%20Binary.py) | N/A |
