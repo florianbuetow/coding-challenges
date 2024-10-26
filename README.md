@@ -93,6 +93,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 861 | Score After Flipping Matrix | O(n * m) | O(1) | [python](leetcode/medium/861.%20Score%20After%20Flipping%20Matrix.py) | N/A |
 | 948 | Bag of Tokens | O(n log n) | O(1) | [python](leetcode/medium/948.%20Bag%20of%20Tokens.py) | N/A |
 | 950 | Reveal Cards In Increasing Order | O(n log n) | O(n) | [python](leetcode/medium/950.%20Reveal%20Cards%20In%20Increasing%20Order.py) | N/A |
+| 951 | Flip Equivalent Binary Trees | O(n) | O(n) | [python](leetcode/medium/951.%20Flip%20Equivalent%20Binary%20Trees.py) | [leetcode.com](https://leetcode.com/problems/flip-equivalent-binary-trees/) |
 | 979 | Distribute Coins in Binary Tree | O(n) | O(n) | [python](leetcode/medium/979.%20Distribute%20Coins%20in%20Binary%20Tree.py) | N/A |
 | 988 | Smallest String Starting From Leaf | O(n*h) | O(h) | [python](leetcode/medium/988.%20Smallest%20String%20Starting%20From%20Leaf.py) | N/A |
 | 1052 | Grumpy Bookstore Owner | O(n) | O(1) | [python](leetcode/medium/1052.%20Grumpy%20Bookstore%20Owner.py) | N/A |
