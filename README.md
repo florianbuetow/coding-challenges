@@ -119,6 +119,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 2370 | Longest Ideal Subsequence | O(n) | O(1) | [python](leetcode/medium/2370.%20Longest%20Ideal%20Subsequence.py) | N/A |
 | 2486 | Append Characters to String to Make Subsequence | O(n) | O(1) | [python](leetcode/medium/2486.%20Append%20Characters%20to%20String%20to%20Make%20Subsequence.py) | N/A |
 | 2641 | Cousins in Binary Tree II | O(n) | O(n) | [python](leetcode/medium/2641.%20Cousins%20in%20Binary%20Tree%20II.py) | [leetcode.com](https://leetcode.com/problems/cousins-in-binary-tree-ii/) |
+| 2664 | The Knight’s Tour | O(8^(n*m) | O(n*m) | [python](leetcode/medium/2664.%20The%20Knight%E2%80%99s%20Tour.py) | [leetcode.com](https://leetcode.com/problems/the-knights-tour/) |
 | 2743 | Count Substrings Without Repeating Character | O(n) | O(1) | [python](leetcode/medium/2743.%20Count%20Substrings%20Without%20Repeating%20Character.py) | N/A |
 | 2816 | Double a Number Represented as a Linked List | O(n) | O(n) | [python](leetcode/medium/2816.%20Double%20a%20Number%20Represented%20as%20a%20Linked%20List.py) | N/A |
 | 2958 | Length of Longest Subarray With at Most K Frequency | O(n) | O(n) | [python](leetcode/medium/2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency.py) | N/A |
