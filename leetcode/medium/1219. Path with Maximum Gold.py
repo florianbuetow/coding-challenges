@@ -1,6 +1,7 @@
 class Solution:
     def getMaximumGold(self, grid: List[List[int]]) -> int:
-        # O(n*m*4^(n*m)) time and O(n*m) space
+        # O((n*m)*4^(n*m)) time and O(n*m) space
+        # link: https://leetcode.com/problems/path-with-maximum-gold/
         width, height = len(grid[0]), len(grid)
         
         def getNeighbors(pos):
