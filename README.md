@@ -84,7 +84,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 340 | Longest Substring with At Most K Distinct Characters | N/A | N/A | [python](leetcode/medium/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters.py) | N/A |
 | 442 | Find All Duplicates in an Array | O(n) | O(n) | [python](leetcode/medium/442.%20Find%20All%20Duplicates%20in%20an%20Array.py) | N/A |
 | 623 | Add One Row to Tree | O(n) | O(n) | [python](leetcode/medium/623.%20Add%20One%20Row%20to%20Tree.py) | N/A |
-| 633 | Sum of Square Numbers | O(log sqrt(c) | O(1) | [python](leetcode/medium/633.%20Sum%20of%20Square%20Numbers.py) | N/A |
+| 633 | Sum of Square Numbers | O(log sqrt(c)) | O(1) | [python](leetcode/medium/633.%20Sum%20of%20Square%20Numbers.py) | N/A |
 | 648 | Replace Words | O(n*m) | O(n+m) | [python](leetcode/medium/648.%20Replace%20Words.py) | N/A |
 | 678 | Valid Parenthesis String | O(n) | O(n) | [python](leetcode/medium/678.%20Valid%20Parenthesis%20String.py) | N/A |
 | 678 | Valid Parenthesis String_v2 | O(n) | O(1) | [python](leetcode/medium/678.%20Valid%20Parenthesis%20String_v2.py) | N/A |
@@ -100,7 +100,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 1110 | Delete Nodes And Return Forest | O(n) | O(n) | [python](leetcode/medium/1110.%20Delete%20Nodes%20And%20Return%20Forest.py) | N/A |
 | 1190 | Reverse Substrings Between Each Pair of Parentheses | O(n) | O(n) | [python](leetcode/medium/1190.%20Reverse%20Substrings%20Between%20Each%20Pair%20of%20Parentheses.py) | N/A |
 | 1208 | Get Equal Substrings Within Budget | O(n) | O(1) | [python](leetcode/medium/1208.%20Get%20Equal%20Substrings%20Within%20Budget.py) | N/A |
-| 1219 | Path with Maximum Gold | O((n*m) | O(n*m) | [python](leetcode/medium/1219.%20Path%20with%20Maximum%20Gold.py) | [leetcode.com](https://leetcode.com/problems/path-with-maximum-gold/) |
+| 1219 | Path with Maximum Gold | O((n*m)*4^(n*m)) | O(n*m) | [python](leetcode/medium/1219.%20Path%20with%20Maximum%20Gold.py) | [leetcode.com](https://leetcode.com/problems/path-with-maximum-gold/) |
 | 1233 | Remove Sub-Folders from the Filesystem | O(n * m) | O(n * m) | [python](leetcode/medium/1233.%20Remove%20Sub-Folders%20from%20the%20Filesystem.py) | [leetcode.com](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/) |
 | 1248 | Count Number of Nice Subarrays | O(n) | O(1) | [python](leetcode/medium/1248.%20Count%20Number%20of%20Nice%20Subarrays.py) | N/A |
 | 1249 | Minimum Remove to Make Valid Parentheses | O(n) | O(n) | [python](leetcode/medium/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.py) | N/A |
@@ -119,7 +119,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 2370 | Longest Ideal Subsequence | O(n) | O(1) | [python](leetcode/medium/2370.%20Longest%20Ideal%20Subsequence.py) | N/A |
 | 2486 | Append Characters to String to Make Subsequence | O(n) | O(1) | [python](leetcode/medium/2486.%20Append%20Characters%20to%20String%20to%20Make%20Subsequence.py) | N/A |
 | 2641 | Cousins in Binary Tree II | O(n) | O(n) | [python](leetcode/medium/2641.%20Cousins%20in%20Binary%20Tree%20II.py) | [leetcode.com](https://leetcode.com/problems/cousins-in-binary-tree-ii/) |
-| 2664 | The Knight’s Tour | O(8^(n*m) | O(n*m) | [python](leetcode/medium/2664.%20The%20Knight%E2%80%99s%20Tour.py) | [leetcode.com](https://leetcode.com/problems/the-knights-tour/) |
+| 2664 | The Knight’s Tour | O(8^(n*m)) | O(n*m) | [python](leetcode/medium/2664.%20The%20Knight%E2%80%99s%20Tour.py) | [leetcode.com](https://leetcode.com/problems/the-knights-tour/) |
 | 2743 | Count Substrings Without Repeating Character | O(n) | O(1) | [python](leetcode/medium/2743.%20Count%20Substrings%20Without%20Repeating%20Character.py) | N/A |
 | 2816 | Double a Number Represented as a Linked List | O(n) | O(n) | [python](leetcode/medium/2816.%20Double%20a%20Number%20Represented%20as%20a%20Linked%20List.py) | N/A |
 | 2958 | Length of Longest Subarray With at Most K Frequency | O(n) | O(n) | [python](leetcode/medium/2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency.py) | N/A |
