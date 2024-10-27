@@ -11,30 +11,69 @@ def extract_complexity(file_path):
     time_found = False
     space_found = False
 
+    def parse_complexities(line):
+        line = line.strip()
+        time_complexity = "N/A"
+        space_complexity = "N/A"
+
+        # Find positions of 'time' and 'space' in lowercase for case-insensitivity
+        time_idx = line.lower().find('time')
+        space_idx = line.lower().find('space')
+
+        # Nested function to extract complexity from 'O(' to the last ')' before a keyword
+        def extract_complexity(start_search_idx, keyword_idx):
+            start_idx = line.find('O(', start_search_idx, keyword_idx)
+            if start_idx == -1:
+                return "N/A"
+            # Find the rightmost closing bracket before the keyword
+            end_idx = line.rfind(')', start_idx, keyword_idx)
+            if end_idx == -1:
+                return "N/A"
+            return line[start_idx:end_idx + 1].strip()
+
+        # Case 1 and 2: Both "time" and "space" keywords are present
+        if time_idx != -1 and space_idx != -1:
+            if time_idx < space_idx:
+                # Case 1: "O(...) time ... O(...) space"
+                time_complexity = extract_complexity(0, time_idx)
+                space_complexity = extract_complexity(time_idx, space_idx)
+            else:
+                # Case 2: "O(...) space ... O(...) time"
+                space_complexity = extract_complexity(0, space_idx)
+                time_complexity = extract_complexity(space_idx, time_idx)
+
+            # Case 3 and 4: Only one complexity, applying to both "time" and "space"
+            if space_complexity == 'N/A': space_complexity = time_complexity
+            if time_complexity == 'N/A': time_complexity = space_complexity
+
+        # Case 5: Only "time" is specified
+        elif time_idx != -1:
+            time_complexity = extract_complexity(0, time_idx)
+
+            # Case 6: Only "space" is specified
+        elif space_idx != -1:
+            space_complexity = extract_complexity(0, space_idx)
+        return time_complexity, space_complexity
+
     with open(file_path, 'r') as file:
         for line in file:
             line = line.strip()
 
             # Check if the line is a comment
             if line.startswith('#'):
-                # Look for space complexity
-                if not space_found and re.search(r'\bspace\b', line, re.IGNORECASE):
-                    rightmost_space_idx = line.rfind('O(', 0, line.lower().find('space'))
-                    if rightmost_space_idx != -1:
-                        space_complexity = re.search(r'O\([^)]*(?:\([^)]*\))*\)', line[rightmost_space_idx:]).group(0).strip()
-                        space_found = True
+                # Extract complexity if any O(...) notation exists
+                time_complexity_tmp, space_complexity_tmp = parse_complexities(line)
+                if not time_found and time_complexity_tmp != "N/A":
+                    time_found = True
+                    time_complexity = time_complexity_tmp
+                if not space_found and space_complexity_tmp != "N/A":
+                    space_found = True
+                    space_complexity = space_complexity_tmp
 
-                # Look for time complexity
-                if not time_found and re.search(r'\btime\b', line, re.IGNORECASE):
-                    rightmost_time_idx = line.rfind('O(', 0, line.lower().find('time'))
-                    if rightmost_time_idx != -1:
-                        time_complexity = re.search(r'O\([^)]*(?:\([^)]*\))*\)', line[rightmost_time_idx:]).group(0).strip()
-                        time_found = True
-            elif time_found or space_found:
+            if time_found and space_found:
                 break
 
     return time_complexity, space_complexity
-
 
 # Function to extract problem source link from a file
 def extract_problem_link(file_path):
