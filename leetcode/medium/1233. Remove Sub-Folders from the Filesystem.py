@@ -1,18 +1,19 @@
 from typing import List
-# source: https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/
+
 
 class Solution:
 
     def removeSubfolders(self, folder: List[str]) -> List[str]:
         # O(n * m) time and space, n paths, m path separators
+        # link: https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/
         MARKER = SEPARATOR = '/'
 
         def build_trie(folder):
             trie = {}
-            for f in folder: # O(n)
+            for f in folder:  # O(n)
                 t = trie
-                for part in f.split(SEPARATOR): # O(m)
-                    if MARKER in t: break # a shorter path with the same prefix already exists
+                for part in f.split(SEPARATOR):  # O(m)
+                    if MARKER in t: break  # a shorter path with the same prefix already exists
                     if part not in t:
                         t[part] = {}
                     t = t[part]
@@ -32,8 +33,3 @@ class Solution:
 
         trie = build_trie(folder)
         return collect_paths(trie, [], [])
-
-
-
-
-

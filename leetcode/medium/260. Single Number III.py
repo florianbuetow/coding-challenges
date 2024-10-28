@@ -1,6 +1,10 @@
+from typing import List
+
+
 class Solution:
     def singleNumber(self, nums: List[int]) -> List[int]:
         # O(n) time and O(1) space
+        # link: https://leetcode.com/problems/single-number-iii/
         # idea:     1. xor all numbers, the result is a bitmask with the value a xor b
         #           2. identify a bit that is different between a and b (for example the rightmost bit)
         #           3. xor all numbers that have that bit set

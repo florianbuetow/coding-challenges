@@ -5,7 +5,7 @@
 #         self.next = next
 class Solution:
     def isPalindrome(self, head1: Optional[ListNode]) -> bool:
-        #O(n) time and O(1) space
+        # O(n) time and O(1) space
 
         def getLength(node):
             length = 0

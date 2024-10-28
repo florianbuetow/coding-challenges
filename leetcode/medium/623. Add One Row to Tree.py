@@ -5,9 +5,13 @@
 #         self.left = left
 #         self.right = right
 from collections import deque
+from typing import Optional
+
+
 class Solution:
     def addOneRow(self, root: Optional[TreeNode], val: int, depth: int) -> Optional[TreeNode]:
         # O(n) time and space
+        # link: https://leetcode.com/problems/add-one-row-to-tree/
         if depth == 1:
             root = TreeNode(val, left=root, right=None)
         else:

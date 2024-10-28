@@ -1,6 +1,10 @@
+from typing import List
+
+
 class Solution:
     def partition(self, string: str) -> List[List[str]]:
         # O(n*n) time and space
+        # link: https://leetcode.com/problems/palindrome-partitioning/
 
         def isPalindrome(left, right):
             while left < right:

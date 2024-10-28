@@ -2,7 +2,8 @@ from collections import deque
 class Solution:
     def longestSubarray(self, nums: List[int], limit: int) -> int:
         # O(n) time and space
-        # Idea: use a monotonic stack to keep track of min and max element in window
+        # link: https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/
+        # idea: use a monotonic stack to keep track of min and max element in window
         #       compute abs diff from these stacks
         max_stack, min_stack = deque(), deque()
         max_length = left = 0

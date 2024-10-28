@@ -1,6 +1,8 @@
 class Solution:
     def maxSatisfied(self, customers: List[int], grumpy: List[int], minutes: int) -> int:
         # O(n) time and O(1) space
+        # link: https://leetcode.com/problems/grumpy-bookstore-owner/
+
         result = left = right = 0
         max_grumpy = cur_grumpy = 0
         for right in range(len(customers)):

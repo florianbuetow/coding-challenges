@@ -4,9 +4,13 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from typing import Optional
+
+
 class Solution:
     def sumNumbers(self, root: Optional[TreeNode]) -> int:
         # O(n) time and O(h) space, n = number of nodes in the tree, h = height of the tree
+        # link: https://leetcode.com/problems/sum-root-to-leaf-numbers/
         def helper(node, summ):
             summ *= 10
             summ += node.val

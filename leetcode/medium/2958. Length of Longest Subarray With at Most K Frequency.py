@@ -1,6 +1,10 @@
+from typing import List
+
+
 class Solution:
     def maxSubarrayLength(self, nums: List[int], k: int) -> int:
         # O(n) time and space
+        # link: https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/
         result = 0
         counter = {}
         left = 0

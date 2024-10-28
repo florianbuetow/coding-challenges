@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def getMaximumGold(self, grid: List[List[int]]) -> int:
         # O((n*m)*4^(n*m)) time and O(n*m) space

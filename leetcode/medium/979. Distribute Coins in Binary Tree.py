@@ -1,6 +1,10 @@
+from typing import Optional
+
+
 class Solution:
     def distributeCoins(self, root: Optional[TreeNode]) -> int:
         # O(n) time and space
+        # link: https://leetcode.com/problems/distribute-coins-in-binary-tree/
         result = 0
         def helper(node):
             if node:

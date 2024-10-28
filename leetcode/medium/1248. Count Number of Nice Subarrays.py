@@ -1,6 +1,7 @@
 class Solution:
     def numberOfSubarrays(self, nums: List[int], k: int) -> int:
         # O(n) time and O(1) space
+        # link: https://leetcode.com/problems/count-number-of-nice-subarrays/
         def helper(k):
             result = left = counter = 0
             for right in range(len(nums)):

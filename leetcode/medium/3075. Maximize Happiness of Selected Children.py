@@ -1,7 +1,8 @@
 from heapq import heapify, heappop
 class Solution:
     def maximumHappinessSum(self, happiness: List[int], k: int) -> int:
-        # O(n + k log n) time and O(1) space
+        # O(n + k * log n) time and O(1) space
+        # link: https://leetcode.com/problems/maximize-happiness-of-selected-children/
         for i in range(len(happiness)):
             happiness[i] *= -1
         heapify(happiness)

@@ -12,7 +12,7 @@ from typing import Optional
 class Solution:
     def flipEquiv(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> bool:
         # O(n) time and space, n = number of nodes in both trees
-        # source: https://leetcode.com/problems/flip-equivalent-binary-trees/
+        # link: https://leetcode.com/problems/flip-equivalent-binary-trees/
 
         # If root1 is None, they are equivalent if root2 is also None
         if not root1:

@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def tourOfKnight(self, m: int, n: int, r: int, c: int) -> List[List[int]]:
         # O(8^(n*m)) time and O(n*m) space

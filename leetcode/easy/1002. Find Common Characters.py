@@ -1,6 +1,7 @@
 class Solution:
     def commonChars(self, words: List[str]) -> List[str]:
         # O(n) time and space, n = len(words)
+        # link: https://leetcode.com/problems/find-common-characters/
         def getHistogram(word):
             hist = [0] * 26
             for char in word:
