@@ -70,6 +70,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 ### Medium
 | Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- | --- |
+| 49 | Group Anagrams | O(n*m) | O(n*m) | [python](leetcode/medium/49.%20Group%20Anagrams.py) | [leetcode.com](https://leetcode.com/problems/group-anagrams/) |
 | 75 | Sort Colors | O(n) | O(1) | [python](leetcode/medium/75.%20Sort%20Colors.py) | N/A |
 | 129 | Sum Root to Leaf Numbers | O(n) | O(h) | [python](leetcode/medium/129.%20Sum%20Root%20to%20Leaf%20Numbers.py) | N/A |
 | 131 | Palindrome Partitioning | O(n*n) | O(n*n) | [python](leetcode/medium/131.%20Palindrome%20Partitioning.py) | N/A |
