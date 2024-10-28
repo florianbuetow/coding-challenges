@@ -1,6 +1,7 @@
 class Solution:
     def numberOfCleanRooms(self, room: List[List[int]]) -> int:
         # O(n * m) time and space
+        # link: https://leetcode.com/problems/number-of-spaces-cleaning-robot-cleaned/
         width, height = len(room[0]), len(room)
 
         def getDeltaXY(d):

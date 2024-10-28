@@ -1,6 +1,10 @@
+from typing import List
+
+
 class Solution:
     def verifyPreorder(self, preorder: List[int]) -> bool:
         # O(n) time and O(1) space
+        # link: https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/
         index = 0
         def helper(minValue, maxValue):
             nonlocal index

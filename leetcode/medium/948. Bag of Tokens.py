@@ -1,6 +1,10 @@
+from typing import List
+
+
 class Solution:
     def bagOfTokensScore(self, tokens: List[int], power: int) -> int:
         # O(n log n) time and O(1) space
+        # link: https://leetcode.com/problems/bag-of-tokens
         tokens.sort(reverse=True)
         i = cur_score = max_score = 0
         while i < len(tokens):

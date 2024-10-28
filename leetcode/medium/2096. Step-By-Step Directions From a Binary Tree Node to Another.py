@@ -4,9 +4,13 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from typing import Optional
+
+
 class Solution:
     def getDirections(self, root: Optional[TreeNode], startValue: int, destValue: int) -> str:
         # O(n) time and space
+        # link: https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/
         def getPathToNode(node, target_value, path):
             if node:
                 if node.val == target_value:

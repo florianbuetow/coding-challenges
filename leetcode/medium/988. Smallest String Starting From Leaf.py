@@ -4,9 +4,13 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from typing import Optional
+
+
 class Solution:
     def smallestFromLeaf(self, root: Optional[TreeNode]) -> str:
         # O(n*h) time and O(h) space, n = nodes in the tree, h = height of the tree
+        # link: https://leetcode.com/problems/smallest-string-starting-from-leaf/
         result = None
         def helper(node, path): # visit every node O(n) time
             nonlocal result

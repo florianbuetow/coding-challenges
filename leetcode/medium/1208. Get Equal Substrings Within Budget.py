@@ -1,6 +1,7 @@
 class Solution:
     def equalSubstring(self, s: str, t: str, maxCost: int) -> int:
         # O(n) time and O(1) space
+        # link: https://leetcode.com/problems/get-equal-substrings-within-budget/
         result = left = cost = 0
         for right in range(len(s)):
             c1, c2 = s[right], t[right]

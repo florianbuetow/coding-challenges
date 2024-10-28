@@ -3,9 +3,13 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+from typing import Optional
+
+
 class Solution:
     def reorderList(self, head1: Optional[ListNode]) -> None:
         # O(n) time and O(1) space
+        # link: https://leetcode.com/problems/reorder-list/
 
         def getLength(node):
             length = 0

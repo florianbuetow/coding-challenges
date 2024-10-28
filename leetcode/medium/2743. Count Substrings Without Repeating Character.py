@@ -1,6 +1,8 @@
+from collections import defaultdict
 class Solution:
     def numberOfSpecialSubstrings(self, s: str) -> int:
         # O(n) time and O(1) space
+        # link: https://leetcode.com/problems/count-substrings-without-repeating-character/
         result = left = 0
         window = defaultdict(int)
         for right in range(len(s)):

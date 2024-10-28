@@ -1,6 +1,7 @@
 class Solution:
     def reverseParentheses(self, s: str) -> str:
-        #O(n) time and space
+        # O(n) time and space
+        # link: https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/
         def getSubstrings(s):
             substrings = defaultdict(int)
             stack = []

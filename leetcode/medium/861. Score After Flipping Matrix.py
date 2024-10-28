@@ -1,6 +1,10 @@
+from typing import List
+
+
 class Solution:
     def matrixScore(self, grid: List[List[int]]) -> int:
         # O(n * m) time and O(1) space
+        # link: https://leetcode.com/problems/score-after-flipping-matrix/
         width, height = len(grid[0]), len(grid)
 
         def countBitsInCol(col):

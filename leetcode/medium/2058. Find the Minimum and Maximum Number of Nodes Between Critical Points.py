@@ -3,9 +3,13 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+from typing import Optional
+
+
 class Solution:
     def nodesBetweenCriticalPoints(self, head: Optional[ListNode]) -> List[int]:
         # O(n) time and O(1) space
+        # link: https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/
         result = [float('inf'), -1]
         position = 0
         prev, node = None, head

@@ -4,9 +4,13 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+from typing import List, Optional
+
+
 class Solution:
     def createBinaryTree(self, descriptions: List[List[int]]) -> Optional[TreeNode]:
         # O(n) time and space
+        # link: https://leetcode.com/problems/create-binary-tree-from-descriptions/
 
         # construct the tree
         nodes, parents = {}, {}

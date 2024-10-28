@@ -1,6 +1,7 @@
 class Solution:
     def minRemoveToMakeValid(self, s: str) -> str:
         # O(n) time and space
+        # link: https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
         stack = []
         remove = set()
         for i, c in enumerate(s):

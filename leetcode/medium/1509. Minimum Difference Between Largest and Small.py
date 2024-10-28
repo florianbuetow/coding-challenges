@@ -1,8 +1,9 @@
 from heapq import heappush, heappop
 class Solution:
     def minDifference(self, nums: List[int]) -> int:
-        # O(n) time and O(1) space
-        # Idea: find the four smallest and four largest elements
+        # O(n) time and O(1) space
+        # link: https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/
+        # idea: find the four smallest and four largest elements
         #       then compute the pairwise min difference between them
         if len(nums) < 5:
             return 0

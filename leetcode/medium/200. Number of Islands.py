@@ -1,7 +1,11 @@
 from collections import deque
+from typing import List
+
+
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
-        # O(width*height) time and space
+        # O(n*m) time and space, n,m = dimensions of grid
+        # link: https://leetcode.com/problems/number-of-islands/
         width, height = len(grid[0]), len(grid)
 
         def isUnvisitedLand(x, y, visited):

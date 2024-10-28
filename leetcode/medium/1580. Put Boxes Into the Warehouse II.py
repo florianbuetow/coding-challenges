@@ -1,8 +1,8 @@
 class Solution:
     def maxBoxesInWarehouse(self, boxes: List[int], warehouse: List[int]) -> int:
-        # O(n log n) time and O(1) space        
+        # O(n log n) time and O(1) space
+        # link: https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/
         boxes.sort()
-
         result = 0
         left, right = 0, len(warehouse) - 1
         left_height = right_height = float('inf')

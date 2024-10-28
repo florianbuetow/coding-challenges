@@ -7,6 +7,7 @@
 class Solution:
     def delNodes(self, root: Optional[TreeNode], to_delete: List[int]) -> List[TreeNode]:
         # O(n) time and space
+        # link: https://leetcode.com/problems/delete-nodes-and-return-forest/
 
         def helper(parent, node, target_values, result):
             if not node:

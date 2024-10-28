@@ -1,7 +1,8 @@
 class Solution:
     def longestIdealString(self, s: str, k: int) -> int:
         # O(n) time and O(1) space, n=len(s)
-        # Idea: use an array to store the max length of an ideal sequence for each letter from the alphabet
+        # link: https://leetcode.com/problems/longest-ideal-subsequence/
+        # idea: use an array to store the max length of an ideal sequence for each letter from the alphabet
         result = 0
         max_sequence_length = [0] * 26
         for c in s:

@@ -1,7 +1,11 @@
+from typing import List
+
+
 class Solution:
     def replaceWords(self, dictionary: List[str], sentence: str) -> str:
-        # Idea: use a trie to find the shortest prefix match of a word
         # O(n*m) time and O(n+m) space, n = sum(len(words)), m = len(sentence)
+        # link: https://leetcode.com/problems/replace-words/
+        # idea: use a trie to find the shortest prefix match of a word
         trie = {}
         for word in dictionary:
             t = trie

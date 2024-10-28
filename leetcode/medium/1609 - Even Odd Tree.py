@@ -2,6 +2,7 @@ from collections import deque
 class Solution:
     def isEvenOddTree(self, root: Optional[TreeNode]) -> bool:
         # O(n) time and space
+        # link: https://leetcode.com/problems/even-odd-tree/
         q = deque([[root, True]])        
         while q: 
             prev_node = None

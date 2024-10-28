@@ -6,6 +6,7 @@
 class Solution:
     def mergeNodes(self, head: Optional[ListNode]) -> Optional[ListNode]:
         # O(n) time and O(1) space
+        # link: https://leetcode.com/problems/merge-nodes-in-between-zeros/
         temp, summ = [], 0
         slow, prev, node = head, None, head
         while node:

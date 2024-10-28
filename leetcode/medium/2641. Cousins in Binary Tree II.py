@@ -1,5 +1,6 @@
 from collections import deque
-from typing import Optional
+from typing import Optional, List
+
 
 # Definition for a binary tree node.
 # class TreeNode:
@@ -10,8 +11,8 @@ from typing import Optional
 
 class Solution:
     def replaceValueInTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
-        # source: https://leetcode.com/problems/cousins-in-binary-tree-ii/
         # O(n) time and space, n = number of nodes in the tree
+        # link: https://leetcode.com/problems/cousins-in-binary-tree-ii/
 
         def helper(values: List, parents: List[Optional[TreeNode]]) -> List:
             total_sum = sum(values)
@@ -24,8 +25,8 @@ class Solution:
                         new_value -= values[j]
                 new_values.append(new_value)
             return new_values
-        
-        q = deque([(root, None)]) # BFS starting at the root
+
+        q = deque([(root, None)])  # BFS starting at the root
         while q:
             values, parents, nodes = [], [], []
             for _ in range(len(q)):

@@ -7,6 +7,7 @@
 class Solution:
     def findDistance(self, root: Optional[TreeNode], p: int, q: int) -> int:
         # O(n) time and O(m) space, n = number of nodes in the tree, m = height of the tree
+        # link: https://leetcode.com/problems/find-distance-in-a-binary-tree/
 
         def getPathToNode(curr_node, target_value, path):
             if curr_node:

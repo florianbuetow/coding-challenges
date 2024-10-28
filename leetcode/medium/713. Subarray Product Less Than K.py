@@ -1,5 +1,9 @@
+from typing import List
+
+
 class Solution:
     def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:
+        # link: https://leetcode.com/problems/subarray-product-less-than-k/
         result = 0
         if k > 1:
             product, left = 1, 0

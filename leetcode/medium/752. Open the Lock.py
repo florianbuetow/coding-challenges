@@ -1,7 +1,11 @@
 from collections import deque
+from typing import List
+
+
 class Solution:
     def openLock(self, deadends: List[str], target: str) -> int:
         # O(1) time and space
+        # link: https://leetcode.com/problems/open-the-lock/
         # idea: use BFS and terminate when we find target
         visited = set(deadends)
         q = deque([['0000', 0]])

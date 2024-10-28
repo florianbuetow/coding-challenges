@@ -1,8 +1,12 @@
 from collections import deque
 from heapq import heapify, heappop
+from typing import List
+
+
 class Solution:
     def deckRevealedIncreasing(self, deck: List[int]) -> List[int]:        
         # O(n log n) time and O(n) space
+        # link: https://leetcode.com/problems/reveal-cards-in-increasing-order/
         n = len(deck)
         result = [0] * n 
         heapify(deck) # O(n) time
