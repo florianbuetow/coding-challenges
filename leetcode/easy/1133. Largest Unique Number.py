@@ -5,7 +5,7 @@ class Solution:
     def largestUniqueNumber(self, nums: List[int]) -> int:
         # O(n log n) time and O(1) space
         # link: https://leetcode.com/problems/largest-unique-number/
-        # idea: sort numbers in ascending order, then remove largest until it is unique
+        # idea: Sort numbers in ascending order, then remove largest until it is unique
         nums.append(-1)
         nums.sort() # O(n log n)
         prev_largest = None
