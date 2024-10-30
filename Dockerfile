@@ -16,9 +16,11 @@ COPY . .
 # The folder where the generated README.md will be persisted
 VOLUME ["/app/output"]
 
+# Remove README files during build
+RUN rm -f README.md
+RUN rm -f /app/output/README.md
+
 # Run the generator script to generate the README.md file
-CMD ["bash", "-c", "rm README.md"]
-CMD ["bash", "-c", "rm /app/output/README.md"]
 CMD ["bash", "-c", "python generate_readme.py && cp README.md /app/output/"]
 
 # Automatically exit the container after execution
