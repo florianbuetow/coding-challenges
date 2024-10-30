@@ -1,6 +1,10 @@
+from typing import List
+
+
 class Solution:
     def survivedRobotsHealths(self, positions: List[int], healths: List[int], directions: str) -> List[int]:
         # O(n log n) time and O(n) space
+        # link: https://leetcode.com/problems/robot-collisions/
         data = []
         for index in range(len(positions)):
             data.append([positions[index], healths[index], directions[index], index])
@@ -18,11 +22,11 @@ class Solution:
                 continue
             insert = True
             while stack and data[stack[-1]][2] == 'R':
-                prev_index = stack.pop()
+                prev_index = stack.pop() # delete robot from stack
                 prev_h = data[prev_index][1]
                 curr_h = data[index][1]
                 if curr_h > prev_h:
-                     # delete robot from stack and reduce health of suriver
+                    # reduce health of survivor
                     data[index][1] -= 1
                     continue
                 elif curr_h < prev_h:
@@ -32,7 +36,7 @@ class Solution:
                     insert = False
                     break
                 else:
-                    # anihilation
+                    # annihilation
                     insert = False
                     break
             if insert:

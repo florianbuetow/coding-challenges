@@ -1,6 +1,10 @@
+from typing import List
+
+
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
         # O(n) time and space
+        # link: https://leetcode.com/problems/largest-rectangle-in-histogram/
         max_area = 0
         stack = []
         for index, height in enumerate(heights):

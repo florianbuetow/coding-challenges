@@ -1,7 +1,11 @@
+from typing import List
+
+
 class Solution:
     def maximalRectangle(self, matrix: List[List[str]]) -> int:
         # O(n* m) time and O(n) space, with n,m being the width and height of the matrix
-        # Idea:
+        # link: https://leetcode.com/problems/maximal-rectangle/
+        # idea:
         #    Transform matrix into a histogram at each row where matrix[row][col] is the height in the histogram from row to the top
         #    Then for each row, compute max rectangle area in the histogram that starts at the current row
 

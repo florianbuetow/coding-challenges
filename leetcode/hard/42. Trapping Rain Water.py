@@ -1,6 +1,10 @@
+from typing import List
+
+
 class Solution:
     def trap(self, height: List[int]) -> int:
         # O(n) time and O(1) space
+        # link: https://leetcode.com/problems/trapping-rain-water/
         trapped_water = 0
         max_height = max_height_index = potentially_trapped_water = 0
         for index in range(len(height)):

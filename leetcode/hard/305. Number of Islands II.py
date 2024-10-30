@@ -1,4 +1,5 @@
-from collections import deque
+from typing import List
+
 
 class UnionFind:
     def __init__(self):
@@ -21,16 +22,18 @@ class UnionFind:
     def getNeighbors(self, pos):
         self.find(pos)
         neighbors = []
-        for nx, ny in zip([pos[0]-1,pos[0],pos[0]+1,pos[0]],[pos[1],pos[1]-1,pos[1],pos[1]+1]):
+        for nx, ny in zip([pos[0] - 1, pos[0], pos[0] + 1, pos[0]], [pos[1], pos[1] - 1, pos[1], pos[1] + 1]):
             npos = (nx, ny)
             if npos in self.land:
                 neighbors.append(npos)
         return neighbors
 
+
 class Solution:
     def numIslands2(self, m: int, n: int, positions: List[List[int]]) -> List[int]:
         # O(n) time and space
-        # Idea: use union find to join islands as we turn water into land
+        # link: https://leetcode.com/problems/number-of-islands-ii/
+        # idea: use union find to join islands as we turn water into land
         result = []
         uf = UnionFind()
         for y, x in positions:

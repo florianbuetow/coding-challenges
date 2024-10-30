@@ -1,6 +1,10 @@
+from typing import List
+
+
 class Solution:
     def minFallingPathSum(self, grid: List[List[int]]) -> int:
-        # O(width * height) time and O(width) space
+        # O(n*m) time and O(n) space, n:=width, m:=height
+        # link: https://leetcode.com/problems/minimum-falling-path-sum-ii/
 
         def calculatePredecessorRow(row):
             # first find the two smallest elements in the row
@@ -12,7 +16,7 @@ class Solution:
                     smallest.pop()
             ret = []
             for col in range(len(row)):
-                if col != smallest[0][1]: # predecessor can't be in the same column
+                if col != smallest[0][1]:  # predecessor can't be in the same column
                     ret.append(smallest[0][0])
                 else:
                     ret.append(smallest[1][0])

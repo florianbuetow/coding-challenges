@@ -1,6 +1,7 @@
 class Solution:
     def findRotateSteps(self, ring: str, key: str) -> int:
-        # O(n * m) time and O(m) space, n=len(key), m=len(ring)
+        # O(n*m) time and O(m) space, n=len(key), m=len(ring)
+        # link: https://leetcode.com/problems/freedom-trail/
 
         def indexCharacterPositions():
             letters = {}
