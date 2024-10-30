@@ -58,15 +58,15 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 ### Hard
 | Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- | --- |
-| 42 | Trapping Rain Water | O(n) | O(1) | [python](leetcode/hard/42.%20Trapping%20Rain%20Water.py) | N/A |
-| 84 | Largest Rectangle in Histogram | O(n) | O(n) | [python](leetcode/hard/84.%20Largest%20Rectangle%20in%20Histogram.py) | N/A |
-| 85 | Maximal Rectangle | O(n* m) | O(n) | [python](leetcode/hard/85.%20Maximal%20Rectangle.py) | N/A |
-| 305 | Number of Islands II | O(n) | O(n) | [python](leetcode/hard/305.%20Number%20of%20Islands%20II.py) | N/A |
-| 514 | Freedom Trail | O(n * m) | O(m) | [python](leetcode/hard/514.%20Freedom%20Trail.py) | N/A |
-| 552 | Student Attendance Record II | N/A | N/A | [python](leetcode/hard/552.%20Student%20Attendance%20Record%20II.py) | N/A |
-| 857 | Minimum Cost to Hire K Workers | O(n log n) | O(n) | [python](leetcode/hard/857.%20Minimum%20Cost%20to%20Hire%20K%20Workers.py) | N/A |
-| 1289 | Minimum Falling Path Sum II | O(width * height) | O(width) | [python](leetcode/hard/1289.%20Minimum%20Falling%20Path%20Sum%20II.py) | N/A |
-| 2751 | Robot Collisions | O(n log n) | O(n) | [python](leetcode/hard/2751.%20Robot%20Collisions.py) | N/A |
+| 42 | Trapping Rain Water | O(n) | O(1) | [python](leetcode/hard/42.%20Trapping%20Rain%20Water.py) | [leetcode.com](https://leetcode.com/problems/trapping-rain-water/) |
+| 84 | Largest Rectangle in Histogram | O(n) | O(n) | [python](leetcode/hard/84.%20Largest%20Rectangle%20in%20Histogram.py) | [leetcode.com](https://leetcode.com/problems/largest-rectangle-in-histogram/) |
+| 85 | Maximal Rectangle | O(n* m) | O(n) | [python](leetcode/hard/85.%20Maximal%20Rectangle.py) | [leetcode.com](https://leetcode.com/problems/maximal-rectangle/) |
+| 305 | Number of Islands II | O(n) | O(n) | [python](leetcode/hard/305.%20Number%20of%20Islands%20II.py) | [leetcode.com](https://leetcode.com/problems/number-of-islands-ii/) |
+| 514 | Freedom Trail | O(n*m) | O(m) | [python](leetcode/hard/514.%20Freedom%20Trail.py) | [leetcode.com](https://leetcode.com/problems/freedom-trail/) |
+| 552 | Student Attendance Record II | O(n) | O(n) | [python](leetcode/hard/552.%20Student%20Attendance%20Record%20II.py) | [leetcode.com](https://leetcode.com/problems/student-attendance-record-ii/) |
+| 857 | Minimum Cost to Hire K Workers | O(n log n) | O(n) | [python](leetcode/hard/857.%20Minimum%20Cost%20to%20Hire%20K%20Workers.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) |
+| 1289 | Minimum Falling Path Sum II | O(n*m) | O(n) | [python](leetcode/hard/1289.%20Minimum%20Falling%20Path%20Sum%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-falling-path-sum-ii/) |
+| 2751 | Robot Collisions | O(n log n) | O(n) | [python](leetcode/hard/2751.%20Robot%20Collisions.py) | [leetcode.com](https://leetcode.com/problems/robot-collisions/) |
 
 ### Medium
 | Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
