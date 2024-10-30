@@ -1,4 +1,6 @@
 class Solution:
+    # O(n) time and space, n = number of days
+    # link: https://leetcode.com/problems/student-attendance-record-ii/
     def checkRecord(self, n: int) -> int:
         memory =[{} for _ in range(n+1)]
         def helper(n, total_absences, consecutive_lates):
