@@ -55,6 +55,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 3063 | Linked List Frequency | O(n) | O(n) | [python](leetcode/easy/3063.%20Linked%20List%20Frequency.py) | N/A |
 | 3105 | Longest Strictly Increasing or Strictly Decreasing Subarray | O(n) | O(1) | [python](leetcode/easy/3105.%20Longest%20Strictly%20Increasing%20or%20Strictly%20Decreasing%20Subarray.py) | N/A |
 | 3110 | Score of a String | N/A | N/A | [python](leetcode/easy/3110.%20Score%20of%20a%20String.py) | N/A |
+| 3206 | Alternating Groups I | O(n) | O(1) | [python](leetcode/easy/3206.%20Alternating%20Groups%20I.py) | [leetcode.com](https://leetcode.com/problems/alternating-groups-i/) |
 
 ### Hard
 | Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
