@@ -54,7 +54,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 2696 | Minimum String Length After Removing Substrings | O(n*n) | O(n) | [python](leetcode/easy/2696.%20Minimum%20String%20Length%20After%20Removing%20Substrings.py) | [leetcode.com](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/) |
 | 3063 | Linked List Frequency | O(n) | O(n) | [python](leetcode/easy/3063.%20Linked%20List%20Frequency.py) | N/A |
 | 3105 | Longest Strictly Increasing or Strictly Decreasing Subarray | O(n) | O(1) | [python](leetcode/easy/3105.%20Longest%20Strictly%20Increasing%20or%20Strictly%20Decreasing%20Subarray.py) | N/A |
-| 3110 | Score of a String | N/A | N/A | [python](leetcode/easy/3110.%20Score%20of%20a%20String.py) | N/A |
+| 3110 | Score of a String | O(n) | O(1) | [python](leetcode/easy/3110.%20Score%20of%20a%20String.py) | [leetcode.com](https://leetcode.com/problems/score-of-a-string/) |
 | 3206 | Alternating Groups I | O(n) | O(1) | [python](leetcode/easy/3206.%20Alternating%20Groups%20I.py) | [leetcode.com](https://leetcode.com/problems/alternating-groups-i/) |
 
 ### Hard
