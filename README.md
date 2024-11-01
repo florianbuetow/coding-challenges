@@ -49,6 +49,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 1608 | Special Array With X Elements Greater Than or Equal X | O(n) | O(n) | [python](leetcode/easy/1608.%20Special%20Array%20With%20X%20Elements%20Greater%20Than%20or%20Equal%20X.py) | N/A |
 | 1791 | Find Center of Star Graph | O(1) | O(1) | [python](leetcode/easy/1791.%20Find%20Center%20of%20Star%20Graph.py) | N/A |
 | 1863 | Sum of All Subset XOR Totals | O(n^2) | O(n) | [python](leetcode/easy/1863.%20Sum%20of%20All%20Subset%20XOR%20Totals.py) | N/A |
+| 1957 | Delete Characters to Make Fancy String | O(n) | O(n) | [python](leetcode/easy/1957.%20Delete%20Characters%20to%20Make%20Fancy%20String.py) | [leetcode.com](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) |
 | 2073 | Time Needed to Buy Tickets | O(n) | O(1) | [python](leetcode/easy/2073.%20Time%20Needed%20to%20Buy%20Tickets.py) | N/A |
 | 2331 | Evaluate Boolean Binary Tree | O(n) | O(n) | [python](leetcode/easy/2331.%20Evaluate%20Boolean%20Binary%20Tree.py) | N/A |
 | 2696 | Minimum String Length After Removing Substrings | O(n*n) | O(n) | [python](leetcode/easy/2696.%20Minimum%20String%20Length%20After%20Removing%20Substrings.py) | [leetcode.com](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/) |
