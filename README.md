@@ -134,6 +134,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 2962 | Count Subarrays Where Max Element Appears at Least K Times | O(n) | O(1) | [python](leetcode/medium/2962.%20Count%20Subarrays%20Where%20Max%20Element%20Appears%20at%20Least%20K%20Times.py) | [leetcode.com](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/) |
 | 2970 | Count the Number of Incremovable Subarrays I | O(n*n) | O(n*n) | [python](leetcode/medium/2970.%20Count%20the%20Number%20of%20Incremovable%20Subarrays%20I.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/) |
 | 3075 | Maximize Happiness of Selected Children | O(n + k * log n) | O(1) | [python](leetcode/medium/3075.%20Maximize%20Happiness%20of%20Selected%20Children.py) | [leetcode.com](https://leetcode.com/problems/maximize-happiness-of-selected-children/) |
+| 3163 | String Compression III | O(n) | O(n) | [python](leetcode/medium/3163.%20String%20Compression%20III.py) | [leetcode.com](https://leetcode.com/problems/string-compression-iii) |
 
 ## Generating the README
 
