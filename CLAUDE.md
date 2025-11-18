@@ -128,12 +128,13 @@ The parser extracts the leading number and removes it (plus following non-whites
 ## Git Commit Guidelines
 
 **IMPORTANT:** When creating git commits in this repository:
-- NEVER include Claude Code attribution in commit messages
-- NEVER add "Generated with Claude Code" or similar phrases
-- NEVER add "Co-Authored-By: Claude" or similar attribution
-- NEVER run `git add -A` or `git add .` - always stage files explicitly
-- **Commit message format**: Use a single sentence (max two sentences). Use `git status` to understand what changed before writing the commit message
-- Keep commit messages professional and focused on the changes made
-- Commit messages should describe what changed and why, without mentioning AI assistance
-- **When adding new solutions**: Use simple format like "Add LC {number} ({difficulty}) and update documentation" - do NOT add complexity details, algorithm descriptions, or implementation notes in commit messages
+- **NEVER** include Claude Code attribution in commit messages
+- **NEVER** add "Generated with Claude Code" or similar phrases
+- **NEVER** add "Co-Authored-By: Claude" or similar attribution
+- **NEVER** run `git add -A` or `git add .` - always stage files explicitly
+- **Separate commits for infrastructure files** - Always commit changes to CLAUDE.md, Makefile, and USAGE.md independently from changes to files in subfolders (leetcode, deep-ml, etc.). Make separate commits for infrastructure/documentation changes vs solution changes
+- **Commit message format** - Use a single sentence (max two sentences). Use `git status` to understand what changed before writing the commit message
+- **Keep commit messages professional** and focused on the changes made
+- **Commit messages should describe what changed and why**, without mentioning AI assistance
+- **When adding new solutions** - Use simple format like "Add LC {number} ({difficulty}) and update documentation" - do NOT add complexity details, algorithm descriptions, or implementation notes in commit messages
 - **ALWAYS push commits to remote after committing** - run `git push` after successful `git commit`
