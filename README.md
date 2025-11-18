@@ -39,6 +39,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 234 | Palindrome Linked List | O(n) | O(1) | [python](leetcode/easy/234.%20Palindrome%20Linked%20List.py) | N/A |
 | 404 | Sum of Left Leaves | O(n) | O(n) | [python](leetcode/easy/404.%20Sum%20of%20Left%20Leaves.py) | N/A |
 | 463 | Island Perimeter | O(n * m) | O(1) | [python](leetcode/easy/463.%20Island%20Perimeter.py) | N/A |
+| 717 | 1-bit and 2-bit Characters | O(n) | O(1) | [python](leetcode/easy/717.%201-bit%20and%202-bit%20Characters.py) | [leetcode.com](https://leetcode.com/problems/1-bit-and-2-bit-characters) |
 | 876 | Middle of the Linked List | O(n) | O(1) | [python](leetcode/easy/876.%20Middle%20of%20the%20Linked%20List.py) | N/A |
 | 1002 | Find Common Characters | O(n) | O(n) | [python](leetcode/easy/1002.%20Find%20Common%20Characters.py) | [leetcode.com](https://leetcode.com/problems/find-common-characters/) |
 | 1133 | Largest Unique Number | O(n log n) | O(1) | [python](leetcode/easy/1133.%20Largest%20Unique%20Number.py) | [leetcode.com](https://leetcode.com/problems/largest-unique-number/) |
@@ -138,31 +139,60 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 
 ## Generating the README
 
-The following outlines the steps to build and run the Docker container that generates the `README.md` file using the `generate_readme.py` script.
+The following outlines the steps to generate the `README.md` file using the automated system.
 
-#### 0. Prerequisites
+### Prerequisites
 
-- Clone this repository.
-- Ensure that Docker is installed and running on your system.
+- Clone this repository
+- Ensure that Docker is installed and running on your system
 
-#### 1. Make the Bash Script Executable
+### Using Make (Recommended)
 
-Run the following command to make the script executable:
+#### 1. Initialize Docker Container (First Time Only)
+
+```bash
+make init
+```
+
+This builds the Docker image with the README generator. You only need to run this once, or after modifying `generate_readme.py`.
+
+#### 2. Generate README
+
+```bash
+make generate
+```
+
+This runs the Docker container to generate the `README.md` file.
+
+#### 3. Check Status (Optional)
+
+```bash
+make status
+```
+
+This checks if the Docker image exists and provides guidance on next steps.
+
+#### 4. Cleanup (Optional)
+
+```bash
+make destroy
+```
+
+This removes the Docker image to free up space.
+
+### Using Shell Script (Alternative)
+
+#### 1. Make the Script Executable
 
 ```bash
 chmod +x ./generate_readme_using_docker.sh
 ```
 
-#### 2. Build and Run the Docker Container
+#### 2. Generate README
 
 ```bash
 ./generate_readme_using_docker.sh
 ```
 
-- This will build the Docker image every time it is run (to avoid caching)
-- It will then run the Docker container to execute the `generate_readme.py` script, which generates the `README.md` file and persists it to your local directory.
-
-#### 3. Verify the Output
-
-Once the container execution is finished, you should see the updated `README.md` file in the same directory where you ran the script.
+This will build the Docker image and generate the README in a single step (rebuilds every time).
 
