@@ -115,6 +115,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 1429 | First Unique Number | O(n) | O(n) | [python](leetcode/medium/1429.%20First%20Unique%20Number.py) | [leetcode.com](https://leetcode.com/problems/first-unique-number/submissions/) |
 | 1438 | Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit | O(n) | O(n) | [python](leetcode/medium/1438.%20Longest%20Continuous%20Subarray%20With%20Absolute%20Diff%20Less%20Than%20or%20Equal%20to%20Limit.py) | [leetcode.com](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) |
 | 1509 | Minimum Difference Between Largest and Small | O(n) | O(1) | [python](leetcode/medium/1509.%20Minimum%20Difference%20Between%20Largest%20and%20Small.py) | [leetcode.com](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/) |
+| 1513 | Number of Substrings With Only 1s | O(n) | O(1) | [python](leetcode/medium/1513.%20Number%20of%20Substrings%20With%20Only%201s.py) | [leetcode.com](https://leetcode.com/problems/number-of-substrings-with-only-1s/) |
 | 1580 | Put Boxes Into the Warehouse II | O(n log n) | O(1) | [python](leetcode/medium/1580.%20Put%20Boxes%20Into%20the%20Warehouse%20II.py) | [leetcode.com](https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/) |
 | 1609 | - Even Odd Tree | O(n) | O(n) | [python](leetcode/medium/1609%20-%20Even%20Odd%20Tree.py) | [leetcode.com](https://leetcode.com/problems/even-odd-tree/) |
 | 1701 | Average Waiting Time | O(n) | O(1) | [python](leetcode/medium/1701.%20Average%20Waiting%20Time.py) | [leetcode.com](https://leetcode.com/problems/average-waiting-time/) |
@@ -147,17 +148,15 @@ The following outlines the steps to generate the `README.md` file using the auto
 - Clone this repository
 - Ensure that Docker is installed and running on your system
 
-### Using Make
+### Using Make (Recommended)
 
-Recommended approach for most users.
-
-#### 1. Initialize Docker Container
+#### 1. Initialize the Docker Container
 
 ```bash
 make init
 ```
 
-Builds the Docker image with the README generator. Run this first time only, or after modifying `generate_readme.py`.
+This builds the Docker image with the README generator. You only need to run this once, or after modifying `generate_readme.py`.
 
 #### 2. Generate README
 
@@ -165,7 +164,7 @@ Builds the Docker image with the README generator. Run this first time only, or 
 make generate
 ```
 
-Runs the Docker container to generate the `README.md` file.
+This runs the Docker container to generate the `README.md` file and appends `USAGE.md` to it.
 
 #### 3. Check Status
 
@@ -173,7 +172,7 @@ Runs the Docker container to generate the `README.md` file.
 make status
 ```
 
-Checks if the Docker image exists and provides guidance on next steps.
+This checks if the Docker image already exists.
 
 #### 4. Cleanup
 
@@ -181,23 +180,5 @@ Checks if the Docker image exists and provides guidance on next steps.
 make destroy
 ```
 
-Removes the Docker image to free up space.
-
-### Using Shell Script
-
-Alternative approach that rebuilds the image every time.
-
-#### 1. Make the Script Executable
-
-```bash
-chmod +x ./generate_readme_using_docker.sh
-```
-
-#### 2. Generate README
-
-```bash
-./generate_readme_using_docker.sh
-```
-
-This will build the Docker image and generate the README in a single step (rebuilds every time).
+This removes the Docker image.
 
