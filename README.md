@@ -143,6 +143,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 3075 | Maximize Happiness of Selected Children | O(n + k * log n) | O(1) | [python](leetcode/medium/3075.%20Maximize%20Happiness%20of%20Selected%20Children.py) | [leetcode.com](https://leetcode.com/problems/maximize-happiness-of-selected-children/) |
 | 3163 | String Compression III | O(n) | O(n) | [python](leetcode/medium/3163.%20String%20Compression%20III.py) | [leetcode.com](https://leetcode.com/problems/string-compression-iii) |
 | 3217 | Delete Nodes From LinkedList Present in Array | O(n) | O(n) | [python](leetcode/medium/3217.%20Delete%20Nodes%20From%20LinkedList%20Present%20in%20Array.py) | [leetcode.com](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array) |
+| 3228 | Maximum Number of Operations to Move Ones to the End | O(n) | O(1) | [python](leetcode/medium/3228.%20Maximum%20Number%20of%20Operations%20to%20Move%20Ones%20to%20the%20End.py) | [leetcode.com](https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end) |
 | 3542 | Minimum Operations to Convert All Elements to Zero | O(n) | O(n) | [python](leetcode/medium/3542.%20Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero) |
 
 ## Generating the README
