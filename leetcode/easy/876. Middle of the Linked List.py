@@ -1,3 +1,6 @@
+# O(n) time and O(1) space
+# link: https://leetcode.com/problems/middle-of-the-linked-list/
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
@@ -5,7 +8,6 @@
 #         self.next = next
 class Solution:
     def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        # O(n) time and O(1) space
         slow = fast = head
         while fast and fast.next:
             slow = slow.next

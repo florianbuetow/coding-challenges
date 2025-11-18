@@ -35,29 +35,29 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 ### Easy
 | Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- | --- |
-| 21 | Merge Two Sorted Lists | O(n) | O(1) | [python](leetcode/easy/21.%20Merge%20Two%20Sorted%20Lists.py) | N/A |
-| 234 | Palindrome Linked List | O(n) | O(1) | [python](leetcode/easy/234.%20Palindrome%20Linked%20List.py) | N/A |
-| 404 | Sum of Left Leaves | O(n) | O(n) | [python](leetcode/easy/404.%20Sum%20of%20Left%20Leaves.py) | N/A |
-| 463 | Island Perimeter | O(n * m) | O(1) | [python](leetcode/easy/463.%20Island%20Perimeter.py) | N/A |
+| 21 | Merge Two Sorted Lists | O(n) | O(1) | [python](leetcode/easy/21.%20Merge%20Two%20Sorted%20Lists.py) | [leetcode.com](https://leetcode.com/problems/merge-two-sorted-lists/) |
+| 234 | Palindrome Linked List | O(n) | O(1) | [python](leetcode/easy/234.%20Palindrome%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/palindrome-linked-list/) |
+| 404 | Sum of Left Leaves | O(n) | O(n) | [python](leetcode/easy/404.%20Sum%20of%20Left%20Leaves.py) | [leetcode.com](https://leetcode.com/problems/sum-of-left-leaves/) |
+| 463 | Island Perimeter | O(n * m) | O(1) | [python](leetcode/easy/463.%20Island%20Perimeter.py) | [leetcode.com](https://leetcode.com/problems/island-perimeter/) |
 | 717 | 1-bit and 2-bit Characters | O(n) | O(1) | [python](leetcode/easy/717.%201-bit%20and%202-bit%20Characters.py) | [leetcode.com](https://leetcode.com/problems/1-bit-and-2-bit-characters) |
-| 876 | Middle of the Linked List | O(n) | O(1) | [python](leetcode/easy/876.%20Middle%20of%20the%20Linked%20List.py) | N/A |
+| 876 | Middle of the Linked List | O(n) | O(1) | [python](leetcode/easy/876.%20Middle%20of%20the%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/middle-of-the-linked-list/) |
 | 1002 | Find Common Characters | O(n) | O(n) | [python](leetcode/easy/1002.%20Find%20Common%20Characters.py) | [leetcode.com](https://leetcode.com/problems/find-common-characters/) |
 | 1133 | Largest Unique Number | O(n log n) | O(1) | [python](leetcode/easy/1133.%20Largest%20Unique%20Number.py) | [leetcode.com](https://leetcode.com/problems/largest-unique-number/) |
 | 1137 | N-th Tribonacci Number | O(n) | O(1) | [python](leetcode/easy/1137.%20N-th%20Tribonacci%20Number.py) | [leetcode.com](https://leetcode.com/problems/n-th-tribonacci-number/) |
-| 1380 | Lucky Numbers in a Matrix | O(n*m) | O(n*m) | [python](leetcode/easy/1380.%20Lucky%20Numbers%20in%20a%20Matrix.py) | N/A |
+| 1380 | Lucky Numbers in a Matrix | O(n*m) | O(n*m) | [python](leetcode/easy/1380.%20Lucky%20Numbers%20in%20a%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) |
 | 1437 | Check If All 1's Are at Least Length K Places Away | O(n) | O(1) | [python](leetcode/easy/1437.%20Check%20If%20All%201%27s%20Are%20at%20Least%20Length%20K%20Places%20Away.py) | [leetcode.com](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away) |
-| 1469 | Find All The Lonely Nodes | O(n) | O(h) | [python](leetcode/easy/1469.%20Find%20All%20The%20Lonely%20Nodes.py) | N/A |
-| 1598 | Crawler Log Folder | O(n) | O(n) | [python](leetcode/easy/1598.%20Crawler%20Log%20Folder.py) | N/A |
-| 1608 | Special Array With X Elements Greater Than or Equal X | O(n) | O(n) | [python](leetcode/easy/1608.%20Special%20Array%20With%20X%20Elements%20Greater%20Than%20or%20Equal%20X.py) | N/A |
-| 1791 | Find Center of Star Graph | O(1) | O(1) | [python](leetcode/easy/1791.%20Find%20Center%20of%20Star%20Graph.py) | N/A |
-| 1863 | Sum of All Subset XOR Totals | O(n^2) | O(n) | [python](leetcode/easy/1863.%20Sum%20of%20All%20Subset%20XOR%20Totals.py) | N/A |
+| 1469 | Find All The Lonely Nodes | O(n) | O(h) | [python](leetcode/easy/1469.%20Find%20All%20The%20Lonely%20Nodes.py) | [leetcode.com](https://leetcode.com/problems/find-all-the-lonely-nodes/) |
+| 1598 | Crawler Log Folder | O(n) | O(n) | [python](leetcode/easy/1598.%20Crawler%20Log%20Folder.py) | [leetcode.com](https://leetcode.com/problems/crawler-log-folder/) |
+| 1608 | Special Array With X Elements Greater Than or Equal X | O(n) | O(n) | [python](leetcode/easy/1608.%20Special%20Array%20With%20X%20Elements%20Greater%20Than%20or%20Equal%20X.py) | [leetcode.com](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) |
+| 1791 | Find Center of Star Graph | O(1) | O(1) | [python](leetcode/easy/1791.%20Find%20Center%20of%20Star%20Graph.py) | [leetcode.com](https://leetcode.com/problems/find-center-of-star-graph/) |
+| 1863 | Sum of All Subset XOR Totals | O(n^2) | O(n) | [python](leetcode/easy/1863.%20Sum%20of%20All%20Subset%20XOR%20Totals.py) | [leetcode.com](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) |
 | 1957 | Delete Characters to Make Fancy String | O(n) | O(n) | [python](leetcode/easy/1957.%20Delete%20Characters%20to%20Make%20Fancy%20String.py) | [leetcode.com](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) |
-| 2073 | Time Needed to Buy Tickets | O(n) | O(1) | [python](leetcode/easy/2073.%20Time%20Needed%20to%20Buy%20Tickets.py) | N/A |
-| 2331 | Evaluate Boolean Binary Tree | O(n) | O(n) | [python](leetcode/easy/2331.%20Evaluate%20Boolean%20Binary%20Tree.py) | N/A |
+| 2073 | Time Needed to Buy Tickets | O(n) | O(1) | [python](leetcode/easy/2073.%20Time%20Needed%20to%20Buy%20Tickets.py) | [leetcode.com](https://leetcode.com/problems/time-needed-to-buy-tickets/) |
+| 2331 | Evaluate Boolean Binary Tree | O(n) | O(n) | [python](leetcode/easy/2331.%20Evaluate%20Boolean%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/evaluate-boolean-binary-tree/) |
 | 2490 | Circular Sentence | O(n) | O(1) | [python](leetcode/easy/2490.%20Circular%20Sentence.py) | [leetcode.com](https://leetcode.com/problems/circular-sentence) |
 | 2696 | Minimum String Length After Removing Substrings | O(n*n) | O(n) | [python](leetcode/easy/2696.%20Minimum%20String%20Length%20After%20Removing%20Substrings.py) | [leetcode.com](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/) |
-| 3063 | Linked List Frequency | O(n) | O(n) | [python](leetcode/easy/3063.%20Linked%20List%20Frequency.py) | N/A |
-| 3105 | Longest Strictly Increasing or Strictly Decreasing Subarray | O(n) | O(1) | [python](leetcode/easy/3105.%20Longest%20Strictly%20Increasing%20or%20Strictly%20Decreasing%20Subarray.py) | N/A |
+| 3063 | Linked List Frequency | O(n) | O(n) | [python](leetcode/easy/3063.%20Linked%20List%20Frequency.py) | [leetcode.com](https://leetcode.com/problems/linked-list-frequency/) |
+| 3105 | Longest Strictly Increasing or Strictly Decreasing Subarray | O(n) | O(1) | [python](leetcode/easy/3105.%20Longest%20Strictly%20Increasing%20or%20Strictly%20Decreasing%20Subarray.py) | [leetcode.com](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/) |
 | 3110 | Score of a String | O(n) | O(1) | [python](leetcode/easy/3110.%20Score%20of%20a%20String.py) | [leetcode.com](https://leetcode.com/problems/score-of-a-string/) |
 | 3206 | Alternating Groups I | O(n) | O(1) | [python](leetcode/easy/3206.%20Alternating%20Groups%20I.py) | [leetcode.com](https://leetcode.com/problems/alternating-groups-i/) |
 

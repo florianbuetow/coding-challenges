@@ -1,6 +1,8 @@
+# O(n) time and O(1) space
+# link: https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/
+
 class Solution:
     def longestMonotonicSubarray(self, nums: List[int]) -> int:
-        # O(n) time and O(1) space
         def longestSubarray(arr, isMonotonic):
             max_length = length = 1
             for i in range(1, len(nums)):

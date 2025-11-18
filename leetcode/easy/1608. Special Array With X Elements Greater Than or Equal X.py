@@ -1,6 +1,8 @@
+# O(n) time and space
+# link: https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/
+
 class Solution:
     def specialArray(self, nums: List[int]) -> int:
-        # O(n) time and space
         # Idea: The result x must be in the range [1, len(n)]
         #       1. Count how many numbers are larger for any possible x
         #       2. Then use postfix sum to find a match

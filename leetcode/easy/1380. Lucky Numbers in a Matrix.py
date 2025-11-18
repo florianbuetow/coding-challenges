@@ -1,6 +1,8 @@
+# O(n*m) time and space, n,m = width and height of the matrix
+# link: https://leetcode.com/problems/lucky-numbers-in-a-matrix/
+
 class Solution:
     def luckyNumbers (self, matrix: List[List[int]]) -> List[int]:
-        # O(n*m) time and space, n,m = width and height of the matrix
         result = []
         for col in range(len(matrix[0])):
             max_val = -float('inf')

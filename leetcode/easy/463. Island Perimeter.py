@@ -1,6 +1,8 @@
+# O(n * m) time and O(1) space
+# link: https://leetcode.com/problems/island-perimeter/
+
 class Solution:
     def islandPerimeter(self, grid: List[List[int]]) -> int:
-        # O(n * m) time and O(1) space
         width, height = len(grid[0]), len(grid)
 
         def countSidesWithWater(x, y):

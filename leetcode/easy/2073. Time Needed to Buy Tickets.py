@@ -1,6 +1,8 @@
+# O(n) time and O(1) space
+# link: https://leetcode.com/problems/time-needed-to-buy-tickets/
+
 class Solution:
     def timeRequiredToBuy(self, tickets: List[int], k: int) -> int:
-        # O(n) time and O(1) space
         time_taken = 0
         person_k_wants = tickets[k]
         for i, person_i_wants in enumerate(tickets):
