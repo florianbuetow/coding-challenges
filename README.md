@@ -72,6 +72,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 552 | Student Attendance Record II | O(n) | O(n) | [python](leetcode/hard/552.%20Student%20Attendance%20Record%20II.py) | [leetcode.com](https://leetcode.com/problems/student-attendance-record-ii/) |
 | 857 | Minimum Cost to Hire K Workers | O(n log n) | O(n) | [python](leetcode/hard/857.%20Minimum%20Cost%20to%20Hire%20K%20Workers.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) |
 | 1289 | Minimum Falling Path Sum II | O(n*m) | O(n) | [python](leetcode/hard/1289.%20Minimum%20Falling%20Path%20Sum%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-falling-path-sum-ii/) |
+| 1611 | Minimum One Bit Operations to Make Integers Zero | O(log n) | O(1) | [python](leetcode/hard/1611.%20Minimum%20One%20Bit%20Operations%20to%20Make%20Integers%20Zero.py) | [leetcode.com](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero) |
 | 2751 | Robot Collisions | O(n log n) | O(n) | [python](leetcode/hard/2751.%20Robot%20Collisions.py) | [leetcode.com](https://leetcode.com/problems/robot-collisions/) |
 
 ### Medium
@@ -139,6 +140,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 2970 | Count the Number of Incremovable Subarrays I | O(n*n) | O(n*n) | [python](leetcode/medium/2970.%20Count%20the%20Number%20of%20Incremovable%20Subarrays%20I.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/) |
 | 3075 | Maximize Happiness of Selected Children | O(n + k * log n) | O(1) | [python](leetcode/medium/3075.%20Maximize%20Happiness%20of%20Selected%20Children.py) | [leetcode.com](https://leetcode.com/problems/maximize-happiness-of-selected-children/) |
 | 3163 | String Compression III | O(n) | O(n) | [python](leetcode/medium/3163.%20String%20Compression%20III.py) | [leetcode.com](https://leetcode.com/problems/string-compression-iii) |
+| 3217 | Delete Nodes From LinkedList Present in Array | O(n) | O(n) | [python](leetcode/medium/3217.%20Delete%20Nodes%20From%20LinkedList%20Present%20in%20Array.py) | [leetcode.com](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array) |
 
 ## Generating the README
 
