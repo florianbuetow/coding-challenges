@@ -132,6 +132,7 @@ The parser extracts the leading number and removes it (plus following non-whites
 - NEVER add "Generated with Claude Code" or similar phrases
 - NEVER add "Co-Authored-By: Claude" or similar attribution
 - NEVER run `git add -A` or `git add .` - always stage files explicitly
+- **Commit message format**: Use a single sentence (max two sentences). Use `git status` to understand what changed before writing the commit message
 - Keep commit messages professional and focused on the changes made
 - Commit messages should describe what changed and why, without mentioning AI assistance
 - **When adding new solutions**: Use simple format like "Add LC {number} ({difficulty}) and update documentation" - do NOT add complexity details, algorithm descriptions, or implementation notes in commit messages

@@ -1,3 +1,6 @@
+# O(n) time and O(h) space, n = number of nodes, h = height of tree
+# link: https://leetcode.com/problems/find-all-the-lonely-nodes/
+
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
@@ -6,7 +9,6 @@
 #         self.right = right
 class Solution:
     def getLonelyNodes(self, root: Optional[TreeNode]) -> List[int]:
-        # O(n) time and O(h) space, n = number of nodes, h = height of tree
         def helper(node, singleChild, result):
             if singleChild: result.append(node.val)
             singleChild = False
