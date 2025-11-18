@@ -50,7 +50,7 @@ def extract_complexity(file_path):
         elif time_idx != -1:
             time_complexity = extract_complexity(0, time_idx)
 
-            # Case 6: Only "space" is specified
+        # Case 6: Only "space" is specified
         elif space_idx != -1:
             space_complexity = extract_complexity(0, space_idx)
         return time_complexity, space_complexity
