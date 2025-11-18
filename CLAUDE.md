@@ -117,6 +117,10 @@ The parser extracts the leading number and removes it (plus following non-whites
 
 - **Never edit README.md manually** - it's auto-generated and changes will be overwritten
 - To modify README content, edit `DESCRIPTION.md` or `USAGE.md` instead
+- **README.md structure**:
+  - DESCRIPTION.md content is inserted at the top
+  - Problem tables are auto-generated from solution files
+  - USAGE.md content is appended at the end
 - Only `.py` files are processed by the generator
 - The parser uses only Python stdlib (os, re, urllib.parse) - no external dependencies
 - File paths in README are URL-encoded to handle spaces and special characters

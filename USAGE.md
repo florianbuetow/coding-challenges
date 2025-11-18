@@ -1,30 +1,43 @@
 
 ## Generating the README
 
-The following outlines the steps to build and run the Docker container that generates the `README.md` file using the `generate_readme.py` script.
+The following outlines the steps to generate the `README.md` file using the automated system.
 
-#### 0. Prerequisites
+### Prerequisites
 
-- Clone this repository.
-- Ensure that Docker is installed and running on your system.
+- Clone this repository
+- Ensure that Docker is installed and running on your system
 
-#### 1. Make the Bash Script Executable
+### Using Make (Recommended)
 
-Run the following command to make the script executable:
-
-```bash
-chmod +x ./generate_readme_using_docker.sh
-```
-
-#### 2. Build and Run the Docker Container
+#### 1. Initialize the Docker Container
 
 ```bash
-./generate_readme_using_docker.sh
+make init
 ```
 
-- This will build the Docker image every time it is run (to avoid caching)
-- It will then run the Docker container to execute the `generate_readme.py` script, which generates the `README.md` file and persists it to your local directory.
+This builds the Docker image with the README generator. You only need to run this once, or after modifying `generate_readme.py`.
 
-#### 3. Verify the Output
+#### 2. Generate README
 
-Once the container execution is finished, you should see the updated `README.md` file in the same directory where you ran the script.
+```bash
+make generate
+```
+
+This runs the Docker container to generate the `README.md` file and appends `USAGE.md` to it.
+
+#### 3. Check Status
+
+```bash
+make status
+```
+
+This checks if the Docker image already exists.
+
+#### 4. Cleanup
+
+```bash
+make destroy
+```
+
+This removes the Docker image.

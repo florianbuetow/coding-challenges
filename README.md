@@ -45,6 +45,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 1133 | Largest Unique Number | O(n log n) | O(1) | [python](leetcode/easy/1133.%20Largest%20Unique%20Number.py) | [leetcode.com](https://leetcode.com/problems/largest-unique-number/) |
 | 1137 | N-th Tribonacci Number | O(n) | O(1) | [python](leetcode/easy/1137.%20N-th%20Tribonacci%20Number.py) | [leetcode.com](https://leetcode.com/problems/n-th-tribonacci-number/) |
 | 1380 | Lucky Numbers in a Matrix | O(n*m) | O(n*m) | [python](leetcode/easy/1380.%20Lucky%20Numbers%20in%20a%20Matrix.py) | N/A |
+| 1437 | Check If All 1's Are at Least Length K Places Away | O(n) | O(1) | [python](leetcode/easy/1437.%20Check%20If%20All%201%27s%20Are%20at%20Least%20Length%20K%20Places%20Away.py) | [leetcode.com](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away) |
 | 1469 | Find All The Lonely Nodes | O(n) | O(h) | [python](leetcode/easy/1469.%20Find%20All%20The%20Lonely%20Nodes.py) | N/A |
 | 1598 | Crawler Log Folder | O(n) | O(n) | [python](leetcode/easy/1598.%20Crawler%20Log%20Folder.py) | N/A |
 | 1608 | Special Array With X Elements Greater Than or Equal X | O(n) | O(n) | [python](leetcode/easy/1608.%20Special%20Array%20With%20X%20Elements%20Greater%20Than%20or%20Equal%20X.py) | N/A |
@@ -146,15 +147,17 @@ The following outlines the steps to generate the `README.md` file using the auto
 - Clone this repository
 - Ensure that Docker is installed and running on your system
 
-### Using Make (Recommended)
+### Using Make
 
-#### 1. Initialize Docker Container (First Time Only)
+Recommended approach for most users.
+
+#### 1. Initialize Docker Container
 
 ```bash
 make init
 ```
 
-This builds the Docker image with the README generator. You only need to run this once, or after modifying `generate_readme.py`.
+Builds the Docker image with the README generator. Run this first time only, or after modifying `generate_readme.py`.
 
 #### 2. Generate README
 
@@ -162,25 +165,27 @@ This builds the Docker image with the README generator. You only need to run thi
 make generate
 ```
 
-This runs the Docker container to generate the `README.md` file.
+Runs the Docker container to generate the `README.md` file.
 
-#### 3. Check Status (Optional)
+#### 3. Check Status
 
 ```bash
 make status
 ```
 
-This checks if the Docker image exists and provides guidance on next steps.
+Checks if the Docker image exists and provides guidance on next steps.
 
-#### 4. Cleanup (Optional)
+#### 4. Cleanup
 
 ```bash
 make destroy
 ```
 
-This removes the Docker image to free up space.
+Removes the Docker image to free up space.
 
-### Using Shell Script (Alternative)
+### Using Shell Script
+
+Alternative approach that rebuilds the image every time.
 
 #### 1. Make the Script Executable
 
