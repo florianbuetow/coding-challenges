@@ -92,6 +92,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 310 | Minimum Height Trees | O(n*h) | O(n) | [python](leetcode/medium/310.%20Minimum%20Height%20Trees.py) | [leetcode.com](https://leetcode.com/problems/minimum-height-trees/) |
 | 340 | Longest Substring with At Most K Distinct Characters | O(n) | O(k) | [python](leetcode/medium/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters.py) | [leetcode.com](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) |
 | 442 | Find All Duplicates in an Array | O(n) | O(n) | [python](leetcode/medium/442.%20Find%20All%20Duplicates%20in%20an%20Array.py) | [leetcode.com](https://leetcode.com/problems/find-all-duplicates-in-an-array/) |
+| 474 | Ones and Zeroes | O(m*n*k) | O(m*n) | [python](leetcode/medium/474.%20Ones%20and%20Zeroes.py) | [leetcode.com](https://leetcode.com/problems/ones-and-zeroes/) |
 | 623 | Add One Row to Tree | O(n) | O(n) | [python](leetcode/medium/623.%20Add%20One%20Row%20to%20Tree.py) | [leetcode.com](https://leetcode.com/problems/add-one-row-to-tree/) |
 | 633 | Sum of Square Numbers | O(log sqrt(c)) | O(1) | [python](leetcode/medium/633.%20Sum%20of%20Square%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/sum-of-square-numbers/) |
 | 648 | Replace Words | O(n*m) | O(n+m) | [python](leetcode/medium/648.%20Replace%20Words.py) | [leetcode.com](https://leetcode.com/problems/replace-words/) |
