@@ -19,36 +19,21 @@ help:
 	@echo "  make help       - Show this help message"
 	@echo ""
 
-# Generate README using existing image
-generate:
-	@if ! $(check_image_exists); then \
-		echo ""; \
-		echo "Docker container does not exist."; \
-		echo "Run 'make init' to create it."; \
-		echo ""; \
-	else \
-		echo ""; \
-		echo "Removing existing README.md file..."; \
-		rm -f README.md; \
-		echo "Running Docker container to generate README.md..."; \
-		docker run --rm -v "$$(pwd)":/app/output $(IMAGE_NAME); \
-		echo "README.md generated successfully."; \
-		echo ""; \
-	fi
+# Generate README using existing image (depends on init)
+generate: init
+	@echo ""
+	@echo "Removing existing README.md file..."
+	@rm -f README.md
+	@echo "Running Docker container to generate README.md..."
+	@docker run --rm -v "$$(pwd)":/app/output $(IMAGE_NAME)
+	@echo "README.md generated successfully."
+	@echo ""
 
-# Build Docker container
 init:
-	@if $(check_image_exists); then \
-		echo ""; \
-		echo "Container already exists."; \
-		echo "You can now run 'make generate' to update the README."; \
-		echo ""; \
-	else \
-		echo ""; \
-		echo "Building $(IMAGE_NAME) image..."; \
+	@if ! $(check_image_exists); then \
 		docker build --no-cache -t $(IMAGE_NAME) .; \
+		echo ""; \
 		echo "Image built successfully."; \
-		echo "You can now run 'make generate' to update the README."; \
 		echo ""; \
 	fi
 
