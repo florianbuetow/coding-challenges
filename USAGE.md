@@ -24,7 +24,7 @@ This builds the Docker image with the README generator. You only need to run thi
 make generate
 ```
 
-This runs the Docker container to generate the `README.md` file and appends `USAGE.md` to it.
+This runs the Docker container to generate the `README.md` file and appends `USAGE.md` to it. The Docker image will be built automatically if it doesn't exist.
 
 #### 3. Check Status
 
