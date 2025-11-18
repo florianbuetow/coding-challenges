@@ -134,4 +134,5 @@ The parser extracts the leading number and removes it (plus following non-whites
 - NEVER run `git add -A` or `git add .` - always stage files explicitly
 - Keep commit messages professional and focused on the changes made
 - Commit messages should describe what changed and why, without mentioning AI assistance
+- **When adding new solutions**: Use simple format like "Add LC {number} ({difficulty}) and update documentation" - do NOT add complexity details, algorithm descriptions, or implementation notes in commit messages
 - **ALWAYS push commits to remote after committing** - run `git push` after successful `git commit`
