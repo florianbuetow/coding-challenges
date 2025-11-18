@@ -41,12 +41,14 @@ init:
 	@if $(check_image_exists); then \
 		echo ""; \
 		echo "Container already exists."; \
+		echo "You can now run 'make generate' to update the README."; \
 		echo ""; \
 	else \
 		echo ""; \
 		echo "Building $(IMAGE_NAME) image..."; \
 		docker build --no-cache -t $(IMAGE_NAME) .; \
 		echo "Image built successfully."; \
+		echo "You can now run 'make generate' to update the README."; \
 		echo ""; \
 	fi
 
