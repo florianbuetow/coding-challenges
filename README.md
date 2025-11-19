@@ -124,6 +124,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 260 | Single Number III | O(n) | O(1) | [python](leetcode/medium/260.%20Single%20Number%20III.py) | [leetcode.com](https://leetcode.com/problems/single-number-iii/) |
 | 310 | Minimum Height Trees | O(n*h) | O(n) | [python](leetcode/medium/310.%20Minimum%20Height%20Trees.py) | [leetcode.com](https://leetcode.com/problems/minimum-height-trees/) |
 | 340 | Longest Substring with At Most K Distinct Characters | O(n) | O(k) | [python](leetcode/medium/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters.py) | [leetcode.com](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) |
+| 373 | Find K Pairs with Smallest Sums | O(k log k) | O(k) | [python](leetcode/medium/373.%20Find%20K%20Pairs%20with%20Smallest%20Sums.py) | [leetcode.com](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) |
 | 417 | Pacific Atlantic Water Flow | O(n*m) | O(n*m) | [python](leetcode/medium/417.%20Pacific%20Atlantic%20Water%20Flow.py) | [leetcode.com](https://leetcode.com/problems/pacific-atlantic-water-flow/) |
 | 442 | Find All Duplicates in an Array | O(n) | O(n) | [python](leetcode/medium/442.%20Find%20All%20Duplicates%20in%20an%20Array.py) | [leetcode.com](https://leetcode.com/problems/find-all-duplicates-in-an-array/) |
 | 474 | Ones and Zeroes | O(m*n*k) | O(m*n) | [python](leetcode/medium/474.%20Ones%20and%20Zeroes.py) | [leetcode.com](https://leetcode.com/problems/ones-and-zeroes/) |
