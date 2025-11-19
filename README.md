@@ -53,6 +53,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 1863 | Sum of All Subset XOR Totals | O(n^2) | O(n) | [python](leetcode/easy/1863.%20Sum%20of%20All%20Subset%20XOR%20Totals.py) | [leetcode.com](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) |
 | 1957 | Delete Characters to Make Fancy String | O(n) | O(n) | [python](leetcode/easy/1957.%20Delete%20Characters%20to%20Make%20Fancy%20String.py) | [leetcode.com](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) |
 | 2073 | Time Needed to Buy Tickets | O(n) | O(1) | [python](leetcode/easy/2073.%20Time%20Needed%20to%20Buy%20Tickets.py) | [leetcode.com](https://leetcode.com/problems/time-needed-to-buy-tickets/) |
+| 2154 | Keep Multiplying Found Values by Two | O(n) | O(n) | [python](leetcode/easy/2154.%20Keep%20Multiplying%20Found%20Values%20by%20Two.py) | [leetcode.com](https://leetcode.com/problems/keep-multiplying-found-values-by-two/) |
 | 2331 | Evaluate Boolean Binary Tree | O(n) | O(n) | [python](leetcode/easy/2331.%20Evaluate%20Boolean%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/evaluate-boolean-binary-tree/) |
 | 2490 | Circular Sentence | O(n) | O(1) | [python](leetcode/easy/2490.%20Circular%20Sentence.py) | [leetcode.com](https://leetcode.com/problems/circular-sentence) |
 | 2696 | Minimum String Length After Removing Substrings | O(n*n) | O(n) | [python](leetcode/easy/2696.%20Minimum%20String%20Length%20After%20Removing%20Substrings.py) | [leetcode.com](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/) |
@@ -171,7 +172,7 @@ This builds the Docker image with the README generator. You only need to run thi
 make generate
 ```
 
-This runs the Docker container to generate the `README.md` file and appends `USAGE.md` to it.
+This runs the Docker container to generate the `README.md` file and appends `USAGE.md` to it. The Docker image will be built automatically if it doesn't exist.
 
 #### 3. Check Status
 
