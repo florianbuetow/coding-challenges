@@ -209,7 +209,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 686 | Repeated String Match | O(n*n) | O(m) | [python](leetcode/medium/686.%20Repeated%20String%20Match.py) | [leetcode.com](https://leetcode.com/problems/repeated-string-match/) |
 | 678 | Valid Parenthesis String | O(n) | O(1) | [python](leetcode/medium/678.%20Valid%20Parenthesis%20String.py) | [leetcode.com](https://leetcode.com/problems/valid-parenthesis-string/) |
 | 648 | Replace Words | O(n*m) | O(n+m) | [python](leetcode/medium/648.%20Replace%20Words.py) | [leetcode.com](https://leetcode.com/problems/replace-words/) |
-| 633 | Sum of Square Numbers | O(log sqrt(c)) | O(1) | [python](leetcode/medium/633.%20Sum%20of%20Square%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/sum-of-square-numbers/) |
+| 633 | Sum of Square Numbers | O(sqrt(c) * log c) | O(1) | [python](leetcode/medium/633.%20Sum%20of%20Square%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/sum-of-square-numbers/) |
 | 623 | Add One Row to Tree | O(n) | O(n) | [python](leetcode/medium/623.%20Add%20One%20Row%20to%20Tree.py) | [leetcode.com](https://leetcode.com/problems/add-one-row-to-tree/) |
 | 611 | Valid Triangle Number | O(n log n + n*n) | O(1) | [python](leetcode/medium/611.%20Valid%20Triangle%20Number.py) | [leetcode.com](https://leetcode.com/problems/valid-triangle-number/) |
 | 474 | Ones and Zeroes | O(m*n*k) | O(m*n) | [python](leetcode/medium/474.%20Ones%20and%20Zeroes.py) | [leetcode.com](https://leetcode.com/problems/ones-and-zeroes/) |
@@ -233,6 +233,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 75 | Sort Colors | O(n) | O(1) | [python](leetcode/medium/75.%20Sort%20Colors.py) | [leetcode.com](https://leetcode.com/problems/sort-colors/) |
 | 56 | Merge Intervals | O(n log n) | O(n) | [python](leetcode/medium/56.%20Merge%20Intervals.py) | [leetcode.com](https://leetcode.com/problems/merge-intervals/description/) |
 | 49 | Group Anagrams | O(n*m) | O(n*m) | [python](leetcode/medium/49.%20Group%20Anagrams.py) | [leetcode.com](https://leetcode.com/problems/group-anagrams/) |
+| 33 | Search in Rotated Sorted Array | O(log n) | O(1) | [python](leetcode/medium/33.%20Search%20in%20Rotated%20Sorted%20Array.py) | [leetcode.com](https://leetcode.com/problems/search-in-rotated-sorted-array/) |
 | 11 | Container With Most Water | O(n) | O(1) | [python](leetcode/medium/11.%20Container%20With%20Most%20Water.py) | [leetcode.com](https://leetcode.com/problems/container-with-most-water/) |
 
 ## Generating the README
