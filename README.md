@@ -97,6 +97,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 812 | Largest Triangle Area | O(n*n*n) | O(1) | [python](leetcode/easy/812.%20Largest%20Triangle%20Area.py) | [leetcode.com](https://leetcode.com/problems/largest-triangle-area/) |
 | 796 | Rotate String | O(n*n) | O(n) | [python](leetcode/easy/796.%20Rotate%20String.py) | [leetcode.com](https://leetcode.com/problems/rotate-string/) |
 | 717 | 1-bit and 2-bit Characters | O(n) | O(1) | [python](leetcode/easy/717.%201-bit%20and%202-bit%20Characters.py) | [leetcode.com](https://leetcode.com/problems/1-bit-and-2-bit-characters) |
+| 704 | Binary Search | O(log n) | O(1) | [python](leetcode/easy/704.%20Binary%20Search.py) | [leetcode.com](https://leetcode.com/problems/binary-search/) |
 | 520 | Detect Capital | O(n) | O(1) | [python](leetcode/easy/520.%20Detect%20Capital.py) | [leetcode.com](https://leetcode.com/problems/detect-capital/) |
 | 482 | License Key Formatting | O(n) | O(n) | [python](leetcode/easy/482.%20License%20Key%20Formatting.py) | [leetcode.com](https://leetcode.com/problems/license-key-formatting/) |
 | 463 | Island Perimeter | O(n * m) | O(1) | [python](leetcode/easy/463.%20Island%20Perimeter.py) | [leetcode.com](https://leetcode.com/problems/island-perimeter/) |
