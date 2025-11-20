@@ -229,6 +229,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 129 | Sum Root to Leaf Numbers | O(n) | O(h) | [python](leetcode/medium/129.%20Sum%20Root%20to%20Leaf%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/sum-root-to-leaf-numbers/) |
 | 120 | Triangle | O(n*n) | O(n) | [python](leetcode/medium/120.%20Triangle.py) | [leetcode.com](https://leetcode.com/problems/triangle/) |
 | 75 | Sort Colors | O(n) | O(1) | [python](leetcode/medium/75.%20Sort%20Colors.py) | [leetcode.com](https://leetcode.com/problems/sort-colors/) |
+| 56 | Merge Intervals | O(n log n) | O(n) | [python](leetcode/medium/56.%20Merge%20Intervals.py) | [leetcode.com](https://leetcode.com/problems/merge-intervals/description/) |
 | 49 | Group Anagrams | O(n*m) | O(n*m) | [python](leetcode/medium/49.%20Group%20Anagrams.py) | [leetcode.com](https://leetcode.com/problems/group-anagrams/) |
 | 11 | Container With Most Water | O(n) | O(1) | [python](leetcode/medium/11.%20Container%20With%20Most%20Water.py) | [leetcode.com](https://leetcode.com/problems/container-with-most-water/) |
 
