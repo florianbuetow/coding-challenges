@@ -4,12 +4,13 @@
 
 class Solution:
     def maskPII(self, s: str) -> str:
-        if '@' in s:
+        def maskEmail(s):
             s = s.lower()
             pos = s.find('@')
             s = [s[0], '*' * 5, s[pos-1:]]
-            s = "".join(s)
-        else:
+            return "".join(s)
+
+        def maskPhoneNumber(s):
             s = list(s)
             tmp = [[]]
             while s:
@@ -26,5 +27,9 @@ class Solution:
                 tmp[i].reverse()
                 tmp[i] = ''.join(tmp[i])
             tmp.reverse()
-            s = "-".join(tmp)
-        return s
+            return "-".join(tmp)
+
+        if '@' in s:
+            return maskEmail(s)
+        else:
+            return maskPhoneNumber(s)
