@@ -201,6 +201,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 950 | Reveal Cards In Increasing Order | O(n log n) | O(n) | [python](leetcode/medium/950.%20Reveal%20Cards%20In%20Increasing%20Order.py) | [leetcode.com](https://leetcode.com/problems/reveal-cards-in-increasing-order/) |
 | 948 | Bag of Tokens | O(n log n) | O(1) | [python](leetcode/medium/948.%20Bag%20of%20Tokens.py) | [leetcode.com](https://leetcode.com/problems/bag-of-tokens) |
 | 861 | Score After Flipping Matrix | O(n * m) | O(1) | [python](leetcode/medium/861.%20Score%20After%20Flipping%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/score-after-flipping-matrix/) |
+| 852 | Peak Index in a Mountain Array | O(log n) | O(1) | [python](leetcode/medium/852.%20Peak%20Index%20in%20a%20Mountain%20Array.py) | [leetcode.com](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/) |
 | 831 | Masking Personal Information | O(n) | O(n) | [python](leetcode/medium/831.%20Masking%20Personal%20Information.py) | [leetcode.com](https://leetcode.com/problems/masking-personal-information/) |
 | 752 | Open the Lock | O(1) | O(1) | [python](leetcode/medium/752.%20Open%20the%20Lock.py) | [leetcode.com](https://leetcode.com/problems/open-the-lock/) |
 | 713 | Subarray Product Less Than K | N/A | N/A | [python](leetcode/medium/713.%20Subarray%20Product%20Less%20Than%20K.py) | [leetcode.com](https://leetcode.com/problems/subarray-product-less-than-k/) |
