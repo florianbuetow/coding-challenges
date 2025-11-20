@@ -38,10 +38,12 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 21 | Merge Two Sorted Lists | O(n) | O(1) | [python](leetcode/easy/21.%20Merge%20Two%20Sorted%20Lists.py) | [leetcode.com](https://leetcode.com/problems/merge-two-sorted-lists/) |
 | 234 | Palindrome Linked List | O(n) | O(1) | [python](leetcode/easy/234.%20Palindrome%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/palindrome-linked-list/) |
 | 404 | Sum of Left Leaves | O(n) | O(n) | [python](leetcode/easy/404.%20Sum%20of%20Left%20Leaves.py) | [leetcode.com](https://leetcode.com/problems/sum-of-left-leaves/) |
+| 459 | Repeated Substring Pattern | O(n*n) | O(n) | [python](leetcode/easy/459.%20Repeated%20Substring%20Pattern.py) | [leetcode.com](https://leetcode.com/problems/repeated-substring-pattern/) |
 | 463 | Island Perimeter | O(n * m) | O(1) | [python](leetcode/easy/463.%20Island%20Perimeter.py) | [leetcode.com](https://leetcode.com/problems/island-perimeter/) |
 | 482 | License Key Formatting | O(n) | O(n) | [python](leetcode/easy/482.%20License%20Key%20Formatting.py) | [leetcode.com](https://leetcode.com/problems/license-key-formatting/) |
 | 520 | Detect Capital | O(n) | O(1) | [python](leetcode/easy/520.%20Detect%20Capital.py) | [leetcode.com](https://leetcode.com/problems/detect-capital/) |
 | 717 | 1-bit and 2-bit Characters | O(n) | O(1) | [python](leetcode/easy/717.%201-bit%20and%202-bit%20Characters.py) | [leetcode.com](https://leetcode.com/problems/1-bit-and-2-bit-characters) |
+| 796 | Rotate String | O(n*n) | O(n) | [python](leetcode/easy/796.%20Rotate%20String.py) | [leetcode.com](https://leetcode.com/problems/rotate-string/) |
 | 812 | Largest Triangle Area | O(n*n*n) | O(1) | [python](leetcode/easy/812.%20Largest%20Triangle%20Area.py) | [leetcode.com](https://leetcode.com/problems/largest-triangle-area/) |
 | 876 | Middle of the Linked List | O(n) | O(1) | [python](leetcode/easy/876.%20Middle%20of%20the%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/middle-of-the-linked-list/) |
 | 976 | Largest Perimeter Triangle | O(nlogn) | O(1) | [python](leetcode/easy/976.%20Largest%20Perimeter%20Triangle.py) | [leetcode.com](https://leetcode.com/problems/largest-perimeter-triangle/) |
