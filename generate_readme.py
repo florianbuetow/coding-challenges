@@ -171,7 +171,7 @@ def generate_readme(root_dir):
                                 "problem_link": problem_link
                             })
                     if problems:
-                        problems = sorted(problems, key=lambda x: int(x["problem_number"]))
+                        problems = sorted(problems, key=lambda x: int(x["problem_number"]), reverse=True)
                         subfolders[subfolder] = problems
             if subfolders:
                 sections[folder] = subfolders
