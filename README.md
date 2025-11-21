@@ -201,6 +201,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 951 | Flip Equivalent Binary Trees | O(n) | O(n) | [python](leetcode/medium/951.%20Flip%20Equivalent%20Binary%20Trees.py) | [leetcode.com](https://leetcode.com/problems/flip-equivalent-binary-trees/) |
 | 950 | Reveal Cards In Increasing Order | O(n log n) | O(n) | [python](leetcode/medium/950.%20Reveal%20Cards%20In%20Increasing%20Order.py) | [leetcode.com](https://leetcode.com/problems/reveal-cards-in-increasing-order/) |
 | 948 | Bag of Tokens | O(n log n) | O(1) | [python](leetcode/medium/948.%20Bag%20of%20Tokens.py) | [leetcode.com](https://leetcode.com/problems/bag-of-tokens) |
+| 912 | Sort an Array | O(n log n) | O(n) | [python](leetcode/medium/912.%20Sort%20an%20Array.py) | [leetcode.com](https://leetcode.com/problems/sort-an-array/description/) |
 | 861 | Score After Flipping Matrix | O(n * m) | O(1) | [python](leetcode/medium/861.%20Score%20After%20Flipping%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/score-after-flipping-matrix/) |
 | 852 | Peak Index in a Mountain Array | O(log n) | O(1) | [python](leetcode/medium/852.%20Peak%20Index%20in%20a%20Mountain%20Array.py) | [leetcode.com](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/) |
 | 831 | Masking Personal Information | O(n) | O(n) | [python](leetcode/medium/831.%20Masking%20Personal%20Information.py) | [leetcode.com](https://leetcode.com/problems/masking-personal-information/) |
