@@ -228,6 +228,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 166 | Fraction to Recurring Decimal | O(denominator * log denominator) | O(denominator * log denominator) | [python](leetcode/medium/166.%20Fraction%20to%20Recurring%20Decimal.py) | [leetcode.com](https://leetcode.com/problems/fraction-to-recurring-decimal/) |
 | 165 | Compare Version Numbers | O(n+m) | O(1) | [python](leetcode/medium/165.%20Compare%20Version%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/compare-version-numbers/) |
 | 159 | Longest Substring with At Most Two Distinct Characters | O(n) | O(1) | [python](leetcode/medium/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters.py) | [leetcode.com](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) |
+| 147 | Insertion Sort List | O(n*n) | O(n) | [python](leetcode/medium/147.%20Insertion%20Sort%20List.py) | [leetcode.com](https://leetcode.com/problems/insertion-sort-list/) |
 | 143 | Reorder List | O(n) | O(1) | [python](leetcode/medium/143.%20Reorder%20List.py) | [leetcode.com](https://leetcode.com/problems/reorder-list/) |
 | 131 | Palindrome Partitioning | O(n*n) | O(n*n) | [python](leetcode/medium/131.%20Palindrome%20Partitioning.py) | [leetcode.com](https://leetcode.com/problems/palindrome-partitioning/) |
 | 129 | Sum Root to Leaf Numbers | O(n) | O(h) | [python](leetcode/medium/129.%20Sum%20Root%20to%20Leaf%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/sum-root-to-leaf-numbers/) |
