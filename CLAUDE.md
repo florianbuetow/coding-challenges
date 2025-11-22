@@ -16,6 +16,12 @@ This repository contains Python solutions to coding challenges from LeetCode and
 make generate   # ALWAYS use this to generate README
 ```
 
+**If `make generate` fails because Docker is not running:**
+- **STOP immediately** and report the error to the user
+- **DO NOT** attempt to run `python3 generate_readme.py` as a fallback
+- **DO NOT** try alternative methods
+- The user must start Docker before proceeding
+
 **Makefile targets:**
 - `make help` - Show available targets (default)
 - `make init` - Build Docker image (run this first, or after modifying generate_readme.py)
