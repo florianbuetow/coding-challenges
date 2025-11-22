@@ -9,22 +9,17 @@ This repository contains Python solutions to coding challenges from LeetCode and
 ## Key Commands
 
 ### Generate README
+
+**CRITICAL:** ALWAYS use `make generate` to regenerate the README. NEVER run `python3 generate_readme.py` directly or use any other method.
+
 ```bash
-# Using Make (recommended)
-make init       # First time only - builds Docker image
-make generate   # Generate README using existing image
-
-# Or using the shell script directly (builds image every time)
-./generate_readme_using_docker.sh
-
-# Using local Python (requires Python 3.x, no dependencies needed)
-python3 generate_readme.py
+make generate   # ALWAYS use this to generate README
 ```
 
 **Makefile targets:**
 - `make help` - Show available targets (default)
 - `make init` - Build Docker image (run this first, or after modifying generate_readme.py)
-- `make generate` - Generate README using existing Docker image
+- `make generate` - Generate README using existing Docker image (ALWAYS USE THIS)
 - `make status` - Check if Docker image exists
 - `make destroy` - Delete Docker image
 
@@ -110,7 +105,7 @@ The parser extracts the leading number and removes it (plus following non-whites
    # link: https://leetcode.com/problems/problem-name/
    ```
 3. Implement the solution
-4. Regenerate README: `make generate` (or `./generate_readme_using_docker.sh`)
+4. Regenerate README: **ALWAYS use `make generate`** - NEVER run Python scripts directly
 5. Verify the new entry appears correctly in `README.md`
 
 ## Important Notes
