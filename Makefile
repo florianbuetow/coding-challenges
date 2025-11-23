@@ -41,7 +41,7 @@ init:
 destroy:
 	@echo ""
 	@echo "Removing $(IMAGE_NAME) image..."
-	@docker rmi $(IMAGE_NAME):latest 2>/dev/null || true
+	@docker rmi -f $(IMAGE_NAME):latest
 	@echo "Cleanup complete."
 	@echo ""
 
