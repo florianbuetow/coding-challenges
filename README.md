@@ -92,6 +92,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 1137 | N-th Tribonacci Number | O(n) | O(1) | [python](leetcode/easy/1137.%20N-th%20Tribonacci%20Number.py) | [leetcode.com](https://leetcode.com/problems/n-th-tribonacci-number/) |
 | 1133 | Largest Unique Number | O(n log n) | O(1) | [python](leetcode/easy/1133.%20Largest%20Unique%20Number.py) | [leetcode.com](https://leetcode.com/problems/largest-unique-number/) |
 | 1046 | Last Stone Weight | O(n log n) | O(1) | [python](leetcode/easy/1046.%20Last%20Stone%20Weight.py) | [leetcode.com](https://leetcode.com/problems/last-stone-weight/) |
+| 1018 | Binary Prefix Divisible By 5 | O(n) | O(n) | [python](leetcode/easy/1018.%20Binary%20Prefix%20Divisible%20By%205.py) | [leetcode.com](https://leetcode.com/problems/binary-prefix-divisible-by-5/) |
 | 1002 | Find Common Characters | O(n) | O(n) | [python](leetcode/easy/1002.%20Find%20Common%20Characters.py) | [leetcode.com](https://leetcode.com/problems/find-common-characters/) |
 | 976 | Largest Perimeter Triangle | O(nlogn) | O(1) | [python](leetcode/easy/976.%20Largest%20Perimeter%20Triangle.py) | [leetcode.com](https://leetcode.com/problems/largest-perimeter-triangle/) |
 | 876 | Middle of the Linked List | O(n) | O(1) | [python](leetcode/easy/876.%20Middle%20of%20the%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/middle-of-the-linked-list/) |
