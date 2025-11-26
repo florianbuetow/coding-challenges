@@ -137,5 +137,5 @@ The parser extracts the leading number and removes it (plus following non-whites
 - **Commit message format** - Use a single sentence (max two sentences). Use `git status` to understand what changed before writing the commit message
 - **Keep commit messages professional** and focused on the changes made
 - **Commit messages should describe what changed and why**, without mentioning AI assistance
-- **When adding new solutions** - Use simple format like "Add LC {number} ({difficulty}) and update documentation" - do NOT add complexity details, algorithm descriptions, or implementation notes in commit messages
+- **When adding new solutions** - Use simple format like "Add LC {number} ({difficulty})" - do NOT add "and update documentation" (README regeneration is implied), and do NOT add complexity details, algorithm descriptions, or implementation notes in commit messages
 - **ALWAYS push commits to remote after committing** - run `git push` after successful `git commit`
