@@ -105,10 +105,12 @@ The parser extracts the leading number and removes it (plus following non-whites
 ## Adding a New Solution
 
 1. Create file in appropriate directory: `{platform}/{difficulty}/{number}. {Problem Name}.py`
-2. Add complexity annotation in comments:
+2. Add complexity annotation in comments (exactly one blank line before the class):
    ```python
    # O(n) time and O(1) space
    # link: https://leetcode.com/problems/problem-name/
+
+   class Solution:
    ```
 3. Implement the solution
 4. Regenerate README: **ALWAYS use `make generate`** - NEVER run Python scripts directly
