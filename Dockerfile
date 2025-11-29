@@ -10,15 +10,11 @@ COPY requirements.txt .
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of the application files
-COPY . .
+# Copy only the generator script (not entire project)
+COPY generate_readme.py .
 
 # The folder where the generated README.md will be persisted
 VOLUME ["/app/output"]
-
-# Remove README files during build
-RUN rm -f README.md
-RUN rm -f /app/output/README.md
 
 # Run the generator script to generate the README.md file
 CMD ["bash", "-c", "python generate_readme.py && cp README.md /app/output/"]
