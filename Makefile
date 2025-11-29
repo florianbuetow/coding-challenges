@@ -25,7 +25,13 @@ generate: init
 	@echo "Removing existing README.md file..."
 	@rm -f README.md
 	@echo "Running Docker container to generate README.md..."
-	@docker run --rm -v "$$(pwd)":/app/output $(IMAGE_NAME)
+	@docker run --rm \
+		-v "$$(pwd)/leetcode":/app/leetcode:ro \
+		-v "$$(pwd)/deep-ml":/app/deep-ml:ro \
+		-v "$$(pwd)/DESCRIPTION.md":/app/DESCRIPTION.md:ro \
+		-v "$$(pwd)/USAGE.md":/app/USAGE.md:ro \
+		-v "$$(pwd)":/app/output \
+		$(IMAGE_NAME)
 	@echo "README.md generated successfully."
 	@echo ""
 
