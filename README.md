@@ -30,13 +30,13 @@ This file contains recent additions and updates to solution files.
 
 ---
 
-| Date | Type | Challenge | Solution Code | Problem Link | Action |
-| --- | --- | --- | --- | --- | --- |
-| 2025-11-29 | LeetCode Easy | Minimum Operations to Make Array Sum Divisible by K | [python](leetcode/easy/3512.%20Minimum%20Operations%20to%20Make%20Array%20Sum%20Divisible%20by%20K.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k) | Added |
-| 2025-11-28 | LeetCode Hard | Maximum Number of K-Divisible Components | [python](leetcode/hard/2872.%20Maximum%20Number%20of%20K-Divisible%20Components.py) | [leetcode.com](https://leetcode.com/problems/maximum-number-of-k-divisible-components/) | Added |
-| 2025-11-27 | LeetCode Medium | Maximum Subarray Sum With Length Divisible by K | [python](leetcode/medium/3381.%20Maximum%20Subarray%20Sum%20With%20Length%20Divisible%20by%20K.py) | [leetcode.com](https://leetcode.com/problems/maximum-subarray-sum-with-length-divisible-by-k/) | Added |
-| 2025-11-23 | LeetCode Medium | Greatest Sum Divisible by Three | [python](leetcode/medium/1262.%20Greatest%20Sum%20Divisible%20by%20Three.py) | [leetcode.com](https://leetcode.com/problems/greatest-sum-divisible-by-three/) | Added |
-| 2025-11-22 | LeetCode Easy | Find Minimum Operations to Make All Elements Divisible by Three | [python](leetcode/easy/3190.%20Find%20Minimum%20Operations%20to%20Make%20All%20Elements%20Divisible%20by%20Three.py) | [leetcode.com](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three) | Added |
+| Date | Type | Challenge | Solution Code | Problem Link |
+| --- | --- | --- | --- | --- |
+| 2025-12-06 | LeetCode Medium | Minimum Cost to Connect Sticks | [python](leetcode/medium/1167.%20Minimum%20Cost%20to%20Connect%20Sticks.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-to-connect-sticks) |
+| 2025-12-06 | LeetCode Medium | Count Partitions With Max-Min Difference at Most K | [python](leetcode/medium/3578.%20Count%20Partitions%20With%20Max-Min%20Difference%20at%20Most%20K.py) | [leetcode.com](https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k) |
+| 2025-12-06 | LeetCode Hard | Word Break II | [python](leetcode/hard/140.%20Word%20Break%20II.py) | [leetcode.com](https://leetcode.com/problems/word-break-ii/) |
+| 2025-12-06 | Codewars Kyu 4 | The Observed Pin | [python](codewars/kyu-4/the_observed_pin.py) | [codewars.com](https://www.codewars.com/kata/5263c6999e0f40dee200059d) |
+| 2025-12-06 | AoC 2025 Day 06 | Solution Part 2 | [python](aoc/2025/day-06/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/6) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
