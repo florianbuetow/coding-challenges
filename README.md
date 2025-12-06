@@ -149,6 +149,7 @@ This file contains recent additions and updates to solution files.
 | 3512 | Minimum Operations to Make Array Sum Divisible by K | O(n) | O(1) | [python](leetcode/easy/3512.%20Minimum%20Operations%20to%20Make%20Array%20Sum%20Divisible%20by%20K.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k) |
 | 3516 | Find Closest Person | O(1) | O(1) | [python](leetcode/easy/3516.%20Find%20Closest%20Person.py) | [leetcode.com](https://leetcode.com/problems/find-closest-person/) |
 | 3541 | Find Most Frequent Vowel and Consonant | O(n) | O(1) | [python](leetcode/easy/3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant.py) | [leetcode.com](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) |
+| 3731 | Find Missing Elements | O(n) | O(n) | [python](leetcode/easy/3731.%20Find%20Missing%20Elements.py) | [leetcode.com](https://leetcode.com/problems/find-missing-elements/) |
 
 ### Hard
 | Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
