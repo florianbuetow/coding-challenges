@@ -118,7 +118,13 @@ The parser extracts the leading number and removes it (plus following non-whites
 
 ## Adding a New Solution
 
-**CRITICAL:** After adding or modifying ANY solution file, you MUST run `make generate` to regenerate the README before committing. This is a mandatory step - never skip it.
+**CRITICAL WORKFLOW - Follow these steps EXACTLY:**
+1. Create the solution file with proper format (complexity annotation + link)
+2. Run `make generate`
+3. Commit the solution file, README.md, AND CHANGES.md together
+4. Push to remote
+
+**NEVER skip steps 2-4. ALWAYS commit README.md and CHANGES.md after running `make generate`.**
 
 ### LeetCode / Deep-ML
 
@@ -131,8 +137,8 @@ The parser extracts the leading number and removes it (plus following non-whites
    class Solution:
    ```
 3. Implement the solution
-4. **MANDATORY:** Run `make generate` to regenerate the README
-5. Verify the new entry appears correctly in `README.md`
+4. Run `make generate`
+5. Commit solution file + README.md + CHANGES.md, then push
 
 ### Codewars
 
@@ -144,7 +150,8 @@ The parser extracts the leading number and removes it (plus following non-whites
 
    class Solution:
    ```
-3. Regenerate README with `make generate`
+3. Run `make generate`
+4. Commit solution file + README.md + CHANGES.md, then push
 
 ### Advent of Code
 
@@ -162,7 +169,8 @@ The parser extracts the leading number and removes it (plus following non-whites
    class Solution:
    ```
 4. Empty solution files are automatically skipped in README generation
-5. Regenerate README with `make generate`
+5. Run `make generate`
+6. Commit solution files + README.md + CHANGES.md, then push
 
 ## Important Notes
 
