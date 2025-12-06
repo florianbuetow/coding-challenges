@@ -34,7 +34,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 2025-12-05 | Day 05 - Part 2 | N/A | N/A | [python](aoc/2025/day-05/solution_part_2.py) | N/A |
 | 2025-12-04 | Day 04 - Part 1 | N/A | N/A | [python](aoc/2025/day-04/solution_part_1.py) | N/A |
 | 2025-12-04 | Day 04 - Part 2 | N/A | N/A | [python](aoc/2025/day-04/solution_part_2.py) | N/A |
-| 2025-12-03 | Day 03 - Part 1 | N/A | N/A | [python](aoc/2025/day-03/solution_part_1.py) | N/A |
+| 2025-12-03 | Day 03 - Part 1 | O(?) | O(?) | [python](aoc/2025/day-03/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/3) |
 | 2025-12-03 | Day 03 - Part 2 | N/A | N/A | [python](aoc/2025/day-03/solution_part_2.py) | N/A |
 | 2025-12-02 | Gift Shop - Part 1 | O(?) | O(n) | [python](aoc/2025/day-02/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/2) |
 | 2025-12-02 | Gift Shop - Part 2 | O(?) | O(n) | [python](aoc/2025/day-02/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/2) |

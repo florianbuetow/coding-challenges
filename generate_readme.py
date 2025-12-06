@@ -145,8 +145,9 @@ def process_aoc_folder(aoc_path, root_dir):
             day_match = re.match(r'day-(\d+)', day_folder)
             if not day_match:
                 continue
-            day_num = day_match.group(1).zfill(2)
-            date_str = f"{year}-12-{day_num}"  # AoC runs in December
+            day_num = int(day_match.group(1))
+            day_num_padded = str(day_num).zfill(2)
+            date_str = f"{year}-12-{day_num_padded}"  # AoC runs in December
 
             # Extract challenge name from problem.txt
             challenge_name = extract_aoc_challenge_name(day_path)
@@ -170,7 +171,7 @@ def process_aoc_folder(aoc_path, root_dir):
                     challenge_display = f"Day {day_num} - Part {part}"
 
                 problems.append({
-                    "problem_number": date_str,
+                    "problem_number": day_num,
                     "sort_key": (date_str, part),
                     "challenge": challenge_display,
                     "time": time_c,
@@ -289,7 +290,10 @@ def generate_readme(root_dir):
             for subfolder in sorted(subfolders):
                 problems = subfolders[subfolder]
                 readme.write(f'### {subfolder.capitalize()}\n')
-                readme.write('| Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |\n')
+                if section == 'aoc':
+                    readme.write('| Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |\n')
+                else:
+                    readme.write('| Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |\n')
                 readme.write('| --- | --- | --- | --- | --- | --- |\n')
                 for problem in problems:
                     if 'N/A' in problem["problem_link"]:
