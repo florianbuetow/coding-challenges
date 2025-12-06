@@ -21,7 +21,3 @@ This repository contains a collection of coding problems solved on various platf
 ├── USAGE.md           # Usage instructions
 └── Makefile           # Build automation
 ```
-
-___Leetcode___
-
-The ```./leetcode/``` directory is structured into categories such as "Easy," "Medium," and "Hard" for ease of navigation. For each problem, you'll find a detailed solution along with its associated time and space complexities, parsed directly from the solution file.

@@ -25,13 +25,8 @@ generate: init
 	@echo ""
 	@echo "Running Docker container to generate README.md..."
 	@docker run --rm \
-		-v "$$(pwd)/leetcode":/app/leetcode:ro \
-		-v "$$(pwd)/deep-ml":/app/deep-ml:ro \
-		-v "$$(pwd)/aoc":/app/aoc:ro \
-		-v "$$(pwd)/codewars":/app/codewars:ro \
-		-v "$$(pwd)/DESCRIPTION.md":/app/DESCRIPTION.md:ro \
-		-v "$$(pwd)/USAGE.md":/app/USAGE.md:ro \
-		-v "$$(pwd)":/app/output \
+		-v "$$(pwd)":/app \
+		-w /app \
 		$(IMAGE_NAME)
 	@echo "README.md generated successfully."
 	@echo ""
