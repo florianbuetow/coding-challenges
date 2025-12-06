@@ -101,6 +101,64 @@ def extract_domain_name(url):
     return "N/A"
 
 
+# Function to process AoC folder with 3-level structure: aoc/year/day-XX/
+def process_aoc_folder(aoc_path, root_dir):
+    """
+    Process aoc/ folder with structure: aoc/year/day-XX/solution_part_{1,2}.py
+    Returns: dict[year] -> list of problem entries
+    """
+    sections = {}
+
+    for year in os.listdir(aoc_path):
+        year_path = os.path.join(aoc_path, year)
+        if not os.path.isdir(year_path) or year.startswith('.'):
+            continue
+
+        problems = []
+        for day_folder in os.listdir(year_path):
+            day_path = os.path.join(year_path, day_folder)
+            if not os.path.isdir(day_path) or day_folder.startswith('.'):
+                continue
+
+            # Extract day number from "day-06" format
+            day_match = re.match(r'day-(\d+)', day_folder)
+            if not day_match:
+                continue
+            day_num = day_match.group(1).zfill(2)
+            date_str = f"{year}-12-{day_num}"  # AoC runs in December
+
+            # Process solution_part_1.py and solution_part_2.py
+            for part in [1, 2]:
+                filename = f"solution_part_{part}.py"
+                filepath = os.path.join(day_path, filename)
+                if not os.path.exists(filepath):
+                    continue
+
+                time_c, space_c = extract_complexity(filepath)
+                link = extract_problem_link(filepath)
+                domain = extract_domain_name(link)
+                relative_path = os.path.relpath(filepath, root_dir)
+
+                problems.append({
+                    "problem_number": date_str,
+                    "sort_key": (date_str, part),
+                    "challenge": f"Day {day_num} - Part {part}",
+                    "time": time_c,
+                    "space": space_c,
+                    "solution_link": urllib.parse.quote(relative_path),
+                    "solution_lang": "python",
+                    "problem_domain": domain,
+                    "problem_link": link
+                })
+
+        # Sort: date descending, then part ascending
+        if problems:
+            problems.sort(key=lambda x: (-int(x['sort_key'][0].replace('-', '')), x['sort_key'][1]))
+            sections[year] = problems
+
+    return sections
+
+
 # Function to read the project description from DESCRIPTION.md
 def read_description():
     description_file = 'DESCRIPTION.md'
@@ -131,50 +189,60 @@ def generate_readme(root_dir):
         if folder.startswith('.'):
             continue
         folder_path = os.path.join(root_dir, folder)
-        if os.path.isdir(folder_path):
-            subfolders = {}
-            for subfolder in os.listdir(folder_path):
-                subfolder_path = os.path.join(folder_path, subfolder)
-                if os.path.isdir(subfolder_path):
-                    problems = []
-                    filenames = sorted(os.listdir(subfolder_path))
-                    for idx, filename in enumerate(filenames):
-                        if filename.endswith('.py'):
-                            problem_name = filename.replace('.py', '')
-                            file_path = os.path.join(subfolder_path, filename)
-                            relative_path = os.path.relpath(file_path, root_dir)
-                            url_encoded_path = urllib.parse.quote(relative_path)
+        if not os.path.isdir(folder_path):
+            continue
 
-                            # Extract time and space complexity
-                            time_complexity, space_complexity = extract_complexity(file_path)
+        # Use dedicated processor for AoC (3-level structure)
+        if folder == 'aoc':
+            aoc_sections = process_aoc_folder(folder_path, root_dir)
+            if aoc_sections:
+                sections[folder] = aoc_sections
+            continue
 
-                            # Extract problem source link
-                            problem_link = extract_problem_link(file_path)
-                            problem_domain = extract_domain_name(problem_link)
+        # Standard 2-level processing for leetcode/deep-ml
+        subfolders = {}
+        for subfolder in os.listdir(folder_path):
+            subfolder_path = os.path.join(folder_path, subfolder)
+            if os.path.isdir(subfolder_path):
+                problems = []
+                filenames = sorted(os.listdir(subfolder_path))
+                for idx, filename in enumerate(filenames):
+                    if filename.endswith('.py'):
+                        problem_name = filename.replace('.py', '')
+                        file_path = os.path.join(subfolder_path, filename)
+                        relative_path = os.path.relpath(file_path, root_dir)
+                        url_encoded_path = urllib.parse.quote(relative_path)
 
-                            # Extract problem number from filename or use list index + 1
-                            match = re.match(r'^(\d+)(\S*)', filename)
-                            problem_number = match.group(1) if match else str(idx + 1)
+                        # Extract time and space complexity
+                        time_complexity, space_complexity = extract_complexity(file_path)
 
-                            # Remove the number and non-whitespace characters that follow it from the challenge name
-                            if match:
-                                problem_name = problem_name[len(match.group(0)):].strip()
+                        # Extract problem source link
+                        problem_link = extract_problem_link(file_path)
+                        problem_domain = extract_domain_name(problem_link)
 
-                            problems.append({
-                                "problem_number": problem_number,
-                                "challenge": problem_name,
-                                "time": time_complexity,
-                                "space": space_complexity,
-                                "solution_link": url_encoded_path,
-                                "solution_lang": 'python',
-                                "problem_domain": problem_domain,
-                                "problem_link": problem_link
-                            })
-                    if problems:
-                        problems = sorted(problems, key=lambda x: int(x["problem_number"]), reverse=True)
-                        subfolders[subfolder] = problems
-            if subfolders:
-                sections[folder] = subfolders
+                        # Extract problem number from filename or use list index + 1
+                        match = re.match(r'^(\d+)(\S*)', filename)
+                        problem_number = match.group(1) if match else str(idx + 1)
+
+                        # Remove the number and non-whitespace characters that follow it from the challenge name
+                        if match:
+                            problem_name = problem_name[len(match.group(0)):].strip()
+
+                        problems.append({
+                            "problem_number": problem_number,
+                            "challenge": problem_name,
+                            "time": time_complexity,
+                            "space": space_complexity,
+                            "solution_link": url_encoded_path,
+                            "solution_lang": 'python',
+                            "problem_domain": problem_domain,
+                            "problem_link": problem_link
+                        })
+                if problems:
+                    problems = sorted(problems, key=lambda x: int(x["problem_number"]), reverse=True)
+                    subfolders[subfolder] = problems
+        if subfolders:
+            sections[folder] = subfolders
 
     with open(readme_file, 'w') as readme:
         readme.write('# Coding-Challenges\n\n')
