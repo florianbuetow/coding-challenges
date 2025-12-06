@@ -401,33 +401,23 @@ class ReadmeGenerator:
             'codewars': CodewarsProcessor()
         }
 
-    def read_description(self):
-        """Read the project description from DESCRIPTION.md."""
-        description_file = 'DESCRIPTION.md'
-        if os.path.exists(description_file):
-            with open(description_file, 'r') as file:
+    def read_file(self, filename):
+        """Read content from a file, raising an error if it doesn't exist."""
+        if os.path.exists(filename):
+            with open(filename, 'r') as file:
                 return file.read().strip()
         else:
-            raise FileNotFoundError(f"Error: {description_file} not found. Please ensure it exists in the project directory.")
-
-    def read_usage(self):
-        """Read the project usage instructions from USAGE.md."""
-        description_file = 'USAGE.md'
-        if os.path.exists(description_file):
-            with open(description_file, 'r') as file:
-                return file.read().strip()
-        else:
-            raise FileNotFoundError(f"Error: {description_file} not found. Please ensure it exists in the project directory.")
+            raise FileNotFoundError(f"Error: {filename} not found. Please ensure it exists in the project directory.")
 
     def generate(self, root_dir):
         """Generate the README.md file."""
-        project_description = self.read_description()
-        project_usage = self.read_usage()
+        project_description = self.read_file('DESCRIPTION.md')
+        project_usage = self.read_file('USAGE.md')
 
         readme_file = os.path.join(root_dir, 'README.md')
 
         markdown_sections = []
-        
+
         for folder in os.listdir(root_dir):
             if folder.startswith('.'):
                 continue
