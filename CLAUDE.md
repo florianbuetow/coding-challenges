@@ -29,7 +29,9 @@ make generate   # ALWAYS use this to generate README
 - `make status` - Check if Docker image exists
 - `make destroy` - Delete Docker image
 
-The `init` target uses `--no-cache` to prevent stale code issues. Run `make init` again after modifying `generate_readme.py`.
+The `init` target uses `--no-cache` to prevent stale code issues.
+
+**IMPORTANT:** The `generate_readme.py` script is copied into the Docker image at build time. After modifying `generate_readme.py`, you MUST run `make destroy && make init` to rebuild the Docker image before running `make generate`.
 
 ## Architecture
 
