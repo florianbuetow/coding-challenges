@@ -2,6 +2,8 @@ import os
 import re
 import urllib.parse
 from urllib.parse import urlparse
+from pathlib import Path
+from generate_changes import ChangesGenerator
 
 
 class BaseChallengeProcessor:
@@ -175,7 +177,7 @@ class TwoLevelProcessor(BaseChallengeProcessor):
         # Generate markdown
         markdown = []
         section_title = folder_name.capitalize()
-        markdown.append(f'## {section_title}\n')
+        markdown.append(f'# {section_title}\n')
         
         for subfolder in sorted(subfolders):
             problems = subfolders[subfolder]
@@ -295,7 +297,7 @@ class AdventOfCodeProcessor(BaseChallengeProcessor):
 
         # Generate markdown
         markdown = []
-        markdown.append('## Advent of Code\n')
+        markdown.append('# Advent of Code\n')
         
         for year in sorted(sections):
             problems = sections[year]
@@ -371,7 +373,7 @@ class CodewarsProcessor(BaseChallengeProcessor):
 
         # Generate markdown
         markdown = []
-        markdown.append('## Codewars\n')
+        markdown.append('# Codewars\n')
         
         for kyu_folder in sorted(sections):
             problems = sections[kyu_folder]
@@ -434,9 +436,13 @@ class ReadmeGenerator:
         # Sort sections by folder name to maintain consistent order
         markdown_sections.sort(key=lambda x: x[0])
 
+        # Read recent changes content from CHANGES.md
+        changes_content = self.read_file('CHANGES.md')
+
         with open(readme_file, 'w') as readme:
             readme.write('# Coding-Challenges\n\n')
             readme.write(f'{project_description}\n\n')
+            readme.write(f'{changes_content}\n')
 
             for folder, markdown in markdown_sections:
                 readme.write(markdown)
@@ -447,3 +453,7 @@ class ReadmeGenerator:
 if __name__ == '__main__':
     generator = ReadmeGenerator()
     generator.generate("./")
+
+    # Generate CHANGES.md
+    changes_generator = ChangesGenerator(path=Path("./"), limit=5)
+    changes_generator.generate_and_write(Path("./CHANGES.md"))
