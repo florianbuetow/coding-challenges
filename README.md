@@ -28,14 +28,14 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- | --- |
-| 6 | Trash Compactor - Part 1 | O(n*m) | O(m) | [python](aoc/2025/day-06/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/6) |
-| 6 | Trash Compactor - Part 2 | O(n*m) | O(n*m) | [python](aoc/2025/day-06/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/6) |
-| 3 | Lobby - Part 1 | O(n*m) | O(n) | [python](aoc/2025/day-03/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/3) |
-| 3 | Lobby - Part 2 | O(n*m) | O(n) | [python](aoc/2025/day-03/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/3) |
-| 2 | Gift Shop - Part 1 | O(?) | O(n) | [python](aoc/2025/day-02/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/2) |
-| 2 | Gift Shop - Part 2 | O(?) | O(n) | [python](aoc/2025/day-02/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/2) |
-| 1 | Secret Entrance - Part 1 | O(n) | O(1) | [python](aoc/2025/day-01/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/1) |
-| 1 | Secret Entrance - Part 2 | O(n) | O(1) | [python](aoc/2025/day-01/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/1) |
+| 6 | Trash Compactor 1/2 | O(n*m) | O(m) | [python](aoc/2025/day-06/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/6) |
+| 6 | Trash Compactor 2/2 | O(n*m) | O(n*m) | [python](aoc/2025/day-06/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/6) |
+| 3 | Lobby 1/2 | O(n*m) | O(n) | [python](aoc/2025/day-03/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/3) |
+| 3 | Lobby 2/2 | O(n*m) | O(n) | [python](aoc/2025/day-03/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/3) |
+| 2 | Gift Shop 1/2 | O(?) | O(n) | [python](aoc/2025/day-02/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/2) |
+| 2 | Gift Shop 2/2 | O(?) | O(n) | [python](aoc/2025/day-02/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/2) |
+| 1 | Secret Entrance 1/2 | O(n) | O(1) | [python](aoc/2025/day-01/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/1) |
+| 1 | Secret Entrance 2/2 | O(n) | O(1) | [python](aoc/2025/day-01/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/1) |
 
 ## Deep-ml
 
