@@ -139,6 +139,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 ### Medium
 | Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- | --- |
+| 3578 | Count Partitions With Max-Min Difference at Most K | O(n) | O(n) | [python](leetcode/medium/3578.%20Count%20Partitions%20With%20Max-Min%20Difference%20at%20Most%20K.py) | [leetcode.com](https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k) |
 | 3542 | Minimum Operations to Convert All Elements to Zero | O(n) | O(n) | [python](leetcode/medium/3542.%20Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero) |
 | 3494 | Find the Minimum Amount of Time to Brew Potions | O(n*m) | O(m) | [python](leetcode/medium/3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions.py) | [leetcode.com](https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/) |
 | 3484 | Design Spreadsheet | O(m) | O(n) | [python](leetcode/medium/3484.%20Design%20Spreadsheet.py) | [leetcode.com](https://leetcode.com/problems/design-spreadsheet/) |
