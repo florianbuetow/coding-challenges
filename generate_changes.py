@@ -339,38 +339,50 @@ class ChangesGenerator:
             all_changes = all_changes[:limit]
         
         # Generate single table
-        lines.append("| Date | Type | Challenge | Solution Code | Problem Link | Action |")
-        lines.append("| --- | --- | --- | --- | --- | --- |")
-        
+        lines.append("| Date | Type | Challenge | Solution Code | Problem Link |")
+        lines.append("| --- | --- | --- | --- | --- |")
+
         for change in all_changes:
             lines.append(
                 f"| {change['date']} | {change['type']} | {change['challenge']} | "
-                f"{change['solution_link']} | {change['problem_link']} | {change['action']} |"
+                f"{change['solution_link']} | {change['problem_link']} |"
             )
         
         lines.append("")
         
         return '\n'.join(lines)
     
+    def has_solution_files(self, commit_hash: str) -> bool:
+        """
+        Check if a commit contains any solution file additions or modifications.
+        Unlike is_solution_only_commit, this doesn't exclude commits with other files.
+        """
+        files = self.get_commit_files(commit_hash)
+
+        for filepath, status in files.items():
+            if self.is_solution_file(filepath) and status in ('A', 'M'):
+                return True
+        return False
+
     def generate(self) -> str:
         """
         Generate CHANGES.md content from git commits.
-        
+
         Returns:
             String content of CHANGES.md
         """
-        # Get recent commits (scan more than needed to find enough solution-only commits)
+        # Get recent commits (scan more than needed to find enough with solution files)
         all_commits = self.get_recent_commits(limit=100)
-        
-        # Filter to solution-only commits
+
+        # Filter to commits that contain solution files (may also contain other files)
         solution_commits = []
         for commit in all_commits:
-            if self.is_solution_only_commit(commit['hash']):
+            if self.has_solution_files(commit['hash']):
                 solution_commits.append(commit)
-        
+
         if not solution_commits:
             return "# Recent Changes\n\nNo recent changes to solution files.\n"
-        
+
         return self.generate_changes_md(solution_commits, limit=self.limit)
     
     def generate_and_write(self, output_path: Path) -> None:
