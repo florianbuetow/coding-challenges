@@ -23,6 +23,14 @@ ___Leetcode___
 
 The ```./leetcode/``` directory is structured into categories such as "Easy," "Medium," and "Hard" for ease of navigation. For each problem, you'll find a detailed solution along with its associated time and space complexities, parsed directly from the solution file.
 
+## Aoc
+
+### 2025
+| Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
+| --- | --- | --- | --- | --- | --- |
+| 2025-12-06 | Day 06 - Part 1 | O(n*m) | O(m) | [python](aoc/2025/day-06/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/6) |
+| 2025-12-06 | Day 06 - Part 2 | O(n*m) | O(n*m) | [python](aoc/2025/day-06/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/6) |
+
 ## Deep-ml
 
 ### Easy
@@ -263,7 +271,7 @@ The following outlines the steps to generate the `README.md` file using the auto
 - Clone this repository
 - Ensure that Docker is installed and running on your system
 
-### Using Make (Recommended)
+### Using Make
 
 #### 1. Initialize the Docker Container
 
