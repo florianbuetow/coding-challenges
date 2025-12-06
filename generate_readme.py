@@ -170,9 +170,9 @@ def process_aoc_folder(aoc_path, root_dir):
 
                 # Build challenge display name
                 if challenge_name:
-                    challenge_display = f"{challenge_name} - Part {part}"
+                    challenge_display = f"{challenge_name} {part}/2"
                 else:
-                    challenge_display = f"Day {day_num} - Part {part}"
+                    challenge_display = f"Day {day_num} {part}/2"
 
                 problems.append({
                     "problem_number": day_num,
