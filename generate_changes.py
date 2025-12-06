@@ -296,44 +296,44 @@ class ChangesGenerator:
             "",
         ]
         
-        # Collect all changes
+        # Collect all changes (commits are already in reverse chronological order from git)
         all_changes = []
         for commit in commits:
             try:
-                commit_date = datetime.strptime(commit['date'], '%Y-%m-%d %H:%M:%S %z')
-                date_str = commit_date.strftime('%Y-%m-%d')
+                commit_datetime = datetime.strptime(commit['date'], '%Y-%m-%d %H:%M:%S %z')
+                date_str = commit_datetime.strftime('%Y-%m-%d')
             except:
+                commit_datetime = datetime.min
                 date_str = commit['date'].split()[0] if commit['date'] else 'Unknown'
-            
+
             files = self.get_commit_files(commit['hash'])
             solution_files = [
                 (fp, status) for fp, status in files.items()
                 if self.is_solution_file(fp) and status in ('A', 'M')
             ]
-            
+
             for filepath, status in solution_files:
                 file_full_path = self.path / filepath
                 if not file_full_path.exists():
                     continue
-                
-                action = "Added" if status == 'A' else "Modified"
+
                 challenge = self.extract_challenge_name(filepath)
                 type_str = self.extract_type(filepath)
                 link = self.extract_problem_link(str(file_full_path))
                 domain = self.extract_domain_name(link)
-                
+
                 all_changes.append({
+                    'datetime': commit_datetime,
                     'date': date_str,
                     'type': type_str,
                     'challenge': challenge,
-                    'action': action,
                     'solution_link': self.format_file_link(filepath),
                     'problem_link': self.format_problem_link(link, domain),
                 })
-        
-        # Sort by date (newest first), then by type, then by challenge
-        all_changes.sort(key=lambda x: (x['date'], x['type'], x['challenge']), reverse=True)
-        
+
+        # Sort by datetime (newest first)
+        all_changes.sort(key=lambda x: x['datetime'], reverse=True)
+
         # Limit to most recent N changes
         if limit is not None:
             all_changes = all_changes[:limit]
