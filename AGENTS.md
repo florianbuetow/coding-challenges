@@ -120,11 +120,12 @@ The parser extracts the leading number and removes it (plus following non-whites
 
 **CRITICAL WORKFLOW - Follow these steps EXACTLY:**
 1. Create the solution file with proper format (complexity annotation + link)
-2. Run `make generate`
-3. Commit the solution file, README.md, AND CHANGES.md together
-4. Push to remote
+2. Commit the solution file first (CHANGES.md reads git log, so solution must be committed first)
+3. Run `make generate`
+4. Commit README.md and CHANGES.md
+5. Push to remote
 
-**NEVER skip steps 2-4. ALWAYS commit README.md and CHANGES.md after running `make generate`.**
+**NEVER skip any steps. The order matters because CHANGES.md is generated from git history.**
 
 ### LeetCode / Deep-ML
 
@@ -137,8 +138,9 @@ The parser extracts the leading number and removes it (plus following non-whites
    class Solution:
    ```
 3. Implement the solution
-4. Run `make generate`
-5. Commit solution file + README.md + CHANGES.md, then push
+4. Commit the solution file
+5. Run `make generate`
+6. Commit README.md + CHANGES.md, then push
 
 ### Codewars
 
@@ -150,8 +152,9 @@ The parser extracts the leading number and removes it (plus following non-whites
 
    class Solution:
    ```
-3. Run `make generate`
-4. Commit solution file + README.md + CHANGES.md, then push
+3. Commit the solution file
+4. Run `make generate`
+5. Commit README.md + CHANGES.md, then push
 
 ### Advent of Code
 
@@ -169,8 +172,9 @@ The parser extracts the leading number and removes it (plus following non-whites
    class Solution:
    ```
 4. Empty solution files are automatically skipped in README generation
-5. Run `make generate`
-6. Commit solution files + README.md + CHANGES.md, then push
+5. Commit the solution files
+6. Run `make generate`
+7. Commit README.md + CHANGES.md, then push
 
 ## Important Notes
 
