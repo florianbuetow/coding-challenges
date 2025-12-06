@@ -34,6 +34,8 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 2 | Gift Shop 2/2 | O(?) | O(n) | [python](aoc/2025/day-02/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/2) |
 | 3 | Lobby 1/2 | O(n*m) | O(n) | [python](aoc/2025/day-03/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/3) |
 | 3 | Lobby 2/2 | O(n*m) | O(n) | [python](aoc/2025/day-03/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/3) |
+| 4 | Printing Department 1/2 | O(?) | O(n*m) | [python](aoc/2025/day-04/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/4) |
+| 4 | Printing Department 2/2 | O(?) | O(n*m) | [python](aoc/2025/day-04/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/4) |
 | 6 | Trash Compactor 1/2 | O(n*m) | O(m) | [python](aoc/2025/day-06/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/6) |
 | 6 | Trash Compactor 2/2 | O(n*m) | O(n*m) | [python](aoc/2025/day-06/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/6) |
 
