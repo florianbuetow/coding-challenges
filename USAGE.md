@@ -8,7 +8,7 @@ The following outlines the steps to generate the `README.md` file using the auto
 - Clone this repository
 - Ensure that Docker is installed and running on your system
 
-### Using Make (Recommended)
+### Using Make
 
 #### 1. Initialize the Docker Container
 
