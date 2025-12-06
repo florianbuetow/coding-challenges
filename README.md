@@ -65,6 +65,11 @@ This file contains recent additions and updates to solution files.
 | --- | --- | --- | --- | --- |
 | The Observed Pin | O(n) | O(n) | [python](codewars/kyu-4/the_observed_pin.py) | [codewars.com](https://www.codewars.com/kata/5263c6999e0f40dee200059d) |
 
+### Kyu-5
+| Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
+| --- | --- | --- | --- | --- |
+| Rot13 | O(n) | O(n) | [python](codewars/kyu-5/rot13.py) | [codewars.com](https://www.codewars.com/kata/530e15517bc88ac656000716/) |
+
 # Deep-ml
 ### Easy
 | Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
