@@ -159,6 +159,10 @@ def process_aoc_folder(aoc_path, root_dir):
                 if not os.path.exists(filepath):
                     continue
 
+                # Skip empty solution files
+                if os.path.getsize(filepath) == 0:
+                    continue
+
                 time_c, space_c = extract_complexity(filepath)
                 link = extract_problem_link(filepath)
                 domain = extract_domain_name(link)
