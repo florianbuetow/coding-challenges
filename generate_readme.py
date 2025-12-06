@@ -194,6 +194,63 @@ def process_aoc_folder(aoc_path, root_dir):
     return sections
 
 
+# Function to process Codewars folder with kyu-based structure
+def process_codewars_folder(codewars_path, root_dir):
+    """
+    Process codewars/ folder with structure: codewars/kyu-{level}/{problem_name}.py
+    Returns: dict[kyu_level] -> list of problem entries
+    """
+    sections = {}
+
+    for kyu_folder in os.listdir(codewars_path):
+        kyu_path = os.path.join(codewars_path, kyu_folder)
+        if not os.path.isdir(kyu_path) or kyu_folder.startswith('.'):
+            continue
+
+        # Extract kyu level from "kyu-4" format
+        kyu_match = re.match(r'kyu-(\d+)', kyu_folder)
+        if not kyu_match:
+            continue
+        kyu_level = int(kyu_match.group(1))
+
+        problems = []
+        for filename in os.listdir(kyu_path):
+            if not filename.endswith('.py'):
+                continue
+
+            filepath = os.path.join(kyu_path, filename)
+
+            # Skip empty files
+            if os.path.getsize(filepath) == 0:
+                continue
+
+            # Convert snake_case filename to Title Case challenge name
+            problem_name = filename.replace('.py', '')
+            challenge_display = problem_name.replace('_', ' ').title()
+
+            time_c, space_c = extract_complexity(filepath)
+            link = extract_problem_link(filepath)
+            domain = extract_domain_name(link)
+            relative_path = os.path.relpath(filepath, root_dir)
+
+            problems.append({
+                "challenge": challenge_display,
+                "time": time_c,
+                "space": space_c,
+                "solution_link": urllib.parse.quote(relative_path),
+                "solution_lang": "python",
+                "problem_domain": domain,
+                "problem_link": link
+            })
+
+        # Sort alphabetically by challenge name
+        if problems:
+            problems.sort(key=lambda x: x['challenge'].lower())
+            sections[kyu_folder] = problems
+
+    return sections
+
+
 # Function to read the project description from DESCRIPTION.md
 def read_description():
     description_file = 'DESCRIPTION.md'
@@ -232,6 +289,13 @@ def generate_readme(root_dir):
             aoc_sections = process_aoc_folder(folder_path, root_dir)
             if aoc_sections:
                 sections[folder] = aoc_sections
+            continue
+
+        # Use dedicated processor for Codewars (kyu-based structure)
+        if folder == 'codewars':
+            codewars_sections = process_codewars_folder(folder_path, root_dir)
+            if codewars_sections:
+                sections[folder] = codewars_sections
             continue
 
         # Standard 2-level processing for leetcode/deep-ml
@@ -296,18 +360,28 @@ def generate_readme(root_dir):
                 readme.write(f'### {subfolder.capitalize()}\n')
                 if section == 'aoc':
                     readme.write('| Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |\n')
+                    readme.write('| --- | --- | --- | --- | --- | --- |\n')
+                elif section == 'codewars':
+                    readme.write('| Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |\n')
+                    readme.write('| --- | --- | --- | --- | --- |\n')
                 else:
                     readme.write('| Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |\n')
-                readme.write('| --- | --- | --- | --- | --- | --- |\n')
+                    readme.write('| --- | --- | --- | --- | --- | --- |\n')
                 for problem in problems:
                     if 'N/A' in problem["problem_link"]:
                         problem_md_link = 'N/A'
                     else:
                         problem_md_link = f'[{problem["problem_domain"]}]({problem["problem_link"]})'
-                    readme.write(f'| {problem["problem_number"]} | {problem["challenge"]} '
-                                 f'| {problem["time"]} | {problem["space"]} '
-                                 f'| [{problem["solution_lang"]}]({problem["solution_link"]}) '
-                                 f'| {problem_md_link} |\n')
+                    if section == 'codewars':
+                        readme.write(f'| {problem["challenge"]} '
+                                     f'| {problem["time"]} | {problem["space"]} '
+                                     f'| [{problem["solution_lang"]}]({problem["solution_link"]}) '
+                                     f'| {problem_md_link} |\n')
+                    else:
+                        readme.write(f'| {problem["problem_number"]} | {problem["challenge"]} '
+                                     f'| {problem["time"]} | {problem["space"]} '
+                                     f'| [{problem["solution_lang"]}]({problem["solution_link"]}) '
+                                     f'| {problem_md_link} |\n')
                 readme.write('\n')
 
         readme.write(f'{project_usage}\n\n')

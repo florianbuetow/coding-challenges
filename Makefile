@@ -29,6 +29,7 @@ generate: init
 		-v "$$(pwd)/leetcode":/app/leetcode:ro \
 		-v "$$(pwd)/deep-ml":/app/deep-ml:ro \
 		-v "$$(pwd)/aoc":/app/aoc:ro \
+		-v "$$(pwd)/codewars":/app/codewars:ro \
 		-v "$$(pwd)/DESCRIPTION.md":/app/DESCRIPTION.md:ro \
 		-v "$$(pwd)/USAGE.md":/app/USAGE.md:ro \
 		-v "$$(pwd)":/app/output \

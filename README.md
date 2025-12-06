@@ -41,6 +41,13 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 6 | Trash Compactor 1/2 | O(n*m) | O(m) | [python](aoc/2025/day-06/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/6) |
 | 6 | Trash Compactor 2/2 | O(n*m) | O(n*m) | [python](aoc/2025/day-06/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/6) |
 
+## Codewars
+
+### Kyu-4
+| Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
+| --- | --- | --- | --- | --- |
+| The Observed Pin | O(n) | O(n) | [python](codewars/kyu-4/the_observed_pin.py) | [codewars.com](https://www.codewars.com/kata/5263c6999e0f40dee200059d) |
+
 ## Deep-ml
 
 ### Easy
