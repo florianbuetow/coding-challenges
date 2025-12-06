@@ -101,6 +101,27 @@ def extract_domain_name(url):
     return "N/A"
 
 
+# Function to extract challenge name from AoC problem.txt file
+def extract_aoc_challenge_name(day_path):
+    """
+    Parse problem.txt to extract challenge name from line like:
+    '--- Day 6: Trash Compactor ---'
+    Returns the challenge name (e.g., 'Trash Compactor') or None if not found.
+    """
+    problem_file = os.path.join(day_path, 'problem.txt')
+    if not os.path.exists(problem_file):
+        return None
+
+    with open(problem_file, 'r') as f:
+        first_line = f.readline().strip()
+
+    # Match pattern: --- Day X: Challenge Name ---
+    match = re.match(r'^---\s*Day\s+\d+:\s*(.+?)\s*---$', first_line)
+    if match:
+        return match.group(1)
+    return None
+
+
 # Function to process AoC folder with 3-level structure: aoc/year/day-XX/
 def process_aoc_folder(aoc_path, root_dir):
     """
@@ -127,6 +148,9 @@ def process_aoc_folder(aoc_path, root_dir):
             day_num = day_match.group(1).zfill(2)
             date_str = f"{year}-12-{day_num}"  # AoC runs in December
 
+            # Extract challenge name from problem.txt
+            challenge_name = extract_aoc_challenge_name(day_path)
+
             # Process solution_part_1.py and solution_part_2.py
             for part in [1, 2]:
                 filename = f"solution_part_{part}.py"
@@ -139,10 +163,16 @@ def process_aoc_folder(aoc_path, root_dir):
                 domain = extract_domain_name(link)
                 relative_path = os.path.relpath(filepath, root_dir)
 
+                # Build challenge display name
+                if challenge_name:
+                    challenge_display = f"{challenge_name} - Part {part}"
+                else:
+                    challenge_display = f"Day {day_num} - Part {part}"
+
                 problems.append({
                     "problem_number": date_str,
                     "sort_key": (date_str, part),
-                    "challenge": f"Day {day_num} - Part {part}",
+                    "challenge": challenge_display,
                     "time": time_c,
                     "space": space_c,
                     "solution_link": urllib.parse.quote(relative_path),
@@ -250,7 +280,12 @@ def generate_readme(root_dir):
 
         for section in sorted(sections):
             subfolders = sections[section]
-            readme.write(f'## {section.capitalize()}\n\n')
+            # Use proper display name for sections
+            if section == 'aoc':
+                section_title = 'Advent of Code'
+            else:
+                section_title = section.capitalize()
+            readme.write(f'## {section_title}\n\n')
             for subfolder in sorted(subfolders):
                 problems = subfolders[subfolder]
                 readme.write(f'### {subfolder.capitalize()}\n')
