@@ -118,6 +118,8 @@ The parser extracts the leading number and removes it (plus following non-whites
 
 ## Adding a New Solution
 
+**CRITICAL:** After adding or modifying ANY solution file, you MUST run `make generate` to regenerate the README before committing. This is a mandatory step - never skip it.
+
 ### LeetCode / Deep-ML
 
 1. Create file in appropriate directory: `{platform}/{difficulty}/{number}. {Problem Name}.py`
@@ -129,7 +131,7 @@ The parser extracts the leading number and removes it (plus following non-whites
    class Solution:
    ```
 3. Implement the solution
-4. Regenerate README: **ALWAYS use `make generate`** - NEVER run Python scripts directly
+4. **MANDATORY:** Run `make generate` to regenerate the README
 5. Verify the new entry appears correctly in `README.md`
 
 ### Codewars
