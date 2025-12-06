@@ -186,9 +186,9 @@ def process_aoc_folder(aoc_path, root_dir):
                     "problem_link": link
                 })
 
-        # Sort: date descending, then part ascending
+        # Sort: day ascending, then part ascending
         if problems:
-            problems.sort(key=lambda x: (-int(x['sort_key'][0].replace('-', '')), x['sort_key'][1]))
+            problems.sort(key=lambda x: (x['problem_number'], x['sort_key'][1]))
             sections[year] = problems
 
     return sections
