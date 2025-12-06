@@ -150,6 +150,7 @@ This file contains recent additions and updates to solution files.
 | 3516 | Find Closest Person | O(1) | O(1) | [python](leetcode/easy/3516.%20Find%20Closest%20Person.py) | [leetcode.com](https://leetcode.com/problems/find-closest-person/) |
 | 3541 | Find Most Frequent Vowel and Consonant | O(n) | O(1) | [python](leetcode/easy/3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant.py) | [leetcode.com](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) |
 | 3731 | Find Missing Elements | O(n) | O(n) | [python](leetcode/easy/3731.%20Find%20Missing%20Elements.py) | [leetcode.com](https://leetcode.com/problems/find-missing-elements/) |
+| 3736 | Minimum Moves to Equal Array Elements III | O(n) | O(1) | [python](leetcode/easy/3736.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20III.py) | [leetcode.com](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) |
 
 ### Hard
 | Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
