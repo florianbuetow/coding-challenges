@@ -131,6 +131,7 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 514 | Freedom Trail | O(n*m) | O(m) | [python](leetcode/hard/514.%20Freedom%20Trail.py) | [leetcode.com](https://leetcode.com/problems/freedom-trail/) |
 | 407 | Trapping Rain Water II | O(m*n log m*n) | O(m*n) | [python](leetcode/hard/407.%20Trapping%20Rain%20Water%20II.py) | [leetcode.com](https://leetcode.com/problems/trapping-rain-water-ii/) |
 | 305 | Number of Islands II | O(n) | O(n) | [python](leetcode/hard/305.%20Number%20of%20Islands%20II.py) | [leetcode.com](https://leetcode.com/problems/number-of-islands-ii/) |
+| 140 | Word Break II | O(2^n) | O(2^n) | [python](leetcode/hard/140.%20Word%20Break%20II.py) | [leetcode.com](https://leetcode.com/problems/word-break-ii/) |
 | 85 | Maximal Rectangle | O(n* m) | O(n) | [python](leetcode/hard/85.%20Maximal%20Rectangle.py) | [leetcode.com](https://leetcode.com/problems/maximal-rectangle/) |
 | 84 | Largest Rectangle in Histogram | O(n) | O(n) | [python](leetcode/hard/84.%20Largest%20Rectangle%20in%20Histogram.py) | [leetcode.com](https://leetcode.com/problems/largest-rectangle-in-histogram/) |
 | 42 | Trapping Rain Water | O(n) | O(1) | [python](leetcode/hard/42.%20Trapping%20Rain%20Water.py) | [leetcode.com](https://leetcode.com/problems/trapping-rain-water/) |
