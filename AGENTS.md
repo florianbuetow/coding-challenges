@@ -53,13 +53,22 @@ class Solution:
 | Command | Description |
 |---------|-------------|
 | `make generate` | Generate README.md and CHANGES.md (ALWAYS use this) |
-| `make init` | Build Docker image (after modifying generate_readme.py) |
+| `make init` | Build Docker image |
 | `make destroy` | Delete Docker image |
 | `make status` | Check if Docker image exists |
 
 **If `make generate` fails because Docker is not running:** STOP and tell the user to start Docker. Do NOT run Python scripts directly.
 
-**After modifying `generate_readme.py`:** Run `make destroy && make init` before `make generate`.
+## Modifying Generator Scripts
+
+When editing `generate_readme.py` or `generate_changes.py`:
+
+1. Make your changes to the script
+2. Run `make destroy && make init` to rebuild the Docker image
+3. Run `make generate` to test
+4. Commit the script changes, then commit README.md + CHANGES.md
+
+**The scripts are copied into the Docker image at build time.** If you skip the rebuild, your changes won't take effect.
 
 ## Git Guidelines
 
