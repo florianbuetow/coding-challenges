@@ -4,302 +4,130 @@ import urllib.parse
 from urllib.parse import urlparse
 
 
-# Function to extract time and space complexity from a file
-def extract_complexity(file_path):
-    time_complexity = "N/A"
-    space_complexity = "N/A"
-    time_found = False
-    space_found = False
+class BaseChallengeProcessor:
+    """Base class providing shared utility methods for all challenge processors."""
 
-    def parse_complexities(line):
-        line = line.strip()
+    def extract_complexity(self, file_path):
+        """Extract time and space complexity from a file."""
         time_complexity = "N/A"
         space_complexity = "N/A"
+        time_found = False
+        space_found = False
 
-        # Find positions of 'time' and 'space' in lowercase for case-insensitivity
-        time_idx = line.lower().find('time')
-        space_idx = line.lower().find('space')
-
-        # Nested function to extract complexity from 'O(' to the last ')' before a keyword
-        def extract_complexity(start_search_idx, keyword_idx):
-            start_idx = line.find('O(', start_search_idx, keyword_idx)
-            if start_idx == -1:
-                return "N/A"
-            # Find the rightmost closing bracket before the keyword
-            end_idx = line.rfind(')', start_idx, keyword_idx)
-            if end_idx == -1:
-                return "N/A"
-            return line[start_idx:end_idx + 1].strip()
-
-        # Case 1 and 2: Both "time" and "space" keywords are present
-        if time_idx != -1 and space_idx != -1:
-            if time_idx < space_idx:
-                # Case 1: "O(...) time ... O(...) space"
-                time_complexity = extract_complexity(0, time_idx)
-                space_complexity = extract_complexity(time_idx, space_idx)
-            else:
-                # Case 2: "O(...) space ... O(...) time"
-                space_complexity = extract_complexity(0, space_idx)
-                time_complexity = extract_complexity(space_idx, time_idx)
-
-            # Case 3 and 4: Only one complexity, applying to both "time" and "space"
-            if space_complexity == 'N/A': space_complexity = time_complexity
-            if time_complexity == 'N/A': time_complexity = space_complexity
-
-        # Case 5: Only "time" is specified
-        elif time_idx != -1:
-            time_complexity = extract_complexity(0, time_idx)
-
-        # Case 6: Only "space" is specified
-        elif space_idx != -1:
-            space_complexity = extract_complexity(0, space_idx)
-        return time_complexity, space_complexity
-
-    with open(file_path, 'r') as file:
-        for line in file:
+        def parse_complexities(line):
             line = line.strip()
+            time_complexity = "N/A"
+            space_complexity = "N/A"
 
-            # Check if the line is a comment
-            if line.startswith('#'):
-                # Extract complexity if any O(...) notation exists
-                time_complexity_tmp, space_complexity_tmp = parse_complexities(line)
-                if not time_found and time_complexity_tmp != "N/A":
-                    time_found = True
-                    time_complexity = time_complexity_tmp
-                if not space_found and space_complexity_tmp != "N/A":
-                    space_found = True
-                    space_complexity = space_complexity_tmp
+            # Find positions of 'time' and 'space' in lowercase for case-insensitivity
+            time_idx = line.lower().find('time')
+            space_idx = line.lower().find('space')
 
-            if time_found and space_found:
-                break
+            # Nested function to extract complexity from 'O(' to the last ')' before a keyword
+            def extract_complexity(start_search_idx, keyword_idx):
+                start_idx = line.find('O(', start_search_idx, keyword_idx)
+                if start_idx == -1:
+                    return "N/A"
+                # Find the rightmost closing bracket before the keyword
+                end_idx = line.rfind(')', start_idx, keyword_idx)
+                if end_idx == -1:
+                    return "N/A"
+                return line[start_idx:end_idx + 1].strip()
 
-    return time_complexity, space_complexity
+            # Case 1 and 2: Both "time" and "space" keywords are present
+            if time_idx != -1 and space_idx != -1:
+                if time_idx < space_idx:
+                    # Case 1: "O(...) time ... O(...) space"
+                    time_complexity = extract_complexity(0, time_idx)
+                    space_complexity = extract_complexity(time_idx, space_idx)
+                else:
+                    # Case 2: "O(...) space ... O(...) time"
+                    space_complexity = extract_complexity(0, space_idx)
+                    time_complexity = extract_complexity(space_idx, time_idx)
 
-# Function to extract problem source link from a file
-def extract_problem_link(file_path):
-    problem_link = "N/A"
+                # Case 3 and 4: Only one complexity, applying to both "time" and "space"
+                if space_complexity == 'N/A': space_complexity = time_complexity
+                if time_complexity == 'N/A': time_complexity = space_complexity
 
-    with open(file_path, 'r') as file:
-        for line in file:
-            if re.search(r'(link:|source:)', line, re.IGNORECASE):
-                match = re.search(r'http[s]?://\S+', line)
-                if match:
-                    problem_link = match.group(0).strip()
+            # Case 5: Only "time" is specified
+            elif time_idx != -1:
+                time_complexity = extract_complexity(0, time_idx)
+
+            # Case 6: Only "space" is specified
+            elif space_idx != -1:
+                space_complexity = extract_complexity(0, space_idx)
+            return time_complexity, space_complexity
+
+        with open(file_path, 'r') as file:
+            for line in file:
+                line = line.strip()
+
+                # Check if the line is a comment
+                if line.startswith('#'):
+                    # Extract complexity if any O(...) notation exists
+                    time_complexity_tmp, space_complexity_tmp = parse_complexities(line)
+                    if not time_found and time_complexity_tmp != "N/A":
+                        time_found = True
+                        time_complexity = time_complexity_tmp
+                    if not space_found and space_complexity_tmp != "N/A":
+                        space_found = True
+                        space_complexity = space_complexity_tmp
+
+                if time_found and space_found:
                     break
 
-    return problem_link
+        # Normalize "?" to "N/A"
+        if '?' in time_complexity:
+            time_complexity = "N/A"
+        if '?' in space_complexity:
+            space_complexity = "N/A"
+
+        return time_complexity, space_complexity
+
+    def extract_problem_link(self, file_path):
+        """Extract problem source link from a file."""
+        problem_link = "N/A"
+
+        with open(file_path, 'r') as file:
+            for line in file:
+                if re.search(r'(link:|source:)', line, re.IGNORECASE):
+                    match = re.search(r'http[s]?://\S+', line)
+                    if match:
+                        problem_link = match.group(0).strip()
+                        break
+
+        return problem_link
+
+    def extract_domain_name(self, url):
+        """Extract domain name from a URL."""
+        parsed_url = urlparse(url)
+        domain = parsed_url.netloc
+        # Extract only the main domain part, without subdomains
+        domain_parts = domain.split('.')
+        if len(domain_parts) >= 2:
+            return '.'.join(domain_parts[-2:])
+        return "N/A"
+
+    def _format_problem_link(self, problem):
+        """Format problem link for markdown."""
+        if 'N/A' in problem["problem_link"]:
+            return 'N/A'
+        else:
+            return f'[{problem["problem_domain"]}]({problem["problem_link"]})'
+
+    def generate_markdown(self, root_dir, folder_path):
+        """Generate markdown section. Must be implemented by subclasses."""
+        raise NotImplementedError
 
 
-# Function to extract domain name from a URL
-def extract_domain_name(url):
-    parsed_url = urlparse(url)
-    domain = parsed_url.netloc
-    # Extract only the main domain part, without subdomains
-    domain_parts = domain.split('.')
-    if len(domain_parts) >= 2:
-        return '.'.join(domain_parts[-2:])
-    return "N/A"
+class TwoLevelProcessor(BaseChallengeProcessor):
+    """Base class for processors with 2-level structure: {platform}/{difficulty}/{file}.py"""
 
-
-# Function to extract challenge name from AoC problem.txt file
-def extract_aoc_challenge_name(day_path):
-    """
-    Parse problem.txt to extract challenge name from line like:
-    '--- Day 6: Trash Compactor ---'
-    Returns the challenge name (e.g., 'Trash Compactor') or None if not found.
-    """
-    problem_file = os.path.join(day_path, 'problem.txt')
-    if not os.path.exists(problem_file):
-        return None
-
-    with open(problem_file, 'r') as f:
-        first_line = f.readline().strip()
-
-    # Match pattern: --- Day X: Challenge Name ---
-    match = re.match(r'^---\s*Day\s+\d+:\s*(.+?)\s*---$', first_line)
-    if match:
-        return match.group(1)
-    return None
-
-
-# Function to process AoC folder with 3-level structure: aoc/year/day-XX/
-def process_aoc_folder(aoc_path, root_dir):
-    """
-    Process aoc/ folder with structure: aoc/year/day-XX/solution_part_{1,2}.py
-    Returns: dict[year] -> list of problem entries
-    """
-    sections = {}
-
-    for year in os.listdir(aoc_path):
-        year_path = os.path.join(aoc_path, year)
-        if not os.path.isdir(year_path) or year.startswith('.'):
-            continue
-
-        problems = []
-        for day_folder in os.listdir(year_path):
-            day_path = os.path.join(year_path, day_folder)
-            if not os.path.isdir(day_path) or day_folder.startswith('.'):
-                continue
-
-            # Extract day number from "day-06" format
-            day_match = re.match(r'day-(\d+)', day_folder)
-            if not day_match:
-                continue
-            day_num = int(day_match.group(1))
-            day_num_padded = str(day_num).zfill(2)
-            date_str = f"{year}-12-{day_num_padded}"  # AoC runs in December
-
-            # Extract challenge name from problem.txt
-            challenge_name = extract_aoc_challenge_name(day_path)
-
-            # Process solution_part_1.py and solution_part_2.py
-            for part in [1, 2]:
-                filename = f"solution_part_{part}.py"
-                filepath = os.path.join(day_path, filename)
-                if not os.path.exists(filepath):
-                    continue
-
-                # Skip empty solution files
-                if os.path.getsize(filepath) == 0:
-                    continue
-
-                time_c, space_c = extract_complexity(filepath)
-                link = extract_problem_link(filepath)
-                domain = extract_domain_name(link)
-                relative_path = os.path.relpath(filepath, root_dir)
-
-                # Build challenge display name
-                if challenge_name:
-                    challenge_display = f"{challenge_name} {part}/2"
-                else:
-                    challenge_display = f"Day {day_num} {part}/2"
-
-                problems.append({
-                    "problem_number": day_num,
-                    "sort_key": (date_str, part),
-                    "challenge": challenge_display,
-                    "time": time_c,
-                    "space": space_c,
-                    "solution_link": urllib.parse.quote(relative_path),
-                    "solution_lang": "python",
-                    "problem_domain": domain,
-                    "problem_link": link
-                })
-
-        # Sort: day ascending, then part ascending
-        if problems:
-            problems.sort(key=lambda x: (x['problem_number'], x['sort_key'][1]))
-            sections[year] = problems
-
-    return sections
-
-
-# Function to process Codewars folder with kyu-based structure
-def process_codewars_folder(codewars_path, root_dir):
-    """
-    Process codewars/ folder with structure: codewars/kyu-{level}/{problem_name}.py
-    Returns: dict[kyu_level] -> list of problem entries
-    """
-    sections = {}
-
-    for kyu_folder in os.listdir(codewars_path):
-        kyu_path = os.path.join(codewars_path, kyu_folder)
-        if not os.path.isdir(kyu_path) or kyu_folder.startswith('.'):
-            continue
-
-        # Extract kyu level from "kyu-4" format
-        kyu_match = re.match(r'kyu-(\d+)', kyu_folder)
-        if not kyu_match:
-            continue
-        kyu_level = int(kyu_match.group(1))
-
-        problems = []
-        for filename in os.listdir(kyu_path):
-            if not filename.endswith('.py'):
-                continue
-
-            filepath = os.path.join(kyu_path, filename)
-
-            # Skip empty files
-            if os.path.getsize(filepath) == 0:
-                continue
-
-            # Convert snake_case filename to Title Case challenge name
-            problem_name = filename.replace('.py', '')
-            challenge_display = problem_name.replace('_', ' ').title()
-
-            time_c, space_c = extract_complexity(filepath)
-            link = extract_problem_link(filepath)
-            domain = extract_domain_name(link)
-            relative_path = os.path.relpath(filepath, root_dir)
-
-            problems.append({
-                "challenge": challenge_display,
-                "time": time_c,
-                "space": space_c,
-                "solution_link": urllib.parse.quote(relative_path),
-                "solution_lang": "python",
-                "problem_domain": domain,
-                "problem_link": link
-            })
-
-        # Sort alphabetically by challenge name
-        if problems:
-            problems.sort(key=lambda x: x['challenge'].lower())
-            sections[kyu_folder] = problems
-
-    return sections
-
-
-# Function to read the project description from DESCRIPTION.md
-def read_description():
-    description_file = 'DESCRIPTION.md'
-    if os.path.exists(description_file):
-        with open(description_file, 'r') as file:
-            return file.read().strip()
-    else:
-        raise FileNotFoundError(f"Error: {description_file} not found. Please ensure it exists in the project directory.")
-
-# Function to read the project usage instructions from USAGE.md
-def read_usage():
-    description_file = 'USAGE.md'
-    if os.path.exists(description_file):
-        with open(description_file, 'r') as file:
-            return file.read().strip()
-    else:
-        raise FileNotFoundError(f"Error: {description_file} not found. Please ensure it exists in the project directory.")
-
-# Function to generate the index for the README.md file
-def generate_readme(root_dir):
-    project_description = read_description()
-    project_usage = read_usage()
-
-    readme_file = os.path.join(root_dir, 'README.md')
-
-    sections = {}
-    for folder in os.listdir(root_dir):
-        if folder.startswith('.'):
-            continue
-        folder_path = os.path.join(root_dir, folder)
-        if not os.path.isdir(folder_path):
-            continue
-
-        # Use dedicated processor for AoC (3-level structure)
-        if folder == 'aoc':
-            aoc_sections = process_aoc_folder(folder_path, root_dir)
-            if aoc_sections:
-                sections[folder] = aoc_sections
-            continue
-
-        # Use dedicated processor for Codewars (kyu-based structure)
-        if folder == 'codewars':
-            codewars_sections = process_codewars_folder(folder_path, root_dir)
-            if codewars_sections:
-                sections[folder] = codewars_sections
-            continue
-
-        # Standard 2-level processing for leetcode/deep-ml
+    def generate_markdown(self, root_dir, folder_path):
+        """Generate markdown for 2-level folder structure."""
+        folder_name = os.path.basename(folder_path)
         subfolders = {}
+        
         for subfolder in os.listdir(folder_path):
             subfolder_path = os.path.join(folder_path, subfolder)
             if os.path.isdir(subfolder_path):
@@ -313,11 +141,11 @@ def generate_readme(root_dir):
                         url_encoded_path = urllib.parse.quote(relative_path)
 
                         # Extract time and space complexity
-                        time_complexity, space_complexity = extract_complexity(file_path)
+                        time_complexity, space_complexity = self.extract_complexity(file_path)
 
                         # Extract problem source link
-                        problem_link = extract_problem_link(file_path)
-                        problem_domain = extract_domain_name(problem_link)
+                        problem_link = self.extract_problem_link(file_path)
+                        problem_domain = self.extract_domain_name(problem_link)
 
                         # Extract problem number from filename or use list index + 1
                         match = re.match(r'^(\d+)(\S*)', filename)
@@ -340,51 +168,292 @@ def generate_readme(root_dir):
                 if problems:
                     problems = sorted(problems, key=lambda x: int(x["problem_number"]))
                     subfolders[subfolder] = problems
-        if subfolders:
-            sections[folder] = subfolders
 
-    with open(readme_file, 'w') as readme:
-        readme.write('# Coding-Challenges\n\n')
-        readme.write(f'{project_description}\n\n')
+        if not subfolders:
+            return ""
 
-        for section in sorted(sections):
-            subfolders = sections[section]
-            # Use proper display name for sections
-            if section == 'aoc':
-                section_title = 'Advent of Code'
-            else:
-                section_title = section.capitalize()
-            readme.write(f'## {section_title}\n\n')
-            for subfolder in sorted(subfolders):
-                problems = subfolders[subfolder]
-                readme.write(f'### {subfolder.capitalize()}\n')
-                if section == 'aoc':
-                    readme.write('| Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |\n')
-                    readme.write('| --- | --- | --- | --- | --- | --- |\n')
-                elif section == 'codewars':
-                    readme.write('| Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |\n')
-                    readme.write('| --- | --- | --- | --- | --- |\n')
-                else:
-                    readme.write('| Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |\n')
-                    readme.write('| --- | --- | --- | --- | --- | --- |\n')
-                for problem in problems:
-                    if 'N/A' in problem["problem_link"]:
-                        problem_md_link = 'N/A'
+        # Generate markdown
+        markdown = []
+        section_title = folder_name.capitalize()
+        markdown.append(f'## {section_title}\n')
+        
+        for subfolder in sorted(subfolders):
+            problems = subfolders[subfolder]
+            markdown.append(f'### {subfolder.capitalize()}\n')
+            markdown.append('| Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |\n')
+            markdown.append('| --- | --- | --- | --- | --- | --- |\n')
+            for problem in problems:
+                problem_md_link = self._format_problem_link(problem)
+                markdown.append(f'| {problem["problem_number"]} | {problem["challenge"]} '
+                               f'| {problem["time"]} | {problem["space"]} '
+                               f'| [{problem["solution_lang"]}]({problem["solution_link"]}) '
+                               f'| {problem_md_link} |\n')
+            markdown.append('\n')
+
+        return ''.join(markdown)
+
+
+class LeetCodeProcessor(TwoLevelProcessor):
+    """Processor for LeetCode challenges."""
+    pass
+
+
+class DeepMLProcessor(TwoLevelProcessor):
+    """Processor for Deep-ML challenges."""
+    pass
+
+
+class AdventOfCodeProcessor(BaseChallengeProcessor):
+    """Processor for Advent of Code challenges with 3-level structure: aoc/year/day-XX/"""
+
+    def extract_aoc_challenge_name(self, day_path):
+        """
+        Parse problem.txt to extract challenge name from line like:
+        '--- Day 6: Trash Compactor ---'
+        Returns the challenge name (e.g., 'Trash Compactor') or None if not found.
+        """
+        problem_file = os.path.join(day_path, 'problem.txt')
+        if not os.path.exists(problem_file):
+            return None
+
+        with open(problem_file, 'r') as f:
+            first_line = f.readline().strip()
+
+        # Match pattern: --- Day X: Challenge Name ---
+        match = re.match(r'^---\s*Day\s+\d+:\s*(.+?)\s*---$', first_line)
+        if match:
+            return match.group(1)
+        return None
+
+    def generate_markdown(self, root_dir, folder_path):
+        """Generate markdown for AoC folder structure."""
+        sections = {}
+
+        for year in os.listdir(folder_path):
+            year_path = os.path.join(folder_path, year)
+            if not os.path.isdir(year_path) or year.startswith('.'):
+                continue
+
+            problems = []
+            for day_folder in os.listdir(year_path):
+                day_path = os.path.join(year_path, day_folder)
+                if not os.path.isdir(day_path) or day_folder.startswith('.'):
+                    continue
+
+                # Extract day number from "day-06" format
+                day_match = re.match(r'day-(\d+)', day_folder)
+                if not day_match:
+                    continue
+                day_num = int(day_match.group(1))
+                day_num_padded = str(day_num).zfill(2)
+                date_str = f"{year}-12-{day_num_padded}"  # AoC runs in December
+
+                # Extract challenge name from problem.txt
+                challenge_name = self.extract_aoc_challenge_name(day_path)
+
+                # Process solution_part_1.py and solution_part_2.py
+                for part in [1, 2]:
+                    filename = f"solution_part_{part}.py"
+                    filepath = os.path.join(day_path, filename)
+                    if not os.path.exists(filepath):
+                        continue
+
+                    # Skip empty solution files
+                    if os.path.getsize(filepath) == 0:
+                        continue
+
+                    time_c, space_c = self.extract_complexity(filepath)
+                    link = self.extract_problem_link(filepath)
+                    domain = self.extract_domain_name(link)
+                    relative_path = os.path.relpath(filepath, root_dir)
+
+                    # Build challenge display name
+                    if challenge_name:
+                        challenge_display = f"{challenge_name} {part}/2"
                     else:
-                        problem_md_link = f'[{problem["problem_domain"]}]({problem["problem_link"]})'
-                    if section == 'codewars':
-                        readme.write(f'| {problem["challenge"]} '
-                                     f'| {problem["time"]} | {problem["space"]} '
-                                     f'| [{problem["solution_lang"]}]({problem["solution_link"]}) '
-                                     f'| {problem_md_link} |\n')
-                    else:
-                        readme.write(f'| {problem["problem_number"]} | {problem["challenge"]} '
-                                     f'| {problem["time"]} | {problem["space"]} '
-                                     f'| [{problem["solution_lang"]}]({problem["solution_link"]}) '
-                                     f'| {problem_md_link} |\n')
-                readme.write('\n')
+                        challenge_display = f"Day {day_num} {part}/2"
 
-        readme.write(f'{project_usage}\n\n')
+                    problems.append({
+                        "problem_number": day_num,
+                        "sort_key": (date_str, part),
+                        "challenge": challenge_display,
+                        "time": time_c,
+                        "space": space_c,
+                        "solution_link": urllib.parse.quote(relative_path),
+                        "solution_lang": "python",
+                        "problem_domain": domain,
+                        "problem_link": link
+                    })
+
+            # Sort: day ascending, then part ascending
+            if problems:
+                problems.sort(key=lambda x: (x['problem_number'], x['sort_key'][1]))
+                sections[year] = problems
+
+        if not sections:
+            return ""
+
+        # Generate markdown
+        markdown = []
+        markdown.append('## Advent of Code\n')
+        
+        for year in sorted(sections):
+            problems = sections[year]
+            markdown.append(f'### {year.capitalize()}\n')
+            markdown.append('| Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |\n')
+            markdown.append('| --- | --- | --- | --- | --- | --- |\n')
+            for problem in problems:
+                problem_md_link = self._format_problem_link(problem)
+                markdown.append(f'| {problem["problem_number"]} | {problem["challenge"]} '
+                               f'| {problem["time"]} | {problem["space"]} '
+                               f'| [{problem["solution_lang"]}]({problem["solution_link"]}) '
+                               f'| {problem_md_link} |\n')
+            markdown.append('\n')
+
+        return ''.join(markdown)
+
+
+class CodewarsProcessor(BaseChallengeProcessor):
+    """Processor for Codewars challenges with kyu-based structure."""
+
+    def generate_markdown(self, root_dir, folder_path):
+        """Generate markdown for Codewars folder structure."""
+        sections = {}
+
+        for kyu_folder in os.listdir(folder_path):
+            kyu_path = os.path.join(folder_path, kyu_folder)
+            if not os.path.isdir(kyu_path) or kyu_folder.startswith('.'):
+                continue
+
+            # Extract kyu level from "kyu-4" format
+            kyu_match = re.match(r'kyu-(\d+)', kyu_folder)
+            if not kyu_match:
+                continue
+            kyu_level = int(kyu_match.group(1))
+
+            problems = []
+            for filename in os.listdir(kyu_path):
+                if not filename.endswith('.py'):
+                    continue
+
+                filepath = os.path.join(kyu_path, filename)
+
+                # Skip empty files
+                if os.path.getsize(filepath) == 0:
+                    continue
+
+                # Convert snake_case filename to Title Case challenge name
+                problem_name = filename.replace('.py', '')
+                challenge_display = problem_name.replace('_', ' ').title()
+
+                time_c, space_c = self.extract_complexity(filepath)
+                link = self.extract_problem_link(filepath)
+                domain = self.extract_domain_name(link)
+                relative_path = os.path.relpath(filepath, root_dir)
+
+                problems.append({
+                    "challenge": challenge_display,
+                    "time": time_c,
+                    "space": space_c,
+                    "solution_link": urllib.parse.quote(relative_path),
+                    "solution_lang": "python",
+                    "problem_domain": domain,
+                    "problem_link": link
+                })
+
+            # Sort alphabetically by challenge name
+            if problems:
+                problems.sort(key=lambda x: x['challenge'].lower())
+                sections[kyu_folder] = problems
+
+        if not sections:
+            return ""
+
+        # Generate markdown
+        markdown = []
+        markdown.append('## Codewars\n')
+        
+        for kyu_folder in sorted(sections):
+            problems = sections[kyu_folder]
+            markdown.append(f'### {kyu_folder.capitalize()}\n')
+            markdown.append('| Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |\n')
+            markdown.append('| --- | --- | --- | --- | --- |\n')
+            for problem in problems:
+                problem_md_link = self._format_problem_link(problem)
+                markdown.append(f'| {problem["challenge"]} '
+                               f'| {problem["time"]} | {problem["space"]} '
+                               f'| [{problem["solution_lang"]}]({problem["solution_link"]}) '
+                               f'| {problem_md_link} |\n')
+            markdown.append('\n')
+
+        return ''.join(markdown)
+
+
+class ReadmeGenerator:
+    """Main class for generating README.md from challenge solutions."""
+
+    def __init__(self):
+        """Initialize processor registry."""
+        self.processors = {
+            'leetcode': LeetCodeProcessor(),
+            'deep-ml': DeepMLProcessor(),
+            'aoc': AdventOfCodeProcessor(),
+            'codewars': CodewarsProcessor()
+        }
+
+    def read_description(self):
+        """Read the project description from DESCRIPTION.md."""
+        description_file = 'DESCRIPTION.md'
+        if os.path.exists(description_file):
+            with open(description_file, 'r') as file:
+                return file.read().strip()
+        else:
+            raise FileNotFoundError(f"Error: {description_file} not found. Please ensure it exists in the project directory.")
+
+    def read_usage(self):
+        """Read the project usage instructions from USAGE.md."""
+        description_file = 'USAGE.md'
+        if os.path.exists(description_file):
+            with open(description_file, 'r') as file:
+                return file.read().strip()
+        else:
+            raise FileNotFoundError(f"Error: {description_file} not found. Please ensure it exists in the project directory.")
+
+    def generate(self, root_dir):
+        """Generate the README.md file."""
+        project_description = self.read_description()
+        project_usage = self.read_usage()
+
+        readme_file = os.path.join(root_dir, 'README.md')
+
+        markdown_sections = []
+        
+        for folder in os.listdir(root_dir):
+            if folder.startswith('.'):
+                continue
+            folder_path = os.path.join(root_dir, folder)
+            if not os.path.isdir(folder_path):
+                continue
+
+            # Use dedicated processor if available
+            if folder in self.processors:
+                markdown = self.processors[folder].generate_markdown(root_dir, folder_path)
+                if markdown:
+                    markdown_sections.append((folder, markdown))
+
+        # Sort sections by folder name to maintain consistent order
+        markdown_sections.sort(key=lambda x: x[0])
+
+        with open(readme_file, 'w') as readme:
+            readme.write('# Coding-Challenges\n\n')
+            readme.write(f'{project_description}\n\n')
+
+            for folder, markdown in markdown_sections:
+                readme.write(markdown)
+
+            readme.write(f'{project_usage}\n\n')
+
 
 if __name__ == '__main__':
-    generate_readme("./")
+    generator = ReadmeGenerator()
+    generator.generate("./")

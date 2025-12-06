@@ -29,32 +29,29 @@ ___Leetcode___
 The ```./leetcode/``` directory is structured into categories such as "Easy," "Medium," and "Hard" for ease of navigation. For each problem, you'll find a detailed solution along with its associated time and space complexities, parsed directly from the solution file.
 
 ## Advent of Code
-
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Secret Entrance 1/2 | O(n) | O(1) | [python](aoc/2025/day-01/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/1) |
 | 1 | Secret Entrance 2/2 | O(n) | O(1) | [python](aoc/2025/day-01/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/1) |
-| 2 | Gift Shop 1/2 | O(?) | O(n) | [python](aoc/2025/day-02/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/2) |
-| 2 | Gift Shop 2/2 | O(?) | O(n) | [python](aoc/2025/day-02/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/2) |
+| 2 | Gift Shop 1/2 | N/A | O(n) | [python](aoc/2025/day-02/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/2) |
+| 2 | Gift Shop 2/2 | N/A | O(n) | [python](aoc/2025/day-02/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/2) |
 | 3 | Lobby 1/2 | O(n*m) | O(n) | [python](aoc/2025/day-03/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/3) |
 | 3 | Lobby 2/2 | O(n*m) | O(n) | [python](aoc/2025/day-03/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/3) |
-| 4 | Printing Department 1/2 | O(?) | O(n*m) | [python](aoc/2025/day-04/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/4) |
-| 4 | Printing Department 2/2 | O(?) | O(n*m) | [python](aoc/2025/day-04/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/4) |
+| 4 | Printing Department 1/2 | N/A | O(n*m) | [python](aoc/2025/day-04/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/4) |
+| 4 | Printing Department 2/2 | N/A | O(n*m) | [python](aoc/2025/day-04/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/4) |
 | 5 | Cafeteria 1/2 | O(n log n) | O(n) | [python](aoc/2025/day-05/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/5) |
 | 5 | Cafeteria 2/2 | O(n log n) | O(n) | [python](aoc/2025/day-05/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/5) |
 | 6 | Trash Compactor 1/2 | O(n*m) | O(m) | [python](aoc/2025/day-06/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/6) |
 | 6 | Trash Compactor 2/2 | O(n*m) | O(n*m) | [python](aoc/2025/day-06/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/6) |
 
 ## Codewars
-
 ### Kyu-4
 | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
 | The Observed Pin | O(n) | O(n) | [python](codewars/kyu-4/the_observed_pin.py) | [codewars.com](https://www.codewars.com/kata/5263c6999e0f40dee200059d) |
 
 ## Deep-ml
-
 ### Easy
 | Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- | --- |
@@ -78,7 +75,6 @@ The ```./leetcode/``` directory is structured into categories such as "Easy," "M
 | 18 | Cross-Validation Data Split Implementation | N/A | N/A | [python](deep-ml/medium/18%20Cross-Validation%20Data%20Split%20Implementation.py) | N/A |
 
 ## Leetcode
-
 ### Easy
 | Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- | --- |
