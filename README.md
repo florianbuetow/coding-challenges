@@ -32,6 +32,7 @@ This file contains recent additions and updates to solution files.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2025-12-06 | LeetCode Easy | Minimum Number of Flips to Reverse Binary String | [python](leetcode/easy/3750.%20Minimum%20Number%20of%20Flips%20to%20Reverse%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/) |
 | 2025-12-06 | LeetCode Easy | Maximize Expression of Three Elements | [python](leetcode/easy/3745.%20Maximize%20Expression%20of%20Three%20Elements.py) | [leetcode.com](https://leetcode.com/problems/maximize-expression-of-three-elements/) |
 | 2025-12-06 | LeetCode Easy | Minimum Distance Between Three Equal Elements I | [python](leetcode/easy/3740.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20I.py) | [leetcode.com](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/) |
 | 2025-12-06 | LeetCode Easy | Minimum Moves to Equal Array Elements III | [python](leetcode/easy/3736.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20III.py) | [leetcode.com](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) |
@@ -41,7 +42,6 @@ This file contains recent additions and updates to solution files.
 | 2025-12-06 | AoC 2025 Day 05 | Solution Part 2 | [python](aoc/2025/day-05/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/5) |
 | 2025-12-06 | AoC 2025 Day 04 | Solution Part 1 | [python](aoc/2025/day-04/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/4) |
 | 2025-12-06 | AoC 2025 Day 04 | Solution Part 2 | [python](aoc/2025/day-04/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/4) |
-| 2025-12-06 | AoC 2025 Day 03 | Solution Part 1 | [python](aoc/2025/day-03/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/3) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -154,6 +154,7 @@ This file contains recent additions and updates to solution files.
 | 3740 | Minimum Distance Between Three Equal Elements I | O(n) | O(n) | [python](leetcode/easy/3740.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20I.py) | [leetcode.com](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/) |
 | 3745 | Maximize Expression of Three Elements | O(n) | O(1) | [python](leetcode/easy/3745.%20Maximize%20Expression%20of%20Three%20Elements.py) | [leetcode.com](https://leetcode.com/problems/maximize-expression-of-three-elements/) |
 | 3750 | Minimum Number of Flips to Reverse Binary String | O(log n) | O(log n) | [python](leetcode/easy/3750.%20Minimum%20Number%20of%20Flips%20to%20Reverse%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/) |
+| 3754 | Concatenate Non-Zero Digits and Multiply by Sum I | O(log n) | O(log n) | [python](leetcode/easy/3754.%20Concatenate%20Non-Zero%20Digits%20and%20Multiply%20by%20Sum%20I.py) | [leetcode.com](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/) |
 
 ### Hard
 | Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
