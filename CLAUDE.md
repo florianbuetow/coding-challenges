@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-This repository contains Python solutions to coding challenges from LeetCode and Deep-ML platforms. Solutions are organized by platform and difficulty, and the README.md is auto-generated from solution file metadata.
+This repository contains Python solutions to coding challenges from LeetCode, Deep-ML, Codewars, and Advent of Code platforms. Solutions are organized by platform and difficulty, and the README.md is auto-generated from solution file metadata.
 
 ## Key Commands
 
@@ -57,6 +57,18 @@ leetcode/
 deep-ml/
   ├── easy/
   └── medium/
+codewars/
+  ├── kyu-4/
+  ├── kyu-5/
+  └── ...
+aoc/
+  └── {year}/
+      └── day-{XX}/
+          ├── problem.txt
+          ├── input_0.txt
+          ├── input_1.txt
+          ├── solution_part_1.py
+          └── solution_part_2.py
 ```
 
 ## Solution File Format (Critical)
@@ -106,6 +118,8 @@ The parser extracts the leading number and removes it (plus following non-whites
 
 ## Adding a New Solution
 
+### LeetCode / Deep-ML
+
 1. Create file in appropriate directory: `{platform}/{difficulty}/{number}. {Problem Name}.py`
 2. Add complexity annotation in comments (exactly one blank line before the class):
    ```python
@@ -117,6 +131,36 @@ The parser extracts the leading number and removes it (plus following non-whites
 3. Implement the solution
 4. Regenerate README: **ALWAYS use `make generate`** - NEVER run Python scripts directly
 5. Verify the new entry appears correctly in `README.md`
+
+### Codewars
+
+1. Create file: `codewars/kyu-{level}/{problem_name}.py` (snake_case, no number prefix)
+2. Add annotations:
+   ```python
+   # O(n) time and space
+   # Link: https://www.codewars.com/kata/{kata_id}
+
+   class Solution:
+   ```
+3. Regenerate README with `make generate`
+
+### Advent of Code
+
+1. Create directory: `aoc/{year}/day-{XX}/` (XX is zero-padded day number)
+2. Add files:
+   - `problem.txt` - First line must be `--- Day X: Challenge Name ---`
+   - `input_0.txt` - Sample input
+   - `input_1.txt` - Puzzle input
+   - `solution_part_1.py` and `solution_part_2.py`
+3. Add annotations in solution files:
+   ```python
+   # O(n) time and O(1) space
+   # link: https://adventofcode.com/{year}/day/{day}
+
+   class Solution:
+   ```
+4. Empty solution files are automatically skipped in README generation
+5. Regenerate README with `make generate`
 
 ## Important Notes
 
