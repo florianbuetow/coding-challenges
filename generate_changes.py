@@ -400,5 +400,5 @@ class ChangesGenerator:
 if __name__ == '__main__':
     """Main function to generate CHANGES.md."""
     repo_path = Path(__file__).resolve().parent
-    generator = ChangesGenerator(path=repo_path, limit=5)
+    generator = ChangesGenerator(path=repo_path, limit=10)
     generator.generate_and_write(repo_path / 'CHANGES.md')

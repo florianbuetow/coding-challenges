@@ -455,5 +455,5 @@ if __name__ == '__main__':
     generator.generate("./")
 
     # Generate CHANGES.md
-    changes_generator = ChangesGenerator(path=Path("./"), limit=5)
+    changes_generator = ChangesGenerator(path=Path("./"), limit=10)
     changes_generator.generate_and_write(Path("./CHANGES.md"))
