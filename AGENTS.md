@@ -18,6 +18,8 @@ This repository contains Python solutions to coding challenges from LeetCode, De
 
 **The order matters: CHANGES.md is generated from git history, so the solution must be committed before running `make generate`.**
 
+**IMPORTANT:** Do NOT stage README.md or CHANGES.md before running `make generate`. If these files are already staged, the generated output will overwrite the working directory copies but the staged versions will be stale. Always run `make generate` with a clean staging area, then stage and commit the freshly generated files.
+
 ### Solution File Format
 
 ```python
