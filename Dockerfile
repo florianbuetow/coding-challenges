@@ -17,6 +17,6 @@ COPY generate_readme.py .
 VOLUME ["/app/output"]
 
 # Run the generator script to generate the README.md file
-CMD ["bash", "-c", "python generate_readme.py && cp README.md /app/output/"]
+CMD ["bash", "-c", "python generate_readme.py"]
 
 # Automatically exit the container after execution

@@ -12,18 +12,17 @@ endef
 help:
 	@echo ""
 	@echo "Available targets:"
-	@echo "  make init       - Build Docker image (run this first)"
-	@echo "  make generate   - Generate README.md"
-	@echo "  make status     - Check if Docker image exists"
-	@echo "  make destroy    - Delete Docker image"
-	@echo "  make help       - Show this help message"
+	@echo "  make init     - Build Docker image (run this first)"
+	@echo "  make generate - Generate README.md"
+	@echo "  make status   - Check if Docker image exists"
+	@echo "  make destroy  - Delete Docker image"
+	@echo "  make help     - Show this help message"
 	@echo ""
 
-# Generate README using existing image (depends on init)
+# Generate README using existing image
 generate: init
-	@echo ""
-	@echo "Removing existing README.md file..."
 	@rm -f README.md
+	@echo ""
 	@echo "Running Docker container to generate README.md..."
 	@docker run --rm \
 		-v "$$(pwd)/leetcode":/app/leetcode:ro \
