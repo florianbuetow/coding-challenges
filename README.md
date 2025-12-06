@@ -32,6 +32,7 @@ This file contains recent additions and updates to solution files.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2025-12-06 | LeetCode Easy | Concatenate Non-Zero Digits and Multiply by Sum I | [python](leetcode/easy/3754.%20Concatenate%20Non-Zero%20Digits%20and%20Multiply%20by%20Sum%20I.py) | [leetcode.com](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/) |
 | 2025-12-06 | LeetCode Easy | Minimum Number of Flips to Reverse Binary String | [python](leetcode/easy/3750.%20Minimum%20Number%20of%20Flips%20to%20Reverse%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/) |
 | 2025-12-06 | LeetCode Easy | Maximize Expression of Three Elements | [python](leetcode/easy/3745.%20Maximize%20Expression%20of%20Three%20Elements.py) | [leetcode.com](https://leetcode.com/problems/maximize-expression-of-three-elements/) |
 | 2025-12-06 | LeetCode Easy | Minimum Distance Between Three Equal Elements I | [python](leetcode/easy/3740.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20I.py) | [leetcode.com](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/) |
@@ -41,7 +42,6 @@ This file contains recent additions and updates to solution files.
 | 2025-12-06 | AoC 2025 Day 05 | Solution Part 1 | [python](aoc/2025/day-05/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/5) |
 | 2025-12-06 | AoC 2025 Day 05 | Solution Part 2 | [python](aoc/2025/day-05/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/5) |
 | 2025-12-06 | AoC 2025 Day 04 | Solution Part 1 | [python](aoc/2025/day-04/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/4) |
-| 2025-12-06 | AoC 2025 Day 04 | Solution Part 2 | [python](aoc/2025/day-04/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/4) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -211,6 +211,7 @@ This file contains recent additions and updates to solution files.
 | 417 | Pacific Atlantic Water Flow | O(n*m) | O(n*m) | [python](leetcode/medium/417.%20Pacific%20Atlantic%20Water%20Flow.py) | [leetcode.com](https://leetcode.com/problems/pacific-atlantic-water-flow/) |
 | 442 | Find All Duplicates in an Array | O(n) | O(n) | [python](leetcode/medium/442.%20Find%20All%20Duplicates%20in%20an%20Array.py) | [leetcode.com](https://leetcode.com/problems/find-all-duplicates-in-an-array/) |
 | 474 | Ones and Zeroes | O(m*n*k) | O(m*n) | [python](leetcode/medium/474.%20Ones%20and%20Zeroes.py) | [leetcode.com](https://leetcode.com/problems/ones-and-zeroes/) |
+| 481 | Magical String | O(n) | O(n) | [python](leetcode/medium/481.%20Magical%20String.py) | [leetcode.com](https://leetcode.com/problems/magical-string/) |
 | 611 | Valid Triangle Number | O(n log n + n*n) | O(1) | [python](leetcode/medium/611.%20Valid%20Triangle%20Number.py) | [leetcode.com](https://leetcode.com/problems/valid-triangle-number/) |
 | 623 | Add One Row to Tree | O(n) | O(n) | [python](leetcode/medium/623.%20Add%20One%20Row%20to%20Tree.py) | [leetcode.com](https://leetcode.com/problems/add-one-row-to-tree/) |
 | 633 | Sum of Square Numbers | O(sqrt(c) * log c) | O(1) | [python](leetcode/medium/633.%20Sum%20of%20Square%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/sum-of-square-numbers/) |
