@@ -78,7 +78,7 @@ When editing `generate_readme.py` or `generate_changes.py`:
 - **NEVER** use `git add -A` or `git add .` - stage files explicitly
 - **NEVER** use `git -C` - run git commands directly from the working directory
 - **ALWAYS** push after committing
-- **Commit messages:** Simple format like "Add LC {number} ({difficulty})"
+- **Commit messages:** Before committing solution files, run `git log --oneline -10` to find similar commits and match their format exactly
 - **Separate commits:** Infrastructure changes (AGENTS.md, Makefile, USAGE.md) go in separate commits from solution files
 
 ## File Reference
