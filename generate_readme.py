@@ -451,9 +451,10 @@ class ReadmeGenerator:
 
 
 if __name__ == '__main__':
-    generator = ReadmeGenerator()
-    generator.generate("./")
-
-    # Generate CHANGES.md
+    # Generate CHANGES.md FIRST (so README.md gets the fresh content)
     changes_generator = ChangesGenerator(path=Path("./"), limit=10)
     changes_generator.generate_and_write(Path("./CHANGES.md"))
+
+    # Then generate README.md (which reads the freshly created CHANGES.md)
+    generator = ReadmeGenerator()
+    generator.generate("./")
