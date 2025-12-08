@@ -60,6 +60,8 @@ This file contains recent additions and updates to solution files.
 | 6 | Trash Compactor 2/2 | O(n*m) | O(n*m) | [python](aoc/2025/day-06/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/6) |
 | 7 | Laboratories 1/2 | O(n*m) | O(m) | [python](aoc/2025/day-07/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/7) |
 | 7 | Laboratories 2/2 | O(n*m) | O(m) | [python](aoc/2025/day-07/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/7) |
+| 8 | Laboratories 1/2 | O(n*m) | O(m) | [python](aoc/2025/day-08/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/7) |
+| 8 | Laboratories 2/2 | O(n*m) | O(m) | [python](aoc/2025/day-08/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/7) |
 
 # Codewars
 ### Kyu-4
@@ -133,6 +135,7 @@ This file contains recent additions and updates to solution files.
 | 1732 | Find the Highest Altitude | O(n) | O(1) | [python](leetcode/easy/1732.%20Find%20the%20Highest%20Altitude.py) | [leetcode.com](https://leetcode.com/problems/find-the-highest-altitude/) |
 | 1791 | Find Center of Star Graph | O(1) | O(1) | [python](leetcode/easy/1791.%20Find%20Center%20of%20Star%20Graph.py) | [leetcode.com](https://leetcode.com/problems/find-center-of-star-graph/) |
 | 1863 | Sum of All Subset XOR Totals | O(n^2) | O(n) | [python](leetcode/easy/1863.%20Sum%20of%20All%20Subset%20XOR%20Totals.py) | [leetcode.com](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) |
+| 1925 | Count Square Sum Triples | O(n) | O(n) | [python](leetcode/easy/1925.%20Count%20Square%20Sum%20Triples.py) | [leetcode.com](https://leetcode.com/problems/count-square-sum-triples/) |
 | 1935 | Maximum Number of Words You Can Type (alt) | O(n) | O(n) | [python](leetcode/easy/1935.%20Maximum%20Number%20of%20Words%20You%20Can%20Type%20%28alt%29.py) | [leetcode.com](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) |
 | 1935 | Maximum Number of Words You Can Type | O(n) | O(1) | [python](leetcode/easy/1935.%20Maximum%20Number%20of%20Words%20You%20Can%20Type.py) | [leetcode.com](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) |
 | 1957 | Delete Characters to Make Fancy String | O(n) | O(n) | [python](leetcode/easy/1957.%20Delete%20Characters%20to%20Make%20Fancy%20String.py) | [leetcode.com](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) |
