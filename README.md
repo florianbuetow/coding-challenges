@@ -32,6 +32,7 @@ This file contains recent additions and updates to solution files.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2025-12-10 | LeetCode Medium | Count the Number of Computer Unlocking Permutations | [python](leetcode/medium/3577.%20Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/) |
 | 2025-12-10 | AoC 2025 Day 09 | Solution Part 1 | [python](aoc/2025/day-09/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/9) |
 | 2025-12-10 | AoC 2025 Day 09 | Solution Part 2 | [python](aoc/2025/day-09/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/9) |
 | 2025-12-08 | AoC 2025 Day 08 | Solution Part 1 | [python](aoc/2025/day-08/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/8) |
@@ -41,7 +42,6 @@ This file contains recent additions and updates to solution files.
 | 2025-12-07 | AoC 2025 Day 07 | Solution Part 2 | [python](aoc/2025/day-07/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/7) |
 | 2025-12-07 | LeetCode Easy | Count Odd Numbers in an Interval Range | [python](leetcode/easy/1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range.py) | [leetcode.com](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) |
 | 2025-12-06 | Codewars Kyu 5 | Rot13 | [python](codewars/kyu-5/rot13.py) | [codewars.com](https://www.codewars.com/kata/530e15517bc88ac656000716/) |
-| 2025-12-06 | LeetCode Easy | Contains Duplicate II | [python](leetcode/easy/219.%20Contains%20Duplicate%20II.py) | [leetcode.com](https://leetcode.com/problems/contains-duplicate-ii/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -313,6 +313,7 @@ This file contains recent additions and updates to solution files.
 | 3484 | Design Spreadsheet | O(m) | O(n) | [python](leetcode/medium/3484.%20Design%20Spreadsheet.py) | [leetcode.com](https://leetcode.com/problems/design-spreadsheet/) |
 | 3494 | Find the Minimum Amount of Time to Brew Potions | O(n*m) | O(m) | [python](leetcode/medium/3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions.py) | [leetcode.com](https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/) |
 | 3542 | Minimum Operations to Convert All Elements to Zero | O(n) | O(n) | [python](leetcode/medium/3542.%20Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero) |
+| 3577 | Count the Number of Computer Unlocking Permutations | O(n) | O(1) | [python](leetcode/medium/3577.%20Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/) |
 | 3578 | Count Partitions With Max-Min Difference at Most K | O(n) | O(n) | [python](leetcode/medium/3578.%20Count%20Partitions%20With%20Max-Min%20Difference%20at%20Most%20K.py) | [leetcode.com](https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k) |
 
 ## Generating the README
