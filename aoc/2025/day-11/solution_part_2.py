@@ -1,7 +1,8 @@
-# O(n*m) time and O(m) space, n = num lines, m = max(line length)
-# link: https://adventofcode.com/2025/day/10
+# O(n*m) time and space, n = num lines, m = max(line length)
+# link: https://adventofcode.com/2025/day/11
 
-from collections import defaultdict
+from functools import lru_cache
+from collections import deque, defaultdict
 
 class Solution:
     def computeNumberOfConnections(self, filename) -> int:
@@ -21,24 +22,29 @@ class Solution:
                 g[src] = set(destinations)
             return g
 
-        def dfsHelper(g, device, visited):
-            if device in visited: return 0
-            if device == 'out': 
-                if 'dac' in visited and 'fft' in visited:
-                    return 1
-                return 0
-            visited.add(device)
-            num_paths = 0
-            for connected_device in g[device]:
-                num_paths += dfsHelper(g, connected_device, visited)                
-            visited.remove(device)
-            return num_paths
+        def count_paths(g, start, target):            
+            @lru_cache(None)
+            def dfs(curr_device, seen_fft, seen_dac):
+                if curr_device == target:
+                    return int(seen_fft and seen_dac)
+                count = 0
+                for next_device in g[curr_device]:
+                    count += dfs(
+                        next_device,
+                        seen_fft or (next_device == "fft"),
+                        seen_dac or (next_device == "dac")
+                    )
+                return count
+            return dfs(start, False, False)
 
-        return dfsHelper(buildGraph(), 'svr', set())
+        return count_paths(
+            buildGraph(), 
+            "svr", 
+            "out", 
+        )
+
 
 if __name__ == '__main__':
     s = Solution()
-    print(s.computeNumberOfConnections('input_0.txt'))
+    print(s.computeNumberOfConnections('input_0b.txt'))
     print(s.computeNumberOfConnections('input_1.txt'))
-
-

@@ -1,5 +1,5 @@
 # O(n*m) time and O(m) space, n = num lines, m = max(line length)
-# link: https://adventofcode.com/2025/day/10
+# link: https://adventofcode.com/2025/day/11
 
 from collections import defaultdict
 
