@@ -26,7 +26,7 @@ This repository contains a collection of coding problems solved on various platf
 
 ## Recent Changes
 
-This file contains recent additions and updates to solution files.
+Recently solved and added problems.
 
 ---
 
@@ -66,6 +66,8 @@ This file contains recent additions and updates to solution files.
 | 9 | Movie Theater 2/2 | O(n^4) | O(n^2) | [python](aoc/2025/day-09/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/9) |
 | 10 | Factory 1/2 | O(n*m) | O(m) | [python](aoc/2025/day-10/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/10) |
 | 10 | Factory 2/2 | O(n*m) | O(m) | [python](aoc/2025/day-10/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/10) |
+| 11 | Day 11 1/2 | O(n*m) | O(m) | [python](aoc/2025/day-11/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/10) |
+| 11 | Day 11 2/2 | O(n*m) | O(m) | [python](aoc/2025/day-11/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/10) |
 
 # Codewars
 ### Kyu-4

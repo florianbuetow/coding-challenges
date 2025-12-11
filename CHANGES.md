@@ -1,6 +1,6 @@
 ## Recent Changes
 
-This file contains recent additions and updates to solution files.
+Recently solved and added problems.
 
 ---
 
