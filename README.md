@@ -32,6 +32,7 @@ This file contains recent additions and updates to solution files.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2025-12-11 | LeetCode Medium | Count Covered Buildings | [python](leetcode/medium/3531.%20Count%20Covered%20Buildings.py) | [leetcode.com](https://leetcode.com/problems/count-covered-buildings/) |
 | 2025-12-10 | AoC 2025 Day 10 | Solution Part 1 | [python](aoc/2025/day-10/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/10) |
 | 2025-12-10 | AoC 2025 Day 10 | Solution Part 2 | [python](aoc/2025/day-10/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/10) |
 | 2025-12-10 | LeetCode Medium | Count the Number of Computer Unlocking Permutations | [python](leetcode/medium/3577.%20Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/) |
@@ -41,7 +42,6 @@ This file contains recent additions and updates to solution files.
 | 2025-12-08 | AoC 2025 Day 08 | Solution Part 2 | [python](aoc/2025/day-08/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/8) |
 | 2025-12-08 | LeetCode Easy | Count Square Sum Triples | [python](leetcode/easy/1925.%20Count%20Square%20Sum%20Triples.py) | [leetcode.com](https://leetcode.com/problems/count-square-sum-triples/) |
 | 2025-12-07 | AoC 2025 Day 07 | Solution Part 1 | [python](aoc/2025/day-07/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/7) |
-| 2025-12-07 | AoC 2025 Day 07 | Solution Part 2 | [python](aoc/2025/day-07/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/7) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -314,6 +314,7 @@ This file contains recent additions and updates to solution files.
 | 3408 | Design Task Manager | O(m log n) | O(n) | [python](leetcode/medium/3408.%20Design%20Task%20Manager.py) | [leetcode.com](https://leetcode.com/problems/design-task-manager/) |
 | 3484 | Design Spreadsheet | O(m) | O(n) | [python](leetcode/medium/3484.%20Design%20Spreadsheet.py) | [leetcode.com](https://leetcode.com/problems/design-spreadsheet/) |
 | 3494 | Find the Minimum Amount of Time to Brew Potions | O(n*m) | O(m) | [python](leetcode/medium/3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions.py) | [leetcode.com](https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/) |
+| 3531 | Count Covered Buildings | O(n) | O(n) | [python](leetcode/medium/3531.%20Count%20Covered%20Buildings.py) | [leetcode.com](https://leetcode.com/problems/count-covered-buildings/) |
 | 3542 | Minimum Operations to Convert All Elements to Zero | O(n) | O(n) | [python](leetcode/medium/3542.%20Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero) |
 | 3577 | Count the Number of Computer Unlocking Permutations | O(n) | O(1) | [python](leetcode/medium/3577.%20Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/) |
 | 3578 | Count Partitions With Max-Min Difference at Most K | O(n) | O(n) | [python](leetcode/medium/3578.%20Count%20Partitions%20With%20Max-Min%20Difference%20at%20Most%20K.py) | [leetcode.com](https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k) |
