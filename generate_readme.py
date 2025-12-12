@@ -516,11 +516,11 @@ class ReadmeGenerator:
         # Generate markdown table
         lines = [
             "## Stats\n\n",
-            "| Category | Solves | LOC | Avg LOC | def | lambda | if | for | while | break | continue | return | list | set | dict | heapq | bisect | deque |\n",
-            "|----------|--------|-----|---------|-----|--------|----|----|-------|-------|----------|--------|------|-----|------|-------|--------|-------|\n"
+            "| Category | Solves | LOC | Avg LOC | def | lambda | if | for | while | break | continue | return | list | set | dict | heapq | deque | bisect |\n",
+            "|----------|--------|-----|---------|-----|--------|----|----|-------|-------|----------|--------|------|-----|------|-------|-------|--------|\n"
         ]
         for s in stats:
-            lines.append(f"| {s['category']} | {s['solves']} | {s['loc']} | {s['avg_loc']} | {s['def']} | {s['lambda']} | {s['if']} | {s['for']} | {s['while']} | {s['break']} | {s['continue']} | {s['return']} | {s['list']} | {s['set']} | {s['dict']} | {s['heapq']} | {s['bisect']} | {s['deque']} |\n")
+            lines.append(f"| {s['category']} | {s['solves']} | {s['loc']} | {s['avg_loc']} | {s['def']} | {s['lambda']} | {s['if']} | {s['for']} | {s['while']} | {s['break']} | {s['continue']} | {s['return']} | {s['list']} | {s['set']} | {s['dict']} | {s['heapq']} | {s['deque']} | {s['bisect']} |\n")
         lines.append("\n")
 
         return ''.join(lines)
