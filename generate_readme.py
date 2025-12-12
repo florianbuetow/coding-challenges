@@ -447,10 +447,14 @@ class ReadmeGenerator:
                 break_count = 0
                 continue_count = 0
                 heapq_count = 0
+                bisect_count = 0
                 deque_count = 0
                 set_count = 0
                 list_count = 0
                 dict_count = 0
+                def_count = 0
+                lambda_count = 0
+                return_count = 0
 
                 for py_file in py_files:
                     with open(py_file, 'r') as f:
@@ -464,10 +468,14 @@ class ReadmeGenerator:
                         break_count += len(re.findall(r'\bbreak\b', content))
                         continue_count += len(re.findall(r'\bcontinue\b', content))
                         heapq_count += content.count('heapq')
+                        bisect_count += content.count('bisect')
                         deque_count += content.count('deque')
                         set_count += content.count('set(')
                         list_count += content.count('list(')
                         dict_count += content.count('= {') + content.count('dict(')
+                        def_count += len(re.findall(r'def .*\(', content))
+                        lambda_count += len(re.findall(r'\blambda\b', content))
+                        return_count += content.count('return ')
 
                 avg_loc = total_loc // len(py_files) if py_files else 0
 
@@ -481,24 +489,38 @@ class ReadmeGenerator:
                     'if': if_count,
                     'break': break_count,
                     'continue': continue_count,
+                    'return': return_count,
                     'heapq': heapq_count,
+                    'bisect': bisect_count,
                     'deque': deque_count,
                     'set': set_count,
                     'list': list_count,
-                    'dict': dict_count
+                    'dict': dict_count,
+                    'def': def_count,
+                    'lambda': lambda_count
                 })
 
-        # Sort by category name
-        stats.sort(key=lambda x: x['category'])
+        # Sort by category with custom order for difficulty levels
+        def sort_key(x):
+            category = x['category']
+            # Split into platform and subcategory
+            parts = category.split('-', 1)
+            platform = parts[0]
+            subcategory = parts[1] if len(parts) > 1 else ''
+            # Define order for difficulty levels
+            difficulty_order = {'easy': 0, 'medium': 1, 'hard': 2}
+            subcat_order = difficulty_order.get(subcategory, 99)
+            return (platform, subcat_order, subcategory)
+        stats.sort(key=sort_key)
 
         # Generate markdown table
         lines = [
             "## Stats\n\n",
-            "| Category | Solves | LOC | Avg LOC | if | for | while | break | continue | list | set | dict | heapq | deque |\n",
-            "|----------|--------|-----|---------|----|----|-------|-------|----------|------|-----|------|-------|-------|\n"
+            "| Category | Solves | LOC | Avg LOC | def | lambda | if | for | while | break | continue | return | list | set | dict | heapq | bisect | deque |\n",
+            "|----------|--------|-----|---------|-----|--------|----|----|-------|-------|----------|--------|------|-----|------|-------|--------|-------|\n"
         ]
         for s in stats:
-            lines.append(f"| {s['category']} | {s['solves']} | {s['loc']} | {s['avg_loc']} | {s['if']} | {s['for']} | {s['while']} | {s['break']} | {s['continue']} | {s['list']} | {s['set']} | {s['dict']} | {s['heapq']} | {s['deque']} |\n")
+            lines.append(f"| {s['category']} | {s['solves']} | {s['loc']} | {s['avg_loc']} | {s['def']} | {s['lambda']} | {s['if']} | {s['for']} | {s['while']} | {s['break']} | {s['continue']} | {s['return']} | {s['list']} | {s['set']} | {s['dict']} | {s['heapq']} | {s['bisect']} | {s['deque']} |\n")
         lines.append("\n")
 
         return ''.join(lines)
