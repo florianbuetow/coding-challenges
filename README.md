@@ -24,6 +24,19 @@ This repository contains a collection of coding problems solved on various platf
 └── Makefile           # Build automation
 ```
 
+## Stats
+
+| Category | LOC | Avg LOC | `while` | `for` |
+|----------|-----|---------|---------|-------|
+| aoc-2025 | 1087 | 49 | 6 | 118 |
+| codewars-kyu-4 | 55 | 55 | 0 | 7 |
+| codewars-kyu-5 | 19 | 19 | 0 | 1 |
+| deep-ml-easy | 72 | 8 | 0 | 13 |
+| deep-ml-medium | 69 | 13 | 0 | 7 |
+| leetcode-easy | 1029 | 15 | 19 | 81 |
+| leetcode-hard | 669 | 30 | 13 | 54 |
+| leetcode-medium | 2933 | 24 | 76 | 217 |
+
 ## Recent Changes
 
 Recently solved and added problems.
