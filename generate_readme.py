@@ -411,6 +411,73 @@ class ReadmeGenerator:
         else:
             raise FileNotFoundError(f"Error: {filename} not found. Please ensure it exists in the project directory.")
 
+    def generate_stats_table(self, root_dir):
+        """Generate a stats table with metrics per category."""
+        stats = []
+
+        # Iterate through platform folders (leetcode, codewars, aoc, deep-ml)
+        for platform in os.listdir(root_dir):
+            platform_path = os.path.join(root_dir, platform)
+            if not os.path.isdir(platform_path) or platform.startswith('.'):
+                continue
+            if platform not in self.processors:
+                continue
+
+            # Iterate through subcategory folders
+            for subcategory in os.listdir(platform_path):
+                subcat_path = os.path.join(platform_path, subcategory)
+                if not os.path.isdir(subcat_path) or subcategory.startswith('.'):
+                    continue
+
+                # Collect all Python files recursively
+                py_files = []
+                for dirpath, _, filenames in os.walk(subcat_path):
+                    for f in filenames:
+                        if f.endswith('.py'):
+                            py_files.append(os.path.join(dirpath, f))
+
+                if not py_files:
+                    continue
+
+                # Calculate metrics
+                total_loc = 0
+                while_count = 0
+                for_count = 0
+
+                for py_file in py_files:
+                    with open(py_file, 'r') as f:
+                        content = f.read()
+                        lines = content.splitlines()
+                        total_loc += len(lines)
+                        # Simple word boundary search
+                        while_count += len(re.findall(r'\bwhile\b', content))
+                        for_count += len(re.findall(r'\bfor\b', content))
+
+                avg_loc = total_loc // len(py_files) if py_files else 0
+
+                stats.append({
+                    'category': f"{platform}-{subcategory}",
+                    'loc': total_loc,
+                    'avg_loc': avg_loc,
+                    'while': while_count,
+                    'for': for_count
+                })
+
+        # Sort by category name
+        stats.sort(key=lambda x: x['category'])
+
+        # Generate markdown table
+        lines = [
+            "## Stats\n\n",
+            "| Category | LOC | Avg LOC | `while` | `for` |\n",
+            "|----------|-----|---------|---------|-------|\n"
+        ]
+        for s in stats:
+            lines.append(f"| {s['category']} | {s['loc']} | {s['avg_loc']} | {s['while']} | {s['for']} |\n")
+        lines.append("\n")
+
+        return ''.join(lines)
+
     def generate(self, root_dir):
         """Generate the README.md file."""
         project_description = self.read_file('DESCRIPTION.md')
@@ -442,6 +509,8 @@ class ReadmeGenerator:
         with open(readme_file, 'w') as readme:
             readme.write('# Coding-Challenges\n\n')
             readme.write(f'{project_description}\n\n')
+            stats_table = self.generate_stats_table(root_dir)
+            readme.write(stats_table)
             readme.write(f'{changes_content}\n')
 
             for folder, markdown in markdown_sections:
