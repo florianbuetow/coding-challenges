@@ -449,6 +449,7 @@ class ReadmeGenerator:
                 heapq_count = 0
                 bisect_count = 0
                 deque_count = 0
+                sort_count = 0
                 set_count = 0
                 list_count = 0
                 dict_count = 0
@@ -470,6 +471,7 @@ class ReadmeGenerator:
                         heapq_count += content.count('heapq')
                         bisect_count += content.count('bisect')
                         deque_count += content.count('deque')
+                        sort_count += content.count('.sort')
                         set_count += content.count('set(')
                         list_count += content.count('list(')
                         dict_count += content.count('= {') + content.count('dict(')
@@ -497,7 +499,8 @@ class ReadmeGenerator:
                     'list': list_count,
                     'dict': dict_count,
                     'def': def_count,
-                    'lambda': lambda_count
+                    'lambda': lambda_count,
+                    'sort': sort_count
                 })
 
         # Sort by category with custom order for difficulty levels
@@ -516,11 +519,11 @@ class ReadmeGenerator:
         # Generate markdown table
         lines = [
             "## Stats\n\n",
-            "| Category | Solves | LOC | Avg LOC | def | lambda | if | for | while | break | continue | return | list | set | dict | heapq | deque | bisect |\n",
-            "|----------|--------|-----|---------|-----|--------|----|----|-------|-------|----------|--------|------|-----|------|-------|-------|--------|\n"
+            "| Category | Solves | LOC | Avg LOC | def | lambda | if | for | while | break | continue | return | list | set | dict | heapq | deque | sort | bisect |\n",
+            "|----------|--------|-----|---------|-----|--------|----|----|-------|-------|----------|--------|------|-----|------|-------|-------|------|--------|\n"
         ]
         for s in stats:
-            lines.append(f"| {s['category']} | {s['solves']} | {s['loc']} | {s['avg_loc']} | {s['def']} | {s['lambda']} | {s['if']} | {s['for']} | {s['while']} | {s['break']} | {s['continue']} | {s['return']} | {s['list']} | {s['set']} | {s['dict']} | {s['heapq']} | {s['deque']} | {s['bisect']} |\n")
+            lines.append(f"| {s['category']} | {s['solves']} | {s['loc']} | {s['avg_loc']} | {s['def']} | {s['lambda']} | {s['if']} | {s['for']} | {s['while']} | {s['break']} | {s['continue']} | {s['return']} | {s['list']} | {s['set']} | {s['dict']} | {s['heapq']} | {s['deque']} | {s['sort']} | {s['bisect']} |\n")
         lines.append("\n")
 
         return ''.join(lines)
