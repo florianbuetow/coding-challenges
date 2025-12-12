@@ -26,16 +26,16 @@ This repository contains a collection of coding problems solved on various platf
 
 ## Stats
 
-| Category | Solves | LOC | Avg LOC | while | for | if | break | continue | heapq | deque | set | list | dict |
-|----------|--------|-----|---------|-------|-----|------|-------|----------|-------|-------|-----|------|------|
-| aoc-2025 | 22 | 1087 | 49 | 6 | 118 | 107 | 1 | 8 | 2 | 5 | 9 | 3 | 12 |
-| codewars-kyu-4 | 1 | 55 | 55 | 0 | 7 | 6 | 0 | 3 | 0 | 0 | 1 | 4 | 1 |
-| codewars-kyu-5 | 1 | 19 | 19 | 0 | 1 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| deep-ml-easy | 9 | 72 | 8 | 0 | 13 | 2 | 0 | 0 | 0 | 0 | 0 | 3 | 0 |
-| deep-ml-medium | 5 | 69 | 13 | 0 | 7 | 1 | 0 | 0 | 0 | 0 | 0 | 2 | 0 |
-| leetcode-easy | 66 | 1029 | 15 | 19 | 81 | 93 | 1 | 8 | 1 | 0 | 4 | 0 | 5 |
-| leetcode-hard | 22 | 669 | 30 | 13 | 54 | 60 | 7 | 13 | 5 | 0 | 5 | 1 | 7 |
-| leetcode-medium | 118 | 2933 | 24 | 76 | 217 | 308 | 8 | 28 | 10 | 23 | 23 | 3 | 35 |
+| Category | Solves | LOC | Avg LOC | if | for | while | break | continue | list | set | dict | heapq | deque |
+|----------|--------|-----|---------|----|----|-------|-------|----------|------|-----|------|-------|-------|
+| aoc-2025 | 22 | 1087 | 49 | 107 | 118 | 6 | 1 | 8 | 3 | 9 | 12 | 2 | 5 |
+| codewars-kyu-4 | 1 | 55 | 55 | 6 | 7 | 0 | 0 | 3 | 4 | 1 | 1 | 0 | 0 |
+| codewars-kyu-5 | 1 | 19 | 19 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| deep-ml-easy | 9 | 72 | 8 | 2 | 13 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 |
+| deep-ml-medium | 5 | 69 | 13 | 1 | 7 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 |
+| leetcode-easy | 66 | 1029 | 15 | 93 | 81 | 19 | 1 | 8 | 0 | 4 | 5 | 1 | 0 |
+| leetcode-hard | 22 | 669 | 30 | 60 | 54 | 13 | 7 | 13 | 1 | 5 | 7 | 5 | 0 |
+| leetcode-medium | 118 | 2933 | 24 | 308 | 217 | 76 | 8 | 28 | 3 | 23 | 35 | 10 | 23 |
 
 ## Recent Changes
 
