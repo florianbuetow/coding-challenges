@@ -32,6 +32,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2025-12-12 | LeetCode Medium | Count Mentions Per User | [python](leetcode/medium/3433.%20Count%20Mentions%20Per%20User.py) | [leetcode.com](https://leetcode.com/problems/count-mentions-per-user/) |
 | 2025-12-11 | AoC 2025 Day 11 | Solution Part 1 | [python](aoc/2025/day-11/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/11) |
 | 2025-12-11 | AoC 2025 Day 11 | Solution Part 2 | [python](aoc/2025/day-11/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/11) |
 | 2025-12-11 | AoC 2025 Day 11 | Solution Part 1 | [python](aoc/2025/day-11/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/11) |
@@ -41,7 +42,6 @@ Recently solved and added problems.
 | 2025-12-10 | AoC 2025 Day 10 | Solution Part 2 | [python](aoc/2025/day-10/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/10) |
 | 2025-12-10 | LeetCode Medium | Count the Number of Computer Unlocking Permutations | [python](leetcode/medium/3577.%20Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/) |
 | 2025-12-10 | AoC 2025 Day 09 | Solution Part 1 | [python](aoc/2025/day-09/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/9) |
-| 2025-12-10 | AoC 2025 Day 09 | Solution Part 2 | [python](aoc/2025/day-09/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/9) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -314,6 +314,7 @@ Recently solved and added problems.
 | 3381 | Maximum Subarray Sum With Length Divisible by K | O(n) | O(k) | [python](leetcode/medium/3381.%20Maximum%20Subarray%20Sum%20With%20Length%20Divisible%20by%20K.py) | [leetcode.com](https://leetcode.com/problems/maximum-subarray-sum-with-length-divisible-by-k/) |
 | 3397 | Maximum Number of Distinct Elements After Operations | O(n log n) | O(1) | [python](leetcode/medium/3397.%20Maximum%20Number%20of%20Distinct%20Elements%20After%20Operations.py) | [leetcode.com](https://leetcode.com/problems/maximum-number-of-distinct-elements-after-operations/) |
 | 3408 | Design Task Manager | O(m log n) | O(n) | [python](leetcode/medium/3408.%20Design%20Task%20Manager.py) | [leetcode.com](https://leetcode.com/problems/design-task-manager/) |
+| 3433 | Count Mentions Per User | O(n log n + m) | O(n + m) | [python](leetcode/medium/3433.%20Count%20Mentions%20Per%20User.py) | [leetcode.com](https://leetcode.com/problems/count-mentions-per-user/) |
 | 3484 | Design Spreadsheet | O(m) | O(n) | [python](leetcode/medium/3484.%20Design%20Spreadsheet.py) | [leetcode.com](https://leetcode.com/problems/design-spreadsheet/) |
 | 3494 | Find the Minimum Amount of Time to Brew Potions | O(n*m) | O(m) | [python](leetcode/medium/3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions.py) | [leetcode.com](https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/) |
 | 3531 | Count Covered Buildings | O(n) | O(n) | [python](leetcode/medium/3531.%20Count%20Covered%20Buildings.py) | [leetcode.com](https://leetcode.com/problems/count-covered-buildings/) |
