@@ -443,24 +443,49 @@ class ReadmeGenerator:
                 total_loc = 0
                 while_count = 0
                 for_count = 0
+                if_count = 0
+                break_count = 0
+                continue_count = 0
+                heapq_count = 0
+                deque_count = 0
+                set_count = 0
+                list_count = 0
+                dict_count = 0
 
                 for py_file in py_files:
                     with open(py_file, 'r') as f:
                         content = f.read()
                         lines = content.splitlines()
                         total_loc += len(lines)
-                        # Simple word boundary search
+                        # Simple text search
                         while_count += len(re.findall(r'\bwhile\b', content))
                         for_count += len(re.findall(r'\bfor\b', content))
+                        if_count += content.count('if ')
+                        break_count += len(re.findall(r'\bbreak\b', content))
+                        continue_count += len(re.findall(r'\bcontinue\b', content))
+                        heapq_count += content.count('heapq')
+                        deque_count += content.count('deque')
+                        set_count += content.count('set(')
+                        list_count += content.count('list(')
+                        dict_count += content.count('= {') + content.count('dict(')
 
                 avg_loc = total_loc // len(py_files) if py_files else 0
 
                 stats.append({
                     'category': f"{platform}-{subcategory}",
+                    'solves': len(py_files),
                     'loc': total_loc,
                     'avg_loc': avg_loc,
                     'while': while_count,
-                    'for': for_count
+                    'for': for_count,
+                    'if': if_count,
+                    'break': break_count,
+                    'continue': continue_count,
+                    'heapq': heapq_count,
+                    'deque': deque_count,
+                    'set': set_count,
+                    'list': list_count,
+                    'dict': dict_count
                 })
 
         # Sort by category name
@@ -469,11 +494,11 @@ class ReadmeGenerator:
         # Generate markdown table
         lines = [
             "## Stats\n\n",
-            "| Category | LOC | Avg LOC | `while` | `for` |\n",
-            "|----------|-----|---------|---------|-------|\n"
+            "| Category | Solves | LOC | Avg LOC | while | for | if | break | continue | heapq | deque | set | list | dict |\n",
+            "|----------|--------|-----|---------|-------|-----|------|-------|----------|-------|-------|-----|------|------|\n"
         ]
         for s in stats:
-            lines.append(f"| {s['category']} | {s['loc']} | {s['avg_loc']} | {s['while']} | {s['for']} |\n")
+            lines.append(f"| {s['category']} | {s['solves']} | {s['loc']} | {s['avg_loc']} | {s['while']} | {s['for']} | {s['if']} | {s['break']} | {s['continue']} | {s['heapq']} | {s['deque']} | {s['set']} | {s['list']} | {s['dict']} |\n")
         lines.append("\n")
 
         return ''.join(lines)
