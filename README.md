@@ -28,7 +28,7 @@ This repository contains a collection of coding problems solved on various platf
 
 | Category | Solves | LOC | Avg LOC | def | lambda | if | for | while | break | continue | return | list | set | dict | heapq | deque | sort | bisect |
 |----------|--------|-----|---------|-----|--------|----|----|-------|-------|----------|--------|------|-----|------|-------|-------|------|--------|
-| aoc-2025 | 22 | 1087 | 49 | 78 | 0 | 107 | 118 | 6 | 1 | 8 | 72 | 3 | 9 | 12 | 2 | 5 | 2 | 0 |
+| aoc-2025 | 24 | 1209 | 50 | 88 | 1 | 125 | 140 | 6 | 1 | 10 | 85 | 4 | 10 | 15 | 2 | 5 | 3 | 0 |
 | codewars-kyu-4 | 1 | 55 | 55 | 2 | 0 | 6 | 7 | 0 | 0 | 3 | 2 | 4 | 1 | 1 | 0 | 0 | 0 | 0 |
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -45,6 +45,8 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2025-12-12 | AoC 2025 Day 12 | Solution Part 2 | [python](aoc/2025/day-12/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/12) |
+| 2025-12-12 | AoC 2025 Day 12 | Solution Part 1 | [python](aoc/2025/day-12/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/12) |
 | 2025-12-12 | LeetCode Medium | Count Mentions Per User | [python](leetcode/medium/3433.%20Count%20Mentions%20Per%20User.py) | [leetcode.com](https://leetcode.com/problems/count-mentions-per-user/) |
 | 2025-12-11 | AoC 2025 Day 11 | Solution Part 1 | [python](aoc/2025/day-11/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/11) |
 | 2025-12-11 | AoC 2025 Day 11 | Solution Part 2 | [python](aoc/2025/day-11/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/11) |
@@ -53,8 +55,6 @@ Recently solved and added problems.
 | 2025-12-11 | LeetCode Medium | Count Covered Buildings | [python](leetcode/medium/3531.%20Count%20Covered%20Buildings.py) | [leetcode.com](https://leetcode.com/problems/count-covered-buildings/) |
 | 2025-12-10 | AoC 2025 Day 10 | Solution Part 1 | [python](aoc/2025/day-10/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/10) |
 | 2025-12-10 | AoC 2025 Day 10 | Solution Part 2 | [python](aoc/2025/day-10/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/10) |
-| 2025-12-10 | LeetCode Medium | Count the Number of Computer Unlocking Permutations | [python](leetcode/medium/3577.%20Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/) |
-| 2025-12-10 | AoC 2025 Day 09 | Solution Part 1 | [python](aoc/2025/day-09/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/9) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -81,6 +81,8 @@ Recently solved and added problems.
 | 10 | Factory 2/2 | O(n*m) | O(m) | [python](aoc/2025/day-10/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/10) |
 | 11 | Reactor 1/2 | O(n*m) | O(m) | [python](aoc/2025/day-11/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/11) |
 | 11 | Reactor 2/2 | O(n*m) | O(n*m) | [python](aoc/2025/day-11/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/11) |
+| 12 | Christmas Tree Farm 1/2 | O(m * k^k) | O(n + k) | [python](aoc/2025/day-12/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/12) |
+| 12 | Christmas Tree Farm 2/2 | O(1) | O(1) | [python](aoc/2025/day-12/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/12) |
 
 # Codewars
 ### Kyu-4
