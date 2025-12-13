@@ -33,7 +33,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 66 | 1029 | 15 | 91 | 2 | 93 | 81 | 19 | 1 | 8 | 105 | 0 | 4 | 5 | 1 | 0 | 4 | 0 |
+| leetcode-easy | 67 | 1053 | 15 | 93 | 4 | 98 | 84 | 19 | 1 | 10 | 109 | 0 | 4 | 5 | 1 | 0 | 6 | 0 |
 | leetcode-medium | 118 | 2933 | 24 | 208 | 4 | 308 | 217 | 76 | 8 | 28 | 241 | 3 | 23 | 35 | 10 | 23 | 16 | 4 |
 | leetcode-hard | 22 | 669 | 30 | 43 | 2 | 60 | 54 | 13 | 7 | 13 | 50 | 1 | 5 | 7 | 5 | 0 | 8 | 4 |
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2025-12-13 | LeetCode Easy | Coupon Code Validator | [python](leetcode/easy/3606.%20Coupon%20Code%20Validator.py) | [leetcode.com](https://leetcode.com/problems/coupon-code-validator/) |
 | 2025-12-12 | AoC 2025 Day 12 | Solution Part 2 | [python](aoc/2025/day-12/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/12) |
 | 2025-12-12 | AoC 2025 Day 12 | Solution Part 1 | [python](aoc/2025/day-12/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/12) |
 | 2025-12-12 | LeetCode Medium | Count Mentions Per User | [python](leetcode/medium/3433.%20Count%20Mentions%20Per%20User.py) | [leetcode.com](https://leetcode.com/problems/count-mentions-per-user/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2025-12-11 | AoC 2025 Day 11 | Solution Part 2 | [python](aoc/2025/day-11/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/11) |
 | 2025-12-11 | LeetCode Medium | Count Covered Buildings | [python](leetcode/medium/3531.%20Count%20Covered%20Buildings.py) | [leetcode.com](https://leetcode.com/problems/count-covered-buildings/) |
 | 2025-12-10 | AoC 2025 Day 10 | Solution Part 1 | [python](aoc/2025/day-10/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/10) |
-| 2025-12-10 | AoC 2025 Day 10 | Solution Part 2 | [python](aoc/2025/day-10/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/10) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -182,6 +182,7 @@ Recently solved and added problems.
 | 3512 | Minimum Operations to Make Array Sum Divisible by K | O(n) | O(1) | [python](leetcode/easy/3512.%20Minimum%20Operations%20to%20Make%20Array%20Sum%20Divisible%20by%20K.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k) |
 | 3516 | Find Closest Person | O(1) | O(1) | [python](leetcode/easy/3516.%20Find%20Closest%20Person.py) | [leetcode.com](https://leetcode.com/problems/find-closest-person/) |
 | 3541 | Find Most Frequent Vowel and Consonant | O(n) | O(1) | [python](leetcode/easy/3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant.py) | [leetcode.com](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) |
+| 3606 | Coupon Code Validator | O(n * m + n log n) | O(n * m + n log n) | [python](leetcode/easy/3606.%20Coupon%20Code%20Validator.py) | [leetcode.com](https://leetcode.com/problems/coupon-code-validator/) |
 | 3731 | Find Missing Elements | O(n) | O(n) | [python](leetcode/easy/3731.%20Find%20Missing%20Elements.py) | [leetcode.com](https://leetcode.com/problems/find-missing-elements/) |
 | 3736 | Minimum Moves to Equal Array Elements III | O(n) | O(1) | [python](leetcode/easy/3736.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20III.py) | [leetcode.com](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) |
 | 3740 | Minimum Distance Between Three Equal Elements I | O(n) | O(n) | [python](leetcode/easy/3740.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20I.py) | [leetcode.com](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/) |
