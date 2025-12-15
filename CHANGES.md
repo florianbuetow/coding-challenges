@@ -6,6 +6,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2025-12-15 | LeetCode Medium | Number of Smooth Descent Periods of a Stock | [python](leetcode/medium/2110.%20Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock.py) | [leetcode.com](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/) |
 | 2025-12-13 | LeetCode Easy | Coupon Code Validator | [python](leetcode/easy/3606.%20Coupon%20Code%20Validator.py) | [leetcode.com](https://leetcode.com/problems/coupon-code-validator/) |
 | 2025-12-12 | AoC 2025 Day 12 | Solution Part 2 | [python](aoc/2025/day-12/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/12) |
 | 2025-12-12 | AoC 2025 Day 12 | Solution Part 1 | [python](aoc/2025/day-12/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/12) |
@@ -15,4 +16,3 @@ Recently solved and added problems.
 | 2025-12-11 | AoC 2025 Day 11 | Solution Part 1 | [python](aoc/2025/day-11/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/11) |
 | 2025-12-11 | AoC 2025 Day 11 | Solution Part 2 | [python](aoc/2025/day-11/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/11) |
 | 2025-12-11 | LeetCode Medium | Count Covered Buildings | [python](leetcode/medium/3531.%20Count%20Covered%20Buildings.py) | [leetcode.com](https://leetcode.com/problems/count-covered-buildings/) |
-| 2025-12-10 | AoC 2025 Day 10 | Solution Part 1 | [python](aoc/2025/day-10/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/10) |

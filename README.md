@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 67 | 1053 | 15 | 93 | 4 | 98 | 84 | 19 | 1 | 10 | 109 | 0 | 4 | 5 | 1 | 0 | 6 | 0 |
-| leetcode-medium | 118 | 2933 | 24 | 208 | 4 | 308 | 217 | 76 | 8 | 28 | 241 | 3 | 23 | 35 | 10 | 23 | 16 | 4 |
+| leetcode-medium | 119 | 2947 | 24 | 209 | 4 | 310 | 218 | 76 | 8 | 28 | 243 | 3 | 23 | 35 | 10 | 23 | 16 | 4 |
 | leetcode-hard | 22 | 669 | 30 | 43 | 2 | 60 | 54 | 13 | 7 | 13 | 50 | 1 | 5 | 7 | 5 | 0 | 8 | 4 |
 
 ## Recent Changes
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2025-12-15 | LeetCode Medium | Number of Smooth Descent Periods of a Stock | [python](leetcode/medium/2110.%20Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock.py) | [leetcode.com](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/) |
 | 2025-12-13 | LeetCode Easy | Coupon Code Validator | [python](leetcode/easy/3606.%20Coupon%20Code%20Validator.py) | [leetcode.com](https://leetcode.com/problems/coupon-code-validator/) |
 | 2025-12-12 | AoC 2025 Day 12 | Solution Part 2 | [python](aoc/2025/day-12/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/12) |
 | 2025-12-12 | AoC 2025 Day 12 | Solution Part 1 | [python](aoc/2025/day-12/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/12) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2025-12-11 | AoC 2025 Day 11 | Solution Part 1 | [python](aoc/2025/day-11/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/11) |
 | 2025-12-11 | AoC 2025 Day 11 | Solution Part 2 | [python](aoc/2025/day-11/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/11) |
 | 2025-12-11 | LeetCode Medium | Count Covered Buildings | [python](leetcode/medium/3531.%20Count%20Covered%20Buildings.py) | [leetcode.com](https://leetcode.com/problems/count-covered-buildings/) |
-| 2025-12-10 | AoC 2025 Day 10 | Solution Part 1 | [python](aoc/2025/day-10/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/10) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -295,6 +295,7 @@ Recently solved and added problems.
 | 2058 | Find the Minimum and Maximum Number of Nodes Between Critical Points | O(n) | O(1) | [python](leetcode/medium/2058.%20Find%20the%20Minimum%20and%20Maximum%20Number%20of%20Nodes%20Between%20Critical%20Points.py) | [leetcode.com](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) |
 | 2061 | Number of Spaces Cleaning Robot Cleaned | O(n * m) | O(n * m) | [python](leetcode/medium/2061.%20Number%20of%20Spaces%20Cleaning%20Robot%20Cleaned.py) | [leetcode.com](https://leetcode.com/problems/number-of-spaces-cleaning-robot-cleaned/) |
 | 2096 | Step-By-Step Directions From a Binary Tree Node to Another | O(n) | O(n) | [python](leetcode/medium/2096.%20Step-By-Step%20Directions%20From%20a%20Binary%20Tree%20Node%20to%20Another.py) | [leetcode.com](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) |
+| 2110 | Number of Smooth Descent Periods of a Stock | O(n) | O(1) | [python](leetcode/medium/2110.%20Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock.py) | [leetcode.com](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/) |
 | 2125 | Number of Laser Beams in a Bank | O(n*m) | O(1) | [python](leetcode/medium/2125.%20Number%20of%20Laser%20Beams%20in%20a%20Bank.py) | [leetcode.com](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/) |
 | 2181 | Merge Nodes in Between Zeros | O(n) | O(1) | [python](leetcode/medium/2181.%20Merge%20Nodes%20in%20Between%20Zeros.py) | [leetcode.com](https://leetcode.com/problems/merge-nodes-in-between-zeros/) |
 | 2196 | Create Binary Tree From Descriptions | O(n) | O(n) | [python](leetcode/medium/2196.%20Create%20Binary%20Tree%20From%20Descriptions.py) | [leetcode.com](https://leetcode.com/problems/create-binary-tree-from-descriptions/) |
