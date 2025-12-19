@@ -34,8 +34,8 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 67 | 1053 | 15 | 93 | 4 | 98 | 84 | 19 | 1 | 10 | 109 | 0 | 4 | 5 | 1 | 0 | 6 | 0 |
-| leetcode-medium | 119 | 2947 | 24 | 209 | 4 | 310 | 218 | 76 | 8 | 28 | 243 | 3 | 23 | 35 | 10 | 23 | 16 | 4 |
-| leetcode-hard | 22 | 669 | 30 | 43 | 2 | 60 | 54 | 13 | 7 | 13 | 50 | 1 | 5 | 7 | 5 | 0 | 8 | 4 |
+| leetcode-medium | 120 | 2967 | 24 | 210 | 4 | 310 | 222 | 76 | 8 | 28 | 244 | 3 | 23 | 35 | 10 | 23 | 16 | 4 |
+| leetcode-hard | 23 | 705 | 30 | 44 | 2 | 63 | 57 | 16 | 7 | 13 | 51 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
 
 ## Recent Changes
 
@@ -45,6 +45,8 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2025-12-19 | LeetCode Hard | Find All People With Secret | [python](leetcode/hard/2092.%20Find%20All%20People%20With%20Secret.py) | [leetcode.com](https://leetcode.com/problems/find-all-people-with-secret/) |
+| 2025-12-18 | LeetCode Medium | Best Time to Buy and Sell Stock using Strategy | [python](leetcode/medium/3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy.py) | [leetcode.com](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/) |
 | 2025-12-15 | LeetCode Medium | Number of Smooth Descent Periods of a Stock | [python](leetcode/medium/2110.%20Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock.py) | [leetcode.com](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/) |
 | 2025-12-13 | LeetCode Easy | Coupon Code Validator | [python](leetcode/easy/3606.%20Coupon%20Code%20Validator.py) | [leetcode.com](https://leetcode.com/problems/coupon-code-validator/) |
 | 2025-12-12 | AoC 2025 Day 12 | Solution Part 2 | [python](aoc/2025/day-12/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/12) |
@@ -53,8 +55,6 @@ Recently solved and added problems.
 | 2025-12-11 | AoC 2025 Day 11 | Solution Part 1 | [python](aoc/2025/day-11/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/11) |
 | 2025-12-11 | AoC 2025 Day 11 | Solution Part 2 | [python](aoc/2025/day-11/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/11) |
 | 2025-12-11 | AoC 2025 Day 11 | Solution Part 1 | [python](aoc/2025/day-11/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/11) |
-| 2025-12-11 | AoC 2025 Day 11 | Solution Part 2 | [python](aoc/2025/day-11/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/11) |
-| 2025-12-11 | LeetCode Medium | Count Covered Buildings | [python](leetcode/medium/3531.%20Count%20Covered%20Buildings.py) | [leetcode.com](https://leetcode.com/problems/count-covered-buildings/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -208,6 +208,7 @@ Recently solved and added problems.
 | 1526 | Minimum Number of Increments on Subarrays to Form a Target Array (alt) | O(n*m) | O(n*m) | [python](leetcode/hard/1526.%20Minimum%20Number%20of%20Increments%20on%20Subarrays%20to%20Form%20a%20Target%20Array%20%28alt%29.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/) |
 | 1526 | Minimum Number of Increments on Subarrays to Form a Target Array | O(n) | O(1) | [python](leetcode/hard/1526.%20Minimum%20Number%20of%20Increments%20on%20Subarrays%20to%20Form%20a%20Target%20Array.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/) |
 | 1611 | Minimum One Bit Operations to Make Integers Zero | O(log n) | O(1) | [python](leetcode/hard/1611.%20Minimum%20One%20Bit%20Operations%20to%20Make%20Integers%20Zero.py) | [leetcode.com](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero) |
+| 2092 | Find All People With Secret | O(n log n + n*k) | O(n) | [python](leetcode/hard/2092.%20Find%20All%20People%20With%20Secret.py) | [leetcode.com](https://leetcode.com/problems/find-all-people-with-secret/) |
 | 2197 | Replace Non-Coprime Numbers in Array | O(n log n) | O(n) | [python](leetcode/hard/2197.%20Replace%20Non-Coprime%20Numbers%20in%20Array.py) | [leetcode.com](https://leetcode.com/problems/replace-non-coprime-numbers-in-array/) |
 | 2435 | Paths in Matrix Whose Sum Is Divisible by K | O(n*m*k) | O(n*m*k) | [python](leetcode/hard/2435.%20Paths%20in%20Matrix%20Whose%20Sum%20Is%20Divisible%20by%20K.py) | [leetcode.com](https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k) |
 | 2598 | Smallest Missing Non-negative Integer After Operations | O(n) | O(m) | [python](leetcode/hard/2598.%20Smallest%20Missing%20Non-negative%20Integer%20After%20Operations.py) | [leetcode.com](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/) |
@@ -338,6 +339,7 @@ Recently solved and added problems.
 | 3542 | Minimum Operations to Convert All Elements to Zero | O(n) | O(n) | [python](leetcode/medium/3542.%20Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero) |
 | 3577 | Count the Number of Computer Unlocking Permutations | O(n) | O(1) | [python](leetcode/medium/3577.%20Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/) |
 | 3578 | Count Partitions With Max-Min Difference at Most K | O(n) | O(n) | [python](leetcode/medium/3578.%20Count%20Partitions%20With%20Max-Min%20Difference%20at%20Most%20K.py) | [leetcode.com](https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k) |
+| 3652 | Best Time to Buy and Sell Stock using Strategy | O(n) | O(1) | [python](leetcode/medium/3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy.py) | [leetcode.com](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/) |
 
 ## Generating the README
 
