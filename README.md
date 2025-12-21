@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 68 | 1069 | 15 | 94 | 4 | 99 | 86 | 19 | 2 | 10 | 110 | 0 | 4 | 5 | 1 | 0 | 6 | 0 |
-| leetcode-medium | 120 | 2967 | 24 | 210 | 4 | 310 | 222 | 76 | 8 | 28 | 244 | 3 | 23 | 35 | 10 | 23 | 16 | 4 |
+| leetcode-medium | 121 | 2997 | 24 | 211 | 4 | 315 | 224 | 76 | 10 | 29 | 245 | 3 | 25 | 35 | 10 | 23 | 16 | 4 |
 | leetcode-hard | 23 | 705 | 30 | 44 | 2 | 63 | 57 | 16 | 7 | 13 | 51 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
 
 ## Recent Changes
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2025-12-21 | LeetCode Medium | Delete Columns to Make Sorted II | [python](leetcode/medium/955.%20Delete%20Columns%20to%20Make%20Sorted%20II.py) | [leetcode.com](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/) |
 | 2025-12-20 | LeetCode Easy | Delete Columns to Make Sorted | [python](leetcode/easy/944.%20Delete%20Columns%20to%20Make%20Sorted.py) | [leetcode.com](https://leetcode.com/problems/delete-columns-to-make-sorted/) |
 | 2025-12-19 | LeetCode Hard | Find All People With Secret | [python](leetcode/hard/2092.%20Find%20All%20People%20With%20Secret.py) | [leetcode.com](https://leetcode.com/problems/find-all-people-with-secret/) |
 | 2025-12-18 | LeetCode Medium | Best Time to Buy and Sell Stock using Strategy | [python](leetcode/medium/3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy.py) | [leetcode.com](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2025-12-12 | AoC 2025 Day 12 | Solution Part 1 | [python](aoc/2025/day-12/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/12) |
 | 2025-12-12 | LeetCode Medium | Count Mentions Per User | [python](leetcode/medium/3433.%20Count%20Mentions%20Per%20User.py) | [leetcode.com](https://leetcode.com/problems/count-mentions-per-user/) |
 | 2025-12-11 | AoC 2025 Day 11 | Solution Part 1 | [python](aoc/2025/day-11/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/11) |
-| 2025-12-11 | AoC 2025 Day 11 | Solution Part 2 | [python](aoc/2025/day-11/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/11) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -263,6 +263,7 @@ Recently solved and added problems.
 | 948 | Bag of Tokens | O(n log n) | O(1) | [python](leetcode/medium/948.%20Bag%20of%20Tokens.py) | [leetcode.com](https://leetcode.com/problems/bag-of-tokens) |
 | 950 | Reveal Cards In Increasing Order | O(n log n) | O(n) | [python](leetcode/medium/950.%20Reveal%20Cards%20In%20Increasing%20Order.py) | [leetcode.com](https://leetcode.com/problems/reveal-cards-in-increasing-order/) |
 | 951 | Flip Equivalent Binary Trees | O(n) | O(n) | [python](leetcode/medium/951.%20Flip%20Equivalent%20Binary%20Trees.py) | [leetcode.com](https://leetcode.com/problems/flip-equivalent-binary-trees/) |
+| 955 | Delete Columns to Make Sorted II | O(n * m) | O(n) | [python](leetcode/medium/955.%20Delete%20Columns%20to%20Make%20Sorted%20II.py) | [leetcode.com](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/) |
 | 966 | Vowel Spellchecker | O(n*m) | O(n) | [python](leetcode/medium/966.%20Vowel%20Spellchecker.py) | [leetcode.com](https://leetcode.com/problems/vowel-spellchecker/) |
 | 979 | Distribute Coins in Binary Tree | O(n) | O(n) | [python](leetcode/medium/979.%20Distribute%20Coins%20in%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/distribute-coins-in-binary-tree/) |
 | 988 | Smallest String Starting From Leaf | O(n*h) | O(h) | [python](leetcode/medium/988.%20Smallest%20String%20Starting%20From%20Leaf.py) | [leetcode.com](https://leetcode.com/problems/smallest-string-starting-from-leaf/) |
