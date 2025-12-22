@@ -35,7 +35,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 68 | 1069 | 15 | 94 | 4 | 99 | 86 | 19 | 2 | 10 | 110 | 0 | 4 | 5 | 1 | 0 | 6 | 0 |
 | leetcode-medium | 121 | 2997 | 24 | 211 | 4 | 315 | 224 | 76 | 10 | 29 | 245 | 3 | 25 | 35 | 10 | 23 | 16 | 4 |
-| leetcode-hard | 23 | 705 | 30 | 44 | 2 | 63 | 57 | 16 | 7 | 13 | 51 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
+| leetcode-hard | 24 | 723 | 30 | 45 | 2 | 65 | 60 | 16 | 8 | 13 | 52 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
 
 ## Recent Changes
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2025-12-22 | LeetCode Hard | Delete Columns to Make Sorted III | [python](leetcode/hard/960.%20Delete%20Columns%20to%20Make%20Sorted%20III.py) | [leetcode.com](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/) |
 | 2025-12-21 | LeetCode Medium | Delete Columns to Make Sorted II | [python](leetcode/medium/955.%20Delete%20Columns%20to%20Make%20Sorted%20II.py) | [leetcode.com](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/) |
 | 2025-12-20 | LeetCode Easy | Delete Columns to Make Sorted | [python](leetcode/easy/944.%20Delete%20Columns%20to%20Make%20Sorted.py) | [leetcode.com](https://leetcode.com/problems/delete-columns-to-make-sorted/) |
 | 2025-12-19 | LeetCode Hard | Find All People With Secret | [python](leetcode/hard/2092.%20Find%20All%20People%20With%20Secret.py) | [leetcode.com](https://leetcode.com/problems/find-all-people-with-secret/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2025-12-12 | AoC 2025 Day 12 | Solution Part 2 | [python](aoc/2025/day-12/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/12) |
 | 2025-12-12 | AoC 2025 Day 12 | Solution Part 1 | [python](aoc/2025/day-12/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/12) |
 | 2025-12-12 | LeetCode Medium | Count Mentions Per User | [python](leetcode/medium/3433.%20Count%20Mentions%20Per%20User.py) | [leetcode.com](https://leetcode.com/problems/count-mentions-per-user/) |
-| 2025-12-11 | AoC 2025 Day 11 | Solution Part 1 | [python](aoc/2025/day-11/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/11) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -204,6 +204,7 @@ Recently solved and added problems.
 | 552 | Student Attendance Record II | O(n) | O(n) | [python](leetcode/hard/552.%20Student%20Attendance%20Record%20II.py) | [leetcode.com](https://leetcode.com/problems/student-attendance-record-ii/) |
 | 778 | Swim in Rising Water | O(n*n log n*n) | O(n*n) | [python](leetcode/hard/778.%20Swim%20in%20Rising%20Water.py) | [leetcode.com](https://leetcode.com/problems/swim-in-rising-water/) |
 | 857 | Minimum Cost to Hire K Workers | O(n log n) | O(n) | [python](leetcode/hard/857.%20Minimum%20Cost%20to%20Hire%20K%20Workers.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) |
+| 960 | Delete Columns to Make Sorted III | O(n * m) | O(m) | [python](leetcode/hard/960.%20Delete%20Columns%20to%20Make%20Sorted%20III.py) | [leetcode.com](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/) |
 | 1289 | Minimum Falling Path Sum II | O(n*m) | O(n) | [python](leetcode/hard/1289.%20Minimum%20Falling%20Path%20Sum%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-falling-path-sum-ii/) |
 | 1354 | Construct Target Array With Multiple Sums | O(n log n) | O(1) | [python](leetcode/hard/1354.%20Construct%20Target%20Array%20With%20Multiple%20Sums.py) | [leetcode.com](https://leetcode.com/problems/construct-target-array-with-multiple-sums/) |
 | 1526 | Minimum Number of Increments on Subarrays to Form a Target Array (alt) | O(n*m) | O(n*m) | [python](leetcode/hard/1526.%20Minimum%20Number%20of%20Increments%20on%20Subarrays%20to%20Form%20a%20Target%20Array%20%28alt%29.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/) |
