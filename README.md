@@ -33,7 +33,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 68 | 1069 | 15 | 94 | 4 | 99 | 86 | 19 | 2 | 10 | 110 | 0 | 4 | 5 | 1 | 0 | 6 | 0 |
+| leetcode-easy | 69 | 1081 | 15 | 95 | 4 | 99 | 86 | 20 | 2 | 10 | 111 | 0 | 4 | 5 | 1 | 0 | 7 | 0 |
 | leetcode-medium | 122 | 3019 | 24 | 212 | 4 | 316 | 226 | 77 | 11 | 29 | 246 | 3 | 25 | 35 | 10 | 23 | 18 | 4 |
 | leetcode-hard | 24 | 723 | 30 | 45 | 2 | 65 | 60 | 16 | 8 | 13 | 52 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2025-12-24 | LeetCode Easy | Apple Redistribution into Boxes | [python](leetcode/easy/3074.%20Apple%20Redistribution%20into%20Boxes.py) | [leetcode.com](https://leetcode.com/problems/apple-redistribution-into-boxes/) |
 | 2025-12-23 | LeetCode Medium | Two Best Non-Overlapping Events | [python](leetcode/medium/2054.%20Two%20Best%20Non-Overlapping%20Events.py) | [leetcode.com](https://leetcode.com/problems/two-best-non-overlapping-events/description/) |
 | 2025-12-22 | LeetCode Hard | Delete Columns to Make Sorted III | [python](leetcode/hard/960.%20Delete%20Columns%20to%20Make%20Sorted%20III.py) | [leetcode.com](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/) |
 | 2025-12-21 | LeetCode Medium | Delete Columns to Make Sorted II | [python](leetcode/medium/955.%20Delete%20Columns%20to%20Make%20Sorted%20II.py) | [leetcode.com](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2025-12-15 | LeetCode Medium | Number of Smooth Descent Periods of a Stock | [python](leetcode/medium/2110.%20Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock.py) | [leetcode.com](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/) |
 | 2025-12-13 | LeetCode Easy | Coupon Code Validator | [python](leetcode/easy/3606.%20Coupon%20Code%20Validator.py) | [leetcode.com](https://leetcode.com/problems/coupon-code-validator/) |
 | 2025-12-12 | AoC 2025 Day 12 | Solution Part 2 | [python](aoc/2025/day-12/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/12) |
-| 2025-12-12 | AoC 2025 Day 12 | Solution Part 1 | [python](aoc/2025/day-12/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/12) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -170,6 +170,7 @@ Recently solved and added problems.
 | 2696 | Minimum String Length After Removing Substrings | O(n*n) | O(n) | [python](leetcode/easy/2696.%20Minimum%20String%20Length%20After%20Removing%20Substrings.py) | [leetcode.com](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/) |
 | 3005 | Count Elements With Maximum Frequency | O(n) | O(m) | [python](leetcode/easy/3005.%20Count%20Elements%20With%20Maximum%20Frequency.py) | [leetcode.com](https://leetcode.com/problems/count-elements-with-maximum-frequency/) |
 | 3063 | Linked List Frequency | O(n) | O(n) | [python](leetcode/easy/3063.%20Linked%20List%20Frequency.py) | [leetcode.com](https://leetcode.com/problems/linked-list-frequency/) |
+| 3074 | Apple Redistribution into Boxes | O(m + n log n) | O(1) | [python](leetcode/easy/3074.%20Apple%20Redistribution%20into%20Boxes.py) | [leetcode.com](https://leetcode.com/problems/apple-redistribution-into-boxes/) |
 | 3105 | Longest Strictly Increasing or Strictly Decreasing Subarray | O(n) | O(1) | [python](leetcode/easy/3105.%20Longest%20Strictly%20Increasing%20or%20Strictly%20Decreasing%20Subarray.py) | [leetcode.com](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/) |
 | 3110 | Score of a String | O(n) | O(1) | [python](leetcode/easy/3110.%20Score%20of%20a%20String.py) | [leetcode.com](https://leetcode.com/problems/score-of-a-string/) |
 | 3190 | Find Minimum Operations to Make All Elements Divisible by Three | O(n) | O(1) | [python](leetcode/easy/3190.%20Find%20Minimum%20Operations%20to%20Make%20All%20Elements%20Divisible%20by%20Three.py) | [leetcode.com](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three) |
