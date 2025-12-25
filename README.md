@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 69 | 1081 | 15 | 95 | 4 | 99 | 86 | 20 | 2 | 10 | 111 | 0 | 4 | 5 | 1 | 0 | 7 | 0 |
-| leetcode-medium | 122 | 3019 | 24 | 212 | 4 | 316 | 226 | 77 | 11 | 29 | 246 | 3 | 25 | 35 | 10 | 23 | 18 | 4 |
+| leetcode-medium | 122 | 3027 | 24 | 212 | 4 | 316 | 226 | 78 | 11 | 29 | 246 | 3 | 25 | 35 | 10 | 23 | 18 | 4 |
 | leetcode-hard | 24 | 723 | 30 | 45 | 2 | 65 | 60 | 16 | 8 | 13 | 52 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
 
 ## Recent Changes
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2025-12-25 | LeetCode Medium | Maximize Happiness of Selected Children | [python](leetcode/medium/3075.%20Maximize%20Happiness%20of%20Selected%20Children.py) | [leetcode.com](https://leetcode.com/problems/maximize-happiness-of-selected-children/) |
 | 2025-12-24 | LeetCode Easy | Apple Redistribution into Boxes | [python](leetcode/easy/3074.%20Apple%20Redistribution%20into%20Boxes.py) | [leetcode.com](https://leetcode.com/problems/apple-redistribution-into-boxes/) |
 | 2025-12-23 | LeetCode Medium | Two Best Non-Overlapping Events | [python](leetcode/medium/2054.%20Two%20Best%20Non-Overlapping%20Events.py) | [leetcode.com](https://leetcode.com/problems/two-best-non-overlapping-events/description/) |
 | 2025-12-22 | LeetCode Hard | Delete Columns to Make Sorted III | [python](leetcode/hard/960.%20Delete%20Columns%20to%20Make%20Sorted%20III.py) | [leetcode.com](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2025-12-18 | LeetCode Medium | Best Time to Buy and Sell Stock using Strategy | [python](leetcode/medium/3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy.py) | [leetcode.com](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/) |
 | 2025-12-15 | LeetCode Medium | Number of Smooth Descent Periods of a Stock | [python](leetcode/medium/2110.%20Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock.py) | [leetcode.com](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/) |
 | 2025-12-13 | LeetCode Easy | Coupon Code Validator | [python](leetcode/easy/3606.%20Coupon%20Code%20Validator.py) | [leetcode.com](https://leetcode.com/problems/coupon-code-validator/) |
-| 2025-12-12 | AoC 2025 Day 12 | Solution Part 2 | [python](aoc/2025/day-12/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/12) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -324,7 +324,7 @@ Recently solved and added problems.
 | 2962 | Count Subarrays Where Max Element Appears at Least K Times | O(n) | O(1) | [python](leetcode/medium/2962.%20Count%20Subarrays%20Where%20Max%20Element%20Appears%20at%20Least%20K%20Times.py) | [leetcode.com](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/) |
 | 2970 | Count the Number of Incremovable Subarrays I | O(n*n) | O(n*n) | [python](leetcode/medium/2970.%20Count%20the%20Number%20of%20Incremovable%20Subarrays%20I.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/) |
 | 3025 | Find the Number of Ways to Place People I | O(n*n) | O(1) | [python](leetcode/medium/3025.%20Find%20the%20Number%20of%20Ways%20to%20Place%20People%20I.py) | [leetcode.com](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i/) |
-| 3075 | Maximize Happiness of Selected Children | O(n + k * log n) | O(1) | [python](leetcode/medium/3075.%20Maximize%20Happiness%20of%20Selected%20Children.py) | [leetcode.com](https://leetcode.com/problems/maximize-happiness-of-selected-children/) |
+| 3075 | Maximize Happiness of Selected Children | O(n + k log n) | O(1) | [python](leetcode/medium/3075.%20Maximize%20Happiness%20of%20Selected%20Children.py) | [leetcode.com](https://leetcode.com/problems/maximize-happiness-of-selected-children/) |
 | 3100 | Water Bottles II | O(log n) | O(1) | [python](leetcode/medium/3100.%20Water%20Bottles%20II.py) | [leetcode.com](https://leetcode.com/problems/water-bottles-ii/) |
 | 3147 | Taking Maximum Energy From the Mystic Dungeon | O(n) | O(1) | [python](leetcode/medium/3147.%20Taking%20Maximum%20Energy%20From%20the%20Mystic%20Dungeon.py) | [leetcode.com](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/) |
 | 3163 | String Compression III | O(n) | O(n) | [python](leetcode/medium/3163.%20String%20Compression%20III.py) | [leetcode.com](https://leetcode.com/problems/string-compression-iii) |
