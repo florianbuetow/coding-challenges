@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 69 | 1081 | 15 | 95 | 4 | 99 | 86 | 20 | 2 | 10 | 111 | 0 | 4 | 5 | 1 | 0 | 7 | 0 |
-| leetcode-medium | 122 | 3027 | 24 | 212 | 4 | 316 | 226 | 78 | 11 | 29 | 246 | 3 | 25 | 35 | 10 | 23 | 18 | 4 |
+| leetcode-medium | 123 | 3045 | 24 | 213 | 4 | 320 | 229 | 78 | 11 | 29 | 247 | 3 | 25 | 35 | 10 | 23 | 18 | 4 |
 | leetcode-hard | 24 | 723 | 30 | 45 | 2 | 65 | 60 | 16 | 8 | 13 | 52 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
 
 ## Recent Changes
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2025-12-26 | LeetCode Medium | Minimum Penalty for a Shop | [python](leetcode/medium/2483.%20Minimum%20Penalty%20for%20a%20Shop.py) | [leetcode.com](https://leetcode.com/problems/minimum-penalty-for-a-shop) |
 | 2025-12-25 | LeetCode Medium | Maximize Happiness of Selected Children | [python](leetcode/medium/3075.%20Maximize%20Happiness%20of%20Selected%20Children.py) | [leetcode.com](https://leetcode.com/problems/maximize-happiness-of-selected-children/) |
 | 2025-12-24 | LeetCode Easy | Apple Redistribution into Boxes | [python](leetcode/easy/3074.%20Apple%20Redistribution%20into%20Boxes.py) | [leetcode.com](https://leetcode.com/problems/apple-redistribution-into-boxes/) |
 | 2025-12-23 | LeetCode Medium | Two Best Non-Overlapping Events | [python](leetcode/medium/2054.%20Two%20Best%20Non-Overlapping%20Events.py) | [leetcode.com](https://leetcode.com/problems/two-best-non-overlapping-events/description/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2025-12-19 | LeetCode Hard | Find All People With Secret | [python](leetcode/hard/2092.%20Find%20All%20People%20With%20Secret.py) | [leetcode.com](https://leetcode.com/problems/find-all-people-with-secret/) |
 | 2025-12-18 | LeetCode Medium | Best Time to Buy and Sell Stock using Strategy | [python](leetcode/medium/3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy.py) | [leetcode.com](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/) |
 | 2025-12-15 | LeetCode Medium | Number of Smooth Descent Periods of a Stock | [python](leetcode/medium/2110.%20Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock.py) | [leetcode.com](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/) |
-| 2025-12-13 | LeetCode Easy | Coupon Code Validator | [python](leetcode/easy/3606.%20Coupon%20Code%20Validator.py) | [leetcode.com](https://leetcode.com/problems/coupon-code-validator/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -311,6 +311,7 @@ Recently solved and added problems.
 | 2300 | Successful Pairs of Spells and Potions | O(m log n) | O(m) | [python](leetcode/medium/2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions.py) | [leetcode.com](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/) |
 | 2353 | Design a Food Rating System | O(log(n+m)) | O(n+m) | [python](leetcode/medium/2353.%20Design%20a%20Food%20Rating%20System.py) | [leetcode.com](https://leetcode.com/problems/design-a-food-rating-system/) |
 | 2370 | Longest Ideal Subsequence | O(n) | O(1) | [python](leetcode/medium/2370.%20Longest%20Ideal%20Subsequence.py) | [leetcode.com](https://leetcode.com/problems/longest-ideal-subsequence/) |
+| 2483 | Minimum Penalty for a Shop | O(n) | O(1) | [python](leetcode/medium/2483.%20Minimum%20Penalty%20for%20a%20Shop.py) | [leetcode.com](https://leetcode.com/problems/minimum-penalty-for-a-shop) |
 | 2486 | Append Characters to String to Make Subsequence | O(n) | O(1) | [python](leetcode/medium/2486.%20Append%20Characters%20to%20String%20to%20Make%20Subsequence.py) | [leetcode.com](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/) |
 | 2536 | Increment Submatrices by One | O(m + n*n) | O(n*n) | [python](leetcode/medium/2536.%20Increment%20Submatrices%20by%20One.py) | [leetcode.com](https://leetcode.com/problems/increment-submatrices-by-one) |
 | 2641 | Cousins in Binary Tree II | O(n) | O(n) | [python](leetcode/medium/2641.%20Cousins%20in%20Binary%20Tree%20II.py) | [leetcode.com](https://leetcode.com/problems/cousins-in-binary-tree-ii/) |
