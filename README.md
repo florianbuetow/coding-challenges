@@ -35,7 +35,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 69 | 1081 | 15 | 95 | 4 | 99 | 86 | 20 | 2 | 10 | 111 | 0 | 4 | 5 | 1 | 0 | 7 | 0 |
 | leetcode-medium | 123 | 3045 | 24 | 213 | 4 | 320 | 229 | 78 | 11 | 29 | 247 | 3 | 25 | 35 | 10 | 23 | 18 | 4 |
-| leetcode-hard | 24 | 723 | 30 | 45 | 2 | 65 | 60 | 16 | 8 | 13 | 52 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
+| leetcode-hard | 25 | 751 | 30 | 46 | 2 | 67 | 63 | 17 | 8 | 13 | 53 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
 
 ## Recent Changes
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2025-12-27 | LeetCode Hard | Meeting Rooms III | [python](leetcode/hard/2402.%20Meeting%20Rooms%20III.py) | [leetcode.com](https://leetcode.com/problems/meeting-rooms-iii/) |
 | 2025-12-26 | LeetCode Medium | Minimum Penalty for a Shop | [python](leetcode/medium/2483.%20Minimum%20Penalty%20for%20a%20Shop.py) | [leetcode.com](https://leetcode.com/problems/minimum-penalty-for-a-shop) |
 | 2025-12-25 | LeetCode Medium | Maximize Happiness of Selected Children | [python](leetcode/medium/3075.%20Maximize%20Happiness%20of%20Selected%20Children.py) | [leetcode.com](https://leetcode.com/problems/maximize-happiness-of-selected-children/) |
 | 2025-12-24 | LeetCode Easy | Apple Redistribution into Boxes | [python](leetcode/easy/3074.%20Apple%20Redistribution%20into%20Boxes.py) | [leetcode.com](https://leetcode.com/problems/apple-redistribution-into-boxes/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2025-12-20 | LeetCode Easy | Delete Columns to Make Sorted | [python](leetcode/easy/944.%20Delete%20Columns%20to%20Make%20Sorted.py) | [leetcode.com](https://leetcode.com/problems/delete-columns-to-make-sorted/) |
 | 2025-12-19 | LeetCode Hard | Find All People With Secret | [python](leetcode/hard/2092.%20Find%20All%20People%20With%20Secret.py) | [leetcode.com](https://leetcode.com/problems/find-all-people-with-secret/) |
 | 2025-12-18 | LeetCode Medium | Best Time to Buy and Sell Stock using Strategy | [python](leetcode/medium/3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy.py) | [leetcode.com](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/) |
-| 2025-12-15 | LeetCode Medium | Number of Smooth Descent Periods of a Stock | [python](leetcode/medium/2110.%20Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock.py) | [leetcode.com](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -213,6 +213,7 @@ Recently solved and added problems.
 | 1611 | Minimum One Bit Operations to Make Integers Zero | O(log n) | O(1) | [python](leetcode/hard/1611.%20Minimum%20One%20Bit%20Operations%20to%20Make%20Integers%20Zero.py) | [leetcode.com](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero) |
 | 2092 | Find All People With Secret | O(n log n + n*k) | O(n) | [python](leetcode/hard/2092.%20Find%20All%20People%20With%20Secret.py) | [leetcode.com](https://leetcode.com/problems/find-all-people-with-secret/) |
 | 2197 | Replace Non-Coprime Numbers in Array | O(n log n) | O(n) | [python](leetcode/hard/2197.%20Replace%20Non-Coprime%20Numbers%20in%20Array.py) | [leetcode.com](https://leetcode.com/problems/replace-non-coprime-numbers-in-array/) |
+| 2402 | Meeting Rooms III | O(m log m) | O(n) | [python](leetcode/hard/2402.%20Meeting%20Rooms%20III.py) | [leetcode.com](https://leetcode.com/problems/meeting-rooms-iii/) |
 | 2435 | Paths in Matrix Whose Sum Is Divisible by K | O(n*m*k) | O(n*m*k) | [python](leetcode/hard/2435.%20Paths%20in%20Matrix%20Whose%20Sum%20Is%20Divisible%20by%20K.py) | [leetcode.com](https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k) |
 | 2598 | Smallest Missing Non-negative Integer After Operations | O(n) | O(m) | [python](leetcode/hard/2598.%20Smallest%20Missing%20Non-negative%20Integer%20After%20Operations.py) | [leetcode.com](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/) |
 | 2751 | Robot Collisions | O(n log n) | O(n) | [python](leetcode/hard/2751.%20Robot%20Collisions.py) | [leetcode.com](https://leetcode.com/problems/robot-collisions/) |
