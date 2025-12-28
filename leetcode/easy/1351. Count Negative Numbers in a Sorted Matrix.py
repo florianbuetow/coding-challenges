@@ -1,4 +1,4 @@
-# O(m + n) time and O(1) space
+# O(sqrt(n)) time and O(1) space
 # link: https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix
 
 class Solution:
