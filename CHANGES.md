@@ -7,6 +7,7 @@ Recently solved and added problems.
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
 | 2025-12-28 | LeetCode Easy | Count Negative Numbers in a Sorted Matrix | [python](leetcode/easy/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) |
+| 2025-12-28 | LeetCode Easy | Count Negative Numbers in a Sorted Matrix | [python](leetcode/easy/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) |
 | 2025-12-27 | LeetCode Hard | Meeting Rooms III | [python](leetcode/hard/2402.%20Meeting%20Rooms%20III.py) | [leetcode.com](https://leetcode.com/problems/meeting-rooms-iii/) |
 | 2025-12-26 | LeetCode Medium | Minimum Penalty for a Shop | [python](leetcode/medium/2483.%20Minimum%20Penalty%20for%20a%20Shop.py) | [leetcode.com](https://leetcode.com/problems/minimum-penalty-for-a-shop) |
 | 2025-12-25 | LeetCode Medium | Maximize Happiness of Selected Children | [python](leetcode/medium/3075.%20Maximize%20Happiness%20of%20Selected%20Children.py) | [leetcode.com](https://leetcode.com/problems/maximize-happiness-of-selected-children/) |
@@ -15,4 +16,3 @@ Recently solved and added problems.
 | 2025-12-22 | LeetCode Hard | Delete Columns to Make Sorted III | [python](leetcode/hard/960.%20Delete%20Columns%20to%20Make%20Sorted%20III.py) | [leetcode.com](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/) |
 | 2025-12-21 | LeetCode Medium | Delete Columns to Make Sorted II | [python](leetcode/medium/955.%20Delete%20Columns%20to%20Make%20Sorted%20II.py) | [leetcode.com](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/) |
 | 2025-12-20 | LeetCode Easy | Delete Columns to Make Sorted | [python](leetcode/easy/944.%20Delete%20Columns%20to%20Make%20Sorted.py) | [leetcode.com](https://leetcode.com/problems/delete-columns-to-make-sorted/) |
-| 2025-12-19 | LeetCode Hard | Find All People With Secret | [python](leetcode/hard/2092.%20Find%20All%20People%20With%20Secret.py) | [leetcode.com](https://leetcode.com/problems/find-all-people-with-secret/) |
