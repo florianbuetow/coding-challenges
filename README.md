@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 70 | 1093 | 15 | 96 | 4 | 99 | 87 | 21 | 2 | 10 | 112 | 0 | 4 | 5 | 1 | 0 | 7 | 0 |
-| leetcode-medium | 123 | 3045 | 24 | 213 | 4 | 320 | 229 | 78 | 11 | 29 | 247 | 3 | 25 | 35 | 10 | 23 | 18 | 4 |
+| leetcode-medium | 126 | 3137 | 24 | 220 | 4 | 328 | 240 | 78 | 11 | 29 | 260 | 3 | 27 | 36 | 10 | 23 | 18 | 4 |
 | leetcode-hard | 25 | 751 | 30 | 46 | 2 | 67 | 63 | 17 | 8 | 13 | 53 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
 
 ## Recent Changes
@@ -45,6 +45,9 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2025-12-30 | LeetCode Medium | Magic Squares In Grid | [python](leetcode/medium/840.%20Magic%20Squares%20In%20Grid.py) | [leetcode.com](https://leetcode.com/problems/magic-squares-in-grid) |
+| 2025-12-29 | LeetCode Medium | Maximum Score of a Split | [python](leetcode/medium/3788.%20Maximum%20Score%20of%20a%20Split.py) | [leetcode.com](https://leetcode.com/problems/maximum-score-of-a-split) |
+| 2025-12-29 | LeetCode Medium | Pyramid Transition Matrix | [python](leetcode/medium/756.%20Pyramid%20Transition%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/pyramid-transition-matrix/) |
 | 2025-12-28 | LeetCode Easy | Count Negative Numbers in a Sorted Matrix | [python](leetcode/easy/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) |
 | 2025-12-28 | LeetCode Easy | Count Negative Numbers in a Sorted Matrix | [python](leetcode/easy/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) |
 | 2025-12-27 | LeetCode Hard | Meeting Rooms III | [python](leetcode/hard/2402.%20Meeting%20Rooms%20III.py) | [leetcode.com](https://leetcode.com/problems/meeting-rooms-iii/) |
@@ -52,9 +55,6 @@ Recently solved and added problems.
 | 2025-12-25 | LeetCode Medium | Maximize Happiness of Selected Children | [python](leetcode/medium/3075.%20Maximize%20Happiness%20of%20Selected%20Children.py) | [leetcode.com](https://leetcode.com/problems/maximize-happiness-of-selected-children/) |
 | 2025-12-24 | LeetCode Easy | Apple Redistribution into Boxes | [python](leetcode/easy/3074.%20Apple%20Redistribution%20into%20Boxes.py) | [leetcode.com](https://leetcode.com/problems/apple-redistribution-into-boxes/) |
 | 2025-12-23 | LeetCode Medium | Two Best Non-Overlapping Events | [python](leetcode/medium/2054.%20Two%20Best%20Non-Overlapping%20Events.py) | [leetcode.com](https://leetcode.com/problems/two-best-non-overlapping-events/description/) |
-| 2025-12-22 | LeetCode Hard | Delete Columns to Make Sorted III | [python](leetcode/hard/960.%20Delete%20Columns%20to%20Make%20Sorted%20III.py) | [leetcode.com](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/) |
-| 2025-12-21 | LeetCode Medium | Delete Columns to Make Sorted II | [python](leetcode/medium/955.%20Delete%20Columns%20to%20Make%20Sorted%20II.py) | [leetcode.com](https://leetcode.com/problems/delete-columns-to-make-sorted-ii/) |
-| 2025-12-20 | LeetCode Easy | Delete Columns to Make Sorted | [python](leetcode/easy/944.%20Delete%20Columns%20to%20Make%20Sorted.py) | [leetcode.com](https://leetcode.com/problems/delete-columns-to-make-sorted/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -260,7 +260,9 @@ Recently solved and added problems.
 | 686 | Repeated String Match | O(n*n) | O(m) | [python](leetcode/medium/686.%20Repeated%20String%20Match.py) | [leetcode.com](https://leetcode.com/problems/repeated-string-match/) |
 | 713 | Subarray Product Less Than K | N/A | N/A | [python](leetcode/medium/713.%20Subarray%20Product%20Less%20Than%20K.py) | [leetcode.com](https://leetcode.com/problems/subarray-product-less-than-k/) |
 | 752 | Open the Lock | O(1) | O(1) | [python](leetcode/medium/752.%20Open%20the%20Lock.py) | [leetcode.com](https://leetcode.com/problems/open-the-lock/) |
+| 756 | Pyramid Transition Matrix | O(6^2n) | O(n*6^n) | [python](leetcode/medium/756.%20Pyramid%20Transition%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/pyramid-transition-matrix/) |
 | 831 | Masking Personal Information | O(n) | O(n) | [python](leetcode/medium/831.%20Masking%20Personal%20Information.py) | [leetcode.com](https://leetcode.com/problems/masking-personal-information/) |
+| 840 | Magic Squares In Grid | O(n*m) | O(1) | [python](leetcode/medium/840.%20Magic%20Squares%20In%20Grid.py) | [leetcode.com](https://leetcode.com/problems/magic-squares-in-grid) |
 | 852 | Peak Index in a Mountain Array | O(log n) | O(1) | [python](leetcode/medium/852.%20Peak%20Index%20in%20a%20Mountain%20Array.py) | [leetcode.com](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/) |
 | 861 | Score After Flipping Matrix | O(n * m) | O(1) | [python](leetcode/medium/861.%20Score%20After%20Flipping%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/score-after-flipping-matrix/) |
 | 912 | Sort an Array | O(n log n) | O(n) | [python](leetcode/medium/912.%20Sort%20an%20Array.py) | [leetcode.com](https://leetcode.com/problems/sort-an-array/description/) |
@@ -348,6 +350,7 @@ Recently solved and added problems.
 | 3577 | Count the Number of Computer Unlocking Permutations | O(n) | O(1) | [python](leetcode/medium/3577.%20Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/) |
 | 3578 | Count Partitions With Max-Min Difference at Most K | O(n) | O(n) | [python](leetcode/medium/3578.%20Count%20Partitions%20With%20Max-Min%20Difference%20at%20Most%20K.py) | [leetcode.com](https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k) |
 | 3652 | Best Time to Buy and Sell Stock using Strategy | O(n) | O(1) | [python](leetcode/medium/3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy.py) | [leetcode.com](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/) |
+| 3788 | Maximum Score of a Split | O(n) | O(n) | [python](leetcode/medium/3788.%20Maximum%20Score%20of%20a%20Split.py) | [leetcode.com](https://leetcode.com/problems/maximum-score-of-a-split) |
 
 ## Generating the README
 
