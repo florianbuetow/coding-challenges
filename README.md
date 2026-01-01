@@ -33,7 +33,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 70 | 1093 | 15 | 96 | 4 | 99 | 87 | 21 | 2 | 10 | 112 | 0 | 4 | 5 | 1 | 0 | 7 | 0 |
+| leetcode-easy | 71 | 1108 | 15 | 97 | 4 | 100 | 87 | 22 | 2 | 10 | 113 | 0 | 4 | 5 | 1 | 0 | 7 | 0 |
 | leetcode-medium | 126 | 3137 | 24 | 220 | 4 | 328 | 240 | 78 | 11 | 29 | 260 | 3 | 27 | 36 | 10 | 23 | 18 | 4 |
 | leetcode-hard | 25 | 751 | 30 | 46 | 2 | 67 | 63 | 17 | 8 | 13 | 53 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-01-01 | LeetCode Easy | Plus One | [python](leetcode/easy/66.%20Plus%20One.py) | [leetcode.com](https://leetcode.com/problems/plus-one/) |
 | 2025-12-30 | LeetCode Medium | Magic Squares In Grid | [python](leetcode/medium/840.%20Magic%20Squares%20In%20Grid.py) | [leetcode.com](https://leetcode.com/problems/magic-squares-in-grid) |
 | 2025-12-29 | LeetCode Medium | Maximum Score of a Split | [python](leetcode/medium/3788.%20Maximum%20Score%20of%20a%20Split.py) | [leetcode.com](https://leetcode.com/problems/maximum-score-of-a-split) |
 | 2025-12-29 | LeetCode Medium | Pyramid Transition Matrix | [python](leetcode/medium/756.%20Pyramid%20Transition%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/pyramid-transition-matrix/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2025-12-26 | LeetCode Medium | Minimum Penalty for a Shop | [python](leetcode/medium/2483.%20Minimum%20Penalty%20for%20a%20Shop.py) | [leetcode.com](https://leetcode.com/problems/minimum-penalty-for-a-shop) |
 | 2025-12-25 | LeetCode Medium | Maximize Happiness of Selected Children | [python](leetcode/medium/3075.%20Maximize%20Happiness%20of%20Selected%20Children.py) | [leetcode.com](https://leetcode.com/problems/maximize-happiness-of-selected-children/) |
 | 2025-12-24 | LeetCode Easy | Apple Redistribution into Boxes | [python](leetcode/easy/3074.%20Apple%20Redistribution%20into%20Boxes.py) | [leetcode.com](https://leetcode.com/problems/apple-redistribution-into-boxes/) |
-| 2025-12-23 | LeetCode Medium | Two Best Non-Overlapping Events | [python](leetcode/medium/2054.%20Two%20Best%20Non-Overlapping%20Events.py) | [leetcode.com](https://leetcode.com/problems/two-best-non-overlapping-events/description/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -123,6 +123,7 @@ Recently solved and added problems.
 | Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- | --- |
 | 21 | Merge Two Sorted Lists | O(n) | O(1) | [python](leetcode/easy/21.%20Merge%20Two%20Sorted%20Lists.py) | [leetcode.com](https://leetcode.com/problems/merge-two-sorted-lists/) |
+| 66 | Plus One | O(n) | O(n) | [python](leetcode/easy/66.%20Plus%20One.py) | [leetcode.com](https://leetcode.com/problems/plus-one/) |
 | 219 | Contains Duplicate II | O(n) | O(n) | [python](leetcode/easy/219.%20Contains%20Duplicate%20II.py) | [leetcode.com](https://leetcode.com/problems/contains-duplicate-ii/) |
 | 234 | Palindrome Linked List | O(n) | O(1) | [python](leetcode/easy/234.%20Palindrome%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/palindrome-linked-list/) |
 | 404 | Sum of Left Leaves | O(n) | O(n) | [python](leetcode/easy/404.%20Sum%20of%20Left%20Leaves.py) | [leetcode.com](https://leetcode.com/problems/sum-of-left-leaves/) |
