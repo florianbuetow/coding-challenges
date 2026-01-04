@@ -8,12 +8,12 @@ The following outlines the steps to generate the `README.md` file using the auto
 - Clone this repository
 - Ensure that Docker is installed and running on your system
 
-### Using Make
+### Using Just
 
 #### 1. Initialize the Docker Container
 
 ```bash
-make init
+just init
 ```
 
 This builds the Docker image with the README generator. You only need to run this once, or after modifying `generate_readme.py`.
@@ -21,7 +21,7 @@ This builds the Docker image with the README generator. You only need to run thi
 #### 2. Generate README
 
 ```bash
-make generate
+just generate
 ```
 
 This runs the Docker container to generate the `README.md` file and appends `USAGE.md` to it. The Docker image will be built automatically if it doesn't exist.
@@ -29,7 +29,7 @@ This runs the Docker container to generate the `README.md` file and appends `USA
 #### 3. Check Status
 
 ```bash
-make status
+just status
 ```
 
 This checks if the Docker image already exists.
@@ -37,7 +37,7 @@ This checks if the Docker image already exists.
 #### 4. Cleanup
 
 ```bash
-make destroy
+just destroy
 ```
 
 This removes the Docker image.

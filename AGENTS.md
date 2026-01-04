@@ -12,13 +12,13 @@ This repository contains Python solutions to coding challenges from LeetCode, De
 
 1. Create the solution file (see format below)
 2. Commit the solution file
-3. Run `make generate`
+3. Run `just generate`
 4. Commit README.md + CHANGES.md
 5. Push
 
-**The order matters: CHANGES.md is generated from git history, so the solution must be committed before running `make generate`.**
+**The order matters: CHANGES.md is generated from git history, so the solution must be committed before running `just generate`.**
 
-**IMPORTANT:** Do NOT stage README.md or CHANGES.md before running `make generate`. If these files are already staged, the generated output will overwrite the working directory copies but the staged versions will be stale. Always run `make generate` with a clean staging area, then stage and commit the freshly generated files.
+**IMPORTANT:** Do NOT stage README.md or CHANGES.md before running `just generate`. If these files are already staged, the generated output will overwrite the working directory copies but the staged versions will be stale. Always run `just generate` with a clean staging area, then stage and commit the freshly generated files.
 
 ### Solution File Format
 
@@ -50,24 +50,24 @@ class Solution:
 - `# O(n) time and space` - Same for both
 - `# O(n) time` or `# O(1) space` - One only (other shows "N/A")
 
-## Make Commands
+## Just Commands
 
 | Command | Description |
 |---------|-------------|
-| `make generate` | Generate README.md and CHANGES.md (ALWAYS use this) |
-| `make init` | Build Docker image |
-| `make destroy` | Delete Docker image |
-| `make status` | Check if Docker image exists |
+| `just generate` | Generate README.md and CHANGES.md (ALWAYS use this) |
+| `just init` | Build Docker image |
+| `just destroy` | Delete Docker image |
+| `just status` | Check if Docker image exists |
 
-**If `make generate` fails because Docker is not running:** STOP and tell the user to start Docker. Do NOT run Python scripts directly.
+**If `just generate` fails because Docker is not running:** STOP and tell the user to start Docker. Do NOT run Python scripts directly.
 
 ## Modifying Generator Scripts
 
 When editing `generate_readme.py` or `generate_changes.py`:
 
 1. Make your changes to the script
-2. Run `make destroy && make init` to rebuild the Docker image
-3. Run `make generate` to test
+2. Run `just destroy && just init` to rebuild the Docker image
+3. Run `just generate` to test
 4. Commit the script changes, then commit README.md + CHANGES.md
 
 **The scripts are copied into the Docker image at build time.** If you skip the rebuild, your changes won't take effect.
