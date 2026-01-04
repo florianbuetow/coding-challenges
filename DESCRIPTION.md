@@ -19,5 +19,5 @@ This repository contains a collection of coding problems solved on various platf
 ├── generate_readme.py # README generator script
 ├── DESCRIPTION.md     # Project description
 ├── USAGE.md           # Usage instructions
-└── Makefile           # Build automation
+└── justfile           # Build automation
 ```
