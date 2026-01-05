@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 72 | 1124 | 15 | 98 | 4 | 101 | 89 | 22 | 2 | 10 | 115 | 0 | 4 | 6 | 1 | 0 | 7 | 0 |
-| leetcode-medium | 127 | 3153 | 24 | 221 | 4 | 332 | 242 | 78 | 12 | 29 | 261 | 3 | 27 | 36 | 10 | 23 | 18 | 4 |
+| leetcode-medium | 128 | 3168 | 24 | 222 | 4 | 334 | 244 | 78 | 12 | 29 | 262 | 3 | 27 | 36 | 10 | 23 | 18 | 4 |
 | leetcode-hard | 25 | 751 | 30 | 46 | 2 | 67 | 63 | 17 | 8 | 13 | 53 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
 
 ## Recent Changes
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-01-05 | LeetCode Medium | Maximum Matrix Sum | [python](leetcode/medium/1975.%20Maximum%20Matrix%20Sum.py) | [leetcode.com](https://leetcode.com/problems/maximum-matrix-sum) |
 | 2026-01-04 | LeetCode Medium | Four Divisors | [python](leetcode/medium/1390.%20Four%20Divisors.py) | [leetcode.com](https://leetcode.com/problems/four-divisors) |
 | 2026-01-02 | LeetCode Easy | N-Repeated Element in Size 2N Array | [python](leetcode/easy/961.%20N-Repeated%20Element%20in%20Size%202N%20Array.py) | [leetcode.com](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) |
 | 2026-01-01 | LeetCode Easy | Plus One | [python](leetcode/easy/66.%20Plus%20One.py) | [leetcode.com](https://leetcode.com/problems/plus-one/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2025-12-28 | LeetCode Easy | Count Negative Numbers in a Sorted Matrix | [python](leetcode/easy/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) |
 | 2025-12-28 | LeetCode Easy | Count Negative Numbers in a Sorted Matrix | [python](leetcode/easy/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) |
 | 2025-12-27 | LeetCode Hard | Meeting Rooms III | [python](leetcode/hard/2402.%20Meeting%20Rooms%20III.py) | [leetcode.com](https://leetcode.com/problems/meeting-rooms-iii/) |
-| 2025-12-26 | LeetCode Medium | Minimum Penalty for a Shop | [python](leetcode/medium/2483.%20Minimum%20Penalty%20for%20a%20Shop.py) | [leetcode.com](https://leetcode.com/problems/minimum-penalty-for-a-shop) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -302,6 +302,7 @@ Recently solved and added problems.
 | 1740 | Find Distance in a Binary Tree | O(n) | O(m) | [python](leetcode/medium/1740.%20Find%20Distance%20in%20a%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/find-distance-in-a-binary-tree/) |
 | 1792 | Maximum Average Pass Ratio | O(m log n) | O(n) | [python](leetcode/medium/1792.%20Maximum%20Average%20Pass%20Ratio.py) | [leetcode.com](https://leetcode.com/problems/maximum-average-pass-ratio/) |
 | 1930 | Unique Length-3 Palindromic Subsequences | O(n*n) | O(n) | [python](leetcode/medium/1930.%20Unique%20Length-3%20Palindromic%20Subsequences.py) | [leetcode.com](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/) |
+| 1975 | Maximum Matrix Sum | O(n*n) | O(1) | [python](leetcode/medium/1975.%20Maximum%20Matrix%20Sum.py) | [leetcode.com](https://leetcode.com/problems/maximum-matrix-sum) |
 | 1992 | Find All Groups of Farmland | O(n*m) | O(n*m) | [python](leetcode/medium/1992.%20Find%20All%20Groups%20of%20Farmland.py) | [leetcode.com](https://leetcode.com/problems/find-all-groups-of-farmland/) |
 | 2048 | Next Greater Numerically Balanced Number | O(1) | O(1) | [python](leetcode/medium/2048.%20Next%20Greater%20Numerically%20Balanced%20Number.py) | [leetcode.com](https://leetcode.com/problems/next-greater-numerically-balanced-number/) |
 | 2054 | Two Best Non-Overlapping Events | O(n log n) | O(n) | [python](leetcode/medium/2054.%20Two%20Best%20Non-Overlapping%20Events.py) | [leetcode.com](https://leetcode.com/problems/two-best-non-overlapping-events/description/) |
