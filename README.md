@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 72 | 1124 | 15 | 98 | 4 | 101 | 89 | 22 | 2 | 10 | 115 | 0 | 4 | 6 | 1 | 0 | 7 | 0 |
-| leetcode-medium | 128 | 3168 | 24 | 222 | 4 | 334 | 244 | 78 | 12 | 29 | 262 | 3 | 27 | 36 | 10 | 23 | 18 | 4 |
+| leetcode-medium | 129 | 3195 | 24 | 224 | 4 | 338 | 246 | 79 | 12 | 29 | 263 | 3 | 27 | 36 | 10 | 24 | 18 | 4 |
 | leetcode-hard | 25 | 751 | 30 | 46 | 2 | 67 | 63 | 17 | 8 | 13 | 53 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
 
 ## Recent Changes
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-01-06 | LeetCode Medium | Maximum Level Sum of a Binary Tree | [python](leetcode/medium/1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) |
 | 2026-01-05 | LeetCode Medium | Maximum Matrix Sum | [python](leetcode/medium/1975.%20Maximum%20Matrix%20Sum.py) | [leetcode.com](https://leetcode.com/problems/maximum-matrix-sum) |
 | 2026-01-04 | LeetCode Medium | Four Divisors | [python](leetcode/medium/1390.%20Four%20Divisors.py) | [leetcode.com](https://leetcode.com/problems/four-divisors) |
 | 2026-01-02 | LeetCode Easy | N-Repeated Element in Size 2N Array | [python](leetcode/easy/961.%20N-Repeated%20Element%20in%20Size%202N%20Array.py) | [leetcode.com](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2025-12-29 | LeetCode Medium | Pyramid Transition Matrix | [python](leetcode/medium/756.%20Pyramid%20Transition%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/pyramid-transition-matrix/) |
 | 2025-12-28 | LeetCode Easy | Count Negative Numbers in a Sorted Matrix | [python](leetcode/easy/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) |
 | 2025-12-28 | LeetCode Easy | Count Negative Numbers in a Sorted Matrix | [python](leetcode/easy/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) |
-| 2025-12-27 | LeetCode Hard | Meeting Rooms III | [python](leetcode/hard/2402.%20Meeting%20Rooms%20III.py) | [leetcode.com](https://leetcode.com/problems/meeting-rooms-iii/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -278,6 +278,7 @@ Recently solved and added problems.
 | 1015 | Smallest Integer Divisible by K | O(k) | O(1) | [python](leetcode/medium/1015.%20Smallest%20Integer%20Divisible%20by%20K.py) | [leetcode.com](https://leetcode.com/problems/smallest-integer-divisible-by-k) |
 | 1052 | Grumpy Bookstore Owner | O(n) | O(1) | [python](leetcode/medium/1052.%20Grumpy%20Bookstore%20Owner.py) | [leetcode.com](https://leetcode.com/problems/grumpy-bookstore-owner/) |
 | 1110 | Delete Nodes And Return Forest | O(n) | O(n) | [python](leetcode/medium/1110.%20Delete%20Nodes%20And%20Return%20Forest.py) | [leetcode.com](https://leetcode.com/problems/delete-nodes-and-return-forest/) |
+| 1161 | Maximum Level Sum of a Binary Tree | O(n) | O(n) | [python](leetcode/medium/1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) |
 | 1167 | Minimum Cost to Connect Sticks | O(n log n) | O(1) | [python](leetcode/medium/1167.%20Minimum%20Cost%20to%20Connect%20Sticks.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-to-connect-sticks) |
 | 1190 | Reverse Substrings Between Each Pair of Parentheses | O(n) | O(n) | [python](leetcode/medium/1190.%20Reverse%20Substrings%20Between%20Each%20Pair%20of%20Parentheses.py) | [leetcode.com](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) |
 | 1208 | Get Equal Substrings Within Budget | O(n) | O(1) | [python](leetcode/medium/1208.%20Get%20Equal%20Substrings%20Within%20Budget.py) | [leetcode.com](https://leetcode.com/problems/get-equal-substrings-within-budget/) |
