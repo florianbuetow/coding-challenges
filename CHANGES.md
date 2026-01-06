@@ -6,6 +6,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-01-06 | LeetCode Medium | Maximum Level Sum of a Binary Tree | [python](leetcode/medium/1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) |
 | 2026-01-05 | LeetCode Medium | Maximum Matrix Sum | [python](leetcode/medium/1975.%20Maximum%20Matrix%20Sum.py) | [leetcode.com](https://leetcode.com/problems/maximum-matrix-sum) |
 | 2026-01-04 | LeetCode Medium | Four Divisors | [python](leetcode/medium/1390.%20Four%20Divisors.py) | [leetcode.com](https://leetcode.com/problems/four-divisors) |
 | 2026-01-02 | LeetCode Easy | N-Repeated Element in Size 2N Array | [python](leetcode/easy/961.%20N-Repeated%20Element%20in%20Size%202N%20Array.py) | [leetcode.com](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) |
@@ -15,4 +16,3 @@ Recently solved and added problems.
 | 2025-12-29 | LeetCode Medium | Pyramid Transition Matrix | [python](leetcode/medium/756.%20Pyramid%20Transition%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/pyramid-transition-matrix/) |
 | 2025-12-28 | LeetCode Easy | Count Negative Numbers in a Sorted Matrix | [python](leetcode/easy/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) |
 | 2025-12-28 | LeetCode Easy | Count Negative Numbers in a Sorted Matrix | [python](leetcode/easy/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) |
-| 2025-12-27 | LeetCode Hard | Meeting Rooms III | [python](leetcode/hard/2402.%20Meeting%20Rooms%20III.py) | [leetcode.com](https://leetcode.com/problems/meeting-rooms-iii/) |
