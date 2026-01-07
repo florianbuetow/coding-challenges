@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 72 | 1124 | 15 | 98 | 4 | 101 | 89 | 22 | 2 | 10 | 115 | 0 | 4 | 6 | 1 | 0 | 7 | 0 |
-| leetcode-medium | 129 | 3195 | 24 | 224 | 4 | 338 | 246 | 79 | 12 | 29 | 263 | 3 | 27 | 36 | 10 | 24 | 18 | 4 |
+| leetcode-medium | 130 | 3222 | 24 | 227 | 4 | 339 | 248 | 79 | 12 | 29 | 266 | 3 | 27 | 36 | 10 | 24 | 18 | 4 |
 | leetcode-hard | 25 | 751 | 30 | 46 | 2 | 67 | 63 | 17 | 8 | 13 | 53 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
 
 ## Recent Changes
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-01-07 | LeetCode Medium | Maximum Product of Splitted Binary Tree | [python](leetcode/medium/1339.%20Maximum%20Product%20of%20Splitted%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) |
 | 2026-01-06 | LeetCode Medium | Maximum Level Sum of a Binary Tree | [python](leetcode/medium/1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) |
 | 2026-01-05 | LeetCode Medium | Maximum Matrix Sum | [python](leetcode/medium/1975.%20Maximum%20Matrix%20Sum.py) | [leetcode.com](https://leetcode.com/problems/maximum-matrix-sum) |
 | 2026-01-04 | LeetCode Medium | Four Divisors | [python](leetcode/medium/1390.%20Four%20Divisors.py) | [leetcode.com](https://leetcode.com/problems/four-divisors) |
@@ -53,7 +54,6 @@ Recently solved and added problems.
 | 2025-12-30 | LeetCode Medium | Magic Squares In Grid | [python](leetcode/medium/840.%20Magic%20Squares%20In%20Grid.py) | [leetcode.com](https://leetcode.com/problems/magic-squares-in-grid) |
 | 2025-12-29 | LeetCode Medium | Maximum Score of a Split | [python](leetcode/medium/3788.%20Maximum%20Score%20of%20a%20Split.py) | [leetcode.com](https://leetcode.com/problems/maximum-score-of-a-split) |
 | 2025-12-29 | LeetCode Medium | Pyramid Transition Matrix | [python](leetcode/medium/756.%20Pyramid%20Transition%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/pyramid-transition-matrix/) |
-| 2025-12-28 | LeetCode Easy | Count Negative Numbers in a Sorted Matrix | [python](leetcode/easy/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) |
 | 2025-12-28 | LeetCode Easy | Count Negative Numbers in a Sorted Matrix | [python](leetcode/easy/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) |
 # Advent of Code
 ### 2025
@@ -287,6 +287,7 @@ Recently solved and added problems.
 | 1248 | Count Number of Nice Subarrays | O(n) | O(1) | [python](leetcode/medium/1248.%20Count%20Number%20of%20Nice%20Subarrays.py) | [leetcode.com](https://leetcode.com/problems/count-number-of-nice-subarrays/) |
 | 1249 | Minimum Remove to Make Valid Parentheses | O(n) | O(n) | [python](leetcode/medium/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.py) | [leetcode.com](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) |
 | 1262 | Greatest Sum Divisible by Three | O(n) | O(1) | [python](leetcode/medium/1262.%20Greatest%20Sum%20Divisible%20by%20Three.py) | [leetcode.com](https://leetcode.com/problems/greatest-sum-divisible-by-three/) |
+| 1339 | Maximum Product of Splitted Binary Tree | O(n) | O(n) | [python](leetcode/medium/1339.%20Maximum%20Product%20of%20Splitted%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) |
 | 1390 | Four Divisors | O(n*sqrt(m)) | O(1) | [python](leetcode/medium/1390.%20Four%20Divisors.py) | [leetcode.com](https://leetcode.com/problems/four-divisors) |
 | 1404 | Number of Steps to Reduce a Number in Binary | O(n) | O(1) | [python](leetcode/medium/1404.%20Number%20of%20Steps%20to%20Reduce%20a%20Number%20in%20Binary.py) | [leetcode.com](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) |
 | 1429 | First Unique Number | O(n) | O(n) | [python](leetcode/medium/1429.%20First%20Unique%20Number.py) | [leetcode.com](https://leetcode.com/problems/first-unique-number/submissions/) |
