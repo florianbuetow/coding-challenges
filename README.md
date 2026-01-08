@@ -35,7 +35,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 72 | 1124 | 15 | 98 | 4 | 101 | 89 | 22 | 2 | 10 | 115 | 0 | 4 | 6 | 1 | 0 | 7 | 0 |
 | leetcode-medium | 130 | 3222 | 24 | 227 | 4 | 339 | 248 | 79 | 12 | 29 | 266 | 3 | 27 | 36 | 10 | 24 | 18 | 4 |
-| leetcode-hard | 25 | 751 | 30 | 46 | 2 | 67 | 63 | 17 | 8 | 13 | 53 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
+| leetcode-hard | 26 | 769 | 29 | 47 | 2 | 67 | 65 | 17 | 8 | 13 | 54 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
 
 ## Recent Changes
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-01-08 | LeetCode Hard | Max Dot Product of Two Subsequences | [python](leetcode/hard/1458.%20Max%20Dot%20Product%20of%20Two%20Subsequences.py) | [leetcode.com](https://leetcode.com/problems/max-dot-product-of-two-subsequences) |
 | 2026-01-07 | LeetCode Medium | Maximum Product of Splitted Binary Tree | [python](leetcode/medium/1339.%20Maximum%20Product%20of%20Splitted%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) |
 | 2026-01-06 | LeetCode Medium | Maximum Level Sum of a Binary Tree | [python](leetcode/medium/1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) |
 | 2026-01-05 | LeetCode Medium | Maximum Matrix Sum | [python](leetcode/medium/1975.%20Maximum%20Matrix%20Sum.py) | [leetcode.com](https://leetcode.com/problems/maximum-matrix-sum) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2025-12-30 | LeetCode Medium | Magic Squares In Grid | [python](leetcode/medium/840.%20Magic%20Squares%20In%20Grid.py) | [leetcode.com](https://leetcode.com/problems/magic-squares-in-grid) |
 | 2025-12-29 | LeetCode Medium | Maximum Score of a Split | [python](leetcode/medium/3788.%20Maximum%20Score%20of%20a%20Split.py) | [leetcode.com](https://leetcode.com/problems/maximum-score-of-a-split) |
 | 2025-12-29 | LeetCode Medium | Pyramid Transition Matrix | [python](leetcode/medium/756.%20Pyramid%20Transition%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/pyramid-transition-matrix/) |
-| 2025-12-28 | LeetCode Easy | Count Negative Numbers in a Sorted Matrix | [python](leetcode/easy/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -211,6 +211,7 @@ Recently solved and added problems.
 | 960 | Delete Columns to Make Sorted III | O(n * m) | O(m) | [python](leetcode/hard/960.%20Delete%20Columns%20to%20Make%20Sorted%20III.py) | [leetcode.com](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/) |
 | 1289 | Minimum Falling Path Sum II | O(n*m) | O(n) | [python](leetcode/hard/1289.%20Minimum%20Falling%20Path%20Sum%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-falling-path-sum-ii/) |
 | 1354 | Construct Target Array With Multiple Sums | O(n log n) | O(1) | [python](leetcode/hard/1354.%20Construct%20Target%20Array%20With%20Multiple%20Sums.py) | [leetcode.com](https://leetcode.com/problems/construct-target-array-with-multiple-sums/) |
+| 1458 | Max Dot Product of Two Subsequences | O(n*m) | O(m) | [python](leetcode/hard/1458.%20Max%20Dot%20Product%20of%20Two%20Subsequences.py) | [leetcode.com](https://leetcode.com/problems/max-dot-product-of-two-subsequences) |
 | 1526 | Minimum Number of Increments on Subarrays to Form a Target Array (alt) | O(n*m) | O(n*m) | [python](leetcode/hard/1526.%20Minimum%20Number%20of%20Increments%20on%20Subarrays%20to%20Form%20a%20Target%20Array%20%28alt%29.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/) |
 | 1526 | Minimum Number of Increments on Subarrays to Form a Target Array | O(n) | O(1) | [python](leetcode/hard/1526.%20Minimum%20Number%20of%20Increments%20on%20Subarrays%20to%20Form%20a%20Target%20Array.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/) |
 | 1611 | Minimum One Bit Operations to Make Integers Zero | O(log n) | O(1) | [python](leetcode/hard/1611.%20Minimum%20One%20Bit%20Operations%20to%20Make%20Integers%20Zero.py) | [leetcode.com](https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero) |

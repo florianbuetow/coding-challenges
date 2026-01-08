@@ -6,6 +6,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-01-08 | LeetCode Hard | Max Dot Product of Two Subsequences | [python](leetcode/hard/1458.%20Max%20Dot%20Product%20of%20Two%20Subsequences.py) | [leetcode.com](https://leetcode.com/problems/max-dot-product-of-two-subsequences) |
 | 2026-01-07 | LeetCode Medium | Maximum Product of Splitted Binary Tree | [python](leetcode/medium/1339.%20Maximum%20Product%20of%20Splitted%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) |
 | 2026-01-06 | LeetCode Medium | Maximum Level Sum of a Binary Tree | [python](leetcode/medium/1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) |
 | 2026-01-05 | LeetCode Medium | Maximum Matrix Sum | [python](leetcode/medium/1975.%20Maximum%20Matrix%20Sum.py) | [leetcode.com](https://leetcode.com/problems/maximum-matrix-sum) |
@@ -15,4 +16,3 @@ Recently solved and added problems.
 | 2025-12-30 | LeetCode Medium | Magic Squares In Grid | [python](leetcode/medium/840.%20Magic%20Squares%20In%20Grid.py) | [leetcode.com](https://leetcode.com/problems/magic-squares-in-grid) |
 | 2025-12-29 | LeetCode Medium | Maximum Score of a Split | [python](leetcode/medium/3788.%20Maximum%20Score%20of%20a%20Split.py) | [leetcode.com](https://leetcode.com/problems/maximum-score-of-a-split) |
 | 2025-12-29 | LeetCode Medium | Pyramid Transition Matrix | [python](leetcode/medium/756.%20Pyramid%20Transition%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/pyramid-transition-matrix/) |
-| 2025-12-28 | LeetCode Easy | Count Negative Numbers in a Sorted Matrix | [python](leetcode/easy/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) |
