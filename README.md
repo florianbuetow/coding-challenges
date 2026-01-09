@@ -33,7 +33,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 76 | 1184 | 15 | 104 | 6 | 102 | 92 | 25 | 2 | 10 | 121 | 0 | 4 | 6 | 1 | 0 | 10 | 0 |
+| leetcode-easy | 77 | 1193 | 15 | 105 | 6 | 102 | 93 | 25 | 2 | 10 | 122 | 1 | 4 | 6 | 1 | 0 | 10 | 0 |
 | leetcode-medium | 131 | 3261 | 24 | 229 | 4 | 341 | 250 | 82 | 12 | 29 | 268 | 4 | 28 | 37 | 10 | 25 | 18 | 4 |
 | leetcode-hard | 26 | 769 | 29 | 47 | 2 | 67 | 65 | 17 | 8 | 13 | 54 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-01-09 | LeetCode Easy | Reverse String Prefix | [python](leetcode/easy/3794.%20Reverse%20String%20Prefix.py) | [leetcode.com](https://leetcode.com/problems/reverse-string-prefix/) |
 | 2026-01-09 | LeetCode Easy | Sort Integers by Binary Reflection | [python](leetcode/easy/3769.%20Sort%20Integers%20by%20Binary%20Reflection.py) | [leetcode.com](https://leetcode.com/problems/sort-integers-by-binary-reflection) |
 | 2026-01-09 | LeetCode Easy | Absolute Difference Between Maximum and Minimum K Elements | [python](leetcode/easy/3774.%20Absolute%20Difference%20Between%20Maximum%20and%20Minimum%20K%20Elements.py) | [leetcode.com](https://leetcode.com/problems/absolute-difference-between-maximum-and-minimum-k-elements) |
 | 2026-01-09 | LeetCode Easy | Largest Even Number | [python](leetcode/easy/3798.%20Largest%20Even%20Number.py) | [leetcode.com](https://leetcode.com/problems/largest-even-number) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-01-07 | LeetCode Medium | Maximum Product of Splitted Binary Tree | [python](leetcode/medium/1339.%20Maximum%20Product%20of%20Splitted%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) |
 | 2026-01-06 | LeetCode Medium | Maximum Level Sum of a Binary Tree | [python](leetcode/medium/1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) |
 | 2026-01-05 | LeetCode Medium | Maximum Matrix Sum | [python](leetcode/medium/1975.%20Maximum%20Matrix%20Sum.py) | [leetcode.com](https://leetcode.com/problems/maximum-matrix-sum) |
-| 2026-01-04 | LeetCode Medium | Four Divisors | [python](leetcode/medium/1390.%20Four%20Divisors.py) | [leetcode.com](https://leetcode.com/problems/four-divisors) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -197,6 +197,7 @@ Recently solved and added problems.
 | 3769 | Sort Integers by Binary Reflection | O(n log n) | O(n) | [python](leetcode/easy/3769.%20Sort%20Integers%20by%20Binary%20Reflection.py) | [leetcode.com](https://leetcode.com/problems/sort-integers-by-binary-reflection) |
 | 3774 | Absolute Difference Between Maximum and Minimum K Elements | O(n log n) | O(1) | [python](leetcode/easy/3774.%20Absolute%20Difference%20Between%20Maximum%20and%20Minimum%20K%20Elements.py) | [leetcode.com](https://leetcode.com/problems/absolute-difference-between-maximum-and-minimum-k-elements) |
 | 3783 | Mirror Distance of an Integer | O(log n) | O(log n) | [python](leetcode/easy/3783.%20Mirror%20Distance%20of%20an%20Integer.py) | [leetcode.com](https://leetcode.com/problems/mirror-distance-of-an-integer) |
+| 3794 | Reverse String Prefix | O(n) | O(n) | [python](leetcode/easy/3794.%20Reverse%20String%20Prefix.py) | [leetcode.com](https://leetcode.com/problems/reverse-string-prefix/) |
 | 3798 | Largest Even Number | O(log n) | O(log n) | [python](leetcode/easy/3798.%20Largest%20Even%20Number.py) | [leetcode.com](https://leetcode.com/problems/largest-even-number) |
 
 ### Hard
