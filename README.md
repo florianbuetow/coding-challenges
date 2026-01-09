@@ -33,7 +33,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 72 | 1124 | 15 | 98 | 4 | 101 | 89 | 22 | 2 | 10 | 115 | 0 | 4 | 6 | 1 | 0 | 7 | 0 |
+| leetcode-easy | 73 | 1130 | 15 | 99 | 4 | 101 | 89 | 22 | 2 | 10 | 116 | 0 | 4 | 6 | 1 | 0 | 7 | 0 |
 | leetcode-medium | 131 | 3261 | 24 | 229 | 4 | 341 | 250 | 82 | 12 | 29 | 268 | 4 | 28 | 37 | 10 | 25 | 18 | 4 |
 | leetcode-hard | 26 | 769 | 29 | 47 | 2 | 67 | 65 | 17 | 8 | 13 | 54 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-01-09 | LeetCode Easy | Mirror Distance of an Integer | [python](leetcode/easy/3783.%20Mirror%20Distance%20of%20an%20Integer.py) | [leetcode.com](https://leetcode.com/problems/mirror-distance-of-an-integer) |
 | 2026-01-09 | LeetCode Medium | Smallest Subtree with all the Deepest Nodes | [python](leetcode/medium/865.%20Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes.py) | [leetcode.com](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes) |
 | 2026-01-08 | LeetCode Hard | Max Dot Product of Two Subsequences | [python](leetcode/hard/1458.%20Max%20Dot%20Product%20of%20Two%20Subsequences.py) | [leetcode.com](https://leetcode.com/problems/max-dot-product-of-two-subsequences) |
 | 2026-01-07 | LeetCode Medium | Maximum Product of Splitted Binary Tree | [python](leetcode/medium/1339.%20Maximum%20Product%20of%20Splitted%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-01-02 | LeetCode Easy | N-Repeated Element in Size 2N Array | [python](leetcode/easy/961.%20N-Repeated%20Element%20in%20Size%202N%20Array.py) | [leetcode.com](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) |
 | 2026-01-01 | LeetCode Easy | Plus One | [python](leetcode/easy/66.%20Plus%20One.py) | [leetcode.com](https://leetcode.com/problems/plus-one/) |
 | 2025-12-30 | LeetCode Medium | Magic Squares In Grid | [python](leetcode/medium/840.%20Magic%20Squares%20In%20Grid.py) | [leetcode.com](https://leetcode.com/problems/magic-squares-in-grid) |
-| 2025-12-29 | LeetCode Medium | Maximum Score of a Split | [python](leetcode/medium/3788.%20Maximum%20Score%20of%20a%20Split.py) | [leetcode.com](https://leetcode.com/problems/maximum-score-of-a-split) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -194,6 +194,7 @@ Recently solved and added problems.
 | 3745 | Maximize Expression of Three Elements | O(n) | O(1) | [python](leetcode/easy/3745.%20Maximize%20Expression%20of%20Three%20Elements.py) | [leetcode.com](https://leetcode.com/problems/maximize-expression-of-three-elements/) |
 | 3750 | Minimum Number of Flips to Reverse Binary String | O(log n) | O(log n) | [python](leetcode/easy/3750.%20Minimum%20Number%20of%20Flips%20to%20Reverse%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/) |
 | 3754 | Concatenate Non-Zero Digits and Multiply by Sum I | O(log n) | O(log n) | [python](leetcode/easy/3754.%20Concatenate%20Non-Zero%20Digits%20and%20Multiply%20by%20Sum%20I.py) | [leetcode.com](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/) |
+| 3783 | Mirror Distance of an Integer | O(log n) | O(log n) | [python](leetcode/easy/3783.%20Mirror%20Distance%20of%20an%20Integer.py) | [leetcode.com](https://leetcode.com/problems/mirror-distance-of-an-integer) |
 
 ### Hard
 | Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
