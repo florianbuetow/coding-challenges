@@ -33,7 +33,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 77 | 1193 | 15 | 105 | 6 | 102 | 93 | 25 | 2 | 10 | 122 | 1 | 4 | 6 | 1 | 0 | 10 | 0 |
+| leetcode-easy | 78 | 1207 | 15 | 107 | 6 | 102 | 94 | 25 | 2 | 10 | 124 | 1 | 4 | 6 | 1 | 0 | 10 | 0 |
 | leetcode-medium | 131 | 3261 | 24 | 229 | 4 | 341 | 250 | 82 | 12 | 29 | 268 | 4 | 28 | 37 | 10 | 25 | 18 | 4 |
 | leetcode-hard | 26 | 769 | 29 | 47 | 2 | 67 | 65 | 17 | 8 | 13 | 54 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-01-12 | LeetCode Easy | Minimum Time Visiting All Points | [python](leetcode/easy/1266.%20Minimum%20Time%20Visiting%20All%20Points.py) | [leetcode.com](https://leetcode.com/problems/minimum-time-visiting-all-points/) |
 | 2026-01-09 | LeetCode Easy | Reverse String Prefix | [python](leetcode/easy/3794.%20Reverse%20String%20Prefix.py) | [leetcode.com](https://leetcode.com/problems/reverse-string-prefix/) |
 | 2026-01-09 | LeetCode Easy | Sort Integers by Binary Reflection | [python](leetcode/easy/3769.%20Sort%20Integers%20by%20Binary%20Reflection.py) | [leetcode.com](https://leetcode.com/problems/sort-integers-by-binary-reflection) |
 | 2026-01-09 | LeetCode Easy | Absolute Difference Between Maximum and Minimum K Elements | [python](leetcode/easy/3774.%20Absolute%20Difference%20Between%20Maximum%20and%20Minimum%20K%20Elements.py) | [leetcode.com](https://leetcode.com/problems/absolute-difference-between-maximum-and-minimum-k-elements) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-01-08 | LeetCode Hard | Max Dot Product of Two Subsequences | [python](leetcode/hard/1458.%20Max%20Dot%20Product%20of%20Two%20Subsequences.py) | [leetcode.com](https://leetcode.com/problems/max-dot-product-of-two-subsequences) |
 | 2026-01-07 | LeetCode Medium | Maximum Product of Splitted Binary Tree | [python](leetcode/medium/1339.%20Maximum%20Product%20of%20Splitted%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) |
 | 2026-01-06 | LeetCode Medium | Maximum Level Sum of a Binary Tree | [python](leetcode/medium/1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) |
-| 2026-01-05 | LeetCode Medium | Maximum Matrix Sum | [python](leetcode/medium/1975.%20Maximum%20Matrix%20Sum.py) | [leetcode.com](https://leetcode.com/problems/maximum-matrix-sum) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -145,6 +145,7 @@ Recently solved and added problems.
 | 1133 | Largest Unique Number | O(n log n) | O(1) | [python](leetcode/easy/1133.%20Largest%20Unique%20Number.py) | [leetcode.com](https://leetcode.com/problems/largest-unique-number/) |
 | 1137 | N-th Tribonacci Number | O(n) | O(1) | [python](leetcode/easy/1137.%20N-th%20Tribonacci%20Number.py) | [leetcode.com](https://leetcode.com/problems/n-th-tribonacci-number/) |
 | 1200 | Minimum Absolute Difference | O(n log n) | O(n) | [python](leetcode/easy/1200.%20Minimum%20Absolute%20Difference.py) | [leetcode.com](https://leetcode.com/problems/minimum-absolute-difference/) |
+| 1266 | Minimum Time Visiting All Points | O(n) | O(1) | [python](leetcode/easy/1266.%20Minimum%20Time%20Visiting%20All%20Points.py) | [leetcode.com](https://leetcode.com/problems/minimum-time-visiting-all-points/) |
 | 1304 | Find N Unique Integers Sum up to Zero | O(n) | O(n) | [python](leetcode/easy/1304.%20Find%20N%20Unique%20Integers%20Sum%20up%20to%20Zero.py) | [leetcode.com](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) |
 | 1317 | Convert Integer to the Sum of Two No-Zero Integers | O(n log n) | O(1) | [python](leetcode/easy/1317.%20Convert%20Integer%20to%20the%20Sum%20of%20Two%20No-Zero%20Integers.py) | [leetcode.com](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) |
 | 1351 | Count Negative Numbers in a Sorted Matrix | O(sqrt(n)) | O(1) | [python](leetcode/easy/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) |
