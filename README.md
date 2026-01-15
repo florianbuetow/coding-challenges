@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 78 | 1207 | 15 | 107 | 6 | 102 | 94 | 25 | 2 | 10 | 124 | 1 | 4 | 6 | 1 | 0 | 10 | 0 |
-| leetcode-medium | 132 | 3293 | 24 | 231 | 4 | 344 | 253 | 82 | 12 | 29 | 270 | 4 | 28 | 37 | 10 | 25 | 18 | 4 |
+| leetcode-medium | 133 | 3323 | 24 | 232 | 4 | 350 | 255 | 82 | 12 | 29 | 275 | 4 | 28 | 37 | 10 | 25 | 20 | 4 |
 | leetcode-hard | 26 | 769 | 29 | 47 | 2 | 67 | 65 | 17 | 8 | 13 | 54 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
 
 ## Recent Changes
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-01-15 | LeetCode Medium | Maximize Area of Square Hole in Grid | [python](leetcode/medium/2943.%20Maximize%20Area%20of%20Square%20Hole%20in%20Grid.py) | [leetcode.com](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/) |
 | 2026-01-13 | LeetCode Medium | Separate Squares I | [python](leetcode/medium/3453.%20Separate%20Squares%20I.py) | [leetcode.com](https://leetcode.com/problems/separate-squares-i/) |
 | 2026-01-12 | LeetCode Easy | Minimum Time Visiting All Points | [python](leetcode/easy/1266.%20Minimum%20Time%20Visiting%20All%20Points.py) | [leetcode.com](https://leetcode.com/problems/minimum-time-visiting-all-points/) |
 | 2026-01-09 | LeetCode Easy | Reverse String Prefix | [python](leetcode/easy/3794.%20Reverse%20String%20Prefix.py) | [leetcode.com](https://leetcode.com/problems/reverse-string-prefix/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-01-09 | LeetCode Easy | Mirror Distance of an Integer | [python](leetcode/easy/3783.%20Mirror%20Distance%20of%20an%20Integer.py) | [leetcode.com](https://leetcode.com/problems/mirror-distance-of-an-integer) |
 | 2026-01-09 | LeetCode Medium | Smallest Subtree with all the Deepest Nodes | [python](leetcode/medium/865.%20Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes.py) | [leetcode.com](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes) |
 | 2026-01-08 | LeetCode Hard | Max Dot Product of Two Subsequences | [python](leetcode/hard/1458.%20Max%20Dot%20Product%20of%20Two%20Subsequences.py) | [leetcode.com](https://leetcode.com/problems/max-dot-product-of-two-subsequences) |
-| 2026-01-07 | LeetCode Medium | Maximum Product of Splitted Binary Tree | [python](leetcode/medium/1339.%20Maximum%20Product%20of%20Splitted%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -339,6 +339,7 @@ Recently solved and added problems.
 | 2749 | Minimum Operations to Make the Integer Zero | O(log n) | O(1) | [python](leetcode/medium/2749.%20Minimum%20Operations%20to%20Make%20the%20Integer%20Zero.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/) |
 | 2785 | Sort Vowels in a String | O(n) | O(n) | [python](leetcode/medium/2785.%20Sort%20Vowels%20in%20a%20String.py) | [leetcode.com](https://leetcode.com/problems/sort-vowels-in-a-string/) |
 | 2816 | Double a Number Represented as a Linked List | O(n) | O(n) | [python](leetcode/medium/2816.%20Double%20a%20Number%20Represented%20as%20a%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/) |
+| 2943 | Maximize Area of Square Hole in Grid | O(n log n) | O(1) | [python](leetcode/medium/2943.%20Maximize%20Area%20of%20Square%20Hole%20in%20Grid.py) | [leetcode.com](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/) |
 | 2958 | Length of Longest Subarray With at Most K Frequency | O(n) | O(n) | [python](leetcode/medium/2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency.py) | [leetcode.com](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) |
 | 2962 | Count Subarrays Where Max Element Appears at Least K Times | O(n) | O(1) | [python](leetcode/medium/2962.%20Count%20Subarrays%20Where%20Max%20Element%20Appears%20at%20Least%20K%20Times.py) | [leetcode.com](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/) |
 | 2970 | Count the Number of Incremovable Subarrays I | O(n*n) | O(n*n) | [python](leetcode/medium/2970.%20Count%20the%20Number%20of%20Incremovable%20Subarrays%20I.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/) |
