@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 78 | 1207 | 15 | 107 | 6 | 102 | 94 | 25 | 2 | 10 | 124 | 1 | 4 | 6 | 1 | 0 | 10 | 0 |
-| leetcode-medium | 134 | 3342 | 24 | 234 | 4 | 351 | 256 | 82 | 12 | 29 | 277 | 4 | 29 | 37 | 10 | 25 | 21 | 4 |
+| leetcode-medium | 135 | 3356 | 24 | 235 | 4 | 351 | 258 | 82 | 12 | 29 | 278 | 4 | 29 | 37 | 10 | 25 | 21 | 4 |
 | leetcode-hard | 26 | 769 | 29 | 47 | 2 | 67 | 65 | 17 | 8 | 13 | 54 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
 
 ## Recent Changes
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-01-17 | LeetCode Medium | Find the Largest Area of Square Inside Two Rectangles | [python](leetcode/medium/3047.%20Find%20the%20Largest%20Area%20of%20Square%20Inside%20Two%20Rectangles.py) | [leetcode.com](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/) |
 | 2026-01-16 | LeetCode Medium | Maximum Square Area by Removing Fences From a Field | [python](leetcode/medium/2975.%20Maximum%20Square%20Area%20by%20Removing%20Fences%20From%20a%20Field.py) | [leetcode.com](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field) |
 | 2026-01-15 | LeetCode Medium | Maximize Area of Square Hole in Grid | [python](leetcode/medium/2943.%20Maximize%20Area%20of%20Square%20Hole%20in%20Grid.py) | [leetcode.com](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/) |
 | 2026-01-13 | LeetCode Medium | Separate Squares I | [python](leetcode/medium/3453.%20Separate%20Squares%20I.py) | [leetcode.com](https://leetcode.com/problems/separate-squares-i/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-01-09 | LeetCode Easy | Absolute Difference Between Maximum and Minimum K Elements | [python](leetcode/easy/3774.%20Absolute%20Difference%20Between%20Maximum%20and%20Minimum%20K%20Elements.py) | [leetcode.com](https://leetcode.com/problems/absolute-difference-between-maximum-and-minimum-k-elements) |
 | 2026-01-09 | LeetCode Easy | Largest Even Number | [python](leetcode/easy/3798.%20Largest%20Even%20Number.py) | [leetcode.com](https://leetcode.com/problems/largest-even-number) |
 | 2026-01-09 | LeetCode Easy | Mirror Distance of an Integer | [python](leetcode/easy/3783.%20Mirror%20Distance%20of%20an%20Integer.py) | [leetcode.com](https://leetcode.com/problems/mirror-distance-of-an-integer) |
-| 2026-01-09 | LeetCode Medium | Smallest Subtree with all the Deepest Nodes | [python](leetcode/medium/865.%20Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes.py) | [leetcode.com](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -345,6 +345,7 @@ Recently solved and added problems.
 | 2970 | Count the Number of Incremovable Subarrays I | O(n*n) | O(n*n) | [python](leetcode/medium/2970.%20Count%20the%20Number%20of%20Incremovable%20Subarrays%20I.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/) |
 | 2975 | Maximum Square Area by Removing Fences From a Field | O((n+m)log(n+m)) | O(n + m) | [python](leetcode/medium/2975.%20Maximum%20Square%20Area%20by%20Removing%20Fences%20From%20a%20Field.py) | [leetcode.com](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field) |
 | 3025 | Find the Number of Ways to Place People I | O(n*n) | O(1) | [python](leetcode/medium/3025.%20Find%20the%20Number%20of%20Ways%20to%20Place%20People%20I.py) | [leetcode.com](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i/) |
+| 3047 | Find the Largest Area of Square Inside Two Rectangles | O(n*n) | O(1) | [python](leetcode/medium/3047.%20Find%20the%20Largest%20Area%20of%20Square%20Inside%20Two%20Rectangles.py) | [leetcode.com](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/) |
 | 3075 | Maximize Happiness of Selected Children | O(n + k log n) | O(1) | [python](leetcode/medium/3075.%20Maximize%20Happiness%20of%20Selected%20Children.py) | [leetcode.com](https://leetcode.com/problems/maximize-happiness-of-selected-children/) |
 | 3100 | Water Bottles II | O(log n) | O(1) | [python](leetcode/medium/3100.%20Water%20Bottles%20II.py) | [leetcode.com](https://leetcode.com/problems/water-bottles-ii/) |
 | 3147 | Taking Maximum Energy From the Mystic Dungeon | O(n) | O(1) | [python](leetcode/medium/3147.%20Taking%20Maximum%20Energy%20From%20the%20Mystic%20Dungeon.py) | [leetcode.com](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/) |
