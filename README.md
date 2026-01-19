@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 78 | 1207 | 15 | 107 | 6 | 102 | 94 | 25 | 2 | 10 | 124 | 1 | 4 | 6 | 1 | 0 | 10 | 0 |
-| leetcode-medium | 135 | 3356 | 24 | 235 | 4 | 351 | 258 | 82 | 12 | 29 | 278 | 4 | 29 | 37 | 10 | 25 | 21 | 4 |
+| leetcode-medium | 136 | 3393 | 24 | 236 | 4 | 354 | 262 | 83 | 14 | 30 | 279 | 5 | 29 | 37 | 10 | 25 | 21 | 4 |
 | leetcode-hard | 26 | 769 | 29 | 47 | 2 | 67 | 65 | 17 | 8 | 13 | 54 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
 
 ## Recent Changes
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-01-19 | LeetCode Medium | Maximum Side Length of a Square with Sum Less than or Equal to Threshold | [python](leetcode/medium/1292.%20Maximum%20Side%20Length%20of%20a%20Square%20with%20Sum%20Less%20than%20or%20Equal%20to%20Threshold.py) | [leetcode.com](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | 2026-01-17 | LeetCode Medium | Find the Largest Area of Square Inside Two Rectangles | [python](leetcode/medium/3047.%20Find%20the%20Largest%20Area%20of%20Square%20Inside%20Two%20Rectangles.py) | [leetcode.com](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/) |
 | 2026-01-16 | LeetCode Medium | Maximum Square Area by Removing Fences From a Field | [python](leetcode/medium/2975.%20Maximum%20Square%20Area%20by%20Removing%20Fences%20From%20a%20Field.py) | [leetcode.com](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field) |
 | 2026-01-15 | LeetCode Medium | Maximize Area of Square Hole in Grid | [python](leetcode/medium/2943.%20Maximize%20Area%20of%20Square%20Hole%20in%20Grid.py) | [leetcode.com](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-01-09 | LeetCode Easy | Sort Integers by Binary Reflection | [python](leetcode/easy/3769.%20Sort%20Integers%20by%20Binary%20Reflection.py) | [leetcode.com](https://leetcode.com/problems/sort-integers-by-binary-reflection) |
 | 2026-01-09 | LeetCode Easy | Absolute Difference Between Maximum and Minimum K Elements | [python](leetcode/easy/3774.%20Absolute%20Difference%20Between%20Maximum%20and%20Minimum%20K%20Elements.py) | [leetcode.com](https://leetcode.com/problems/absolute-difference-between-maximum-and-minimum-k-elements) |
 | 2026-01-09 | LeetCode Easy | Largest Even Number | [python](leetcode/easy/3798.%20Largest%20Even%20Number.py) | [leetcode.com](https://leetcode.com/problems/largest-even-number) |
-| 2026-01-09 | LeetCode Easy | Mirror Distance of an Integer | [python](leetcode/easy/3783.%20Mirror%20Distance%20of%20an%20Integer.py) | [leetcode.com](https://leetcode.com/problems/mirror-distance-of-an-integer) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -295,6 +295,7 @@ Recently solved and added problems.
 | 1248 | Count Number of Nice Subarrays | O(n) | O(1) | [python](leetcode/medium/1248.%20Count%20Number%20of%20Nice%20Subarrays.py) | [leetcode.com](https://leetcode.com/problems/count-number-of-nice-subarrays/) |
 | 1249 | Minimum Remove to Make Valid Parentheses | O(n) | O(n) | [python](leetcode/medium/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.py) | [leetcode.com](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) |
 | 1262 | Greatest Sum Divisible by Three | O(n) | O(1) | [python](leetcode/medium/1262.%20Greatest%20Sum%20Divisible%20by%20Three.py) | [leetcode.com](https://leetcode.com/problems/greatest-sum-divisible-by-three/) |
+| 1292 | Maximum Side Length of a Square with Sum Less than or Equal to Threshold | O(n^3) | O(n) | [python](leetcode/medium/1292.%20Maximum%20Side%20Length%20of%20a%20Square%20with%20Sum%20Less%20than%20or%20Equal%20to%20Threshold.py) | [leetcode.com](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | 1339 | Maximum Product of Splitted Binary Tree | O(n) | O(n) | [python](leetcode/medium/1339.%20Maximum%20Product%20of%20Splitted%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) |
 | 1390 | Four Divisors | O(n*sqrt(m)) | O(1) | [python](leetcode/medium/1390.%20Four%20Divisors.py) | [leetcode.com](https://leetcode.com/problems/four-divisors) |
 | 1404 | Number of Steps to Reduce a Number in Binary | O(n) | O(1) | [python](leetcode/medium/1404.%20Number%20of%20Steps%20to%20Reduce%20a%20Number%20in%20Binary.py) | [leetcode.com](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) |
