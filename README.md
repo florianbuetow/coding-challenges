@@ -35,7 +35,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 78 | 1207 | 15 | 107 | 6 | 102 | 94 | 25 | 2 | 10 | 124 | 1 | 4 | 6 | 1 | 0 | 10 | 0 |
 | leetcode-medium | 137 | 3418 | 24 | 237 | 5 | 357 | 264 | 84 | 14 | 31 | 281 | 5 | 29 | 39 | 11 | 25 | 21 | 4 |
-| leetcode-hard | 26 | 769 | 29 | 47 | 2 | 67 | 65 | 17 | 8 | 13 | 54 | 3 | 7 | 8 | 6 | 0 | 8 | 4 |
+| leetcode-hard | 27 | 822 | 30 | 50 | 4 | 74 | 69 | 18 | 8 | 14 | 58 | 3 | 8 | 11 | 8 | 0 | 8 | 4 |
 
 ## Recent Changes
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-01-30 | LeetCode Hard | Minimum Cost to Convert String II | [python](leetcode/hard/2977.%20Minimum%20Cost%20to%20Convert%20String%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/) |
 | 2026-01-27 | LeetCode Medium | Minimum Cost Path with Edge Reversals | [python](leetcode/medium/3650.%20Minimum%20Cost%20Path%20with%20Edge%20Reversals.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/) |
 | 2026-01-19 | LeetCode Medium | Maximum Side Length of a Square with Sum Less than or Equal to Threshold | [python](leetcode/medium/1292.%20Maximum%20Side%20Length%20of%20a%20Square%20with%20Sum%20Less%20than%20or%20Equal%20to%20Threshold.py) | [leetcode.com](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | 2026-01-17 | LeetCode Medium | Find the Largest Area of Square Inside Two Rectangles | [python](leetcode/medium/3047.%20Find%20the%20Largest%20Area%20of%20Square%20Inside%20Two%20Rectangles.py) | [leetcode.com](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-01-12 | LeetCode Easy | Minimum Time Visiting All Points | [python](leetcode/easy/1266.%20Minimum%20Time%20Visiting%20All%20Points.py) | [leetcode.com](https://leetcode.com/problems/minimum-time-visiting-all-points/) |
 | 2026-01-09 | LeetCode Easy | Reverse String Prefix | [python](leetcode/easy/3794.%20Reverse%20String%20Prefix.py) | [leetcode.com](https://leetcode.com/problems/reverse-string-prefix/) |
 | 2026-01-09 | LeetCode Easy | Sort Integers by Binary Reflection | [python](leetcode/easy/3769.%20Sort%20Integers%20by%20Binary%20Reflection.py) | [leetcode.com](https://leetcode.com/problems/sort-integers-by-binary-reflection) |
-| 2026-01-09 | LeetCode Easy | Absolute Difference Between Maximum and Minimum K Elements | [python](leetcode/easy/3774.%20Absolute%20Difference%20Between%20Maximum%20and%20Minimum%20K%20Elements.py) | [leetcode.com](https://leetcode.com/problems/absolute-difference-between-maximum-and-minimum-k-elements) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -228,6 +228,7 @@ Recently solved and added problems.
 | 2598 | Smallest Missing Non-negative Integer After Operations | O(n) | O(m) | [python](leetcode/hard/2598.%20Smallest%20Missing%20Non-negative%20Integer%20After%20Operations.py) | [leetcode.com](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/) |
 | 2751 | Robot Collisions | O(n log n) | O(n) | [python](leetcode/hard/2751.%20Robot%20Collisions.py) | [leetcode.com](https://leetcode.com/problems/robot-collisions/) |
 | 2872 | Maximum Number of K-Divisible Components | O(n) | O(n) | [python](leetcode/hard/2872.%20Maximum%20Number%20of%20K-Divisible%20Components.py) | [leetcode.com](https://leetcode.com/problems/maximum-number-of-k-divisible-components/) |
+| 2977 | Minimum Cost to Convert String II | O(n * m^2 * log m) | O(n^2 * m) | [python](leetcode/hard/2977.%20Minimum%20Cost%20to%20Convert%20String%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/) |
 | 3027 | Find the Number of Ways to Place People II | O(n*n) | O(1) | [python](leetcode/hard/3027.%20Find%20the%20Number%20of%20Ways%20to%20Place%20People%20II.py) | [leetcode.com](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-ii/) |
 | 3347 | Maximum Frequency of an Element After Performing Operations II | O(n log n) | O(n) | [python](leetcode/hard/3347.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20II.py) | [leetcode.com](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii/) |
 
