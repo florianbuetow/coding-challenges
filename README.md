@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 78 | 1207 | 15 | 107 | 6 | 102 | 94 | 25 | 2 | 10 | 124 | 1 | 4 | 6 | 1 | 0 | 10 | 0 |
-| leetcode-medium | 137 | 3418 | 24 | 237 | 5 | 357 | 264 | 84 | 14 | 31 | 281 | 5 | 29 | 39 | 11 | 25 | 21 | 4 |
+| leetcode-medium | 138 | 3434 | 24 | 238 | 5 | 358 | 264 | 85 | 14 | 32 | 282 | 5 | 29 | 39 | 11 | 25 | 22 | 4 |
 | leetcode-hard | 27 | 822 | 30 | 50 | 4 | 74 | 69 | 18 | 8 | 14 | 58 | 3 | 8 | 11 | 8 | 0 | 8 | 4 |
 
 ## Recent Changes
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-02-06 | LeetCode Medium | Minimum Removals to Balance Array | [python](leetcode/medium/3634.%20Minimum%20Removals%20to%20Balance%20Array.py) | [leetcode.com](https://leetcode.com/problems/minimum-removals-to-balance-array/) |
 | 2026-01-30 | LeetCode Hard | Minimum Cost to Convert String II | [python](leetcode/hard/2977.%20Minimum%20Cost%20to%20Convert%20String%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/) |
 | 2026-01-27 | LeetCode Medium | Minimum Cost Path with Edge Reversals | [python](leetcode/medium/3650.%20Minimum%20Cost%20Path%20with%20Edge%20Reversals.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/) |
 | 2026-01-19 | LeetCode Medium | Maximum Side Length of a Square with Sum Less than or Equal to Threshold | [python](leetcode/medium/1292.%20Maximum%20Side%20Length%20of%20a%20Square%20with%20Sum%20Less%20than%20or%20Equal%20to%20Threshold.py) | [leetcode.com](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-01-13 | LeetCode Medium | Separate Squares I | [python](leetcode/medium/3453.%20Separate%20Squares%20I.py) | [leetcode.com](https://leetcode.com/problems/separate-squares-i/) |
 | 2026-01-12 | LeetCode Easy | Minimum Time Visiting All Points | [python](leetcode/easy/1266.%20Minimum%20Time%20Visiting%20All%20Points.py) | [leetcode.com](https://leetcode.com/problems/minimum-time-visiting-all-points/) |
 | 2026-01-09 | LeetCode Easy | Reverse String Prefix | [python](leetcode/easy/3794.%20Reverse%20String%20Prefix.py) | [leetcode.com](https://leetcode.com/problems/reverse-string-prefix/) |
-| 2026-01-09 | LeetCode Easy | Sort Integers by Binary Reflection | [python](leetcode/easy/3769.%20Sort%20Integers%20by%20Binary%20Reflection.py) | [leetcode.com](https://leetcode.com/problems/sort-integers-by-binary-reflection) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -369,6 +369,7 @@ Recently solved and added problems.
 | 3542 | Minimum Operations to Convert All Elements to Zero | O(n) | O(n) | [python](leetcode/medium/3542.%20Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero) |
 | 3577 | Count the Number of Computer Unlocking Permutations | O(n) | O(1) | [python](leetcode/medium/3577.%20Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/) |
 | 3578 | Count Partitions With Max-Min Difference at Most K | O(n) | O(n) | [python](leetcode/medium/3578.%20Count%20Partitions%20With%20Max-Min%20Difference%20at%20Most%20K.py) | [leetcode.com](https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k) |
+| 3634 | Minimum Removals to Balance Array | O(n log n) | O(1) | [python](leetcode/medium/3634.%20Minimum%20Removals%20to%20Balance%20Array.py) | [leetcode.com](https://leetcode.com/problems/minimum-removals-to-balance-array/) |
 | 3650 | Minimum Cost Path with Edge Reversals | O((V+E) log V) | O(V+E) | [python](leetcode/medium/3650.%20Minimum%20Cost%20Path%20with%20Edge%20Reversals.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/) |
 | 3652 | Best Time to Buy and Sell Stock using Strategy | O(n) | O(1) | [python](leetcode/medium/3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy.py) | [leetcode.com](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/) |
 | 3788 | Maximum Score of a Split | O(n) | O(n) | [python](leetcode/medium/3788.%20Maximum%20Score%20of%20a%20Split.py) | [leetcode.com](https://leetcode.com/problems/maximum-score-of-a-split) |
