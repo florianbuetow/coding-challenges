@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 78 | 1207 | 15 | 107 | 6 | 102 | 94 | 25 | 2 | 10 | 124 | 1 | 4 | 6 | 1 | 0 | 10 | 0 |
-| leetcode-medium | 138 | 3434 | 24 | 238 | 5 | 358 | 264 | 85 | 14 | 32 | 282 | 5 | 29 | 39 | 11 | 25 | 22 | 4 |
+| leetcode-medium | 139 | 3448 | 24 | 239 | 5 | 360 | 265 | 85 | 14 | 32 | 283 | 5 | 29 | 39 | 11 | 25 | 22 | 4 |
 | leetcode-hard | 27 | 822 | 30 | 50 | 4 | 74 | 69 | 18 | 8 | 14 | 58 | 3 | 8 | 11 | 8 | 0 | 8 | 4 |
 
 ## Recent Changes
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-02-07 | LeetCode Medium | Minimum Deletions to Make String Balanced | [python](leetcode/medium/1653.%20Minimum%20Deletions%20to%20Make%20String%20Balanced.py) | [leetcode.com](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) |
 | 2026-02-06 | LeetCode Medium | Minimum Removals to Balance Array | [python](leetcode/medium/3634.%20Minimum%20Removals%20to%20Balance%20Array.py) | [leetcode.com](https://leetcode.com/problems/minimum-removals-to-balance-array/) |
 | 2026-01-30 | LeetCode Hard | Minimum Cost to Convert String II | [python](leetcode/hard/2977.%20Minimum%20Cost%20to%20Convert%20String%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/) |
 | 2026-01-27 | LeetCode Medium | Minimum Cost Path with Edge Reversals | [python](leetcode/medium/3650.%20Minimum%20Cost%20Path%20with%20Edge%20Reversals.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-01-15 | LeetCode Medium | Maximize Area of Square Hole in Grid | [python](leetcode/medium/2943.%20Maximize%20Area%20of%20Square%20Hole%20in%20Grid.py) | [leetcode.com](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/) |
 | 2026-01-13 | LeetCode Medium | Separate Squares I | [python](leetcode/medium/3453.%20Separate%20Squares%20I.py) | [leetcode.com](https://leetcode.com/problems/separate-squares-i/) |
 | 2026-01-12 | LeetCode Easy | Minimum Time Visiting All Points | [python](leetcode/easy/1266.%20Minimum%20Time%20Visiting%20All%20Points.py) | [leetcode.com](https://leetcode.com/problems/minimum-time-visiting-all-points/) |
-| 2026-01-09 | LeetCode Easy | Reverse String Prefix | [python](leetcode/easy/3794.%20Reverse%20String%20Prefix.py) | [leetcode.com](https://leetcode.com/problems/reverse-string-prefix/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -308,6 +308,7 @@ Recently solved and added problems.
 | 1580 | Put Boxes Into the Warehouse II | O(n log n) | O(1) | [python](leetcode/medium/1580.%20Put%20Boxes%20Into%20the%20Warehouse%20II.py) | [leetcode.com](https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/) |
 | 1609 | - Even Odd Tree | O(n) | O(n) | [python](leetcode/medium/1609%20-%20Even%20Odd%20Tree.py) | [leetcode.com](https://leetcode.com/problems/even-odd-tree/) |
 | 1625 | Lexicographically Smallest String After Applying Operations | O(n*n) | O(n*n) | [python](leetcode/medium/1625.%20Lexicographically%20Smallest%20String%20After%20Applying%20Operations.py) | [leetcode.com](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/) |
+| 1653 | Minimum Deletions to Make String Balanced | O(n) | O(1) | [python](leetcode/medium/1653.%20Minimum%20Deletions%20to%20Make%20String%20Balanced.py) | [leetcode.com](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) |
 | 1664 | Ways to Make a Fair Array | O(n) | O(n) | [python](leetcode/medium/1664.%20Ways%20to%20Make%20a%20Fair%20Array.py) | [leetcode.com](https://leetcode.com/problems/ways-to-make-a-fair-array/) |
 | 1701 | Average Waiting Time | O(n) | O(1) | [python](leetcode/medium/1701.%20Average%20Waiting%20Time.py) | [leetcode.com](https://leetcode.com/problems/average-waiting-time/) |
 | 1733 | Minimum Number of People to Teach | O(n*m + f*k) | O(n*m) | [python](leetcode/medium/1733.%20Minimum%20Number%20of%20People%20to%20Teach.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-people-to-teach/) |
