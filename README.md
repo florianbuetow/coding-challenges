@@ -33,7 +33,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 78 | 1207 | 15 | 107 | 6 | 102 | 94 | 25 | 2 | 10 | 124 | 1 | 4 | 6 | 1 | 0 | 10 | 0 |
+| leetcode-easy | 79 | 1233 | 15 | 110 | 6 | 104 | 95 | 25 | 2 | 10 | 127 | 1 | 4 | 6 | 1 | 0 | 10 | 0 |
 | leetcode-medium | 139 | 3448 | 24 | 239 | 5 | 360 | 265 | 85 | 14 | 32 | 283 | 5 | 29 | 39 | 11 | 25 | 22 | 4 |
 | leetcode-hard | 27 | 822 | 30 | 50 | 4 | 74 | 69 | 18 | 8 | 14 | 58 | 3 | 8 | 11 | 8 | 0 | 8 | 4 |
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-02-08 | LeetCode Easy | Balanced Binary Tree | [python](leetcode/easy/110.%20Balanced%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/balanced-binary-tree/) |
 | 2026-02-07 | LeetCode Medium | Minimum Deletions to Make String Balanced | [python](leetcode/medium/1653.%20Minimum%20Deletions%20to%20Make%20String%20Balanced.py) | [leetcode.com](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) |
 | 2026-02-06 | LeetCode Medium | Minimum Removals to Balance Array | [python](leetcode/medium/3634.%20Minimum%20Removals%20to%20Balance%20Array.py) | [leetcode.com](https://leetcode.com/problems/minimum-removals-to-balance-array/) |
 | 2026-01-30 | LeetCode Hard | Minimum Cost to Convert String II | [python](leetcode/hard/2977.%20Minimum%20Cost%20to%20Convert%20String%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-01-16 | LeetCode Medium | Maximum Square Area by Removing Fences From a Field | [python](leetcode/medium/2975.%20Maximum%20Square%20Area%20by%20Removing%20Fences%20From%20a%20Field.py) | [leetcode.com](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field) |
 | 2026-01-15 | LeetCode Medium | Maximize Area of Square Hole in Grid | [python](leetcode/medium/2943.%20Maximize%20Area%20of%20Square%20Hole%20in%20Grid.py) | [leetcode.com](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/) |
 | 2026-01-13 | LeetCode Medium | Separate Squares I | [python](leetcode/medium/3453.%20Separate%20Squares%20I.py) | [leetcode.com](https://leetcode.com/problems/separate-squares-i/) |
-| 2026-01-12 | LeetCode Easy | Minimum Time Visiting All Points | [python](leetcode/easy/1266.%20Minimum%20Time%20Visiting%20All%20Points.py) | [leetcode.com](https://leetcode.com/problems/minimum-time-visiting-all-points/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -124,6 +124,7 @@ Recently solved and added problems.
 | --- | --- | --- | --- | --- | --- |
 | 21 | Merge Two Sorted Lists | O(n) | O(1) | [python](leetcode/easy/21.%20Merge%20Two%20Sorted%20Lists.py) | [leetcode.com](https://leetcode.com/problems/merge-two-sorted-lists/) |
 | 66 | Plus One | O(n) | O(n) | [python](leetcode/easy/66.%20Plus%20One.py) | [leetcode.com](https://leetcode.com/problems/plus-one/) |
+| 110 | Balanced Binary Tree | O(n) | O(n) | [python](leetcode/easy/110.%20Balanced%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/balanced-binary-tree/) |
 | 219 | Contains Duplicate II | O(n) | O(n) | [python](leetcode/easy/219.%20Contains%20Duplicate%20II.py) | [leetcode.com](https://leetcode.com/problems/contains-duplicate-ii/) |
 | 234 | Palindrome Linked List | O(n) | O(1) | [python](leetcode/easy/234.%20Palindrome%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/palindrome-linked-list/) |
 | 404 | Sum of Left Leaves | O(n) | O(n) | [python](leetcode/easy/404.%20Sum%20of%20Left%20Leaves.py) | [leetcode.com](https://leetcode.com/problems/sum-of-left-leaves/) |
