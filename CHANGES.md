@@ -6,6 +6,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-02-09 | LeetCode Medium | Balance a Binary Search Tree | [python](leetcode/medium/1382.%20Balance%20a%20Binary%20Search%20Tree.py) | [leetcode.com](https://leetcode.com/problems/balance-a-binary-search-tree/) |
 | 2026-02-08 | LeetCode Easy | Balanced Binary Tree | [python](leetcode/easy/110.%20Balanced%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/balanced-binary-tree/) |
 | 2026-02-07 | LeetCode Medium | Minimum Deletions to Make String Balanced | [python](leetcode/medium/1653.%20Minimum%20Deletions%20to%20Make%20String%20Balanced.py) | [leetcode.com](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) |
 | 2026-02-06 | LeetCode Medium | Minimum Removals to Balance Array | [python](leetcode/medium/3634.%20Minimum%20Removals%20to%20Balance%20Array.py) | [leetcode.com](https://leetcode.com/problems/minimum-removals-to-balance-array/) |
@@ -15,4 +16,3 @@ Recently solved and added problems.
 | 2026-01-17 | LeetCode Medium | Find the Largest Area of Square Inside Two Rectangles | [python](leetcode/medium/3047.%20Find%20the%20Largest%20Area%20of%20Square%20Inside%20Two%20Rectangles.py) | [leetcode.com](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/) |
 | 2026-01-16 | LeetCode Medium | Maximum Square Area by Removing Fences From a Field | [python](leetcode/medium/2975.%20Maximum%20Square%20Area%20by%20Removing%20Fences%20From%20a%20Field.py) | [leetcode.com](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field) |
 | 2026-01-15 | LeetCode Medium | Maximize Area of Square Hole in Grid | [python](leetcode/medium/2943.%20Maximize%20Area%20of%20Square%20Hole%20in%20Grid.py) | [leetcode.com](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/) |
-| 2026-01-13 | LeetCode Medium | Separate Squares I | [python](leetcode/medium/3453.%20Separate%20Squares%20I.py) | [leetcode.com](https://leetcode.com/problems/separate-squares-i/) |

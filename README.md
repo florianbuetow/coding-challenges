@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 79 | 1233 | 15 | 110 | 6 | 104 | 95 | 25 | 2 | 10 | 127 | 1 | 4 | 6 | 1 | 0 | 10 | 0 |
-| leetcode-medium | 139 | 3448 | 24 | 239 | 5 | 360 | 265 | 85 | 14 | 32 | 283 | 5 | 29 | 39 | 11 | 25 | 22 | 4 |
+| leetcode-medium | 140 | 3478 | 24 | 243 | 5 | 362 | 266 | 85 | 14 | 32 | 286 | 5 | 29 | 39 | 11 | 25 | 22 | 4 |
 | leetcode-hard | 27 | 822 | 30 | 50 | 4 | 74 | 69 | 18 | 8 | 14 | 58 | 3 | 8 | 11 | 8 | 0 | 8 | 4 |
 
 ## Recent Changes
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-02-09 | LeetCode Medium | Balance a Binary Search Tree | [python](leetcode/medium/1382.%20Balance%20a%20Binary%20Search%20Tree.py) | [leetcode.com](https://leetcode.com/problems/balance-a-binary-search-tree/) |
 | 2026-02-08 | LeetCode Easy | Balanced Binary Tree | [python](leetcode/easy/110.%20Balanced%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/balanced-binary-tree/) |
 | 2026-02-07 | LeetCode Medium | Minimum Deletions to Make String Balanced | [python](leetcode/medium/1653.%20Minimum%20Deletions%20to%20Make%20String%20Balanced.py) | [leetcode.com](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) |
 | 2026-02-06 | LeetCode Medium | Minimum Removals to Balance Array | [python](leetcode/medium/3634.%20Minimum%20Removals%20to%20Balance%20Array.py) | [leetcode.com](https://leetcode.com/problems/minimum-removals-to-balance-array/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-01-17 | LeetCode Medium | Find the Largest Area of Square Inside Two Rectangles | [python](leetcode/medium/3047.%20Find%20the%20Largest%20Area%20of%20Square%20Inside%20Two%20Rectangles.py) | [leetcode.com](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/) |
 | 2026-01-16 | LeetCode Medium | Maximum Square Area by Removing Fences From a Field | [python](leetcode/medium/2975.%20Maximum%20Square%20Area%20by%20Removing%20Fences%20From%20a%20Field.py) | [leetcode.com](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field) |
 | 2026-01-15 | LeetCode Medium | Maximize Area of Square Hole in Grid | [python](leetcode/medium/2943.%20Maximize%20Area%20of%20Square%20Hole%20in%20Grid.py) | [leetcode.com](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/) |
-| 2026-01-13 | LeetCode Medium | Separate Squares I | [python](leetcode/medium/3453.%20Separate%20Squares%20I.py) | [leetcode.com](https://leetcode.com/problems/separate-squares-i/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -299,6 +299,7 @@ Recently solved and added problems.
 | 1262 | Greatest Sum Divisible by Three | O(n) | O(1) | [python](leetcode/medium/1262.%20Greatest%20Sum%20Divisible%20by%20Three.py) | [leetcode.com](https://leetcode.com/problems/greatest-sum-divisible-by-three/) |
 | 1292 | Maximum Side Length of a Square with Sum Less than or Equal to Threshold | O(n^3) | O(n) | [python](leetcode/medium/1292.%20Maximum%20Side%20Length%20of%20a%20Square%20with%20Sum%20Less%20than%20or%20Equal%20to%20Threshold.py) | [leetcode.com](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | 1339 | Maximum Product of Splitted Binary Tree | O(n) | O(n) | [python](leetcode/medium/1339.%20Maximum%20Product%20of%20Splitted%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) |
+| 1382 | Balance a Binary Search Tree | O(n) | O(n) | [python](leetcode/medium/1382.%20Balance%20a%20Binary%20Search%20Tree.py) | [leetcode.com](https://leetcode.com/problems/balance-a-binary-search-tree/) |
 | 1390 | Four Divisors | O(n*sqrt(m)) | O(1) | [python](leetcode/medium/1390.%20Four%20Divisors.py) | [leetcode.com](https://leetcode.com/problems/four-divisors) |
 | 1404 | Number of Steps to Reduce a Number in Binary | O(n) | O(1) | [python](leetcode/medium/1404.%20Number%20of%20Steps%20to%20Reduce%20a%20Number%20in%20Binary.py) | [leetcode.com](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) |
 | 1429 | First Unique Number | O(n) | O(n) | [python](leetcode/medium/1429.%20First%20Unique%20Number.py) | [leetcode.com](https://leetcode.com/problems/first-unique-number/submissions/) |
