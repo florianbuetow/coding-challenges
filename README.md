@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 79 | 1233 | 15 | 110 | 6 | 104 | 95 | 25 | 2 | 10 | 127 | 1 | 4 | 6 | 1 | 0 | 10 | 0 |
-| leetcode-medium | 143 | 3568 | 24 | 247 | 5 | 370 | 271 | 89 | 14 | 33 | 290 | 5 | 31 | 42 | 11 | 25 | 22 | 4 |
+| leetcode-medium | 144 | 3584 | 24 | 248 | 5 | 370 | 273 | 89 | 14 | 33 | 291 | 5 | 31 | 42 | 11 | 25 | 22 | 4 |
 | leetcode-hard | 27 | 822 | 30 | 50 | 4 | 74 | 69 | 18 | 8 | 14 | 58 | 3 | 8 | 11 | 8 | 0 | 8 | 4 |
 
 ## Recent Changes
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-02-14 | LeetCode Medium | Champagne Tower | [python](leetcode/medium/799.%20Champagne%20Tower.py) | [leetcode.com](https://leetcode.com/problems/champagne-tower/) |
 | 2026-02-13 | LeetCode Medium | Longest Balanced Substring II | [python](leetcode/medium/3714.%20Longest%20Balanced%20Substring%20II.py) | [leetcode.com](https://leetcode.com/problems/longest-balanced-substring-ii/) |
 | 2026-02-12 | LeetCode Medium | Longest Balanced Substring I | [python](leetcode/medium/3713.%20Longest%20Balanced%20Substring%20I.py) | [leetcode.com](https://leetcode.com/problems/longest-balanced-substring-i/) |
 | 2026-02-10 | LeetCode Medium | Longest Balanced Subarray I | [python](leetcode/medium/3719.%20Longest%20Balanced%20Subarray%20I.py) | [leetcode.com](https://leetcode.com/problems/longest-balanced-subarray-i/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-02-06 | LeetCode Medium | Minimum Removals to Balance Array | [python](leetcode/medium/3634.%20Minimum%20Removals%20to%20Balance%20Array.py) | [leetcode.com](https://leetcode.com/problems/minimum-removals-to-balance-array/) |
 | 2026-01-30 | LeetCode Hard | Minimum Cost to Convert String II | [python](leetcode/hard/2977.%20Minimum%20Cost%20to%20Convert%20String%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/) |
 | 2026-01-27 | LeetCode Medium | Minimum Cost Path with Edge Reversals | [python](leetcode/medium/3650.%20Minimum%20Cost%20Path%20with%20Edge%20Reversals.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/) |
-| 2026-01-19 | LeetCode Medium | Maximum Side Length of a Square with Sum Less than or Equal to Threshold | [python](leetcode/medium/1292.%20Maximum%20Side%20Length%20of%20a%20Square%20with%20Sum%20Less%20than%20or%20Equal%20to%20Threshold.py) | [leetcode.com](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -272,6 +272,7 @@ Recently solved and added problems.
 | 713 | Subarray Product Less Than K | N/A | N/A | [python](leetcode/medium/713.%20Subarray%20Product%20Less%20Than%20K.py) | [leetcode.com](https://leetcode.com/problems/subarray-product-less-than-k/) |
 | 752 | Open the Lock | O(1) | O(1) | [python](leetcode/medium/752.%20Open%20the%20Lock.py) | [leetcode.com](https://leetcode.com/problems/open-the-lock/) |
 | 756 | Pyramid Transition Matrix | O(6^2n) | O(n*6^n) | [python](leetcode/medium/756.%20Pyramid%20Transition%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/pyramid-transition-matrix/) |
+| 799 | Champagne Tower | O(n*n) | O(n) | [python](leetcode/medium/799.%20Champagne%20Tower.py) | [leetcode.com](https://leetcode.com/problems/champagne-tower/) |
 | 831 | Masking Personal Information | O(n) | O(n) | [python](leetcode/medium/831.%20Masking%20Personal%20Information.py) | [leetcode.com](https://leetcode.com/problems/masking-personal-information/) |
 | 840 | Magic Squares In Grid | O(n*m) | O(1) | [python](leetcode/medium/840.%20Magic%20Squares%20In%20Grid.py) | [leetcode.com](https://leetcode.com/problems/magic-squares-in-grid) |
 | 852 | Peak Index in a Mountain Array | O(log n) | O(1) | [python](leetcode/medium/852.%20Peak%20Index%20in%20a%20Mountain%20Array.py) | [leetcode.com](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/) |
