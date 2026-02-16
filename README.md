@@ -33,7 +33,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 80 | 1253 | 15 | 111 | 6 | 106 | 95 | 26 | 2 | 10 | 128 | 3 | 4 | 6 | 1 | 0 | 10 | 0 |
+| leetcode-easy | 81 | 1268 | 15 | 112 | 6 | 106 | 96 | 27 | 2 | 10 | 129 | 3 | 4 | 6 | 1 | 0 | 10 | 0 |
 | leetcode-medium | 144 | 3584 | 24 | 248 | 5 | 370 | 273 | 89 | 14 | 33 | 291 | 5 | 31 | 42 | 11 | 25 | 22 | 4 |
 | leetcode-hard | 27 | 822 | 30 | 50 | 4 | 74 | 69 | 18 | 8 | 14 | 58 | 3 | 8 | 11 | 8 | 0 | 8 | 4 |
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-02-16 | LeetCode Easy | Reverse Bits | [python](leetcode/easy/190.%20Reverse%20Bits.py) | [leetcode.com](https://leetcode.com/problems/reverse-bits/) |
 | 2026-02-15 | LeetCode Easy | Add Binary | [python](leetcode/easy/67.%20Add%20Binary.py) | [leetcode.com](https://leetcode.com/problems/add-binary/) |
 | 2026-02-14 | LeetCode Medium | Champagne Tower | [python](leetcode/medium/799.%20Champagne%20Tower.py) | [leetcode.com](https://leetcode.com/problems/champagne-tower/) |
 | 2026-02-13 | LeetCode Medium | Longest Balanced Substring II | [python](leetcode/medium/3714.%20Longest%20Balanced%20Substring%20II.py) | [leetcode.com](https://leetcode.com/problems/longest-balanced-substring-ii/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-02-08 | LeetCode Easy | Balanced Binary Tree | [python](leetcode/easy/110.%20Balanced%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/balanced-binary-tree/) |
 | 2026-02-07 | LeetCode Medium | Minimum Deletions to Make String Balanced | [python](leetcode/medium/1653.%20Minimum%20Deletions%20to%20Make%20String%20Balanced.py) | [leetcode.com](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) |
 | 2026-02-06 | LeetCode Medium | Minimum Removals to Balance Array | [python](leetcode/medium/3634.%20Minimum%20Removals%20to%20Balance%20Array.py) | [leetcode.com](https://leetcode.com/problems/minimum-removals-to-balance-array/) |
-| 2026-01-30 | LeetCode Hard | Minimum Cost to Convert String II | [python](leetcode/hard/2977.%20Minimum%20Cost%20to%20Convert%20String%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -126,6 +126,7 @@ Recently solved and added problems.
 | 66 | Plus One | O(n) | O(n) | [python](leetcode/easy/66.%20Plus%20One.py) | [leetcode.com](https://leetcode.com/problems/plus-one/) |
 | 67 | Add Binary | O(n) | O(n) | [python](leetcode/easy/67.%20Add%20Binary.py) | [leetcode.com](https://leetcode.com/problems/add-binary/) |
 | 110 | Balanced Binary Tree | O(n) | O(n) | [python](leetcode/easy/110.%20Balanced%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/balanced-binary-tree/) |
+| 190 | Reverse Bits | O(log n) | O(log n) | [python](leetcode/easy/190.%20Reverse%20Bits.py) | [leetcode.com](https://leetcode.com/problems/reverse-bits/) |
 | 219 | Contains Duplicate II | O(n) | O(n) | [python](leetcode/easy/219.%20Contains%20Duplicate%20II.py) | [leetcode.com](https://leetcode.com/problems/contains-duplicate-ii/) |
 | 234 | Palindrome Linked List | O(n) | O(1) | [python](leetcode/easy/234.%20Palindrome%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/palindrome-linked-list/) |
 | 404 | Sum of Left Leaves | O(n) | O(n) | [python](leetcode/easy/404.%20Sum%20of%20Left%20Leaves.py) | [leetcode.com](https://leetcode.com/problems/sum-of-left-leaves/) |
