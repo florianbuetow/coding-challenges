@@ -33,7 +33,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 82 | 1279 | 15 | 113 | 6 | 107 | 97 | 27 | 2 | 10 | 130 | 3 | 4 | 6 | 1 | 0 | 10 | 0 |
+| leetcode-easy | 83 | 1290 | 15 | 114 | 6 | 107 | 97 | 28 | 2 | 10 | 131 | 3 | 4 | 6 | 1 | 0 | 10 | 0 |
 | leetcode-medium | 144 | 3584 | 24 | 248 | 5 | 370 | 273 | 89 | 14 | 33 | 291 | 5 | 31 | 42 | 11 | 25 | 22 | 4 |
 | leetcode-hard | 27 | 822 | 30 | 50 | 4 | 74 | 69 | 18 | 8 | 14 | 58 | 3 | 8 | 11 | 8 | 0 | 8 | 4 |
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-02-18 | LeetCode Easy | Binary Number with Alternating Bits | [python](leetcode/easy/693.%20Binary%20Number%20with%20Alternating%20Bits.py) | [leetcode.com](https://leetcode.com/problems/binary-number-with-alternating-bits/) |
 | 2026-02-17 | LeetCode Easy | Binary Watch | [python](leetcode/easy/401.%20Binary%20Watch.py) | [leetcode.com](https://leetcode.com/problems/binary-watch/) |
 | 2026-02-16 | LeetCode Easy | Reverse Bits | [python](leetcode/easy/190.%20Reverse%20Bits.py) | [leetcode.com](https://leetcode.com/problems/reverse-bits/) |
 | 2026-02-15 | LeetCode Easy | Add Binary | [python](leetcode/easy/67.%20Add%20Binary.py) | [leetcode.com](https://leetcode.com/problems/add-binary/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-02-10 | LeetCode Medium | Longest Balanced Subarray I | [python](leetcode/medium/3719.%20Longest%20Balanced%20Subarray%20I.py) | [leetcode.com](https://leetcode.com/problems/longest-balanced-subarray-i/) |
 | 2026-02-09 | LeetCode Medium | Balance a Binary Search Tree | [python](leetcode/medium/1382.%20Balance%20a%20Binary%20Search%20Tree.py) | [leetcode.com](https://leetcode.com/problems/balance-a-binary-search-tree/) |
 | 2026-02-08 | LeetCode Easy | Balanced Binary Tree | [python](leetcode/easy/110.%20Balanced%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/balanced-binary-tree/) |
-| 2026-02-07 | LeetCode Medium | Minimum Deletions to Make String Balanced | [python](leetcode/medium/1653.%20Minimum%20Deletions%20to%20Make%20String%20Balanced.py) | [leetcode.com](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -135,6 +135,7 @@ Recently solved and added problems.
 | 463 | Island Perimeter | O(n * m) | O(1) | [python](leetcode/easy/463.%20Island%20Perimeter.py) | [leetcode.com](https://leetcode.com/problems/island-perimeter/) |
 | 482 | License Key Formatting | O(n) | O(n) | [python](leetcode/easy/482.%20License%20Key%20Formatting.py) | [leetcode.com](https://leetcode.com/problems/license-key-formatting/) |
 | 520 | Detect Capital | O(n) | O(1) | [python](leetcode/easy/520.%20Detect%20Capital.py) | [leetcode.com](https://leetcode.com/problems/detect-capital/) |
+| 693 | Binary Number with Alternating Bits | O(log n) | O(1) | [python](leetcode/easy/693.%20Binary%20Number%20with%20Alternating%20Bits.py) | [leetcode.com](https://leetcode.com/problems/binary-number-with-alternating-bits/) |
 | 704 | Binary Search | O(log n) | O(1) | [python](leetcode/easy/704.%20Binary%20Search.py) | [leetcode.com](https://leetcode.com/problems/binary-search/) |
 | 717 | 1-bit and 2-bit Characters | O(n) | O(1) | [python](leetcode/easy/717.%201-bit%20and%202-bit%20Characters.py) | [leetcode.com](https://leetcode.com/problems/1-bit-and-2-bit-characters) |
 | 796 | Rotate String | O(n*n) | O(n) | [python](leetcode/easy/796.%20Rotate%20String.py) | [leetcode.com](https://leetcode.com/problems/rotate-string/) |
