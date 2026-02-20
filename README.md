@@ -35,7 +35,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 84 | 1307 | 15 | 115 | 6 | 109 | 98 | 28 | 2 | 10 | 132 | 3 | 4 | 6 | 1 | 0 | 10 | 0 |
 | leetcode-medium | 144 | 3584 | 24 | 248 | 5 | 370 | 273 | 89 | 14 | 33 | 291 | 5 | 31 | 42 | 11 | 25 | 22 | 4 |
-| leetcode-hard | 27 | 822 | 30 | 50 | 4 | 74 | 69 | 18 | 8 | 14 | 58 | 3 | 8 | 11 | 8 | 0 | 8 | 4 |
+| leetcode-hard | 28 | 838 | 29 | 51 | 4 | 75 | 70 | 18 | 8 | 14 | 59 | 3 | 8 | 11 | 8 | 0 | 9 | 4 |
 
 ## Recent Changes
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-02-20 | LeetCode Hard | Special Binary String | [python](leetcode/hard/761.%20Special%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/special-binary-string/) |
 | 2026-02-19 | LeetCode Easy | Count Binary Substrings | [python](leetcode/easy/696.%20Count%20Binary%20Substrings.py) | [leetcode.com](https://leetcode.com/problems/count-binary-substrings/) |
 | 2026-02-18 | LeetCode Easy | Binary Number with Alternating Bits | [python](leetcode/easy/693.%20Binary%20Number%20with%20Alternating%20Bits.py) | [leetcode.com](https://leetcode.com/problems/binary-number-with-alternating-bits/) |
 | 2026-02-17 | LeetCode Easy | Binary Watch | [python](leetcode/easy/401.%20Binary%20Watch.py) | [leetcode.com](https://leetcode.com/problems/binary-watch/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-02-13 | LeetCode Medium | Longest Balanced Substring II | [python](leetcode/medium/3714.%20Longest%20Balanced%20Substring%20II.py) | [leetcode.com](https://leetcode.com/problems/longest-balanced-substring-ii/) |
 | 2026-02-12 | LeetCode Medium | Longest Balanced Substring I | [python](leetcode/medium/3713.%20Longest%20Balanced%20Substring%20I.py) | [leetcode.com](https://leetcode.com/problems/longest-balanced-substring-i/) |
 | 2026-02-10 | LeetCode Medium | Longest Balanced Subarray I | [python](leetcode/medium/3719.%20Longest%20Balanced%20Subarray%20I.py) | [leetcode.com](https://leetcode.com/problems/longest-balanced-subarray-i/) |
-| 2026-02-09 | LeetCode Medium | Balance a Binary Search Tree | [python](leetcode/medium/1382.%20Balance%20a%20Binary%20Search%20Tree.py) | [leetcode.com](https://leetcode.com/problems/balance-a-binary-search-tree/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -218,6 +218,7 @@ Recently solved and added problems.
 | 407 | Trapping Rain Water II | O(m*n log m*n) | O(m*n) | [python](leetcode/hard/407.%20Trapping%20Rain%20Water%20II.py) | [leetcode.com](https://leetcode.com/problems/trapping-rain-water-ii/) |
 | 514 | Freedom Trail | O(n*m) | O(m) | [python](leetcode/hard/514.%20Freedom%20Trail.py) | [leetcode.com](https://leetcode.com/problems/freedom-trail/) |
 | 552 | Student Attendance Record II | O(n) | O(n) | [python](leetcode/hard/552.%20Student%20Attendance%20Record%20II.py) | [leetcode.com](https://leetcode.com/problems/student-attendance-record-ii/) |
+| 761 | Special Binary String | O(n*n) | O(n*n) | [python](leetcode/hard/761.%20Special%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/special-binary-string/) |
 | 778 | Swim in Rising Water | O(n*n log n*n) | O(n*n) | [python](leetcode/hard/778.%20Swim%20in%20Rising%20Water.py) | [leetcode.com](https://leetcode.com/problems/swim-in-rising-water/) |
 | 857 | Minimum Cost to Hire K Workers | O(n log n) | O(n) | [python](leetcode/hard/857.%20Minimum%20Cost%20to%20Hire%20K%20Workers.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) |
 | 960 | Delete Columns to Make Sorted III | O(n * m) | O(m) | [python](leetcode/hard/960.%20Delete%20Columns%20to%20Make%20Sorted%20III.py) | [leetcode.com](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/) |
