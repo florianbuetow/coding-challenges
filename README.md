@@ -33,7 +33,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 84 | 1307 | 15 | 115 | 6 | 109 | 98 | 28 | 2 | 10 | 132 | 3 | 4 | 6 | 1 | 0 | 10 | 0 |
+| leetcode-easy | 85 | 1323 | 15 | 116 | 6 | 111 | 98 | 29 | 2 | 10 | 133 | 3 | 4 | 6 | 1 | 0 | 10 | 0 |
 | leetcode-medium | 144 | 3584 | 24 | 248 | 5 | 370 | 273 | 89 | 14 | 33 | 291 | 5 | 31 | 42 | 11 | 25 | 22 | 4 |
 | leetcode-hard | 28 | 838 | 29 | 51 | 4 | 75 | 70 | 18 | 8 | 14 | 59 | 3 | 8 | 11 | 8 | 0 | 9 | 4 |
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-02-22 | LeetCode Easy | Binary Gap | [python](leetcode/easy/868.%20Binary%20Gap.py) | [leetcode.com](https://leetcode.com/problems/binary-gap/) |
 | 2026-02-20 | LeetCode Hard | Special Binary String | [python](leetcode/hard/761.%20Special%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/special-binary-string/) |
 | 2026-02-19 | LeetCode Easy | Count Binary Substrings | [python](leetcode/easy/696.%20Count%20Binary%20Substrings.py) | [leetcode.com](https://leetcode.com/problems/count-binary-substrings/) |
 | 2026-02-18 | LeetCode Easy | Binary Number with Alternating Bits | [python](leetcode/easy/693.%20Binary%20Number%20with%20Alternating%20Bits.py) | [leetcode.com](https://leetcode.com/problems/binary-number-with-alternating-bits/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-02-14 | LeetCode Medium | Champagne Tower | [python](leetcode/medium/799.%20Champagne%20Tower.py) | [leetcode.com](https://leetcode.com/problems/champagne-tower/) |
 | 2026-02-13 | LeetCode Medium | Longest Balanced Substring II | [python](leetcode/medium/3714.%20Longest%20Balanced%20Substring%20II.py) | [leetcode.com](https://leetcode.com/problems/longest-balanced-substring-ii/) |
 | 2026-02-12 | LeetCode Medium | Longest Balanced Substring I | [python](leetcode/medium/3713.%20Longest%20Balanced%20Substring%20I.py) | [leetcode.com](https://leetcode.com/problems/longest-balanced-substring-i/) |
-| 2026-02-10 | LeetCode Medium | Longest Balanced Subarray I | [python](leetcode/medium/3719.%20Longest%20Balanced%20Subarray%20I.py) | [leetcode.com](https://leetcode.com/problems/longest-balanced-subarray-i/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -141,6 +141,7 @@ Recently solved and added problems.
 | 717 | 1-bit and 2-bit Characters | O(n) | O(1) | [python](leetcode/easy/717.%201-bit%20and%202-bit%20Characters.py) | [leetcode.com](https://leetcode.com/problems/1-bit-and-2-bit-characters) |
 | 796 | Rotate String | O(n*n) | O(n) | [python](leetcode/easy/796.%20Rotate%20String.py) | [leetcode.com](https://leetcode.com/problems/rotate-string/) |
 | 812 | Largest Triangle Area | O(n*n*n) | O(1) | [python](leetcode/easy/812.%20Largest%20Triangle%20Area.py) | [leetcode.com](https://leetcode.com/problems/largest-triangle-area/) |
+| 868 | Binary Gap | O(log n) | O(1) | [python](leetcode/easy/868.%20Binary%20Gap.py) | [leetcode.com](https://leetcode.com/problems/binary-gap/) |
 | 876 | Middle of the Linked List | O(n) | O(1) | [python](leetcode/easy/876.%20Middle%20of%20the%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/middle-of-the-linked-list/) |
 | 944 | Delete Columns to Make Sorted | O(n*m) | O(1) | [python](leetcode/easy/944.%20Delete%20Columns%20to%20Make%20Sorted.py) | [leetcode.com](https://leetcode.com/problems/delete-columns-to-make-sorted/) |
 | 961 | N-Repeated Element in Size 2N Array | O(n) | O(n) | [python](leetcode/easy/961.%20N-Repeated%20Element%20in%20Size%202N%20Array.py) | [leetcode.com](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) |
