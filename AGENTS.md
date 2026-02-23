@@ -50,6 +50,8 @@ class Solution:
 - `# O(n) time and space` - Same for both
 - `# O(n) time` or `# O(1) space` - One only (other shows "N/A")
 
+**NEVER** modify the user's complexity annotations. If you believe an annotation is incorrect, ask the user about it instead of changing it.
+
 ## Just Commands
 
 | Command | Description |
