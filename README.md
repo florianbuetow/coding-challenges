@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 86 | 1350 | 15 | 119 | 6 | 115 | 100 | 30 | 2 | 10 | 140 | 3 | 4 | 6 | 1 | 0 | 10 | 0 |
-| leetcode-medium | 144 | 3584 | 24 | 248 | 5 | 370 | 273 | 89 | 14 | 33 | 291 | 5 | 31 | 42 | 11 | 25 | 22 | 4 |
+| leetcode-medium | 145 | 3596 | 24 | 249 | 5 | 371 | 274 | 89 | 14 | 33 | 293 | 5 | 32 | 42 | 11 | 25 | 22 | 4 |
 | leetcode-hard | 28 | 838 | 29 | 51 | 4 | 75 | 70 | 18 | 8 | 14 | 59 | 3 | 8 | 11 | 8 | 0 | 9 | 4 |
 
 ## Recent Changes
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-02-23 | LeetCode Medium | Check If a String Contains All Binary Codes of Size K | [python](leetcode/medium/1461.%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K.py) | [leetcode.com](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) |
 | 2026-02-22 | LeetCode Easy | Prime Number of Set Bits in Binary Representation | [python](leetcode/easy/762.%20Prime%20Number%20of%20Set%20Bits%20in%20Binary%20Representation.py) | [leetcode.com](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) |
 | 2026-02-22 | LeetCode Easy | Binary Gap | [python](leetcode/easy/868.%20Binary%20Gap.py) | [leetcode.com](https://leetcode.com/problems/binary-gap/) |
 | 2026-02-20 | LeetCode Hard | Special Binary String | [python](leetcode/hard/761.%20Special%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/special-binary-string/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-02-16 | LeetCode Easy | Reverse Bits | [python](leetcode/easy/190.%20Reverse%20Bits.py) | [leetcode.com](https://leetcode.com/problems/reverse-bits/) |
 | 2026-02-15 | LeetCode Easy | Add Binary | [python](leetcode/easy/67.%20Add%20Binary.py) | [leetcode.com](https://leetcode.com/problems/add-binary/) |
 | 2026-02-14 | LeetCode Medium | Champagne Tower | [python](leetcode/medium/799.%20Champagne%20Tower.py) | [leetcode.com](https://leetcode.com/problems/champagne-tower/) |
-| 2026-02-13 | LeetCode Medium | Longest Balanced Substring II | [python](leetcode/medium/3714.%20Longest%20Balanced%20Substring%20II.py) | [leetcode.com](https://leetcode.com/problems/longest-balanced-substring-ii/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -313,6 +313,7 @@ Recently solved and added problems.
 | 1404 | Number of Steps to Reduce a Number in Binary | O(n) | O(1) | [python](leetcode/medium/1404.%20Number%20of%20Steps%20to%20Reduce%20a%20Number%20in%20Binary.py) | [leetcode.com](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/) |
 | 1429 | First Unique Number | O(n) | O(n) | [python](leetcode/medium/1429.%20First%20Unique%20Number.py) | [leetcode.com](https://leetcode.com/problems/first-unique-number/submissions/) |
 | 1438 | Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit | O(n) | O(n) | [python](leetcode/medium/1438.%20Longest%20Continuous%20Subarray%20With%20Absolute%20Diff%20Less%20Than%20or%20Equal%20to%20Limit.py) | [leetcode.com](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) |
+| 1461 | Check If a String Contains All Binary Codes of Size K | O(n*n) | O(n*n) | [python](leetcode/medium/1461.%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K.py) | [leetcode.com](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) |
 | 1488 | Avoid Flood in The City | O(n*n) | O(n) | [python](leetcode/medium/1488.%20Avoid%20Flood%20in%20The%20City.py) | [leetcode.com](https://leetcode.com/problems/avoid-flood-in-the-city/) |
 | 1509 | Minimum Difference Between Largest and Small | O(n) | O(1) | [python](leetcode/medium/1509.%20Minimum%20Difference%20Between%20Largest%20and%20Small.py) | [leetcode.com](https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/) |
 | 1513 | Number of Substrings With Only 1s | O(n) | O(1) | [python](leetcode/medium/1513.%20Number%20of%20Substrings%20With%20Only%201s.py) | [leetcode.com](https://leetcode.com/problems/number-of-substrings-with-only-1s/) |
