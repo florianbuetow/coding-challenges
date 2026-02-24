@@ -33,7 +33,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 86 | 1350 | 15 | 119 | 6 | 115 | 100 | 30 | 2 | 10 | 140 | 3 | 4 | 6 | 1 | 0 | 10 | 0 |
+| leetcode-easy | 87 | 1372 | 15 | 121 | 6 | 118 | 100 | 30 | 2 | 10 | 141 | 3 | 4 | 6 | 1 | 0 | 10 | 0 |
 | leetcode-medium | 145 | 3596 | 24 | 249 | 5 | 371 | 274 | 89 | 14 | 33 | 293 | 5 | 32 | 42 | 11 | 25 | 22 | 4 |
 | leetcode-hard | 28 | 838 | 29 | 51 | 4 | 75 | 70 | 18 | 8 | 14 | 59 | 3 | 8 | 11 | 8 | 0 | 9 | 4 |
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-02-24 | LeetCode Easy | Sum of Root To Leaf Binary Numbers | [python](leetcode/easy/1022.%20Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) |
 | 2026-02-23 | LeetCode Medium | Check If a String Contains All Binary Codes of Size K | [python](leetcode/medium/1461.%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K.py) | [leetcode.com](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) |
 | 2026-02-22 | LeetCode Easy | Prime Number of Set Bits in Binary Representation | [python](leetcode/easy/762.%20Prime%20Number%20of%20Set%20Bits%20in%20Binary%20Representation.py) | [leetcode.com](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) |
 | 2026-02-22 | LeetCode Easy | Binary Gap | [python](leetcode/easy/868.%20Binary%20Gap.py) | [leetcode.com](https://leetcode.com/problems/binary-gap/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-02-17 | LeetCode Easy | Binary Watch | [python](leetcode/easy/401.%20Binary%20Watch.py) | [leetcode.com](https://leetcode.com/problems/binary-watch/) |
 | 2026-02-16 | LeetCode Easy | Reverse Bits | [python](leetcode/easy/190.%20Reverse%20Bits.py) | [leetcode.com](https://leetcode.com/problems/reverse-bits/) |
 | 2026-02-15 | LeetCode Easy | Add Binary | [python](leetcode/easy/67.%20Add%20Binary.py) | [leetcode.com](https://leetcode.com/problems/add-binary/) |
-| 2026-02-14 | LeetCode Medium | Champagne Tower | [python](leetcode/medium/799.%20Champagne%20Tower.py) | [leetcode.com](https://leetcode.com/problems/champagne-tower/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -149,6 +149,7 @@ Recently solved and added problems.
 | 976 | Largest Perimeter Triangle | O(nlogn) | O(1) | [python](leetcode/easy/976.%20Largest%20Perimeter%20Triangle.py) | [leetcode.com](https://leetcode.com/problems/largest-perimeter-triangle/) |
 | 1002 | Find Common Characters | O(n) | O(n) | [python](leetcode/easy/1002.%20Find%20Common%20Characters.py) | [leetcode.com](https://leetcode.com/problems/find-common-characters/) |
 | 1018 | Binary Prefix Divisible By 5 | O(n) | O(n) | [python](leetcode/easy/1018.%20Binary%20Prefix%20Divisible%20By%205.py) | [leetcode.com](https://leetcode.com/problems/binary-prefix-divisible-by-5/) |
+| 1022 | Sum of Root To Leaf Binary Numbers | O(n) | O(n) | [python](leetcode/easy/1022.%20Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) |
 | 1046 | Last Stone Weight | O(n log n) | O(1) | [python](leetcode/easy/1046.%20Last%20Stone%20Weight.py) | [leetcode.com](https://leetcode.com/problems/last-stone-weight/) |
 | 1133 | Largest Unique Number | O(n log n) | O(1) | [python](leetcode/easy/1133.%20Largest%20Unique%20Number.py) | [leetcode.com](https://leetcode.com/problems/largest-unique-number/) |
 | 1137 | N-th Tribonacci Number | O(n) | O(1) | [python](leetcode/easy/1137.%20N-th%20Tribonacci%20Number.py) | [leetcode.com](https://leetcode.com/problems/n-th-tribonacci-number/) |

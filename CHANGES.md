@@ -6,6 +6,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-02-24 | LeetCode Easy | Sum of Root To Leaf Binary Numbers | [python](leetcode/easy/1022.%20Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) |
 | 2026-02-23 | LeetCode Medium | Check If a String Contains All Binary Codes of Size K | [python](leetcode/medium/1461.%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K.py) | [leetcode.com](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) |
 | 2026-02-22 | LeetCode Easy | Prime Number of Set Bits in Binary Representation | [python](leetcode/easy/762.%20Prime%20Number%20of%20Set%20Bits%20in%20Binary%20Representation.py) | [leetcode.com](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) |
 | 2026-02-22 | LeetCode Easy | Binary Gap | [python](leetcode/easy/868.%20Binary%20Gap.py) | [leetcode.com](https://leetcode.com/problems/binary-gap/) |
@@ -15,4 +16,3 @@ Recently solved and added problems.
 | 2026-02-17 | LeetCode Easy | Binary Watch | [python](leetcode/easy/401.%20Binary%20Watch.py) | [leetcode.com](https://leetcode.com/problems/binary-watch/) |
 | 2026-02-16 | LeetCode Easy | Reverse Bits | [python](leetcode/easy/190.%20Reverse%20Bits.py) | [leetcode.com](https://leetcode.com/problems/reverse-bits/) |
 | 2026-02-15 | LeetCode Easy | Add Binary | [python](leetcode/easy/67.%20Add%20Binary.py) | [leetcode.com](https://leetcode.com/problems/add-binary/) |
-| 2026-02-14 | LeetCode Medium | Champagne Tower | [python](leetcode/medium/799.%20Champagne%20Tower.py) | [leetcode.com](https://leetcode.com/problems/champagne-tower/) |
