@@ -33,7 +33,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 88 | 1399 | 15 | 123 | 6 | 118 | 103 | 32 | 2 | 10 | 143 | 3 | 4 | 7 | 1 | 0 | 11 | 0 |
+| leetcode-easy | 89 | 1422 | 15 | 125 | 6 | 119 | 105 | 32 | 2 | 10 | 146 | 3 | 4 | 7 | 1 | 0 | 11 | 0 |
 | leetcode-medium | 145 | 3596 | 24 | 249 | 5 | 371 | 274 | 89 | 14 | 33 | 293 | 5 | 32 | 42 | 11 | 25 | 22 | 4 |
 | leetcode-hard | 28 | 838 | 29 | 51 | 4 | 75 | 70 | 18 | 8 | 14 | 59 | 3 | 8 | 11 | 8 | 0 | 9 | 4 |
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-02-25 | LeetCode Easy | Pascal's Triangle | [python](leetcode/easy/118.%20Pascal%27s%20Triangle.py) | [leetcode.com](https://leetcode.com/problems/pascals-triangle) |
 | 2026-02-25 | LeetCode Easy | Sort Integers by The Number of 1 Bits | [python](leetcode/easy/1356.%20Sort%20Integers%20by%20The%20Number%20of%201%20Bits.py) | [leetcode.com](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) |
 | 2026-02-24 | LeetCode Easy | Sum of Root To Leaf Binary Numbers | [python](leetcode/easy/1022.%20Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) |
 | 2026-02-23 | LeetCode Medium | Check If a String Contains All Binary Codes of Size K | [python](leetcode/medium/1461.%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K.py) | [leetcode.com](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-02-19 | LeetCode Easy | Count Binary Substrings | [python](leetcode/easy/696.%20Count%20Binary%20Substrings.py) | [leetcode.com](https://leetcode.com/problems/count-binary-substrings/) |
 | 2026-02-18 | LeetCode Easy | Binary Number with Alternating Bits | [python](leetcode/easy/693.%20Binary%20Number%20with%20Alternating%20Bits.py) | [leetcode.com](https://leetcode.com/problems/binary-number-with-alternating-bits/) |
 | 2026-02-17 | LeetCode Easy | Binary Watch | [python](leetcode/easy/401.%20Binary%20Watch.py) | [leetcode.com](https://leetcode.com/problems/binary-watch/) |
-| 2026-02-16 | LeetCode Easy | Reverse Bits | [python](leetcode/easy/190.%20Reverse%20Bits.py) | [leetcode.com](https://leetcode.com/problems/reverse-bits/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -126,6 +126,7 @@ Recently solved and added problems.
 | 66 | Plus One | O(n) | O(n) | [python](leetcode/easy/66.%20Plus%20One.py) | [leetcode.com](https://leetcode.com/problems/plus-one/) |
 | 67 | Add Binary | O(n) | O(n) | [python](leetcode/easy/67.%20Add%20Binary.py) | [leetcode.com](https://leetcode.com/problems/add-binary/) |
 | 110 | Balanced Binary Tree | O(n) | O(n) | [python](leetcode/easy/110.%20Balanced%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/balanced-binary-tree/) |
+| 118 | Pascal's Triangle | O(n*n) | O(n) | [python](leetcode/easy/118.%20Pascal%27s%20Triangle.py) | [leetcode.com](https://leetcode.com/problems/pascals-triangle) |
 | 190 | Reverse Bits | O(log n) | O(log n) | [python](leetcode/easy/190.%20Reverse%20Bits.py) | [leetcode.com](https://leetcode.com/problems/reverse-bits/) |
 | 219 | Contains Duplicate II | O(n) | O(n) | [python](leetcode/easy/219.%20Contains%20Duplicate%20II.py) | [leetcode.com](https://leetcode.com/problems/contains-duplicate-ii/) |
 | 234 | Palindrome Linked List | O(n) | O(1) | [python](leetcode/easy/234.%20Palindrome%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/palindrome-linked-list/) |
