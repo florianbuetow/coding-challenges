@@ -6,6 +6,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-02-25 | LeetCode Easy | Pascal's Triangle II | [python](leetcode/easy/119.%20Pascal%27s%20Triangle%20II.py) | [leetcode.com](https://leetcode.com/problems/pascals-triangle-ii/) |
 | 2026-02-25 | LeetCode Easy | Pascal's Triangle | [python](leetcode/easy/118.%20Pascal%27s%20Triangle.py) | [leetcode.com](https://leetcode.com/problems/pascals-triangle) |
 | 2026-02-25 | LeetCode Easy | Sort Integers by The Number of 1 Bits | [python](leetcode/easy/1356.%20Sort%20Integers%20by%20The%20Number%20of%201%20Bits.py) | [leetcode.com](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) |
 | 2026-02-24 | LeetCode Easy | Sum of Root To Leaf Binary Numbers | [python](leetcode/easy/1022.%20Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) |
@@ -15,4 +16,3 @@ Recently solved and added problems.
 | 2026-02-20 | LeetCode Hard | Special Binary String | [python](leetcode/hard/761.%20Special%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/special-binary-string/) |
 | 2026-02-19 | LeetCode Easy | Count Binary Substrings | [python](leetcode/easy/696.%20Count%20Binary%20Substrings.py) | [leetcode.com](https://leetcode.com/problems/count-binary-substrings/) |
 | 2026-02-18 | LeetCode Easy | Binary Number with Alternating Bits | [python](leetcode/easy/693.%20Binary%20Number%20with%20Alternating%20Bits.py) | [leetcode.com](https://leetcode.com/problems/binary-number-with-alternating-bits/) |
-| 2026-02-17 | LeetCode Easy | Binary Watch | [python](leetcode/easy/401.%20Binary%20Watch.py) | [leetcode.com](https://leetcode.com/problems/binary-watch/) |
