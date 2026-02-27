@@ -35,7 +35,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 90 | 1442 | 16 | 127 | 6 | 120 | 107 | 32 | 2 | 10 | 149 | 3 | 4 | 7 | 1 | 0 | 11 | 0 |
 | leetcode-medium | 145 | 3596 | 24 | 249 | 5 | 371 | 274 | 89 | 14 | 33 | 293 | 5 | 32 | 42 | 11 | 25 | 22 | 4 |
-| leetcode-hard | 28 | 838 | 29 | 51 | 4 | 75 | 70 | 18 | 8 | 14 | 59 | 3 | 8 | 11 | 8 | 0 | 9 | 4 |
+| leetcode-hard | 29 | 874 | 30 | 53 | 4 | 78 | 72 | 19 | 8 | 15 | 63 | 3 | 8 | 11 | 8 | 2 | 9 | 9 |
 
 ## Recent Changes
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-02-27 | LeetCode Hard | Minimum Operations to Equalize Binary String | [python](leetcode/hard/3666.%20Minimum%20Operations%20to%20Equalize%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/) |
 | 2026-02-25 | LeetCode Easy | Pascal's Triangle II | [python](leetcode/easy/119.%20Pascal%27s%20Triangle%20II.py) | [leetcode.com](https://leetcode.com/problems/pascals-triangle-ii/) |
 | 2026-02-25 | LeetCode Easy | Pascal's Triangle | [python](leetcode/easy/118.%20Pascal%27s%20Triangle.py) | [leetcode.com](https://leetcode.com/problems/pascals-triangle) |
 | 2026-02-25 | LeetCode Easy | Sort Integers by The Number of 1 Bits | [python](leetcode/easy/1356.%20Sort%20Integers%20by%20The%20Number%20of%201%20Bits.py) | [leetcode.com](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-02-22 | LeetCode Easy | Binary Gap | [python](leetcode/easy/868.%20Binary%20Gap.py) | [leetcode.com](https://leetcode.com/problems/binary-gap/) |
 | 2026-02-20 | LeetCode Hard | Special Binary String | [python](leetcode/hard/761.%20Special%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/special-binary-string/) |
 | 2026-02-19 | LeetCode Easy | Count Binary Substrings | [python](leetcode/easy/696.%20Count%20Binary%20Substrings.py) | [leetcode.com](https://leetcode.com/problems/count-binary-substrings/) |
-| 2026-02-18 | LeetCode Easy | Binary Number with Alternating Bits | [python](leetcode/easy/693.%20Binary%20Number%20with%20Alternating%20Bits.py) | [leetcode.com](https://leetcode.com/problems/binary-number-with-alternating-bits/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -244,6 +244,7 @@ Recently solved and added problems.
 | 2977 | Minimum Cost to Convert String II | O(n * m^2 * log m) | O(n^2 * m) | [python](leetcode/hard/2977.%20Minimum%20Cost%20to%20Convert%20String%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/) |
 | 3027 | Find the Number of Ways to Place People II | O(n*n) | O(1) | [python](leetcode/hard/3027.%20Find%20the%20Number%20of%20Ways%20to%20Place%20People%20II.py) | [leetcode.com](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-ii/) |
 | 3347 | Maximum Frequency of an Element After Performing Operations II | O(n log n) | O(n) | [python](leetcode/hard/3347.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20II.py) | [leetcode.com](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii/) |
+| 3666 | Minimum Operations to Equalize Binary String | O(n*n) | O(n) | [python](leetcode/hard/3666.%20Minimum%20Operations%20to%20Equalize%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/) |
 
 ### Medium
 | Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
