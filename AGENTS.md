@@ -56,23 +56,9 @@ class Solution:
 
 | Command | Description |
 |---------|-------------|
-| `just generate` | Generate README.md and CHANGES.md (ALWAYS use this) |
-| `just init` | Build Docker image |
-| `just destroy` | Delete Docker image |
-| `just status` | Check if Docker image exists |
-
-**If `just generate` fails because Docker is not running:** STOP and tell the user to start Docker. Do NOT run Python scripts directly.
-
-## Modifying Generator Scripts
-
-When editing `generate_readme.py` or `generate_changes.py`:
-
-1. Make your changes to the script
-2. Run `just destroy && just init` to rebuild the Docker image
-3. Run `just generate` to test
-4. Commit the script changes, then commit README.md + CHANGES.md
-
-**The scripts are copied into the Docker image at build time.** If you skip the rebuild, your changes won't take effect.
+| `just generate` | Generate README.md and CHANGES.md |
+| `just ci` | Run CI checks (semgrep) |
+| `just destroy` | Remove virtual environment |
 
 ## Git Guidelines
 
@@ -91,4 +77,4 @@ When editing `generate_readme.py` or `generate_changes.py`:
 | `CHANGES.md` | Auto-generated recent changes from git history |
 | `DESCRIPTION.md` | Edit this to change README header content |
 | `USAGE.md` | Edit this to change README footer content |
-| `generate_readme.py` | README generator script (runs in Docker) |
+| `generate_readme.py` | README generator script |
