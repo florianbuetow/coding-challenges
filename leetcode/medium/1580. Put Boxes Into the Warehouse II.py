@@ -1,3 +1,5 @@
+# link: https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/
+
 class Solution:
     def maxBoxesInWarehouse(self, boxes: List[int], warehouse: List[int]) -> int:
         # O(n log n) time and O(1) space

@@ -1,9 +1,9 @@
-# O(log n) time and space
 # link: https://leetcode.com/problems/reverse-bits/
 
 
 class Solution:
     def reverseBits(self, n: int) -> int:
+        # O(n) time and O(1) space
         bits = [0] * 32
         idx = len(bits)
         while n:

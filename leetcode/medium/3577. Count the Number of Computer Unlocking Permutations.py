@@ -1,8 +1,9 @@
-# O(n) time and O(1) space
 # link: https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/
+
 
 class Solution:
     def countPermutations(self, complexity: List[int]) -> int:
+        # O(n) time and O(1) space
         for i in range(1, len(complexity)):
             if complexity[i] <= complexity[0]:
                 return 0

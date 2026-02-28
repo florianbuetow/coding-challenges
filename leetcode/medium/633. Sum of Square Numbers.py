@@ -1,8 +1,9 @@
-# O(sqrt(c) * log c) time and O(1) space
 # link: https://leetcode.com/problems/sum-of-square-numbers/
+
 
 class Solution:
     def judgeSquareSum(self, c: int) -> bool:
+        # O(n) time and O(1) space
         def findB(target):
             left, right = 0, target
             while left <= right:

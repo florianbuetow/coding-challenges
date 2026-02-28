@@ -1,8 +1,9 @@
-# O(n) time and O(1) space
 # link: https://leetcode.com/problems/maximize-expression-of-three-elements/
+
 
 class Solution:
     def maximizeExpressionOfThree(self, nums: List[int]) -> int:
+        # O(n) time and O(1) space
         min_one = float('inf')
         max_two = []
         for n in nums:

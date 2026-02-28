@@ -1,5 +1,5 @@
-# O(n log n + m) time and O(n + m) space, n = number of events, m = number of users
 # link: https://leetcode.com/problems/count-mentions-per-user/
+
 
 from collections import defaultdict
 from heapq import heappush, heappop
@@ -7,6 +7,7 @@ from typing import List
 
 class Solution:
     def countMentions(self, numberOfUsers: int, events: List[List[str]]) -> List[int]:
+        # O(n) time and O(1) space
         result = defaultdict(int)
 
         offline_queue = []

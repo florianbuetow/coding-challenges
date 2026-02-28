@@ -1,8 +1,9 @@
-# O(n*m) time and O(n) space, n = len(wordlist), m = len(queries)
 # link: https://leetcode.com/problems/vowel-spellchecker/
+
 
 class Solution:
     def spellchecker(self, wordlist: List[str], queries: List[str]) -> List[str]:
+        # O(n) time and O(1) space
         def maskVowels(word):
             vowels = 'aeiouAEIOU'
             res = []

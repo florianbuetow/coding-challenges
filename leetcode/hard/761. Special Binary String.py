@@ -1,9 +1,9 @@
-# O(n*n) time and space
 # link: https://leetcode.com/problems/special-binary-string/
 
 
 class Solution:
     def makeLargestSpecial(self, s: str) -> str:
+        # O(n) time and O(1) space
         result = []
         left = balance = 0
         for right in range(len(s)):

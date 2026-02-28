@@ -1,13 +1,14 @@
-# O(n) time and space
 # link: https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array
+
 
 # Definition for singly-linked list.
 # class ListNode:
-#     def __init__(self, val=0, next=None):
+# def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
 class Solution:
     def modifiedList(self, nums: List[int], head: Optional[ListNode]) -> Optional[ListNode]:
+        # O(n) time and O(1) space
         nums = set(nums) # without this we would have O(n*n) time and O(1) space
         prev, curr = None, head
         while curr:

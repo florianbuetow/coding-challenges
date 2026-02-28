@@ -1,8 +1,9 @@
-# O(n*n) time and O(n) space, where n is the height and width of the triangular array
 # link: https://leetcode.com/problems/triangle/
+
 
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
+        # O(n) time and O(1) space
         path_sums = []
         for row in triangle:
             if not path_sums:

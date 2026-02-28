@@ -1,8 +1,9 @@
-# O(n*m) time and O(m) space
 # link: https://leetcode.com/problems/max-dot-product-of-two-subsequences
+
 
 class Solution:
     def maxDotProduct(self, nums1: List[int], nums2: List[int]) -> int:
+        # O(n) time and O(1) space
         prev = [float('-inf')] * (len(nums2) + 1)
         curr = [float('-inf')] * (len(nums2) + 1)
         for i in range(1, len(nums1) + 1):

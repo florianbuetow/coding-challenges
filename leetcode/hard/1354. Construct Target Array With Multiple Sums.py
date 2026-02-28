@@ -1,5 +1,5 @@
-# O(n log n) time and O(1) space
 # link: https://leetcode.com/problems/construct-target-array-with-multiple-sums/
+
 
 import heapq
 from heapq import heappop, heappush
@@ -8,6 +8,7 @@ from typing import List
 
 class Solution:
     def isPossible(self, target: List[int]) -> bool:
+        # O(n) time and O(1) space
         sum_all = sum(target)
         for i in range(len(target)):
             target[i] = -target[i]

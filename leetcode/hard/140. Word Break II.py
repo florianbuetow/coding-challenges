@@ -1,14 +1,15 @@
-# O(2^n) time and O(2^n) space
 # link: https://leetcode.com/problems/word-break-ii/
 
 
 class TrieNode:
 
     def __init__(self):
+        # O(n) time and O(1) space
         self.children = {}
         self.is_word = False
 
     def insert(self, word: str) -> None:
+        # O(n) time and O(1) space
         node = self
         for c in word:
             if c not in node.children:
@@ -17,6 +18,7 @@ class TrieNode:
         node.is_word = word
 
     def match_prefix(self, s: str, idx: int) -> int:
+        # O(n) time and O(1) space
         matches = []
         node = self
         length = 0

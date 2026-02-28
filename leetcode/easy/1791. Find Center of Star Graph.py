@@ -1,9 +1,10 @@
-# O(1) time and O(1) space
 # link: https://leetcode.com/problems/find-center-of-star-graph/
+
 
 from collections import defaultdict
 class Solution:
     def findCenter(self, edges: List[List[int]]) -> int:
+        # O(n) time and O(1) space
         counter = defaultdict(int)
         counter[edges[0][0]] += 1
         counter[edges[0][1]] += 1

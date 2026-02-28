@@ -1,8 +1,9 @@
-# O(n*m) time and O(1) space
 # link: https://leetcode.com/problems/delete-columns-to-make-sorted/
+
 
 class Solution:
     def minDeletionSize(self, strs: List[str]) -> int:
+        # O(n) time and O(1) space
         result = 0
         height, width = len(strs), len(strs[0])
         for x in range(width):

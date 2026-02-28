@@ -1,3 +1,5 @@
+# link: https://leetcode.com/problems/average-waiting-time/
+
 class Solution:
     def averageWaitingTime(self, customers: List[List[int]]) -> float:
         # O(n) time and O(1) space

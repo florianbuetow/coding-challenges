@@ -1,3 +1,5 @@
+# link: https://leetcode.com/problems/first-unique-number/
+
 from typing import List
 
 class FirstUnique:

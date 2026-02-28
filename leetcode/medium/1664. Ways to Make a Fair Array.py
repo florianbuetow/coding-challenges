@@ -1,11 +1,12 @@
-# O(n) time and space
 # link: https://leetcode.com/problems/ways-to-make-a-fair-array/
+
 
 from typing import List
 
 
 class Solution:
     def waysToMakeFair(self, nums: List[int]) -> int:
+        # O(n) time and O(1) space
         result = 0
         left_even, right_even = 0, sum(nums[i] for i in range(0, len(nums), 2))
         left_odd, right_odd = 0, sum(nums[i] for i in range(1, len(nums), 2))

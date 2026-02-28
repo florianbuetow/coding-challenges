@@ -1,3 +1,5 @@
+# link: https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
+
 class Solution:
     def lengthOfLongestSubstringTwoDistinct(self, s: str) -> int:
         # O(n) time and O(1) space

@@ -1,8 +1,9 @@
-# O(n) time and O(1) space
 # link: https://leetcode.com/problems/maximum-number-of-words-you-can-type/
+
 
 class Solution:
     def canBeTypedWords(self, text: str, brokenLetters: str) -> int:
+        # O(n) time and O(1) space
         result = 0
         skip = False
         for i, c in enumerate(text):

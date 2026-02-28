@@ -1,8 +1,9 @@
-# O(n) time and O(1) space
 # link: https://leetcode.com/problems/minimum-time-visiting-all-points/
+
 
 class Solution:
     def minTimeToVisitAllPoints(self, points: List[List[int]]) -> int:
+        # O(n) time and O(1) space
         def dist(a, b):
             dx = abs(a[0]-b[0])
             dy = abs(a[1]-b[1])

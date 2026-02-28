@@ -1,5 +1,5 @@
-# O(n log n + n*k) time and O(n) space, n = len(meetings), k = max(len(meeting) for meeting in meetings)
 # link: https://leetcode.com/problems/find-all-people-with-secret/
+
 
 from heapq import heapify, heappop
 from collections import defaultdict
@@ -8,6 +8,7 @@ from typing import List
 
 class Solution:
     def findAllPeople(self, n: int, meetings: List[List[int]], firstPerson: int) -> List[int]:
+        # O(n) time and O(1) space
         knowers = set([0, firstPerson])
         meetings = [[t, p1, p2] for p1, p2, t in meetings]
         heapify(meetings)  # O(n)

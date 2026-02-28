@@ -1,8 +1,9 @@
-# O(n*n) time and O(n) space
 # link: https://leetcode.com/problems/pascals-triangle
+
 
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
+        # O(n) time and O(1) space
         result = []
 
         def getPredecessor(row, i):

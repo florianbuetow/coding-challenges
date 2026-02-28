@@ -1,8 +1,9 @@
-# O(log n) time and O(1) space
 # link: https://leetcode.com/problems/binary-gap/
+
 
 class Solution:
     def binaryGap(self, n: int) -> int:
+        # O(n) time and O(1) space
         result = idx = 0
         pos = []
         while n:

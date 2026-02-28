@@ -1,8 +1,9 @@
-# O(n log n) time and O(n) space
 # link: https://leetcode.com/problems/merge-intervals/description/
+
 
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
+        # O(n) time and O(1) space
         result = []
         intervals.sort(key=lambda e: e[1])
         intervals.sort(key=lambda e: e[0])

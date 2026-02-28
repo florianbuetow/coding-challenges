@@ -1,8 +1,9 @@
-# O(n) time and O(m) space, n = len(nums), m = len(set(nums))
 # link: https://leetcode.com/problems/count-elements-with-maximum-frequency/
+
 
 class Solution:
     def maxFrequencyElements(self, nums: List[int]) -> int:
+        # O(n) time and O(1) space
         freq = {}
         for n in nums:
             if n not in freq:

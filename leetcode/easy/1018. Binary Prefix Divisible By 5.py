@@ -1,8 +1,9 @@
-# O(n) time and O(n) space
 # link: https://leetcode.com/problems/binary-prefix-divisible-by-5/
+
 
 class Solution:
     def prefixesDivBy5(self, nums: List[int]) -> List[bool]:
+        # O(n) time and O(1) space
         result = []
         n = 0
         for bit in nums:

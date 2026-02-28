@@ -1,3 +1,5 @@
+# link: https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
+
 class Solution:
     def lengthOfLongestSubstringKDistinct(self, s: str, k: int) -> int:
         # O(n) time and O(k) space, n = len(s), k = number of distinct characters

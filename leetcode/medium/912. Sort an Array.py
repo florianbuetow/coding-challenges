@@ -1,8 +1,9 @@
-# O(n log n) time and O(n) space
 # link: https://leetcode.com/problems/sort-an-array/description/
+
 
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
+        # O(n) time and O(1) space
         def merge(left, mid, right):
             tmp = []
             j = mid

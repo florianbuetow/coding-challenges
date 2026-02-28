@@ -1,8 +1,9 @@
-# O(n log n) time and O(1) space
 # link: https://leetcode.com/problems/maximum-number-of-distinct-elements-after-operations/
+
 
 class Solution:
     def maxDistinctElements(self, nums: List[int], k: int) -> int:
+        # O(n) time and O(1) space
         nums.sort()
         result = 0
         curr_min_val = nums[0] - k

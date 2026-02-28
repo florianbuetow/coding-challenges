@@ -1,3 +1,5 @@
+# link: https://leetcode.com/problems/circular-sentence/
+
 class Solution:
     def isCircularSentence(self, sentence: str) -> bool:
         # O(n) time and O(1) space

@@ -1,8 +1,9 @@
-# O(6^2n) time and O(n*6^n) space
 # link: https://leetcode.com/problems/pyramid-transition-matrix/
+
 
 class Solution:
     def pyramidTransition(self, bottom: str, allowed: List[str]) -> bool:
+        # O(n) time and O(1) space
         loopup = defaultdict(list)
         for pattern in allowed:
             loopup[pattern[:2]].append(pattern[2])

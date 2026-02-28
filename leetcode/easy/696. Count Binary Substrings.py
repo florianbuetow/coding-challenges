@@ -1,9 +1,9 @@
-# O(n) time and O(1) space
 # link: https://leetcode.com/problems/count-binary-substrings/
 
 
 class Solution:
     def countBinarySubstrings(self, s: str) -> int:
+        # O(n) time and O(1) space
         result = prev = 0
         count = [0, 0]
         for curr in s:

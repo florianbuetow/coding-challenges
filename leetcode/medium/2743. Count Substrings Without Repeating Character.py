@@ -1,3 +1,5 @@
+# link: https://leetcode.com/problems/count-substrings-without-repeating-character/
+
 from collections import defaultdict
 class Solution:
     def numberOfSpecialSubstrings(self, s: str) -> int:

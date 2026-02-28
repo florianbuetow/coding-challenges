@@ -1,3 +1,5 @@
+# link: https://leetcode.com/problems/number-of-spaces-cleaning-robot-cleaned/
+
 class Solution:
     def numberOfCleanRooms(self, room: List[List[int]]) -> int:
         # O(n * m) time and space

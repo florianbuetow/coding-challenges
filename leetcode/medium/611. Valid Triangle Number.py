@@ -1,8 +1,9 @@
-# O(n log n + n*n) time and O(1) space
 # link: https://leetcode.com/problems/valid-triangle-number/
+
 
 class Solution:
     def triangleNumber(self, nums: List[int]) -> int:
+        # O(n) time and O(1) space
         result = 0
         nums.sort()
         for index in range(len(nums)-1,-1,-1):

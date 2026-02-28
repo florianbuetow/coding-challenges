@@ -1,8 +1,9 @@
-# O(n log n) time and O(1) space
 # link: https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/
+
 
 class Solution:
     def maximizeSquareHoleArea(self, n: int, m: int, hBars: List[int], vBars: List[int]) -> int:
+        # O(n) time and O(1) space
         hBars.sort()
         vBars.sort()
 

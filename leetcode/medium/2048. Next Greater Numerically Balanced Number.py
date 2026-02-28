@@ -1,8 +1,9 @@
-# O(1) time and O(1) space
 # link: https://leetcode.com/problems/next-greater-numerically-balanced-number/
+
 
 class Solution:
     def nextBeautifulNumber(self, n: int) -> int:
+        # O(n) time and O(1) space
         MAX_DIGITS = 8
         MAX_VALUE = 10 ** MAX_DIGITS
 

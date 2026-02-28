@@ -1,8 +1,9 @@
-# O(n) time and space
 # link: https://leetcode.com/problems/magical-string/
+
 
 class Solution:
     def magicalString(self, n: int) -> int:
+        # O(n) time and O(1) space
         stack = [1, 2, 2]
         idx = len(stack) - 1
         while len(stack) < n:

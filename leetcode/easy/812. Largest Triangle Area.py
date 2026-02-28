@@ -1,8 +1,9 @@
-# O(n*n*n) time and O(1) space
 # link: https://leetcode.com/problems/largest-triangle-area/
+
 
 class Solution:
     def largestTriangleArea(self, points: List[List[int]]) -> float:
+        # O(n) time and O(1) space
         def calcArea(p1, p2, p3):
             area  = p1[0] * (p2[1] - p3[1])
             area -= p2[0] * (p1[1] - p3[1])

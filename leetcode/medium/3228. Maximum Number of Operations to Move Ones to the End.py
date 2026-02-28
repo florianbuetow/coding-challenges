@@ -1,8 +1,9 @@
-# O(n) time and O(1) space
 # link: https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end
+
 
 class Solution:
     def maxOperations(self, s: str) -> int:
+        # O(n) time and O(1) space
         result = 0
         ones = 0
         gap = False

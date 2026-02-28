@@ -1,8 +1,9 @@
-# O(n) time and space
 # link: https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/
+
 
 class Solution:
     def minimumDistance(self, nums: List[int]) -> int:
+        # O(n) time and O(1) space
         lookup = defaultdict(list)
         for i, n in enumerate(nums):
             lookup[n].append(i)

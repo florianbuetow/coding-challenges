@@ -1,8 +1,9 @@
-# O(m + n log n) time and O(1) space, n boxes, m apples
 # link: https://leetcode.com/problems/apple-redistribution-into-boxes/
+
 
 class Solution:
     def minimumBoxes(self, apple: List[int], capacity: List[int]) -> int:
+        # O(n) time and O(1) space
         capacity.sort()
         apples = sum(apple)
         result = 0

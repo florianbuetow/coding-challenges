@@ -1,8 +1,9 @@
-# O(log n) time and O(1) space
 # link: https://leetcode.com/problems/binary-search/
+
 
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
+        # O(n) time and O(1) space
         left, right = 0, len(nums) - 1
         while left <= right:
             mid = (left + right) // 2

@@ -1,8 +1,9 @@
-# O(m log m) time and O(n) space
 # link: https://leetcode.com/problems/meeting-rooms-iii/
+
 
 class Solution:
     def mostBooked(self, n: int, meetings: List[List[int]]) -> int:
+        # O(n) time and O(1) space
         used_rooms = []
         unused_rooms = [room_id for room_id in range(n)]
         heapify(unused_rooms)

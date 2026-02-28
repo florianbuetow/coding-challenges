@@ -1,8 +1,9 @@
-# O(n) time and O(1) space
 # link: https://leetcode.com/problems/count-partitions-with-even-sum-difference/
+
 
 class Solution:
     def countPartitions(self, nums: List[int]) -> int:
+        # O(n) time and O(1) space
         result = 0
         left_sum, right_sum = 0, sum(nums)
         for i in range(len(nums) - 1):

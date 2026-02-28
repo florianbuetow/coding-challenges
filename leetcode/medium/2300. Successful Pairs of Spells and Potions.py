@@ -1,8 +1,9 @@
-# O(m log n) time and O(m) space, n = len(potions), m = len(spells)
 # link: https://leetcode.com/problems/successful-pairs-of-spells-and-potions/
+
 
 class Solution:
     def successfulPairs(self, spells: List[int], potions: List[int], success: int) -> List[int]:
+        # O(n) time and O(1) space
         def countSuccessFullPotions(spell):
             count = 0
             left, right = 0, len(potions) - 1

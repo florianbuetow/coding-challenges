@@ -1,3 +1,5 @@
+# link: https://leetcode.com/problems/valid-parenthesis-string/
+
 class Solution:
     def checkValidString(self, s: str) -> bool:
         # O(n) time and O(1) space

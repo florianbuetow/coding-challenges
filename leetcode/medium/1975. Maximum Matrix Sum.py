@@ -1,8 +1,9 @@
-# O(n*n) time and O(1) space
 # link: https://leetcode.com/problems/maximum-matrix-sum
+
 
 class Solution:
     def maxMatrixSum(self, matrix: List[List[int]]) -> int:
+        # O(n) time and O(1) space
         result = count = 0
         min_n = float('inf')
         for row in matrix:

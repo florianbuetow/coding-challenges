@@ -1,8 +1,9 @@
-# O(n log n) time and O(n) space
 # link: https://leetcode.com/problems/maximum-total-damage-with-spell-casting/
+
 
 class Solution:
     def maximumTotalDamage(self, power: List[int]) -> int:
+        # O(n) time and O(1) space
         # counting sort
         damage = {}
         for p in power:

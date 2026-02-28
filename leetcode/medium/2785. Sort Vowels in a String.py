@@ -1,9 +1,10 @@
-# O(n) time and space
 # link: https://leetcode.com/problems/sort-vowels-in-a-string/
+
 
 from collections import defaultdict
 class Solution:
     def sortVowels(self, s: str) -> str:
+        # O(n) time and O(1) space
         s = list(s)
         vovels = 'AEIOUaeiou'
         counter = defaultdict(int)

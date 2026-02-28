@@ -1,8 +1,9 @@
-# O(m*n*k) time and O(m*n) space, k = len(strs)
 # link: https://leetcode.com/problems/ones-and-zeroes/
+
 
 class Solution:
     def findMaxForm(self, strs: List[str], m: int, n: int) -> int:
+        # O(n) time and O(1) space
         memory = []
         for _ in range(m + 1):
             memory.append([0] * (n+1))

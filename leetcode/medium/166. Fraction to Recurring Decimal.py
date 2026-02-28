@@ -1,8 +1,9 @@
-# O(denominator * log denominator) time and O(denominator * log denominator) space
 # link: https://leetcode.com/problems/fraction-to-recurring-decimal/
+
 
 class Solution:
     def fractionToDecimal(self, numerator: int, denominator: int) -> str:
+        # O(n) time and O(1) space
         if numerator == 0: return '0'
 
         result = []

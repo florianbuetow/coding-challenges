@@ -1,10 +1,11 @@
-# O(n) time and O(1) space
 # link: https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/
+
 
 from math import sqrt
 
 class Solution:
     def countPrimeSetBits(self, left: int, right: int) -> int:
+        # O(n) time and O(1) space
         def count_bits(n):
             bits = 0
             while n > 0:

@@ -1,5 +1,5 @@
-# O(n^3) time and O(n) space, n = cells in the matrix
 # link: https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold
+
 
 from itertools import accumulate
 
@@ -7,6 +7,7 @@ from itertools import accumulate
 class Solution:
 
     def maxSideLength(self, mat: List[List[int]], threshold: int) -> int:
+        # O(n) time and O(1) space
         rows, cols = len(mat), len(mat[0])
         prefix_sums = [[0] * (cols + 1)]
         for row in mat:

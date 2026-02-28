@@ -1,10 +1,11 @@
-# O(n log n) time and O(n) space
 # link: https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits
+
 
 from collections import defaultdict
 
 class Solution:
     def sortByBits(self, arr: List[int]) -> List[int]:
+        # O(n) time and O(1) space
         def countBits(n):
             count = 0
             while n:

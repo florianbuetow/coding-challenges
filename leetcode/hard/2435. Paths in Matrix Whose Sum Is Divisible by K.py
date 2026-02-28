@@ -1,5 +1,5 @@
-# O(n*m*k) time and O(n*m*k) space
 # link: https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k
+
 
 from functools import cache
 from typing import List
@@ -7,6 +7,7 @@ from typing import List
 
 class Solution:
     def numberOfPaths(self, grid: List[List[int]], k: int) -> int:
+        # O(n) time and O(1) space
         width, height = len(grid[0]), len(grid)
 
         @cache

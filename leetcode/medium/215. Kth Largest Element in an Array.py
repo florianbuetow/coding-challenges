@@ -1,11 +1,12 @@
-# O(k log n) time and O(1) space
 # link: https://leetcode.com/problems/kth-largest-element-in-an-array/
+
 
 from heapq import heapify, heappop
 
 
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
+        # O(n) time and O(1) space
         for i in range(len(nums)):
             nums[i] *= -1
         heapify(nums)

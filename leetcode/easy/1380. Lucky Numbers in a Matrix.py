@@ -1,5 +1,5 @@
-# O(n*m) time and space, n,m = width and height of the matrix
 # link: https://leetcode.com/problems/lucky-numbers-in-a-matrix/
+
 
 class Solution:
     def luckyNumbers (self, matrix: List[List[int]]) -> List[int]:

@@ -1,5 +1,5 @@
-# O(n log n) time and O(1) space
 # link: https://leetcode.com/problems/minimum-cost-to-connect-sticks
+
 
 from heapq import heapify, heappop, heappush
 from typing import List
@@ -7,6 +7,7 @@ from typing import List
 
 class Solution:
     def connectSticks(self, sticks: List[int]) -> int:
+        # O(n) time and O(1) space
         result = 0
         heapify(sticks)
         while len(sticks) > 1:

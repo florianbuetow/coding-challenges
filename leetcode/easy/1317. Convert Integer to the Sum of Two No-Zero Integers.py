@@ -1,8 +1,9 @@
-# O(n log n) time and O(1) space
 # link: https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/
+
 
 class Solution:
     def getNoZeroIntegers(self, n: int) -> List[int]:
+        # O(n) time and O(1) space
         def hasZeros(n):
             return '0' in str(n)
 

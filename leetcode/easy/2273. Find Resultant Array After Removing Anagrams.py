@@ -1,8 +1,9 @@
-# O(n*m) time and O(n*m) space, n = len(words), m = length of longest word
 # link: https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/
+
 
 class Solution:
     def removeAnagrams(self, words: List[str]) -> List[str]:
+        # O(n) time and O(1) space
         def getSignature(w):
             histogram = [0] * 26
             for c in w:

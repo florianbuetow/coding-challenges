@@ -1,8 +1,9 @@
-# O(n) time and space
 # link: https://leetcode.com/problems/count-covered-buildings/
+
 
 class Solution:
     def countCoveredBuildings(self, n: int, buildings: List[List[int]]) -> int:
+        # O(n) time and O(1) space
         minmax_x = defaultdict(list)
         minmax_y = defaultdict(list)
         for x, y in buildings:

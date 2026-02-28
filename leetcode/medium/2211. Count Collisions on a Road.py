@@ -1,8 +1,9 @@
-# O(n) time and space
 # link: https://leetcode.com/problems/count-collisions-on-a-road
+
 
 class Solution:
     def countCollisions(self, directions: str) -> int:
+        # O(n) time and O(1) space
         result = 0
         stack = ['L']
         for d in directions:

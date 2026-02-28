@@ -1,8 +1,9 @@
-# O(n*n) time and O(1) space
 # link: https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/
+
 
 class Solution:
     def largestSquareArea(self, bottomLeft: List[List[int]], topRight: List[List[int]]) -> int:
+        # O(n) time and O(1) space
         result = 0
         for i in range(len(bottomLeft)):
             p1, p2 = bottomLeft[i], topRight[i]

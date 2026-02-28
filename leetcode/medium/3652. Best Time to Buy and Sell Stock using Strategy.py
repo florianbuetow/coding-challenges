@@ -1,9 +1,9 @@
-# O(n) time and O(1) space
 # link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/
 
 
 class Solution:
     def maxProfit(self, prices: List[int], strategy: List[int], k: int) -> int:
+        # O(n) time and O(1) space
         result = old = new = 0
         for i in range(k):
             old += prices[i] * strategy[i]

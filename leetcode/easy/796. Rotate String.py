@@ -1,9 +1,9 @@
-# O(n*n) time and O(n) space
 # link: https://leetcode.com/problems/rotate-string/
 
 
 class Solution:
     def rotateString(self, s: str, goal: str) -> bool:
+        # O(n) time and O(1) space
         l = len(s)
         if l == len(goal):
             for i in range(l):

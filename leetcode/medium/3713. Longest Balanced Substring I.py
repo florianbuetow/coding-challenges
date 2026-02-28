@@ -1,8 +1,9 @@
-# O(n*n) time and O(n) space
 # link: https://leetcode.com/problems/longest-balanced-substring-i/
+
 
 class Solution:
     def longestBalanced(self, s: str) -> int:
+        # O(n) time and O(1) space
         result = 1
         for left in range(len(s)):
             histogram = [0] * 26

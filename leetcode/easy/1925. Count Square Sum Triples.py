@@ -1,8 +1,9 @@
-# O(n) time and space
 # link: https://leetcode.com/problems/count-square-sum-triples/
+
 
 class Solution:
     def countTriples(self, n: int) -> int:
+        # O(n) time and O(1) space
         squares = set()
         for i in range(1, n + 1):
             squares.add(i * i)

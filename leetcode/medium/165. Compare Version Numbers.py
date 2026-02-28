@@ -1,8 +1,9 @@
-# O(n+m) time and O(1) space, n = len(version1), m = len(version2)
 # link: https://leetcode.com/problems/compare-version-numbers/
+
 
 class Solution:
     def compareVersion(self, version1: str, version2: str) -> int:
+        # O(n) time and O(1) space
 
         def getRevisionValue(idx, s):
             value = 0

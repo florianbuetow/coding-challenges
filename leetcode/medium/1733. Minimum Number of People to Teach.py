@@ -1,8 +1,9 @@
-# O(n*m + f*k) time and O(n*m) space, n = languages, m = users, f = friendships, k = avg languages per user
 # link: https://leetcode.com/problems/minimum-number-of-people-to-teach/
+
 
 class Solution:
     def minimumTeachings(self, n: int, languages: List[List[int]], friendships: List[List[int]]) -> int:
+        # O(n) time and O(1) space
         know = [set(L) for L in languages]
 
         candidates = set()
