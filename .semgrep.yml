@@ -1,0 +1,27 @@
+rules:
+  - id: leetcode-missing-link-first-line
+    pattern-regex: "\\A(?!# link: https?://)[^\\n]+"
+    languages: [generic]
+    paths:
+      include:
+        - "leetcode/"
+    message: "First line of file must be '# link: https://leetcode.com/problems/...'"
+    severity: ERROR
+
+  - id: leetcode-missing-blank-after-link
+    pattern-regex: "\\A# link: [^\\n]+\\n(?!\\n)"
+    languages: [generic]
+    paths:
+      include:
+        - "leetcode/"
+    message: "Second line must be blank (empty line after '# link: ...')"
+    severity: ERROR
+
+  - id: leetcode-missing-complexity-comment
+    pattern-regex: "    def \\w+\\(self[^)]*\\)[^:\\n]*:\\n(?![ \\t]*# O\\()"
+    languages: [generic]
+    paths:
+      include:
+        - "leetcode/"
+    message: "First line inside method must be a complexity comment (# O(...))"
+    severity: ERROR
