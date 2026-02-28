@@ -25,3 +25,12 @@ rules:
         - "leetcode/"
     message: "First line inside method must be a complexity comment (# O(...))"
     severity: ERROR
+
+  - id: leetcode-duplicate-complexity-comment
+    pattern-regex: "^# O\\([^\\n]*\\n(?s).*^[ \\t]+# O\\("
+    languages: [generic]
+    paths:
+      include:
+        - "leetcode/"
+    message: "Complexity comment appears both at file level and inside method — keep only the one inside the method"
+    severity: ERROR

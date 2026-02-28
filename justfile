@@ -82,7 +82,7 @@ ci:
     if [ $? -eq 0 ]; then
         printf "\033[32m✓ ci passed\033[0m\n"
     else
-        echo "$output" | grep -A5 "❯❯❱" | head -8
+        echo "$output" | grep -B2 -A5 "❯❯❱" | head -8
         echo ""
         printf "\033[31m✗ ci failed: semgrep found violations (showing first)\033[0m\n"
         echo ""
