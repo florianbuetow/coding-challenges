@@ -6,6 +6,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-02-28 | LeetCode Medium | Concatenation of Consecutive Binary Numbers | [python](leetcode/medium/1680.%20Concatenation%20of%20Consecutive%20Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) |
 | 2026-02-27 | LeetCode Hard | Minimum Operations to Equalize Binary String | [python](leetcode/hard/3666.%20Minimum%20Operations%20to%20Equalize%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/) |
 | 2026-02-25 | LeetCode Easy | Pascal's Triangle II | [python](leetcode/easy/119.%20Pascal%27s%20Triangle%20II.py) | [leetcode.com](https://leetcode.com/problems/pascals-triangle-ii/) |
 | 2026-02-25 | LeetCode Easy | Pascal's Triangle | [python](leetcode/easy/118.%20Pascal%27s%20Triangle.py) | [leetcode.com](https://leetcode.com/problems/pascals-triangle) |
@@ -15,4 +16,3 @@ Recently solved and added problems.
 | 2026-02-22 | LeetCode Easy | Prime Number of Set Bits in Binary Representation | [python](leetcode/easy/762.%20Prime%20Number%20of%20Set%20Bits%20in%20Binary%20Representation.py) | [leetcode.com](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) |
 | 2026-02-22 | LeetCode Easy | Binary Gap | [python](leetcode/easy/868.%20Binary%20Gap.py) | [leetcode.com](https://leetcode.com/problems/binary-gap/) |
 | 2026-02-20 | LeetCode Hard | Special Binary String | [python](leetcode/hard/761.%20Special%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/special-binary-string/) |
-| 2026-02-19 | LeetCode Easy | Count Binary Substrings | [python](leetcode/easy/696.%20Count%20Binary%20Substrings.py) | [leetcode.com](https://leetcode.com/problems/count-binary-substrings/) |
