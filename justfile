@@ -38,38 +38,19 @@ help:
     @echo ""
     @printf "\033[1mAvailable targets:\033[0m\n"
     @echo ""
-    @printf "  \033[36minit\033[0m       Build Docker image for README generation\n"
     @printf "  \033[36mgenerate\033[0m   Generate README.md and CHANGES.md\n"
     @printf "  \033[36mci\033[0m         Run CI checks (semgrep)\n"
-    @printf "  \033[36mdestroy\033[0m    Remove Docker image\n"
-    @printf "  \033[36mstatus\033[0m     Check if Docker image exists\n"
+    @printf "  \033[36mdestroy\033[0m    Remove virtual environment\n"
     @echo ""
 
-# Build Docker image if it doesn't exist
-init:
+# Generate README.md and CHANGES.md
+generate:
     #!/usr/bin/env bash
     echo ""
-    if docker image inspect readme-generator >/dev/null 2>&1; then
-        printf "\033[32m✓ Docker image already exists\033[0m\n"
-    elif docker build --no-cache -t readme-generator .; then
-        printf "\033[32m✓ init completed successfully\033[0m\n"
-    else
-        printf "\033[31m✗ init failed: docker build exited with errors\033[0m\n"
-        exit 1
-    fi
-    echo ""
-
-# Generate README.md and CHANGES.md using Docker
-generate: init
-    #!/usr/bin/env bash
-    echo ""
-    if docker run --rm \
-        -v "$(pwd)":/app \
-        -w /app \
-        readme-generator; then
+    if uv run generate_readme.py; then
         printf "\033[32m✓ README.md and CHANGES.md generated successfully\033[0m\n"
     else
-        printf "\033[31m✗ generate failed: docker run exited with errors\033[0m\n"
+        printf "\033[31m✗ generate failed: uv run exited with errors\033[0m\n"
         exit 1
     fi
     echo ""
@@ -90,24 +71,14 @@ ci:
     fi
     echo ""
 
-# Remove Docker image
+# Remove virtual environment
 destroy:
     #!/usr/bin/env bash
     echo ""
-    if docker rmi -f readme-generator:latest; then
-        printf "\033[32m✓ Docker image removed\033[0m\n"
+    if [ -d .venv ]; then
+        rm -rf .venv
+        printf "\033[32m✓ Virtual environment removed\033[0m\n"
     else
-        printf "\033[31m✗ destroy failed: docker rmi exited with errors\033[0m\n"
-        exit 1
+        printf "\033[32m✓ No virtual environment to remove\033[0m\n"
     fi
     echo ""
-
-# Check if Docker image exists
-status:
-    @echo ""
-    @if docker image inspect readme-generator >/dev/null 2>&1; then \
-        printf "\033[32m✓ Docker image exists. Run 'just generate' to generate README.md\033[0m\n"; \
-    else \
-        printf "\033[33m⚠ Docker image does not exist. Run 'just init' to create it.\033[0m\n"; \
-    fi
-    @echo ""
