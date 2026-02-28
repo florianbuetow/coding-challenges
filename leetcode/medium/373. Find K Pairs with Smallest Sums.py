@@ -1,5 +1,5 @@
-# O(k log k) time and O(k) space
 # link: https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
+
 
 from heapq import heappush, heappop
 from typing import List
@@ -7,6 +7,7 @@ from typing import List
 
 class Solution:
     def kSmallestPairs(self, nums1: List[int], nums2: List[int], k: int) -> List[List[int]]:
+        # O(n) time and O(1) space
         result = []
         visited = set()
         heap = []

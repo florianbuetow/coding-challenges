@@ -1,8 +1,9 @@
-# O(n) time and O(1) space
 # link: https://leetcode.com/problems/greatest-sum-divisible-by-three/
+
 
 class Solution:
     def maxSumDivThree(self, nums: List[int]) -> int:
+        # O(n) time and O(1) space
         def findMinTwoWithRest(rest):
             mins = []
             for n in nums:

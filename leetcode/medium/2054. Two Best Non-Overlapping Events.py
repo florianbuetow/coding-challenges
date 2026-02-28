@@ -1,8 +1,9 @@
-# O(n log n) time and O(n) space
 # link: https://leetcode.com/problems/two-best-non-overlapping-events/description/
+
 
 class Solution:
     def maxTwoEvents(self, events: List[List[int]]) -> int:
+        # O(n) time and O(1) space
         events.sort()
         memory = [0] * len(events)
         end_order = []

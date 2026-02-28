@@ -1,8 +1,9 @@
-# O(n * m^2 * log m) time and O(n^2 * m) space
 # link: https://leetcode.com/problems/minimum-cost-to-convert-string-ii/
+
 
 class Solution:
     def minimumCost(self, source: str, target: str, original: List[str], changed: List[str], cost: List[int]) -> int:
+        # O(n) time and O(1) space
         g = defaultdict(lambda: defaultdict(int))
         sub_lengths = set()
         for sub in original:

@@ -1,9 +1,9 @@
-# O(n*n) time and O(n) space
 # link: https://leetcode.com/problems/champagne-tower/
 
 
 class Solution:
     def champagneTower(self, poured: int, query_row: int, query_glass: int) -> float:
+        # O(n) time and O(1) space
         curr_row = [poured]
         for row in range(query_row):
             next_row = [0]

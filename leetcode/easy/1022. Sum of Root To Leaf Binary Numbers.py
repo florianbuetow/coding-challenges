@@ -1,9 +1,9 @@
-# O(n) time and space
 # link: https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/
 
 
 class Solution:
     def sumRootToLeaf(self, root: Optional[TreeNode]) -> int:
+        # O(n) time and O(1) space
         result = 0
 
         def helper(node, val):

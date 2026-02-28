@@ -1,11 +1,12 @@
-# O(n) time and space
 # link: https://leetcode.com/problems/longest-balanced-substring-ii/
+
 
 from collections import defaultdict
 
 
 class Solution:
     def longestBalanced(self, s: str) -> int:
+        # O(n) time and O(1) space
         def helper(x, y, z):
             res = 0
             i = 0

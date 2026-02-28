@@ -1,8 +1,9 @@
-# O(n*m) time and O(1) space
 # link: https://leetcode.com/problems/number-of-laser-beams-in-a-bank/
+
 
 class Solution:
     def numberOfBeams(self, bank: List[str]) -> int:
+        # O(n) time and O(1) space
         result = prev = 0
         for row in bank:
             curr = sum(1 for c in row if c == '1')

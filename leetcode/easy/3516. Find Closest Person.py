@@ -1,8 +1,9 @@
-# O(1) time and space
 # link: https://leetcode.com/problems/find-closest-person/
+
 
 class Solution:
     def findClosest(self, x: int, y: int, z: int) -> int:
+        # O(n) time and O(1) space
         def dist(a, b):
             return abs(a - b)
 

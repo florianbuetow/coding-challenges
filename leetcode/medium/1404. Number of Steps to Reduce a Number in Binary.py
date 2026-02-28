@@ -1,3 +1,5 @@
+# link: https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary/
+
 class Solution:
     def numSteps(self, s: str) -> int:
         # O(n) time and O(1) space, n = len(s)

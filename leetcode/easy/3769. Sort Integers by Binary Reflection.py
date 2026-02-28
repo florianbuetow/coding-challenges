@@ -1,8 +1,9 @@
-# O(n log n) time and O(n) space
 # link: https://leetcode.com/problems/sort-integers-by-binary-reflection
+
 
 class Solution:
     def sortByReflection(self, nums: List[int]) -> List[int]:
+        # O(n) time and O(1) space
         def toReversedBin(n, numbits):
             bits = []
             while n:

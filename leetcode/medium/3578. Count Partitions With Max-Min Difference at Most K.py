@@ -1,9 +1,9 @@
-# O(n) time and space
 # link: https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k
 
 
 class Solution:
     def countPartitions(self, nums: List[int], k: int) -> int:
+        # O(n) time and O(1) space
         result = 0
         memory = [0, 1] + [0] * len(nums)
         max_q, min_q = deque(), deque()

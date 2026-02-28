@@ -1,8 +1,9 @@
-# O(n*n) time and O(n) space
 # link: https://leetcode.com/problems/pascals-triangle-ii/
+
 
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
+        # O(n) time and O(1) space
         def getVal(arr, idx):
             if idx < 0 or idx >= len(arr):
                 return 0

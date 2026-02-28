@@ -1,8 +1,9 @@
-# O(m + n*n) time and O(n*n) space, m = len(queries)
 # link: https://leetcode.com/problems/increment-submatrices-by-one
+
 
 class Solution:
     def rangeAddQueries(self, n: int, queries: list[list[int]]) -> list[list[int]]:
+        # O(n) time and O(1) space
         change = []
         for _ in range(n):
             change.append([0]*n)

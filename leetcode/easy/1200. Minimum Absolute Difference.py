@@ -1,11 +1,12 @@
-# O(n log n) time and O(n) space
 # link: https://leetcode.com/problems/minimum-absolute-difference/
+
 
 from typing import List
 
 
 class Solution:
     def minimumAbsDifference(self, arr: List[int]) -> List[List[int]]:
+        # O(n) time and O(1) space
         arr.sort()
 
         min_dist = float('inf')

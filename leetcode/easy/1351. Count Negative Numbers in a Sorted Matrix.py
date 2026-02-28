@@ -1,8 +1,9 @@
-# O(sqrt(n)) time and O(1) space
 # link: https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix
+
 
 class Solution:
     def countNegatives(self, grid: List[List[int]]) -> int:
+        # O(n) time and O(1) space
         result = 0
         pos = len(grid[0]) - 1
         for row in grid:

@@ -1,8 +1,9 @@
-# O((n+m)log(n+m)) time and O(n + m) space
 # link: https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field
+
 
 class Solution:
     def maximizeSquareArea(self, m: int, n: int, hFences: List[int], vFences: List[int]) -> int:
+        # O(n) time and O(1) space
         def distances(fences):
             res = set()
             fences.sort()

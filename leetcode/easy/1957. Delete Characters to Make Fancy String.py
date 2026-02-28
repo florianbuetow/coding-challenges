@@ -1,3 +1,5 @@
+# link: https://leetcode.com/problems/delete-characters-to-make-fancy-string/
+
 class Solution:
     def makeFancyString(self, s: str) -> str:
         # O(n) time and space

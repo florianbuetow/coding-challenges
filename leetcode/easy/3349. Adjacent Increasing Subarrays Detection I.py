@@ -1,8 +1,9 @@
-# O(n) time and O(1) space
 # link: https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/
+
 
 class Solution:
     def hasIncreasingSubarrays(self, nums: List[int], k: int) -> bool:
+        # O(n) time and O(1) space
         if k == 1: return True
         counter = i = 0
         while i+k+1 < len(nums):

@@ -1,8 +1,9 @@
-# O(n) time and O(1) space
 # link: https://leetcode.com/problems/minimum-penalty-for-a-shop
+
 
 class Solution:
     def bestClosingTime(self, customers: str) -> int:
+        # O(n) time and O(1) space
         penalty_open = penalty_closed = 0
         for c in customers:
             if c == 'Y': penalty_closed += 1

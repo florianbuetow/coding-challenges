@@ -1,3 +1,5 @@
+# link: https://leetcode.com/problems/bit-and-2-bit-characters/
+
 class Solution:
     def isOneBitCharacter(self, bits: List[int]) -> bool:
         # O(n) time and O(1) space

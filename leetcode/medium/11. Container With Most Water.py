@@ -1,8 +1,9 @@
-# O(n) time and O(1) space
 # link: https://leetcode.com/problems/container-with-most-water/
+
 
 class Solution:
     def maxArea(self, height: List[int]) -> int:
+        # O(n) time and O(1) space
         result = 0
         left, right = 0, len(height) - 1
         while left < right:

@@ -1,8 +1,9 @@
-# O(n log n) time and O(1) space
 # link: https://leetcode.com/problems/minimum-removals-to-balance-array/
+
 
 class Solution:
     def minRemoval(self, nums: List[int], k: int) -> int:
+        # O(n) time and O(1) space
         nums.sort()
         max_window = 0
         left = right = 0

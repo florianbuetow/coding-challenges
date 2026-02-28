@@ -1,9 +1,9 @@
-# O(n) time and space
 # link: https://leetcode.com/problems/masking-personal-information/
 
 
 class Solution:
     def maskPII(self, s: str) -> str:
+        # O(n) time and O(1) space
         def maskEmail(s):
             s = s.lower()
             pos = s.find('@')

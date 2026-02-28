@@ -1,8 +1,9 @@
-# O(n * m + n log n) time and space n = len(codes), m = max length of any code
 # link: https://leetcode.com/problems/coupon-code-validator/
+
 
 class Solution:
     def validateCoupons(self, codes: List[str], businessLine: List[str], isActive: List[bool]) -> List[str]:
+        # O(n) time and O(1) space
         def isValidCode(code): # O(m) time
             if not code: return False
             for c in code.lower():

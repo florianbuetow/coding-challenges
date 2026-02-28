@@ -1,20 +1,24 @@
-# O(m) time and O(n) space, m = number of calls to setCell/resetCell/getValue, n = number of setCell calls
 # link: https://leetcode.com/problems/design-spreadsheet/
+
 
 from collections import defaultdict
 class Spreadsheet:
 
     def __init__(self, rows: int):
+        # O(n) time and O(1) space
         self.sheet = defaultdict(int)
 
     def setCell(self, cell: str, value: int) -> None:
+        # O(n) time and O(1) space
         self.sheet[cell] = value
 
     def resetCell(self, cell: str) -> None:
+        # O(n) time and O(1) space
         if cell in self.sheet:
             del self.sheet[cell]
 
     def getValue(self, formula: str) -> int:
+        # O(n) time and O(1) space
         def getValue(expression: str):
             if expression.isnumeric():
                 return int(expression)

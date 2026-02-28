@@ -1,3 +1,5 @@
+# link: https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/
+
  class Solution:
     def appendCharacters(self, s: str, t: str) -> int:
         # O(n) time and O(1) space, n = len(s)

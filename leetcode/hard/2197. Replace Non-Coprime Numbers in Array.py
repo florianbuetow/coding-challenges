@@ -1,10 +1,11 @@
-# O(n log n) time and O(n) space
 # link: https://leetcode.com/problems/replace-non-coprime-numbers-in-array/
+
 
 from math import gcd
 
 class Solution:
     def replaceNonCoprimes(self, nums: List[int]) -> List[int]:
+        # O(n) time and O(1) space
         stack = []
         for num in nums:
             while stack:

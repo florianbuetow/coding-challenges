@@ -1,9 +1,9 @@
-# O(n) time and O(1) space, n = len(word)
 # link: https://leetcode.com/problems/detect-capital/
 
 
 class Solution:
     def detectCapitalUse(self, word: str) -> bool:
+        # O(n) time and O(1) space
         firstIsUpper = restIsUpper = None
         for i in range(len(word)):
             currIsUpper = word[i].upper() == word[i]

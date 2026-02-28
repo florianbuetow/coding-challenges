@@ -1,11 +1,12 @@
-# O(n*n) time and O(n) space
 # link: https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/
+
 
 from collections import deque
 from bisect import bisect_left, bisect_right
 
 class Solution:
     def minOperations(self, s: str, k: int) -> int:
+        # O(n) time and O(1) space
         def remove(arr, left, right):
             left = bisect_left(arr, left)
             right = bisect_right(arr, right)

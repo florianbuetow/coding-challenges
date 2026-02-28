@@ -1,3 +1,5 @@
+# link: https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/
+
 class Solution:
     def incremovableSubarrayCount(self, nums: List[int]) -> int:
         # O(n*n) time and space

@@ -1,8 +1,9 @@
-# O(n) time and space
 # link: https://leetcode.com/problems/plus-one/
+
 
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
+        # O(n) time and O(1) space
         result = []
         carry = 1
         while digits:

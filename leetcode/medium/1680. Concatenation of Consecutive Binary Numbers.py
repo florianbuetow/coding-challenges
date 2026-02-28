@@ -1,3 +1,5 @@
+# link: https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/
+
 class Solution:
     def concatenatedBinary(self, n: int) -> int:
         # O(n log n) time and space

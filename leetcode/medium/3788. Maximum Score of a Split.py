@@ -1,8 +1,9 @@
-# O(n) time and space
 # link: https://leetcode.com/problems/maximum-score-of-a-split
+
 
 class Solution:
     def maximumScore(self, nums: List[int]) -> int:
+        # O(n) time and O(1) space
         suffix_min = []
         for i in range(len(nums)-1,0,-1):
             curr = nums[i]

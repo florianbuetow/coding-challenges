@@ -1,9 +1,10 @@
-# O(m*n log m*n) time and O(m*n) space, m = height, n = width
 # link: https://leetcode.com/problems/trapping-rain-water-ii/
+
 
 from heapq import heappush, heappop, heapify
 class Solution:
     def trapRainWater(self, heightMap: List[List[int]]) -> int:
+        # O(n) time and O(1) space
         height, width = len(heightMap), len(heightMap[0])
 
         def buildBoundaryHeap():

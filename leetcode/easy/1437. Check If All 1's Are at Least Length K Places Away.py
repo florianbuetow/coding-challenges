@@ -1,3 +1,5 @@
+# link: https://leetcode.com/problems/check-if-all-1-s-are-at-least-length-k-places-away/
+
 class Solution:
     def kLengthApart(self, nums: List[int], k: int) -> bool:
         # O(n) time and O(1) space

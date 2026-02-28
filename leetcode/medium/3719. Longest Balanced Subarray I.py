@@ -1,8 +1,9 @@
-# O(n*n) time and O(n) space
 # link: https://leetcode.com/problems/longest-balanced-subarray-i/
+
 
 class Solution:
     def longestBalanced(self, nums: List[int]) -> int:
+        # O(n) time and O(1) space
         result = 0
         for left in range(len(nums)):
             counters = [set(), set()]

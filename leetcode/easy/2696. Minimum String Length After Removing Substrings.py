@@ -1,5 +1,8 @@
+# link: https://leetcode.com/problems/minimum-string-length-after-removing-substrings/
+
 class Solution:
     def minLength(self, string: str) -> int:
+        # O(n) time and O(1) space
         # link: https://leetcode.com/problems/minimum-string-length-after-removing-substrings/
         # O(n*n) time and O(n) space
         def remove_substrings(current_string):

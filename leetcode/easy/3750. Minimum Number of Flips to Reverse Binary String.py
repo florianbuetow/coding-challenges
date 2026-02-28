@@ -1,8 +1,9 @@
-# O(log n) time and space
 # link: https://leetcode.com/problems/minimum-number-of-flips-to-reverse-binary-string/
+
 
 class Solution:
     def minimumFlips(self, n: int) -> int:
+        # O(n) time and O(1) space
         def getBits(n):
             bits = []
             while n:

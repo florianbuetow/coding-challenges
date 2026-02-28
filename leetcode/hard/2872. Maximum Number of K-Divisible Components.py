@@ -1,11 +1,12 @@
+# link: https://leetcode.com/problems/maximum-number-of-k-divisible-components/
+
 from typing import List
 from collections import defaultdict
 
-# O(n) time and O(n) space
-# link: https://leetcode.com/problems/maximum-number-of-k-divisible-components/
 
 class Solution:
     def maxKDivisibleComponents(self, n: int, edges: List[List[int]], values: List[int], k: int) -> int:
+        # O(n) time and O(1) space
         def buildGraph(edges):
             g = defaultdict(set)
             for u, v in edges:

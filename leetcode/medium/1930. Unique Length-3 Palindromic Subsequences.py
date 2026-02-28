@@ -1,8 +1,9 @@
-# O(n*n) time and O(n) space
 # link: https://leetcode.com/problems/unique-length-3-palindromic-subsequences/
+
 
 class Solution:
     def countPalindromicSubsequence(self, s: str) -> int:
+        # O(n) time and O(1) space
         prefix = {}
         postfix = {}
         for i in range(len(s)):

@@ -1,9 +1,9 @@
-# O(n) time and space
 # link: https://leetcode.com/problems/license-key-formatting/
 
 
 class Solution:
     def licenseKeyFormatting(self, s: str, k: int) -> str:
+        # O(n) time and O(1) space
         result = []
         for i in range(len(s)-1,-1,-1):
             c = s[i]

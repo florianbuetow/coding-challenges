@@ -1,8 +1,9 @@
-# O(n^2) time and O(n) space
 # link: https://leetcode.com/problems/sum-of-all-subset-xor-totals/
+
 
 class Solution:
     def subsetXORSum(self, nums: List[int]) -> int:
+        # O(n) time and O(1) space
         @cache
         def helper(i, value):
             if i >= len(nums): 

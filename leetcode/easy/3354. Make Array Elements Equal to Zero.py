@@ -1,8 +1,9 @@
-# O(n) time and O(1) space
 # link: https://leetcode.com/problems/make-array-elements-equal-to-zero/
+
 
 class Solution:
     def countValidSelections(self, nums: List[int]) -> int:
+        # O(n) time and O(1) space
         result = 0
         left_sum = 0
         total = sum(nums)

@@ -1,8 +1,9 @@
-# O(n) time and O(1) space
 # link: https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/
+
 
 class Solution:
     def maxFreqSum(self, s: str) -> int:
+        # O(n) time and O(1) space
         hist = [0] * 26
         for c in s:
             hist[ord(c)-ord('a')] += 1

@@ -1,8 +1,9 @@
-# O(n) time and O(1) space
 # link: https://leetcode.com/problems/number-of-substrings-with-only-1s/
+
 
 class Solution:
     def numSub(self, s: str) -> int:
+        # O(n) time and O(1) space
         result = left = right = 0
         while right < len(s):
             left = right

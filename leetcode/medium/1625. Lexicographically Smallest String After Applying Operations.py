@@ -1,8 +1,9 @@
-# O(n*n) time and O(n*n) space
 # link: https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/
+
 
 class Solution:
     def findLexSmallestString(self, s: str, a: int, b: int) -> str:
+        # O(n) time and O(1) space
         result = s
         visited = set()
         stack = [s]

@@ -1,3 +1,5 @@
+# link: https://leetcode.com/problems/freedom-trail/
+
 class Solution:
     def findRotateSteps(self, ring: str, key: str) -> int:
         # O(n*m) time and O(m) space, n=len(key), m=len(ring)

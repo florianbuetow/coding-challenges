@@ -1,5 +1,5 @@
-# O(n * m) time and O(m) space
 # link: https://leetcode.com/problems/delete-columns-to-make-sorted-iii/
+
 
 class Solution:
     def minDeletionSize(self, strs: List[str]) -> int:

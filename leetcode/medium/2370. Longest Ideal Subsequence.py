@@ -1,3 +1,5 @@
+# link: https://leetcode.com/problems/longest-ideal-subsequence/
+
 class Solution:
     def longestIdealString(self, s: str, k: int) -> int:
         # O(n) time and O(1) space, n=len(s)

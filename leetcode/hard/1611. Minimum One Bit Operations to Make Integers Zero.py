@@ -1,8 +1,9 @@
-# O(log n) time and O(1) space
 # link: https://leetcode.com/problems/minimum-one-bit-operations-to-make-integers-zero
+
 
 class Solution:
     def minimumOneBitOperations(self, n: int) -> int:
+        # O(n) time and O(1) space
         result = 0
         while n:
             result ^= n

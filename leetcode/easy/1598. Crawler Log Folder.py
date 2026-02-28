@@ -1,8 +1,9 @@
-# O(n) time and (1) space
 # link: https://leetcode.com/problems/crawler-log-folder/
+
 
 class Solution:
     def minOperations(self, logs: List[str]) -> int:
+        # O(n) time and O(1) space
         result = 0
         for op in logs:
             if op == './':

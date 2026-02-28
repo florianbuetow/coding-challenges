@@ -1,3 +1,5 @@
+# link: https://leetcode.com/problems/minimum-difference-between-largest-and-small/
+
 from heapq import heappush, heappop
 class Solution:
     def minDifference(self, nums: List[int]) -> int:

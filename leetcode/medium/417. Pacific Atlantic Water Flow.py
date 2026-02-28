@@ -1,9 +1,10 @@
-# O(n*m) time and space where n, m = width, height
 # link: https://leetcode.com/problems/pacific-atlantic-water-flow/
+
 
 from collections import deque
 class Solution:
     def pacificAtlantic(self, grid: List[List[int]]) -> List[List[int]]:
+        # O(n) time and O(1) space
         width, height = len(grid[0]), len(grid)
 
         def getUphillOrLevelNeighbors(pos):

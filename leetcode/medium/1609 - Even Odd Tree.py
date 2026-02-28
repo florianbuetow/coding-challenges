@@ -1,3 +1,5 @@
+# link: https://leetcode.com/problems/even-odd-tree/
+
 from collections import deque
 class Solution:
     def isEvenOddTree(self, root: Optional[TreeNode]) -> bool:

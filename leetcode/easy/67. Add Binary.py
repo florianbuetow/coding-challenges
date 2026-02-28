@@ -1,9 +1,9 @@
-# O(n) time and space
 # link: https://leetcode.com/problems/add-binary/
 
 
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
+        # O(n) time and O(1) space
         a = list(a)
         b = list(b)
         c = []

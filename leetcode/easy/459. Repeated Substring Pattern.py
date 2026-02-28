@@ -1,9 +1,9 @@
-# O(n*n) time and O(n) space
 # link: https://leetcode.com/problems/repeated-substring-pattern/
 
 
 class Solution:
     def repeatedSubstringPattern(self, s: str) -> bool:
+        # O(n) time and O(1) space
         l = len(s)
         for i in range(1, l):
             if l % i == 0:

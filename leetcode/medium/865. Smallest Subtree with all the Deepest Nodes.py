@@ -1,9 +1,9 @@
-# O(n) time and space
 # link: https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes
+
 
 # Definition for a binary tree node.
 # class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
+# def __init__(self, val=0, left=None, right=None):
 #         self.val = val
 #         self.left = left
 #         self.right = right
@@ -33,7 +33,5 @@ class Solution:
                 prev_lvl.add(parent[curr_lvl.pop()])
             curr_lvl = list(prev_lvl)
         return curr_lvl.pop()
-
-
 
 

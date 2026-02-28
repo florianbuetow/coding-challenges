@@ -1,8 +1,9 @@
-# O(n) time and space
 # link: https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero
+
 
 class Solution:
     def minOperations(self, nums: List[int]) -> int:
+        # O(n) time and O(1) space
         result = 0
         stack = []
         for n in nums:

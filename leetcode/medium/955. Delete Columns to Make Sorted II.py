@@ -1,9 +1,10 @@
-# O(n * m) time and O(n) space
 # link: https://leetcode.com/problems/delete-columns-to-make-sorted-ii/
+
 
 class Solution:
 
     def minDeletionSize(self, strs: List[str]) -> int:
+        # O(n) time and O(1) space
         result = 0
         skipCols = set()
         n, m = len(strs), len(strs[0])

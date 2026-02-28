@@ -1,5 +1,5 @@
-# O(n log n) time and O(1) space
 # link: https://leetcode.com/problems/last-stone-weight/
+
 
 from heapq import heapify, heappop, heappush
 from typing import List
@@ -7,6 +7,7 @@ from typing import List
 
 class Solution:
     def lastStoneWeight(self, stones: List[int]) -> int:
+        # O(n) time and O(1) space
         for i in range(len(stones)):
             stones[i] *= -1
         heapify(stones)

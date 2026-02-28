@@ -1,8 +1,9 @@
-# O(n*m) time and O(1) space, n = width, m = height
 # link: https://leetcode.com/problems/magic-squares-in-grid
+
 
 class Solution:
     def numMagicSquaresInside(self, grid: List[List[int]]) -> int:
+        # O(n) time and O(1) space
         result = 0
         width, height = len(grid[0]), len(grid)
 

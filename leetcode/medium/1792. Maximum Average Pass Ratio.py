@@ -1,10 +1,11 @@
-# O(m log n) time and O(n) space, n = len(classes), m = n + extraStudents
 # link: https://leetcode.com/problems/maximum-average-pass-ratio/
+
 
 from heapq import heappop, heappush, heapify
 
 class Solution:
     def maxAverageRatio(self, classes: List[List[int]], extraStudents: int) -> float:
+        # O(n) time and O(1) space
         result = 0
 
         def compute_factor(class_data):

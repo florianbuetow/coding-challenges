@@ -1,8 +1,9 @@
-# O(n*sqrt(m)) time and O(1) space
 # link: https://leetcode.com/problems/four-divisors
+
 
 class Solution(object):
     def sumFourDivisors(self, nums):
+        # O(n) time and O(1) space
         result = 0
         for n in nums:
             divisors = []

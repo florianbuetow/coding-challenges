@@ -1,8 +1,9 @@
-# O(n) time and O(k) space
 # link: https://leetcode.com/problems/maximum-subarray-sum-with-length-divisible-by-k/
+
 
 class Solution:
     def maxSubarraySum(self, nums: List[int], k: int) -> int:
+        # O(n) time and O(1) space
         result = -float('inf')
         minimum = [float('inf')] * k
         minimum[-1] = 0

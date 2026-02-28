@@ -1,8 +1,9 @@
-# O(log n) time and O(1) space
 # link: https://leetcode.com/problems/search-in-rotated-sorted-array/
+
 
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
+        # O(n) time and O(1) space
         def findMinimumIndex():
             boundary_index = 0
             left, right = 0, len(nums) - 1

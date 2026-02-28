@@ -1,8 +1,9 @@
-# O(n*n log n*n) time and O(n*n) space
 # link: https://leetcode.com/problems/swim-in-rising-water/
+
 
 class Solution:
     def swimInWater(self, grid: List[List[int]]) -> int:
+        # O(n) time and O(1) space
         n = len(grid)
         def getNeighbors(pos):
             neighbors = []

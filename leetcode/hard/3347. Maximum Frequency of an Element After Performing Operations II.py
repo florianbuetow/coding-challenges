@@ -1,8 +1,9 @@
-# O(n log n) time and O(n) space
 # link: https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii/
+
 
 class Solution:
     def maxFrequency(self, nums: List[int], k: int, numOperations: int) -> int:
+        # O(n) time and O(1) space
         result = 0
         nums.sort()
         freq = Counter(nums)

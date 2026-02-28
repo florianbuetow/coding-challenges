@@ -1,3 +1,5 @@
+# link: https://leetcode.com/problems/grumpy-bookstore-owner/
+
 class Solution:
     def maxSatisfied(self, customers: List[int], grumpy: List[int], minutes: int) -> int:
         # O(n) time and O(1) space

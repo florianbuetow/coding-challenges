@@ -1,8 +1,9 @@
-# O(n*n) time and O(1) space
 # link: https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i/
+
 
 class Solution:
     def numberOfPairs(self, points: List[List[int]]) -> int:
+        # O(n) time and O(1) space
         result = 0
         points.sort(key=lambda point: -point[1])
         points.sort(key=lambda point: point[0])

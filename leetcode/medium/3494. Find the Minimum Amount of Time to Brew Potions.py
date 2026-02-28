@@ -1,8 +1,9 @@
-# O(n*m) time and O(m) space, m = num wizards = len(skill), n = number of potions = len(mana)
 # link: https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/
+
 
 class Solution:
     def minTime(self, skill: List[int], mana: List[int]) -> int:
+        # O(n) time and O(1) space
         time = [0] * len(skill)
         for m in mana:
             for w, s in enumerate(skill):

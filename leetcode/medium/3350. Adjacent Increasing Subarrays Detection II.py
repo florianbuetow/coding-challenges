@@ -1,8 +1,9 @@
-# O(n) time and O(1) space
 # link: https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/
+
 
 class Solution:
     def maxIncreasingSubarrays(self, nums: List[int]) -> int:
+        # O(n) time and O(1) space
         result = 0
         prev_count, count = 0, 1
         for i in range(len(nums)-1):

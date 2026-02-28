@@ -1,8 +1,9 @@
-# O(n*n) time and O(n) space
 # link: https://leetcode.com/problems/avoid-flood-in-the-city/
+
 
 class Solution:
     def avoidFlood(self, rains: List[int]) -> List[int]:
+        # O(n) time and O(1) space
         result, dry = [], []
         full_lakes = set()
         lastrain = defaultdict(int)

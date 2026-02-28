@@ -1,8 +1,9 @@
-# O(n) time and O(1) space
 # link: https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/
+
 
 class Solution:
     def minNumberOperations(self, target: List[int]) -> int:
+        # O(n) time and O(1) space
         result = target[0]
         for i in range(1, len(target)):
             if target[i] > target[i-1]:

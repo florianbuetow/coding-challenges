@@ -1,11 +1,12 @@
-# O((V+E) log V) time and O(V+E) space
 # link: https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/
+
 
 from collections import defaultdict
 from heapq import heappush, heappop
 
 class Solution:
     def minCost(self, n: int, edges: List[List[int]]) -> int:
+        # O(n) time and O(1) space
         dist = defaultdict(lambda:float('inf'))
         g = defaultdict(set)
         for u, v, w in edges:

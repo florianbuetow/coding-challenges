@@ -1,8 +1,9 @@
-# O(n log n) time and O(1) space
 # link: https://leetcode.com/problems/separate-squares-i/
+
 
 class Solution:
     def separateSquares(self, squares):
+        # O(n) time and O(1) space
         def calcAboveVsBelow(line):
             above = below = 0.0
             for _, y, l in squares:
