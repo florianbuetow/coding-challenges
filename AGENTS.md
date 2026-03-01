@@ -22,9 +22,28 @@ This repository contains Python solutions to coding challenges from LeetCode, De
 
 ### Solution File Format
 
+**LeetCode files** must follow this exact structure (enforced by semgrep CI):
+
+```python
+# link: https://leetcode.com/problems/problem-name/
+
+class Solution:
+    def methodName(self, ...) -> ...:
+        # O(n) time and O(1) space
+        ...
+```
+
+Rules:
+1. **First line** must be `# link: https://leetcode.com/problems/...`
+2. **Second line** must be blank
+3. **Complexity comment** must be the first line inside the method (not at file level)
+4. Do NOT put the complexity comment both at file level and inside the method
+
+**Other platforms** (Deep-ML, Codewars, AoC) use file-level complexity comments:
+
 ```python
 # O(n) time and O(1) space
-# link: https://leetcode.com/problems/problem-name/
+# link: https://...
 
 class Solution:
     ...
