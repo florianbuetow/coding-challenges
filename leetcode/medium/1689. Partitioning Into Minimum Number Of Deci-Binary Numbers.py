@@ -1,5 +1,5 @@
-# O(log n) time and O(1) space
 # link: https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/
+# O(log n) time and O(1) space
 
 
 class Solution:
