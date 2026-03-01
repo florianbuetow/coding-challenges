@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 90 | 1530 | 17 | 127 | 6 | 120 | 107 | 32 | 2 | 10 | 149 | 3 | 3 | 7 | 1 | 0 | 11 | 0 |
-| leetcode-medium | 146 | 3806 | 26 | 250 | 5 | 371 | 275 | 89 | 14 | 33 | 294 | 5 | 32 | 42 | 11 | 25 | 22 | 4 |
+| leetcode-medium | 147 | 3819 | 25 | 251 | 5 | 372 | 276 | 89 | 15 | 33 | 295 | 5 | 32 | 42 | 11 | 25 | 22 | 4 |
 | leetcode-hard | 29 | 917 | 31 | 53 | 4 | 78 | 71 | 19 | 8 | 15 | 63 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
 ## Recent Changes
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-03-01 | LeetCode Medium | Partitioning Into Minimum Number Of Deci-Binary Numbers | [python](leetcode/medium/1689.%20Partitioning%20Into%20Minimum%20Number%20Of%20Deci-Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) |
 | 2026-02-28 | LeetCode Easy | Find Common Characters | [python](leetcode/easy/1002.%20Find%20Common%20Characters.py) | [leetcode.com](https://leetcode.com/problems/find-common-characters/) |
 | 2026-02-28 | LeetCode Easy | Binary Prefix Divisible By 5 | [python](leetcode/easy/1018.%20Binary%20Prefix%20Divisible%20By%205.py) | [leetcode.com](https://leetcode.com/problems/binary-prefix-divisible-by-5/) |
 | 2026-02-28 | LeetCode Easy | Sum of Root To Leaf Binary Numbers | [python](leetcode/easy/1022.%20Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-02-28 | LeetCode Easy | N-th Tribonacci Number | [python](leetcode/easy/1137.%20N-th%20Tribonacci%20Number.py) | [leetcode.com](https://leetcode.com/problems/n-th-tribonacci-number/) |
 | 2026-02-28 | LeetCode Easy | Pascal's Triangle | [python](leetcode/easy/118.%20Pascal%27s%20Triangle.py) | [leetcode.com](https://leetcode.com/problems/pascals-triangle) |
 | 2026-02-28 | LeetCode Easy | Pascal's Triangle II | [python](leetcode/easy/119.%20Pascal%27s%20Triangle%20II.py) | [leetcode.com](https://leetcode.com/problems/pascals-triangle-ii/) |
-| 2026-02-28 | LeetCode Easy | Minimum Absolute Difference | [python](leetcode/easy/1200.%20Minimum%20Absolute%20Difference.py) | [leetcode.com](https://leetcode.com/problems/minimum-absolute-difference/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -328,6 +328,7 @@ Recently solved and added problems.
 | 1653 | Minimum Deletions to Make String Balanced | O(n) | O(1) | [python](leetcode/medium/1653.%20Minimum%20Deletions%20to%20Make%20String%20Balanced.py) | [leetcode.com](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) |
 | 1664 | Ways to Make a Fair Array | O(n) | O(1) | [python](leetcode/medium/1664.%20Ways%20to%20Make%20a%20Fair%20Array.py) | [leetcode.com](https://leetcode.com/problems/ways-to-make-a-fair-array/) |
 | 1680 | Concatenation of Consecutive Binary Numbers | O(n log n) | O(n log n) | [python](leetcode/medium/1680.%20Concatenation%20of%20Consecutive%20Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) |
+| 1689 | Partitioning Into Minimum Number Of Deci-Binary Numbers | O(log n) | O(1) | [python](leetcode/medium/1689.%20Partitioning%20Into%20Minimum%20Number%20Of%20Deci-Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) |
 | 1701 | Average Waiting Time | O(n) | O(1) | [python](leetcode/medium/1701.%20Average%20Waiting%20Time.py) | [leetcode.com](https://leetcode.com/problems/average-waiting-time/) |
 | 1733 | Minimum Number of People to Teach | O(n) | O(1) | [python](leetcode/medium/1733.%20Minimum%20Number%20of%20People%20to%20Teach.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-people-to-teach/) |
 | 1740 | Find Distance in a Binary Tree | O(n) | O(m) | [python](leetcode/medium/1740.%20Find%20Distance%20in%20a%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/find-distance-in-a-binary-tree/) |
