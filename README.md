@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 90 | 1530 | 17 | 127 | 6 | 120 | 107 | 32 | 2 | 10 | 149 | 3 | 3 | 7 | 1 | 0 | 11 | 0 |
-| leetcode-medium | 147 | 3819 | 25 | 251 | 5 | 372 | 276 | 89 | 15 | 33 | 295 | 5 | 32 | 42 | 11 | 25 | 22 | 4 |
+| leetcode-medium | 148 | 3846 | 25 | 252 | 5 | 375 | 279 | 91 | 17 | 33 | 297 | 5 | 32 | 42 | 11 | 25 | 22 | 4 |
 | leetcode-hard | 29 | 917 | 31 | 53 | 4 | 78 | 71 | 19 | 8 | 15 | 63 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
 ## Recent Changes
@@ -45,6 +45,9 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-03-02 | LeetCode Medium | Minimum Swaps to Arrange a Binary Grid | [python](leetcode/medium/1536.%20Minimum%20Swaps%20to%20Arrange%20a%20Binary%20Grid.py) | [leetcode.com](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/) |
+| 2026-03-01 | LeetCode Medium | Partitioning Into Minimum Number Of Deci-Binary Numbers | [python](leetcode/medium/1689.%20Partitioning%20Into%20Minimum%20Number%20Of%20Deci-Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) |
+| 2026-03-01 | LeetCode Medium | Partitioning Into Minimum Number Of Deci-Binary Numbers | [python](leetcode/medium/1689.%20Partitioning%20Into%20Minimum%20Number%20Of%20Deci-Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) |
 | 2026-03-01 | LeetCode Medium | Partitioning Into Minimum Number Of Deci-Binary Numbers | [python](leetcode/medium/1689.%20Partitioning%20Into%20Minimum%20Number%20Of%20Deci-Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) |
 | 2026-02-28 | LeetCode Easy | Find Common Characters | [python](leetcode/easy/1002.%20Find%20Common%20Characters.py) | [leetcode.com](https://leetcode.com/problems/find-common-characters/) |
 | 2026-02-28 | LeetCode Easy | Binary Prefix Divisible By 5 | [python](leetcode/easy/1018.%20Binary%20Prefix%20Divisible%20By%205.py) | [leetcode.com](https://leetcode.com/problems/binary-prefix-divisible-by-5/) |
@@ -52,9 +55,6 @@ Recently solved and added problems.
 | 2026-02-28 | LeetCode Easy | Last Stone Weight | [python](leetcode/easy/1046.%20Last%20Stone%20Weight.py) | [leetcode.com](https://leetcode.com/problems/last-stone-weight/) |
 | 2026-02-28 | LeetCode Easy | Balanced Binary Tree | [python](leetcode/easy/110.%20Balanced%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/balanced-binary-tree/) |
 | 2026-02-28 | LeetCode Easy | Largest Unique Number | [python](leetcode/easy/1133.%20Largest%20Unique%20Number.py) | [leetcode.com](https://leetcode.com/problems/largest-unique-number/) |
-| 2026-02-28 | LeetCode Easy | N-th Tribonacci Number | [python](leetcode/easy/1137.%20N-th%20Tribonacci%20Number.py) | [leetcode.com](https://leetcode.com/problems/n-th-tribonacci-number/) |
-| 2026-02-28 | LeetCode Easy | Pascal's Triangle | [python](leetcode/easy/118.%20Pascal%27s%20Triangle.py) | [leetcode.com](https://leetcode.com/problems/pascals-triangle) |
-| 2026-02-28 | LeetCode Easy | Pascal's Triangle II | [python](leetcode/easy/119.%20Pascal%27s%20Triangle%20II.py) | [leetcode.com](https://leetcode.com/problems/pascals-triangle-ii/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -322,6 +322,7 @@ Recently solved and added problems.
 | 1488 | Avoid Flood in The City | O(n) | O(1) | [python](leetcode/medium/1488.%20Avoid%20Flood%20in%20The%20City.py) | [leetcode.com](https://leetcode.com/problems/avoid-flood-in-the-city/) |
 | 1509 | Minimum Difference Between Largest and Small | O(n) | O(1) | [python](leetcode/medium/1509.%20Minimum%20Difference%20Between%20Largest%20and%20Small.py) | [leetcode.com](https://leetcode.com/problems/minimum-difference-between-largest-and-small/) |
 | 1513 | Number of Substrings With Only 1s | O(n) | O(1) | [python](leetcode/medium/1513.%20Number%20of%20Substrings%20With%20Only%201s.py) | [leetcode.com](https://leetcode.com/problems/number-of-substrings-with-only-1s/) |
+| 1536 | Minimum Swaps to Arrange a Binary Grid | O(n*n) | O(n) | [python](leetcode/medium/1536.%20Minimum%20Swaps%20to%20Arrange%20a%20Binary%20Grid.py) | [leetcode.com](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/) |
 | 1580 | Put Boxes Into the Warehouse II | O(n log n) | O(1) | [python](leetcode/medium/1580.%20Put%20Boxes%20Into%20the%20Warehouse%20II.py) | [leetcode.com](https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/) |
 | 1609 | - Even Odd Tree | O(n) | O(n) | [python](leetcode/medium/1609%20-%20Even%20Odd%20Tree.py) | [leetcode.com](https://leetcode.com/problems/even-odd-tree/) |
 | 1625 | Lexicographically Smallest String After Applying Operations | O(n) | O(1) | [python](leetcode/medium/1625.%20Lexicographically%20Smallest%20String%20After%20Applying%20Operations.py) | [leetcode.com](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/) |
