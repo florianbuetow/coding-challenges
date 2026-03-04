@@ -33,7 +33,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 90 | 1530 | 17 | 127 | 6 | 120 | 107 | 32 | 2 | 10 | 149 | 3 | 3 | 7 | 1 | 0 | 11 | 0 |
+| leetcode-easy | 91 | 1558 | 17 | 128 | 6 | 125 | 113 | 32 | 4 | 12 | 150 | 3 | 3 | 9 | 1 | 0 | 11 | 0 |
 | leetcode-medium | 148 | 3846 | 25 | 252 | 5 | 375 | 279 | 91 | 17 | 33 | 297 | 5 | 32 | 42 | 11 | 25 | 22 | 4 |
 | leetcode-hard | 29 | 917 | 31 | 53 | 4 | 78 | 71 | 19 | 8 | 15 | 63 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-03-04 | LeetCode Easy | Special Positions in a Binary Matrix | [python](leetcode/easy/1582.%20Special%20Positions%20in%20a%20Binary%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) |
 | 2026-03-02 | LeetCode Medium | Minimum Swaps to Arrange a Binary Grid | [python](leetcode/medium/1536.%20Minimum%20Swaps%20to%20Arrange%20a%20Binary%20Grid.py) | [leetcode.com](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/) |
 | 2026-03-01 | LeetCode Medium | Partitioning Into Minimum Number Of Deci-Binary Numbers | [python](leetcode/medium/1689.%20Partitioning%20Into%20Minimum%20Number%20Of%20Deci-Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) |
 | 2026-03-01 | LeetCode Medium | Partitioning Into Minimum Number Of Deci-Binary Numbers | [python](leetcode/medium/1689.%20Partitioning%20Into%20Minimum%20Number%20Of%20Deci-Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-02-28 | LeetCode Easy | Sum of Root To Leaf Binary Numbers | [python](leetcode/easy/1022.%20Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) |
 | 2026-02-28 | LeetCode Easy | Last Stone Weight | [python](leetcode/easy/1046.%20Last%20Stone%20Weight.py) | [leetcode.com](https://leetcode.com/problems/last-stone-weight/) |
 | 2026-02-28 | LeetCode Easy | Balanced Binary Tree | [python](leetcode/easy/110.%20Balanced%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/balanced-binary-tree/) |
-| 2026-02-28 | LeetCode Easy | Largest Unique Number | [python](leetcode/easy/1133.%20Largest%20Unique%20Number.py) | [leetcode.com](https://leetcode.com/problems/largest-unique-number/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -167,6 +167,7 @@ Recently solved and added problems.
 | 1518 | Water Bottles (alt) | O(n) | O(1) | [python](leetcode/easy/1518.%20Water%20Bottles%20%28alt%29.py) | [leetcode.com](https://leetcode.com/problems/water-bottles/) |
 | 1518 | Water Bottles | O(n) | O(1) | [python](leetcode/easy/1518.%20Water%20Bottles.py) | [leetcode.com](https://leetcode.com/problems/water-bottles/) |
 | 1523 | Count Odd Numbers in an Interval Range | O(n) | O(1) | [python](leetcode/easy/1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range.py) | [leetcode.com](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/) |
+| 1582 | Special Positions in a Binary Matrix | O(n * n) | O(n) | [python](leetcode/easy/1582.%20Special%20Positions%20in%20a%20Binary%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) |
 | 1598 | Crawler Log Folder | O(n) | O(1) | [python](leetcode/easy/1598.%20Crawler%20Log%20Folder.py) | [leetcode.com](https://leetcode.com/problems/crawler-log-folder/) |
 | 1608 | Special Array With X Elements Greater Than or Equal X | O(n) | O(1) | [python](leetcode/easy/1608.%20Special%20Array%20With%20X%20Elements%20Greater%20Than%20or%20Equal%20X.py) | [leetcode.com](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) |
 | 1716 | Calculate Money in Leetcode Bank | O(n) | O(1) | [python](leetcode/easy/1716.%20Calculate%20Money%20in%20Leetcode%20Bank.py) | [leetcode.com](https://leetcode.com/problems/calculate-money-in-leetcode-bank/) |
