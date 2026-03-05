@@ -6,6 +6,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-03-05 | LeetCode Easy | Minimum Changes To Make Alternating Binary String | [python](leetcode/easy/1758.%20Minimum%20Changes%20To%20Make%20Alternating%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) |
 | 2026-03-04 | LeetCode Easy | Special Positions in a Binary Matrix | [python](leetcode/easy/1582.%20Special%20Positions%20in%20a%20Binary%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) |
 | 2026-03-02 | LeetCode Medium | Minimum Swaps to Arrange a Binary Grid | [python](leetcode/medium/1536.%20Minimum%20Swaps%20to%20Arrange%20a%20Binary%20Grid.py) | [leetcode.com](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/) |
 | 2026-03-01 | LeetCode Medium | Partitioning Into Minimum Number Of Deci-Binary Numbers | [python](leetcode/medium/1689.%20Partitioning%20Into%20Minimum%20Number%20Of%20Deci-Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) |
@@ -15,4 +16,3 @@ Recently solved and added problems.
 | 2026-02-28 | LeetCode Easy | Binary Prefix Divisible By 5 | [python](leetcode/easy/1018.%20Binary%20Prefix%20Divisible%20By%205.py) | [leetcode.com](https://leetcode.com/problems/binary-prefix-divisible-by-5/) |
 | 2026-02-28 | LeetCode Easy | Sum of Root To Leaf Binary Numbers | [python](leetcode/easy/1022.%20Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) |
 | 2026-02-28 | LeetCode Easy | Last Stone Weight | [python](leetcode/easy/1046.%20Last%20Stone%20Weight.py) | [leetcode.com](https://leetcode.com/problems/last-stone-weight/) |
-| 2026-02-28 | LeetCode Easy | Balanced Binary Tree | [python](leetcode/easy/110.%20Balanced%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/balanced-binary-tree/) |
