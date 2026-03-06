@@ -33,7 +33,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 93 | 1586 | 17 | 130 | 6 | 127 | 114 | 35 | 4 | 12 | 154 | 3 | 3 | 9 | 1 | 0 | 11 | 0 |
+| leetcode-easy | 102 | 1717 | 16 | 141 | 6 | 138 | 125 | 37 | 4 | 14 | 166 | 4 | 4 | 11 | 1 | 0 | 11 | 0 |
 | leetcode-medium | 148 | 3846 | 25 | 252 | 5 | 375 | 279 | 91 | 17 | 33 | 297 | 5 | 32 | 42 | 11 | 25 | 22 | 4 |
 | leetcode-hard | 29 | 917 | 31 | 53 | 4 | 78 | 71 | 19 | 8 | 15 | 63 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
@@ -45,16 +45,16 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-03-06 | LeetCode Easy | Trim Trailing Vowels | [python](leetcode/easy/3856.%20Trim%20Trailing%20Vowels.py) | [leetcode.com](https://leetcode.com/problems/trim-trailing-vowels/) |
+| 2026-03-06 | LeetCode Easy | Smallest Pair With Different Frequencies | [python](leetcode/easy/3852.%20Smallest%20Pair%20With%20Different%20Frequencies.py) | [leetcode.com](https://leetcode.com/problems/smallest-pair-with-different-frequencies/) |
+| 2026-03-06 | LeetCode Easy | Toggle Light Bulbs | [python](leetcode/easy/3842.%20Toggle%20Light%20Bulbs.py) | [leetcode.com](https://leetcode.com/problems/toggle-light-bulbs/) |
+| 2026-03-06 | LeetCode Easy | Weighted Word Mapping | [python](leetcode/easy/3838.%20Weighted%20Word%20Mapping.py) | [leetcode.com](https://leetcode.com/problems/weighted-word-mapping/) |
+| 2026-03-06 | LeetCode Easy | Count Dominant Indices | [python](leetcode/easy/3833.%20Count%20Dominant%20Indices.py) | [leetcode.com](https://leetcode.com/problems/count-dominant-indices/) |
+| 2026-03-06 | LeetCode Easy | Count Monobit Integers | [python](leetcode/easy/3827.%20Count%20Monobit%20Integers.py) | [leetcode.com](https://leetcode.com/problems/count-monobit-integers/) |
+| 2026-03-06 | LeetCode Easy | Reverse Letters Then Special Characters in a String | [python](leetcode/easy/3823.%20Reverse%20Letters%20Then%20Special%20Characters%20in%20a%20String.py) | [leetcode.com](https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/) |
+| 2026-03-06 | LeetCode Easy | Vowel-Consonant Score | [python](leetcode/easy/3813.%20Vowel-Consonant%20Score.py) | [leetcode.com](https://leetcode.com/problems/vowel-consonant-score/) |
+| 2026-03-06 | LeetCode Easy | Count Residue Prefixes | [python](leetcode/easy/3803.%20Count%20Residue%20Prefixes.py) | [leetcode.com](https://leetcode.com/problems/count-residue-prefixes/) |
 | 2026-03-06 | LeetCode Easy | Check if Binary String Has at Most One Segment of Ones | [python](leetcode/easy/1784.%20Check%20if%20Binary%20String%20Has%20at%20Most%20One%20Segment%20of%20Ones.py) | [leetcode.com](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) |
-| 2026-03-05 | LeetCode Easy | Minimum Changes To Make Alternating Binary String | [python](leetcode/easy/1758.%20Minimum%20Changes%20To%20Make%20Alternating%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) |
-| 2026-03-04 | LeetCode Easy | Special Positions in a Binary Matrix | [python](leetcode/easy/1582.%20Special%20Positions%20in%20a%20Binary%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/special-positions-in-a-binary-matrix/) |
-| 2026-03-02 | LeetCode Medium | Minimum Swaps to Arrange a Binary Grid | [python](leetcode/medium/1536.%20Minimum%20Swaps%20to%20Arrange%20a%20Binary%20Grid.py) | [leetcode.com](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/) |
-| 2026-03-01 | LeetCode Medium | Partitioning Into Minimum Number Of Deci-Binary Numbers | [python](leetcode/medium/1689.%20Partitioning%20Into%20Minimum%20Number%20Of%20Deci-Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) |
-| 2026-03-01 | LeetCode Medium | Partitioning Into Minimum Number Of Deci-Binary Numbers | [python](leetcode/medium/1689.%20Partitioning%20Into%20Minimum%20Number%20Of%20Deci-Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) |
-| 2026-03-01 | LeetCode Medium | Partitioning Into Minimum Number Of Deci-Binary Numbers | [python](leetcode/medium/1689.%20Partitioning%20Into%20Minimum%20Number%20Of%20Deci-Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) |
-| 2026-02-28 | LeetCode Easy | Find Common Characters | [python](leetcode/easy/1002.%20Find%20Common%20Characters.py) | [leetcode.com](https://leetcode.com/problems/find-common-characters/) |
-| 2026-02-28 | LeetCode Easy | Binary Prefix Divisible By 5 | [python](leetcode/easy/1018.%20Binary%20Prefix%20Divisible%20By%205.py) | [leetcode.com](https://leetcode.com/problems/binary-prefix-divisible-by-5/) |
-| 2026-02-28 | LeetCode Easy | Sum of Root To Leaf Binary Numbers | [python](leetcode/easy/1022.%20Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -215,6 +215,15 @@ Recently solved and added problems.
 | 3783 | Mirror Distance of an Integer | O(n) | O(1) | [python](leetcode/easy/3783.%20Mirror%20Distance%20of%20an%20Integer.py) | [leetcode.com](https://leetcode.com/problems/mirror-distance-of-an-integer) |
 | 3794 | Reverse String Prefix | O(n) | O(1) | [python](leetcode/easy/3794.%20Reverse%20String%20Prefix.py) | [leetcode.com](https://leetcode.com/problems/reverse-string-prefix/) |
 | 3798 | Largest Even Number | O(n) | O(1) | [python](leetcode/easy/3798.%20Largest%20Even%20Number.py) | [leetcode.com](https://leetcode.com/problems/largest-even-number) |
+| 3803 | Count Residue Prefixes | O(n) | O(n) | [python](leetcode/easy/3803.%20Count%20Residue%20Prefixes.py) | [leetcode.com](https://leetcode.com/problems/count-residue-prefixes/) |
+| 3813 | Vowel-Consonant Score | O(n) | O(1) | [python](leetcode/easy/3813.%20Vowel-Consonant%20Score.py) | [leetcode.com](https://leetcode.com/problems/vowel-consonant-score/) |
+| 3823 | Reverse Letters Then Special Characters in a String | O(n) | O(n) | [python](leetcode/easy/3823.%20Reverse%20Letters%20Then%20Special%20Characters%20in%20a%20String.py) | [leetcode.com](https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/) |
+| 3827 | Count Monobit Integers | O(log n) | O(1) | [python](leetcode/easy/3827.%20Count%20Monobit%20Integers.py) | [leetcode.com](https://leetcode.com/problems/count-monobit-integers/) |
+| 3833 | Count Dominant Indices | O(n) | O(1) | [python](leetcode/easy/3833.%20Count%20Dominant%20Indices.py) | [leetcode.com](https://leetcode.com/problems/count-dominant-indices/) |
+| 3838 | Weighted Word Mapping | O(n*k) | O(n) | [python](leetcode/easy/3838.%20Weighted%20Word%20Mapping.py) | [leetcode.com](https://leetcode.com/problems/weighted-word-mapping/) |
+| 3842 | Toggle Light Bulbs | O(n) | O(n) | [python](leetcode/easy/3842.%20Toggle%20Light%20Bulbs.py) | [leetcode.com](https://leetcode.com/problems/toggle-light-bulbs/) |
+| 3852 | Smallest Pair With Different Frequencies | O(n*n) | O(n) | [python](leetcode/easy/3852.%20Smallest%20Pair%20With%20Different%20Frequencies.py) | [leetcode.com](https://leetcode.com/problems/smallest-pair-with-different-frequencies/) |
+| 3856 | Trim Trailing Vowels | O(n) | O(n) | [python](leetcode/easy/3856.%20Trim%20Trailing%20Vowels.py) | [leetcode.com](https://leetcode.com/problems/trim-trailing-vowels/) |
 
 ### Hard
 | Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
