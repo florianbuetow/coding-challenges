@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 102 | 1717 | 16 | 141 | 6 | 138 | 125 | 37 | 4 | 14 | 166 | 4 | 4 | 11 | 1 | 0 | 11 | 0 |
-| leetcode-medium | 148 | 3846 | 25 | 252 | 5 | 375 | 279 | 91 | 17 | 33 | 297 | 5 | 32 | 42 | 11 | 25 | 22 | 4 |
+| leetcode-medium | 149 | 3882 | 26 | 255 | 5 | 382 | 281 | 92 | 17 | 33 | 303 | 5 | 32 | 44 | 11 | 25 | 22 | 4 |
 | leetcode-hard | 29 | 917 | 31 | 53 | 4 | 78 | 71 | 19 | 8 | 15 | 63 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
 ## Recent Changes
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-03-08 | LeetCode Medium | Find Unique Binary String | [python](leetcode/medium/1980.%20Find%20Unique%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/find-unique-binary-string/) |
 | 2026-03-06 | LeetCode Easy | Trim Trailing Vowels | [python](leetcode/easy/3856.%20Trim%20Trailing%20Vowels.py) | [leetcode.com](https://leetcode.com/problems/trim-trailing-vowels/) |
 | 2026-03-06 | LeetCode Easy | Smallest Pair With Different Frequencies | [python](leetcode/easy/3852.%20Smallest%20Pair%20With%20Different%20Frequencies.py) | [leetcode.com](https://leetcode.com/problems/smallest-pair-with-different-frequencies/) |
 | 2026-03-06 | LeetCode Easy | Toggle Light Bulbs | [python](leetcode/easy/3842.%20Toggle%20Light%20Bulbs.py) | [leetcode.com](https://leetcode.com/problems/toggle-light-bulbs/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-03-06 | LeetCode Easy | Reverse Letters Then Special Characters in a String | [python](leetcode/easy/3823.%20Reverse%20Letters%20Then%20Special%20Characters%20in%20a%20String.py) | [leetcode.com](https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/) |
 | 2026-03-06 | LeetCode Easy | Vowel-Consonant Score | [python](leetcode/easy/3813.%20Vowel-Consonant%20Score.py) | [leetcode.com](https://leetcode.com/problems/vowel-consonant-score/) |
 | 2026-03-06 | LeetCode Easy | Count Residue Prefixes | [python](leetcode/easy/3803.%20Count%20Residue%20Prefixes.py) | [leetcode.com](https://leetcode.com/problems/count-residue-prefixes/) |
-| 2026-03-06 | LeetCode Easy | Check if Binary String Has at Most One Segment of Ones | [python](leetcode/easy/1784.%20Check%20if%20Binary%20String%20Has%20at%20Most%20One%20Segment%20of%20Ones.py) | [leetcode.com](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -348,6 +348,7 @@ Recently solved and added problems.
 | 1792 | Maximum Average Pass Ratio | O(n) | O(1) | [python](leetcode/medium/1792.%20Maximum%20Average%20Pass%20Ratio.py) | [leetcode.com](https://leetcode.com/problems/maximum-average-pass-ratio/) |
 | 1930 | Unique Length-3 Palindromic Subsequences | O(n) | O(1) | [python](leetcode/medium/1930.%20Unique%20Length-3%20Palindromic%20Subsequences.py) | [leetcode.com](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/) |
 | 1975 | Maximum Matrix Sum | O(n) | O(1) | [python](leetcode/medium/1975.%20Maximum%20Matrix%20Sum.py) | [leetcode.com](https://leetcode.com/problems/maximum-matrix-sum) |
+| 1980 | Find Unique Binary String | O(n*k) | O(n*k) | [python](leetcode/medium/1980.%20Find%20Unique%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/find-unique-binary-string/) |
 | 1992 | Find All Groups of Farmland | O(n*m) | O(n*m) | [python](leetcode/medium/1992.%20Find%20All%20Groups%20of%20Farmland.py) | [leetcode.com](https://leetcode.com/problems/find-all-groups-of-farmland/) |
 | 2048 | Next Greater Numerically Balanced Number | O(n) | O(1) | [python](leetcode/medium/2048.%20Next%20Greater%20Numerically%20Balanced%20Number.py) | [leetcode.com](https://leetcode.com/problems/next-greater-numerically-balanced-number/) |
 | 2054 | Two Best Non-Overlapping Events | O(n) | O(1) | [python](leetcode/medium/2054.%20Two%20Best%20Non-Overlapping%20Events.py) | [leetcode.com](https://leetcode.com/problems/two-best-non-overlapping-events/description/) |
