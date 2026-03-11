@@ -33,7 +33,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 102 | 1717 | 16 | 141 | 6 | 138 | 125 | 37 | 4 | 14 | 166 | 4 | 4 | 11 | 1 | 0 | 11 | 0 |
+| leetcode-easy | 103 | 1733 | 16 | 142 | 6 | 138 | 125 | 40 | 4 | 14 | 167 | 4 | 4 | 11 | 1 | 0 | 11 | 0 |
 | leetcode-medium | 149 | 3882 | 26 | 255 | 5 | 382 | 281 | 92 | 17 | 33 | 303 | 5 | 32 | 44 | 11 | 25 | 22 | 4 |
 | leetcode-hard | 29 | 917 | 31 | 53 | 4 | 78 | 71 | 19 | 8 | 15 | 63 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-03-11 | LeetCode Easy | Complement of Base 10 Integer | [python](leetcode/easy/1009.%20Complement%20of%20Base%2010%20Integer.py) | [leetcode.com](https://leetcode.com/problems/complement-of-base-10-integer/) |
 | 2026-03-08 | LeetCode Medium | Find Unique Binary String | [python](leetcode/medium/1980.%20Find%20Unique%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/find-unique-binary-string/) |
 | 2026-03-06 | LeetCode Easy | Trim Trailing Vowels | [python](leetcode/easy/3856.%20Trim%20Trailing%20Vowels.py) | [leetcode.com](https://leetcode.com/problems/trim-trailing-vowels/) |
 | 2026-03-06 | LeetCode Easy | Smallest Pair With Different Frequencies | [python](leetcode/easy/3852.%20Smallest%20Pair%20With%20Different%20Frequencies.py) | [leetcode.com](https://leetcode.com/problems/smallest-pair-with-different-frequencies/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-03-06 | LeetCode Easy | Count Monobit Integers | [python](leetcode/easy/3827.%20Count%20Monobit%20Integers.py) | [leetcode.com](https://leetcode.com/problems/count-monobit-integers/) |
 | 2026-03-06 | LeetCode Easy | Reverse Letters Then Special Characters in a String | [python](leetcode/easy/3823.%20Reverse%20Letters%20Then%20Special%20Characters%20in%20a%20String.py) | [leetcode.com](https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/) |
 | 2026-03-06 | LeetCode Easy | Vowel-Consonant Score | [python](leetcode/easy/3813.%20Vowel-Consonant%20Score.py) | [leetcode.com](https://leetcode.com/problems/vowel-consonant-score/) |
-| 2026-03-06 | LeetCode Easy | Count Residue Prefixes | [python](leetcode/easy/3803.%20Count%20Residue%20Prefixes.py) | [leetcode.com](https://leetcode.com/problems/count-residue-prefixes/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -150,6 +150,7 @@ Recently solved and added problems.
 | 961 | N-Repeated Element in Size 2N Array | O(n) | O(1) | [python](leetcode/easy/961.%20N-Repeated%20Element%20in%20Size%202N%20Array.py) | [leetcode.com](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) |
 | 976 | Largest Perimeter Triangle | O(n) | O(1) | [python](leetcode/easy/976.%20Largest%20Perimeter%20Triangle.py) | [leetcode.com](https://leetcode.com/problems/largest-perimeter-triangle/) |
 | 1002 | Find Common Characters | O(n) | O(n) | [python](leetcode/easy/1002.%20Find%20Common%20Characters.py) | [leetcode.com](https://leetcode.com/problems/find-common-characters/) |
+| 1009 | Complement of Base 10 Integer | O(log n) | O(log n) | [python](leetcode/easy/1009.%20Complement%20of%20Base%2010%20Integer.py) | [leetcode.com](https://leetcode.com/problems/complement-of-base-10-integer/) |
 | 1018 | Binary Prefix Divisible By 5 | O(n) | O(1) | [python](leetcode/easy/1018.%20Binary%20Prefix%20Divisible%20By%205.py) | [leetcode.com](https://leetcode.com/problems/binary-prefix-divisible-by-5/) |
 | 1022 | Sum of Root To Leaf Binary Numbers | O(n) | O(1) | [python](leetcode/easy/1022.%20Sum%20of%20Root%20To%20Leaf%20Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/) |
 | 1046 | Last Stone Weight | O(n) | O(1) | [python](leetcode/easy/1046.%20Last%20Stone%20Weight.py) | [leetcode.com](https://leetcode.com/problems/last-stone-weight/) |
