@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 103 | 1733 | 16 | 142 | 6 | 138 | 125 | 40 | 4 | 14 | 167 | 4 | 4 | 11 | 1 | 0 | 11 | 0 |
-| leetcode-medium | 149 | 3882 | 26 | 255 | 5 | 382 | 281 | 92 | 17 | 33 | 303 | 5 | 32 | 44 | 11 | 25 | 22 | 4 |
+| leetcode-medium | 150 | 3902 | 26 | 257 | 5 | 386 | 282 | 92 | 17 | 34 | 307 | 5 | 32 | 44 | 11 | 25 | 22 | 4 |
 | leetcode-hard | 29 | 917 | 31 | 53 | 4 | 78 | 71 | 19 | 8 | 15 | 63 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
 ## Recent Changes
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-03-14 | LeetCode Medium | The k-th Lexicographical String of All Happy Strings of Length n | [python](leetcode/medium/1415.%20The%20k-th%20Lexicographical%20String%20of%20All%20Happy%20Strings%20of%20Length%20n.py) | [leetcode.com](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) |
 | 2026-03-11 | LeetCode Easy | Complement of Base 10 Integer | [python](leetcode/easy/1009.%20Complement%20of%20Base%2010%20Integer.py) | [leetcode.com](https://leetcode.com/problems/complement-of-base-10-integer/) |
 | 2026-03-08 | LeetCode Medium | Find Unique Binary String | [python](leetcode/medium/1980.%20Find%20Unique%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/find-unique-binary-string/) |
 | 2026-03-06 | LeetCode Easy | Trim Trailing Vowels | [python](leetcode/easy/3856.%20Trim%20Trailing%20Vowels.py) | [leetcode.com](https://leetcode.com/problems/trim-trailing-vowels/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-03-06 | LeetCode Easy | Count Dominant Indices | [python](leetcode/easy/3833.%20Count%20Dominant%20Indices.py) | [leetcode.com](https://leetcode.com/problems/count-dominant-indices/) |
 | 2026-03-06 | LeetCode Easy | Count Monobit Integers | [python](leetcode/easy/3827.%20Count%20Monobit%20Integers.py) | [leetcode.com](https://leetcode.com/problems/count-monobit-integers/) |
 | 2026-03-06 | LeetCode Easy | Reverse Letters Then Special Characters in a String | [python](leetcode/easy/3823.%20Reverse%20Letters%20Then%20Special%20Characters%20in%20a%20String.py) | [leetcode.com](https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/) |
-| 2026-03-06 | LeetCode Easy | Vowel-Consonant Score | [python](leetcode/easy/3813.%20Vowel-Consonant%20Score.py) | [leetcode.com](https://leetcode.com/problems/vowel-consonant-score/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -329,6 +329,7 @@ Recently solved and added problems.
 | 1382 | Balance a Binary Search Tree | O(n) | O(1) | [python](leetcode/medium/1382.%20Balance%20a%20Binary%20Search%20Tree.py) | [leetcode.com](https://leetcode.com/problems/balance-a-binary-search-tree/) |
 | 1390 | Four Divisors | O(n) | O(1) | [python](leetcode/medium/1390.%20Four%20Divisors.py) | [leetcode.com](https://leetcode.com/problems/four-divisors) |
 | 1404 | Number of Steps to Reduce a Number in Binary | O(n) | O(1) | [python](leetcode/medium/1404.%20Number%20of%20Steps%20to%20Reduce%20a%20Number%20in%20Binary.py) | [leetcode.com](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary/) |
+| 1415 | The k-th Lexicographical String of All Happy Strings of Length n | O(2^n) | O(n) | [python](leetcode/medium/1415.%20The%20k-th%20Lexicographical%20String%20of%20All%20Happy%20Strings%20of%20Length%20n.py) | [leetcode.com](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) |
 | 1429 | First Unique Number | O(n) | O(n) | [python](leetcode/medium/1429.%20First%20Unique%20Number.py) | [leetcode.com](https://leetcode.com/problems/first-unique-number/) |
 | 1438 | Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit | O(n) | O(n) | [python](leetcode/medium/1438.%20Longest%20Continuous%20Subarray%20With%20Absolute%20Diff%20Less%20Than%20or%20Equal%20to%20Limit.py) | [leetcode.com](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) |
 | 1461 | Check If a String Contains All Binary Codes of Size K | O(n*n) | O(n*n) | [python](leetcode/medium/1461.%20Check%20If%20a%20String%20Contains%20All%20Binary%20Codes%20of%20Size%20K.py) | [leetcode.com](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/) |

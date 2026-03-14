@@ -6,6 +6,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-03-14 | LeetCode Medium | The k-th Lexicographical String of All Happy Strings of Length n | [python](leetcode/medium/1415.%20The%20k-th%20Lexicographical%20String%20of%20All%20Happy%20Strings%20of%20Length%20n.py) | [leetcode.com](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) |
 | 2026-03-11 | LeetCode Easy | Complement of Base 10 Integer | [python](leetcode/easy/1009.%20Complement%20of%20Base%2010%20Integer.py) | [leetcode.com](https://leetcode.com/problems/complement-of-base-10-integer/) |
 | 2026-03-08 | LeetCode Medium | Find Unique Binary String | [python](leetcode/medium/1980.%20Find%20Unique%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/find-unique-binary-string/) |
 | 2026-03-06 | LeetCode Easy | Trim Trailing Vowels | [python](leetcode/easy/3856.%20Trim%20Trailing%20Vowels.py) | [leetcode.com](https://leetcode.com/problems/trim-trailing-vowels/) |
@@ -15,4 +16,3 @@ Recently solved and added problems.
 | 2026-03-06 | LeetCode Easy | Count Dominant Indices | [python](leetcode/easy/3833.%20Count%20Dominant%20Indices.py) | [leetcode.com](https://leetcode.com/problems/count-dominant-indices/) |
 | 2026-03-06 | LeetCode Easy | Count Monobit Integers | [python](leetcode/easy/3827.%20Count%20Monobit%20Integers.py) | [leetcode.com](https://leetcode.com/problems/count-monobit-integers/) |
 | 2026-03-06 | LeetCode Easy | Reverse Letters Then Special Characters in a String | [python](leetcode/easy/3823.%20Reverse%20Letters%20Then%20Special%20Characters%20in%20a%20String.py) | [leetcode.com](https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/) |
-| 2026-03-06 | LeetCode Easy | Vowel-Consonant Score | [python](leetcode/easy/3813.%20Vowel-Consonant%20Score.py) | [leetcode.com](https://leetcode.com/problems/vowel-consonant-score/) |
