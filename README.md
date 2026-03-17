@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 103 | 1733 | 16 | 142 | 6 | 138 | 125 | 40 | 4 | 14 | 167 | 4 | 4 | 11 | 1 | 0 | 11 | 0 |
-| leetcode-medium | 150 | 3902 | 26 | 257 | 5 | 386 | 282 | 92 | 17 | 34 | 307 | 5 | 32 | 44 | 11 | 25 | 22 | 4 |
+| leetcode-medium | 151 | 3919 | 25 | 258 | 5 | 387 | 286 | 92 | 17 | 34 | 308 | 5 | 32 | 44 | 11 | 25 | 23 | 4 |
 | leetcode-hard | 29 | 917 | 31 | 53 | 4 | 78 | 71 | 19 | 8 | 15 | 63 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
 ## Recent Changes
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-03-17 | LeetCode Medium | Largest Submatrix With Rearrangements | [python](leetcode/medium/1727.%20Largest%20Submatrix%20With%20Rearrangements.py) | [leetcode.com](https://leetcode.com/problems/largest-submatrix-with-rearrangements/) |
 | 2026-03-14 | LeetCode Medium | The k-th Lexicographical String of All Happy Strings of Length n | [python](leetcode/medium/1415.%20The%20k-th%20Lexicographical%20String%20of%20All%20Happy%20Strings%20of%20Length%20n.py) | [leetcode.com](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) |
 | 2026-03-11 | LeetCode Easy | Complement of Base 10 Integer | [python](leetcode/easy/1009.%20Complement%20of%20Base%2010%20Integer.py) | [leetcode.com](https://leetcode.com/problems/complement-of-base-10-integer/) |
 | 2026-03-08 | LeetCode Medium | Find Unique Binary String | [python](leetcode/medium/1980.%20Find%20Unique%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/find-unique-binary-string/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-03-06 | LeetCode Easy | Weighted Word Mapping | [python](leetcode/easy/3838.%20Weighted%20Word%20Mapping.py) | [leetcode.com](https://leetcode.com/problems/weighted-word-mapping/) |
 | 2026-03-06 | LeetCode Easy | Count Dominant Indices | [python](leetcode/easy/3833.%20Count%20Dominant%20Indices.py) | [leetcode.com](https://leetcode.com/problems/count-dominant-indices/) |
 | 2026-03-06 | LeetCode Easy | Count Monobit Integers | [python](leetcode/easy/3827.%20Count%20Monobit%20Integers.py) | [leetcode.com](https://leetcode.com/problems/count-monobit-integers/) |
-| 2026-03-06 | LeetCode Easy | Reverse Letters Then Special Characters in a String | [python](leetcode/easy/3823.%20Reverse%20Letters%20Then%20Special%20Characters%20in%20a%20String.py) | [leetcode.com](https://leetcode.com/problems/reverse-letters-then-special-characters-in-a-string/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -345,6 +345,7 @@ Recently solved and added problems.
 | 1680 | Concatenation of Consecutive Binary Numbers | O(n log n) | O(n log n) | [python](leetcode/medium/1680.%20Concatenation%20of%20Consecutive%20Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/) |
 | 1689 | Partitioning Into Minimum Number Of Deci-Binary Numbers | O(log n) | O(1) | [python](leetcode/medium/1689.%20Partitioning%20Into%20Minimum%20Number%20Of%20Deci-Binary%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) |
 | 1701 | Average Waiting Time | O(n) | O(1) | [python](leetcode/medium/1701.%20Average%20Waiting%20Time.py) | [leetcode.com](https://leetcode.com/problems/average-waiting-time/) |
+| 1727 | Largest Submatrix With Rearrangements | O(n^2 log n) | O(n) | [python](leetcode/medium/1727.%20Largest%20Submatrix%20With%20Rearrangements.py) | [leetcode.com](https://leetcode.com/problems/largest-submatrix-with-rearrangements/) |
 | 1733 | Minimum Number of People to Teach | O(n) | O(1) | [python](leetcode/medium/1733.%20Minimum%20Number%20of%20People%20to%20Teach.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-people-to-teach/) |
 | 1740 | Find Distance in a Binary Tree | O(n) | O(m) | [python](leetcode/medium/1740.%20Find%20Distance%20in%20a%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/find-distance-in-a-binary-tree/) |
 | 1792 | Maximum Average Pass Ratio | O(n) | O(1) | [python](leetcode/medium/1792.%20Maximum%20Average%20Pass%20Ratio.py) | [leetcode.com](https://leetcode.com/problems/maximum-average-pass-ratio/) |
