@@ -6,6 +6,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-03-18 | LeetCode Medium | Count Submatrices with Top-Left Element and Sum Less Than k | [python](leetcode/medium/3070.%20Count%20Submatrices%20with%20Top-Left%20Element%20and%20Sum%20Less%20Than%20k.py) | [leetcode.com](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/) |
 | 2026-03-17 | LeetCode Medium | Largest Submatrix With Rearrangements | [python](leetcode/medium/1727.%20Largest%20Submatrix%20With%20Rearrangements.py) | [leetcode.com](https://leetcode.com/problems/largest-submatrix-with-rearrangements/) |
 | 2026-03-14 | LeetCode Medium | The k-th Lexicographical String of All Happy Strings of Length n | [python](leetcode/medium/1415.%20The%20k-th%20Lexicographical%20String%20of%20All%20Happy%20Strings%20of%20Length%20n.py) | [leetcode.com](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) |
 | 2026-03-11 | LeetCode Easy | Complement of Base 10 Integer | [python](leetcode/easy/1009.%20Complement%20of%20Base%2010%20Integer.py) | [leetcode.com](https://leetcode.com/problems/complement-of-base-10-integer/) |
@@ -15,4 +16,3 @@ Recently solved and added problems.
 | 2026-03-06 | LeetCode Easy | Toggle Light Bulbs | [python](leetcode/easy/3842.%20Toggle%20Light%20Bulbs.py) | [leetcode.com](https://leetcode.com/problems/toggle-light-bulbs/) |
 | 2026-03-06 | LeetCode Easy | Weighted Word Mapping | [python](leetcode/easy/3838.%20Weighted%20Word%20Mapping.py) | [leetcode.com](https://leetcode.com/problems/weighted-word-mapping/) |
 | 2026-03-06 | LeetCode Easy | Count Dominant Indices | [python](leetcode/easy/3833.%20Count%20Dominant%20Indices.py) | [leetcode.com](https://leetcode.com/problems/count-dominant-indices/) |
-| 2026-03-06 | LeetCode Easy | Count Monobit Integers | [python](leetcode/easy/3827.%20Count%20Monobit%20Integers.py) | [leetcode.com](https://leetcode.com/problems/count-monobit-integers/) |

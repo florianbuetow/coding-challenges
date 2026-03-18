@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 103 | 1733 | 16 | 142 | 6 | 138 | 125 | 40 | 4 | 14 | 167 | 4 | 4 | 11 | 1 | 0 | 11 | 0 |
-| leetcode-medium | 151 | 3919 | 25 | 258 | 5 | 387 | 286 | 92 | 17 | 34 | 308 | 5 | 32 | 44 | 11 | 25 | 23 | 4 |
+| leetcode-medium | 152 | 3937 | 25 | 259 | 5 | 388 | 289 | 93 | 18 | 34 | 309 | 5 | 32 | 44 | 11 | 25 | 23 | 4 |
 | leetcode-hard | 29 | 917 | 31 | 53 | 4 | 78 | 71 | 19 | 8 | 15 | 63 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
 ## Recent Changes
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-03-18 | LeetCode Medium | Count Submatrices with Top-Left Element and Sum Less Than k | [python](leetcode/medium/3070.%20Count%20Submatrices%20with%20Top-Left%20Element%20and%20Sum%20Less%20Than%20k.py) | [leetcode.com](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/) |
 | 2026-03-17 | LeetCode Medium | Largest Submatrix With Rearrangements | [python](leetcode/medium/1727.%20Largest%20Submatrix%20With%20Rearrangements.py) | [leetcode.com](https://leetcode.com/problems/largest-submatrix-with-rearrangements/) |
 | 2026-03-14 | LeetCode Medium | The k-th Lexicographical String of All Happy Strings of Length n | [python](leetcode/medium/1415.%20The%20k-th%20Lexicographical%20String%20of%20All%20Happy%20Strings%20of%20Length%20n.py) | [leetcode.com](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) |
 | 2026-03-11 | LeetCode Easy | Complement of Base 10 Integer | [python](leetcode/easy/1009.%20Complement%20of%20Base%2010%20Integer.py) | [leetcode.com](https://leetcode.com/problems/complement-of-base-10-integer/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-03-06 | LeetCode Easy | Toggle Light Bulbs | [python](leetcode/easy/3842.%20Toggle%20Light%20Bulbs.py) | [leetcode.com](https://leetcode.com/problems/toggle-light-bulbs/) |
 | 2026-03-06 | LeetCode Easy | Weighted Word Mapping | [python](leetcode/easy/3838.%20Weighted%20Word%20Mapping.py) | [leetcode.com](https://leetcode.com/problems/weighted-word-mapping/) |
 | 2026-03-06 | LeetCode Easy | Count Dominant Indices | [python](leetcode/easy/3833.%20Count%20Dominant%20Indices.py) | [leetcode.com](https://leetcode.com/problems/count-dominant-indices/) |
-| 2026-03-06 | LeetCode Easy | Count Monobit Integers | [python](leetcode/easy/3827.%20Count%20Monobit%20Integers.py) | [leetcode.com](https://leetcode.com/problems/count-monobit-integers/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -385,6 +385,7 @@ Recently solved and added problems.
 | 2975 | Maximum Square Area by Removing Fences From a Field | O(n) | O(1) | [python](leetcode/medium/2975.%20Maximum%20Square%20Area%20by%20Removing%20Fences%20From%20a%20Field.py) | [leetcode.com](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field) |
 | 3025 | Find the Number of Ways to Place People I | O(n) | O(1) | [python](leetcode/medium/3025.%20Find%20the%20Number%20of%20Ways%20to%20Place%20People%20I.py) | [leetcode.com](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i/) |
 | 3047 | Find the Largest Area of Square Inside Two Rectangles | O(n) | O(1) | [python](leetcode/medium/3047.%20Find%20the%20Largest%20Area%20of%20Square%20Inside%20Two%20Rectangles.py) | [leetcode.com](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/) |
+| 3070 | Count Submatrices with Top-Left Element and Sum Less Than k | O(n*m) | O(1) | [python](leetcode/medium/3070.%20Count%20Submatrices%20with%20Top-Left%20Element%20and%20Sum%20Less%20Than%20k.py) | [leetcode.com](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/) |
 | 3075 | Maximize Happiness of Selected Children | O(n) | O(1) | [python](leetcode/medium/3075.%20Maximize%20Happiness%20of%20Selected%20Children.py) | [leetcode.com](https://leetcode.com/problems/maximize-happiness-of-selected-children/) |
 | 3100 | Water Bottles II | O(n) | O(1) | [python](leetcode/medium/3100.%20Water%20Bottles%20II.py) | [leetcode.com](https://leetcode.com/problems/water-bottles-ii/) |
 | 3147 | Taking Maximum Energy From the Mystic Dungeon | O(n) | O(1) | [python](leetcode/medium/3147.%20Taking%20Maximum%20Energy%20From%20the%20Mystic%20Dungeon.py) | [leetcode.com](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/) |
