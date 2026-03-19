@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 106 | 1762 | 16 | 145 | 6 | 141 | 128 | 40 | 4 | 14 | 171 | 4 | 4 | 12 | 1 | 0 | 11 | 0 |
-| leetcode-medium | 152 | 3937 | 25 | 259 | 5 | 388 | 289 | 93 | 18 | 34 | 309 | 5 | 32 | 44 | 11 | 25 | 23 | 4 |
+| leetcode-medium | 153 | 3943 | 25 | 260 | 5 | 388 | 289 | 93 | 18 | 34 | 310 | 5 | 33 | 44 | 11 | 25 | 23 | 4 |
 | leetcode-hard | 29 | 917 | 31 | 53 | 4 | 78 | 71 | 19 | 8 | 15 | 63 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
 ## Recent Changes
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-03-19 | LeetCode Medium | Maximum Substrings With Distinct Start | [python](leetcode/medium/3760.%20Maximum%20Substrings%20With%20Distinct%20Start.py) | [leetcode.com](https://leetcode.com/problems/maximum-substrings-with-distinct-start/) |
 | 2026-03-19 | LeetCode Easy | Count Commas in Range | [python](leetcode/easy/3870.%20Count%20Commas%20in%20Range.py) | [leetcode.com](https://leetcode.com/problems/count-commas-in-range/) |
 | 2026-03-19 | LeetCode Easy | First Unique Even Element | [python](leetcode/easy/3866.%20First%20Unique%20Even%20Element.py) | [leetcode.com](https://leetcode.com/problems/first-unique-even-element/) |
 | 2026-03-19 | LeetCode Easy | Minimum Capacity Box | [python](leetcode/easy/3861.%20Minimum%20Capacity%20Box.py) | [leetcode.com](https://leetcode.com/problems/minimum-capacity-box/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-03-11 | LeetCode Easy | Complement of Base 10 Integer | [python](leetcode/easy/1009.%20Complement%20of%20Base%2010%20Integer.py) | [leetcode.com](https://leetcode.com/problems/complement-of-base-10-integer/) |
 | 2026-03-08 | LeetCode Medium | Find Unique Binary String | [python](leetcode/medium/1980.%20Find%20Unique%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/find-unique-binary-string/) |
 | 2026-03-06 | LeetCode Easy | Trim Trailing Vowels | [python](leetcode/easy/3856.%20Trim%20Trailing%20Vowels.py) | [leetcode.com](https://leetcode.com/problems/trim-trailing-vowels/) |
-| 2026-03-06 | LeetCode Easy | Smallest Pair With Different Frequencies | [python](leetcode/easy/3852.%20Smallest%20Pair%20With%20Different%20Frequencies.py) | [leetcode.com](https://leetcode.com/problems/smallest-pair-with-different-frequencies/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -416,6 +416,7 @@ Recently solved and added problems.
 | 3713 | Longest Balanced Substring I | O(n) | O(1) | [python](leetcode/medium/3713.%20Longest%20Balanced%20Substring%20I.py) | [leetcode.com](https://leetcode.com/problems/longest-balanced-substring-i/) |
 | 3714 | Longest Balanced Substring II | O(n) | O(1) | [python](leetcode/medium/3714.%20Longest%20Balanced%20Substring%20II.py) | [leetcode.com](https://leetcode.com/problems/longest-balanced-substring-ii/) |
 | 3719 | Longest Balanced Subarray I | O(n) | O(1) | [python](leetcode/medium/3719.%20Longest%20Balanced%20Subarray%20I.py) | [leetcode.com](https://leetcode.com/problems/longest-balanced-subarray-i/) |
+| 3760 | Maximum Substrings With Distinct Start | O(n) | O(n) | [python](leetcode/medium/3760.%20Maximum%20Substrings%20With%20Distinct%20Start.py) | [leetcode.com](https://leetcode.com/problems/maximum-substrings-with-distinct-start/) |
 | 3788 | Maximum Score of a Split | O(n) | O(1) | [python](leetcode/medium/3788.%20Maximum%20Score%20of%20a%20Split.py) | [leetcode.com](https://leetcode.com/problems/maximum-score-of-a-split) |
 
 ## Generating the README
