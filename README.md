@@ -33,7 +33,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 103 | 1733 | 16 | 142 | 6 | 138 | 125 | 40 | 4 | 14 | 167 | 4 | 4 | 11 | 1 | 0 | 11 | 0 |
+| leetcode-easy | 104 | 1744 | 16 | 143 | 6 | 140 | 126 | 40 | 4 | 14 | 168 | 4 | 4 | 11 | 1 | 0 | 11 | 0 |
 | leetcode-medium | 152 | 3937 | 25 | 259 | 5 | 388 | 289 | 93 | 18 | 34 | 309 | 5 | 32 | 44 | 11 | 25 | 23 | 4 |
 | leetcode-hard | 29 | 917 | 31 | 53 | 4 | 78 | 71 | 19 | 8 | 15 | 63 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-03-19 | LeetCode Easy | Minimum Capacity Box | [python](leetcode/easy/3861.%20Minimum%20Capacity%20Box.py) | [leetcode.com](https://leetcode.com/problems/minimum-capacity-box/) |
 | 2026-03-18 | LeetCode Medium | Count Submatrices with Top-Left Element and Sum Less Than k | [python](leetcode/medium/3070.%20Count%20Submatrices%20with%20Top-Left%20Element%20and%20Sum%20Less%20Than%20k.py) | [leetcode.com](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/) |
 | 2026-03-17 | LeetCode Medium | Largest Submatrix With Rearrangements | [python](leetcode/medium/1727.%20Largest%20Submatrix%20With%20Rearrangements.py) | [leetcode.com](https://leetcode.com/problems/largest-submatrix-with-rearrangements/) |
 | 2026-03-14 | LeetCode Medium | The k-th Lexicographical String of All Happy Strings of Length n | [python](leetcode/medium/1415.%20The%20k-th%20Lexicographical%20String%20of%20All%20Happy%20Strings%20of%20Length%20n.py) | [leetcode.com](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-03-06 | LeetCode Easy | Smallest Pair With Different Frequencies | [python](leetcode/easy/3852.%20Smallest%20Pair%20With%20Different%20Frequencies.py) | [leetcode.com](https://leetcode.com/problems/smallest-pair-with-different-frequencies/) |
 | 2026-03-06 | LeetCode Easy | Toggle Light Bulbs | [python](leetcode/easy/3842.%20Toggle%20Light%20Bulbs.py) | [leetcode.com](https://leetcode.com/problems/toggle-light-bulbs/) |
 | 2026-03-06 | LeetCode Easy | Weighted Word Mapping | [python](leetcode/easy/3838.%20Weighted%20Word%20Mapping.py) | [leetcode.com](https://leetcode.com/problems/weighted-word-mapping/) |
-| 2026-03-06 | LeetCode Easy | Count Dominant Indices | [python](leetcode/easy/3833.%20Count%20Dominant%20Indices.py) | [leetcode.com](https://leetcode.com/problems/count-dominant-indices/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -225,6 +225,7 @@ Recently solved and added problems.
 | 3842 | Toggle Light Bulbs | O(n) | O(n) | [python](leetcode/easy/3842.%20Toggle%20Light%20Bulbs.py) | [leetcode.com](https://leetcode.com/problems/toggle-light-bulbs/) |
 | 3852 | Smallest Pair With Different Frequencies | O(n*n) | O(n) | [python](leetcode/easy/3852.%20Smallest%20Pair%20With%20Different%20Frequencies.py) | [leetcode.com](https://leetcode.com/problems/smallest-pair-with-different-frequencies/) |
 | 3856 | Trim Trailing Vowels | O(n) | O(n) | [python](leetcode/easy/3856.%20Trim%20Trailing%20Vowels.py) | [leetcode.com](https://leetcode.com/problems/trim-trailing-vowels/) |
+| 3861 | Minimum Capacity Box | O(n) | O(1) | [python](leetcode/easy/3861.%20Minimum%20Capacity%20Box.py) | [leetcode.com](https://leetcode.com/problems/minimum-capacity-box/) |
 
 ### Hard
 | Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
