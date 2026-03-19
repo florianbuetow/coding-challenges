@@ -33,7 +33,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 105 | 1756 | 16 | 144 | 6 | 141 | 128 | 40 | 4 | 14 | 170 | 4 | 4 | 12 | 1 | 0 | 11 | 0 |
+| leetcode-easy | 106 | 1762 | 16 | 145 | 6 | 141 | 128 | 40 | 4 | 14 | 171 | 4 | 4 | 12 | 1 | 0 | 11 | 0 |
 | leetcode-medium | 152 | 3937 | 25 | 259 | 5 | 388 | 289 | 93 | 18 | 34 | 309 | 5 | 32 | 44 | 11 | 25 | 23 | 4 |
 | leetcode-hard | 29 | 917 | 31 | 53 | 4 | 78 | 71 | 19 | 8 | 15 | 63 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-03-19 | LeetCode Easy | Count Commas in Range | [python](leetcode/easy/3870.%20Count%20Commas%20in%20Range.py) | [leetcode.com](https://leetcode.com/problems/count-commas-in-range/) |
 | 2026-03-19 | LeetCode Easy | First Unique Even Element | [python](leetcode/easy/3866.%20First%20Unique%20Even%20Element.py) | [leetcode.com](https://leetcode.com/problems/first-unique-even-element/) |
 | 2026-03-19 | LeetCode Easy | Minimum Capacity Box | [python](leetcode/easy/3861.%20Minimum%20Capacity%20Box.py) | [leetcode.com](https://leetcode.com/problems/minimum-capacity-box/) |
 | 2026-03-18 | LeetCode Medium | Count Submatrices with Top-Left Element and Sum Less Than k | [python](leetcode/medium/3070.%20Count%20Submatrices%20with%20Top-Left%20Element%20and%20Sum%20Less%20Than%20k.py) | [leetcode.com](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-03-08 | LeetCode Medium | Find Unique Binary String | [python](leetcode/medium/1980.%20Find%20Unique%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/find-unique-binary-string/) |
 | 2026-03-06 | LeetCode Easy | Trim Trailing Vowels | [python](leetcode/easy/3856.%20Trim%20Trailing%20Vowels.py) | [leetcode.com](https://leetcode.com/problems/trim-trailing-vowels/) |
 | 2026-03-06 | LeetCode Easy | Smallest Pair With Different Frequencies | [python](leetcode/easy/3852.%20Smallest%20Pair%20With%20Different%20Frequencies.py) | [leetcode.com](https://leetcode.com/problems/smallest-pair-with-different-frequencies/) |
-| 2026-03-06 | LeetCode Easy | Toggle Light Bulbs | [python](leetcode/easy/3842.%20Toggle%20Light%20Bulbs.py) | [leetcode.com](https://leetcode.com/problems/toggle-light-bulbs/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -227,6 +227,7 @@ Recently solved and added problems.
 | 3856 | Trim Trailing Vowels | O(n) | O(n) | [python](leetcode/easy/3856.%20Trim%20Trailing%20Vowels.py) | [leetcode.com](https://leetcode.com/problems/trim-trailing-vowels/) |
 | 3861 | Minimum Capacity Box | O(n) | O(1) | [python](leetcode/easy/3861.%20Minimum%20Capacity%20Box.py) | [leetcode.com](https://leetcode.com/problems/minimum-capacity-box/) |
 | 3866 | First Unique Even Element | O(n) | O(n) | [python](leetcode/easy/3866.%20First%20Unique%20Even%20Element.py) | [leetcode.com](https://leetcode.com/problems/first-unique-even-element/) |
+| 3870 | Count Commas in Range | O(1) | O(1) | [python](leetcode/easy/3870.%20Count%20Commas%20in%20Range.py) | [leetcode.com](https://leetcode.com/problems/count-commas-in-range/) |
 
 ### Hard
 | Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
