@@ -33,7 +33,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 106 | 1762 | 16 | 145 | 6 | 141 | 128 | 40 | 4 | 14 | 171 | 4 | 4 | 12 | 1 | 0 | 11 | 0 |
+| leetcode-easy | 107 | 1775 | 16 | 146 | 6 | 141 | 129 | 41 | 4 | 14 | 172 | 4 | 4 | 12 | 1 | 0 | 11 | 0 |
 | leetcode-medium | 153 | 3943 | 25 | 260 | 5 | 388 | 289 | 93 | 18 | 34 | 310 | 5 | 33 | 44 | 11 | 25 | 23 | 4 |
 | leetcode-hard | 29 | 917 | 31 | 53 | 4 | 78 | 71 | 19 | 8 | 15 | 63 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-03-21 | LeetCode Easy | Flip Square Submatrix Vertically | [python](leetcode/easy/3643.%20Flip%20Square%20Submatrix%20Vertically.py) | [leetcode.com](https://leetcode.com/problems/flip-square-submatrix-vertically/) |
 | 2026-03-19 | LeetCode Medium | Maximum Substrings With Distinct Start | [python](leetcode/medium/3760.%20Maximum%20Substrings%20With%20Distinct%20Start.py) | [leetcode.com](https://leetcode.com/problems/maximum-substrings-with-distinct-start/) |
 | 2026-03-19 | LeetCode Easy | Count Commas in Range | [python](leetcode/easy/3870.%20Count%20Commas%20in%20Range.py) | [leetcode.com](https://leetcode.com/problems/count-commas-in-range/) |
 | 2026-03-19 | LeetCode Easy | First Unique Even Element | [python](leetcode/easy/3866.%20First%20Unique%20Even%20Element.py) | [leetcode.com](https://leetcode.com/problems/first-unique-even-element/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-03-14 | LeetCode Medium | The k-th Lexicographical String of All Happy Strings of Length n | [python](leetcode/medium/1415.%20The%20k-th%20Lexicographical%20String%20of%20All%20Happy%20Strings%20of%20Length%20n.py) | [leetcode.com](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) |
 | 2026-03-11 | LeetCode Easy | Complement of Base 10 Integer | [python](leetcode/easy/1009.%20Complement%20of%20Base%2010%20Integer.py) | [leetcode.com](https://leetcode.com/problems/complement-of-base-10-integer/) |
 | 2026-03-08 | LeetCode Medium | Find Unique Binary String | [python](leetcode/medium/1980.%20Find%20Unique%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/find-unique-binary-string/) |
-| 2026-03-06 | LeetCode Easy | Trim Trailing Vowels | [python](leetcode/easy/3856.%20Trim%20Trailing%20Vowels.py) | [leetcode.com](https://leetcode.com/problems/trim-trailing-vowels/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -205,6 +205,7 @@ Recently solved and added problems.
 | 3516 | Find Closest Person | O(n) | O(1) | [python](leetcode/easy/3516.%20Find%20Closest%20Person.py) | [leetcode.com](https://leetcode.com/problems/find-closest-person/) |
 | 3541 | Find Most Frequent Vowel and Consonant | O(n) | O(1) | [python](leetcode/easy/3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant.py) | [leetcode.com](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) |
 | 3606 | Coupon Code Validator | O(n) | O(1) | [python](leetcode/easy/3606.%20Coupon%20Code%20Validator.py) | [leetcode.com](https://leetcode.com/problems/coupon-code-validator/) |
+| 3643 | Flip Square Submatrix Vertically | O(k*k) | O(1) | [python](leetcode/easy/3643.%20Flip%20Square%20Submatrix%20Vertically.py) | [leetcode.com](https://leetcode.com/problems/flip-square-submatrix-vertically/) |
 | 3731 | Find Missing Elements | O(n) | O(1) | [python](leetcode/easy/3731.%20Find%20Missing%20Elements.py) | [leetcode.com](https://leetcode.com/problems/find-missing-elements/) |
 | 3736 | Minimum Moves to Equal Array Elements III | O(n) | O(1) | [python](leetcode/easy/3736.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20III.py) | [leetcode.com](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) |
 | 3740 | Minimum Distance Between Three Equal Elements I | O(n) | O(1) | [python](leetcode/easy/3740.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20I.py) | [leetcode.com](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/) |
