@@ -33,7 +33,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 107 | 1775 | 16 | 146 | 6 | 141 | 129 | 41 | 4 | 14 | 172 | 4 | 4 | 12 | 1 | 0 | 11 | 0 |
+| leetcode-easy | 108 | 1796 | 16 | 149 | 6 | 144 | 134 | 41 | 4 | 14 | 178 | 4 | 4 | 12 | 1 | 0 | 11 | 0 |
 | leetcode-medium | 153 | 3943 | 25 | 260 | 5 | 388 | 289 | 93 | 18 | 34 | 310 | 5 | 33 | 44 | 11 | 25 | 23 | 4 |
 | leetcode-hard | 29 | 917 | 31 | 53 | 4 | 78 | 71 | 19 | 8 | 15 | 63 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-03-22 | LeetCode Easy | Determine Whether Matrix Can Be Obtained By Rotation | [python](leetcode/easy/1886.%20Determine%20Whether%20Matrix%20Can%20Be%20Obtained%20By%20Rotation.py) | [leetcode.com](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) |
 | 2026-03-21 | LeetCode Easy | Flip Square Submatrix Vertically | [python](leetcode/easy/3643.%20Flip%20Square%20Submatrix%20Vertically.py) | [leetcode.com](https://leetcode.com/problems/flip-square-submatrix-vertically/) |
 | 2026-03-19 | LeetCode Medium | Maximum Substrings With Distinct Start | [python](leetcode/medium/3760.%20Maximum%20Substrings%20With%20Distinct%20Start.py) | [leetcode.com](https://leetcode.com/problems/maximum-substrings-with-distinct-start/) |
 | 2026-03-19 | LeetCode Easy | Count Commas in Range | [python](leetcode/easy/3870.%20Count%20Commas%20in%20Range.py) | [leetcode.com](https://leetcode.com/problems/count-commas-in-range/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-03-17 | LeetCode Medium | Largest Submatrix With Rearrangements | [python](leetcode/medium/1727.%20Largest%20Submatrix%20With%20Rearrangements.py) | [leetcode.com](https://leetcode.com/problems/largest-submatrix-with-rearrangements/) |
 | 2026-03-14 | LeetCode Medium | The k-th Lexicographical String of All Happy Strings of Length n | [python](leetcode/medium/1415.%20The%20k-th%20Lexicographical%20String%20of%20All%20Happy%20Strings%20of%20Length%20n.py) | [leetcode.com](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) |
 | 2026-03-11 | LeetCode Easy | Complement of Base 10 Integer | [python](leetcode/easy/1009.%20Complement%20of%20Base%2010%20Integer.py) | [leetcode.com](https://leetcode.com/problems/complement-of-base-10-integer/) |
-| 2026-03-08 | LeetCode Medium | Find Unique Binary String | [python](leetcode/medium/1980.%20Find%20Unique%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/find-unique-binary-string/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -177,6 +177,7 @@ Recently solved and added problems.
 | 1784 | Check if Binary String Has at Most One Segment of Ones | O(n) | O(1) | [python](leetcode/easy/1784.%20Check%20if%20Binary%20String%20Has%20at%20Most%20One%20Segment%20of%20Ones.py) | [leetcode.com](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) |
 | 1791 | Find Center of Star Graph | O(n) | O(1) | [python](leetcode/easy/1791.%20Find%20Center%20of%20Star%20Graph.py) | [leetcode.com](https://leetcode.com/problems/find-center-of-star-graph/) |
 | 1863 | Sum of All Subset XOR Totals | O(n) | O(1) | [python](leetcode/easy/1863.%20Sum%20of%20All%20Subset%20XOR%20Totals.py) | [leetcode.com](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) |
+| 1886 | Determine Whether Matrix Can Be Obtained By Rotation | O(n*n) | O(n*n) | [python](leetcode/easy/1886.%20Determine%20Whether%20Matrix%20Can%20Be%20Obtained%20By%20Rotation.py) | [leetcode.com](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) |
 | 1925 | Count Square Sum Triples | O(n) | O(1) | [python](leetcode/easy/1925.%20Count%20Square%20Sum%20Triples.py) | [leetcode.com](https://leetcode.com/problems/count-square-sum-triples/) |
 | 1935 | Maximum Number of Words You Can Type (alt) | O(n) | O(1) | [python](leetcode/easy/1935.%20Maximum%20Number%20of%20Words%20You%20Can%20Type%20%28alt%29.py) | [leetcode.com](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) |
 | 1935 | Maximum Number of Words You Can Type | O(n) | O(1) | [python](leetcode/easy/1935.%20Maximum%20Number%20of%20Words%20You%20Can%20Type.py) | [leetcode.com](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) |
