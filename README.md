@@ -34,7 +34,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 108 | 1796 | 16 | 149 | 6 | 144 | 134 | 41 | 4 | 14 | 178 | 4 | 4 | 12 | 1 | 0 | 11 | 0 |
-| leetcode-medium | 153 | 3943 | 25 | 260 | 5 | 388 | 289 | 93 | 18 | 34 | 310 | 5 | 33 | 44 | 11 | 25 | 23 | 4 |
+| leetcode-medium | 154 | 3976 | 25 | 261 | 5 | 392 | 291 | 93 | 18 | 35 | 312 | 5 | 33 | 44 | 11 | 25 | 23 | 4 |
 | leetcode-hard | 29 | 917 | 31 | 53 | 4 | 78 | 71 | 19 | 8 | 15 | 63 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
 ## Recent Changes
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-03-23 | LeetCode Medium | Maximum Non Negative Product in a Matrix | [python](leetcode/medium/1594.%20Maximum%20Non%20Negative%20Product%20in%20a%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/) |
 | 2026-03-22 | LeetCode Easy | Determine Whether Matrix Can Be Obtained By Rotation | [python](leetcode/easy/1886.%20Determine%20Whether%20Matrix%20Can%20Be%20Obtained%20By%20Rotation.py) | [leetcode.com](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) |
 | 2026-03-21 | LeetCode Easy | Flip Square Submatrix Vertically | [python](leetcode/easy/3643.%20Flip%20Square%20Submatrix%20Vertically.py) | [leetcode.com](https://leetcode.com/problems/flip-square-submatrix-vertically/) |
 | 2026-03-19 | LeetCode Medium | Maximum Substrings With Distinct Start | [python](leetcode/medium/3760.%20Maximum%20Substrings%20With%20Distinct%20Start.py) | [leetcode.com](https://leetcode.com/problems/maximum-substrings-with-distinct-start/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-03-18 | LeetCode Medium | Count Submatrices with Top-Left Element and Sum Less Than k | [python](leetcode/medium/3070.%20Count%20Submatrices%20with%20Top-Left%20Element%20and%20Sum%20Less%20Than%20k.py) | [leetcode.com](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/) |
 | 2026-03-17 | LeetCode Medium | Largest Submatrix With Rearrangements | [python](leetcode/medium/1727.%20Largest%20Submatrix%20With%20Rearrangements.py) | [leetcode.com](https://leetcode.com/problems/largest-submatrix-with-rearrangements/) |
 | 2026-03-14 | LeetCode Medium | The k-th Lexicographical String of All Happy Strings of Length n | [python](leetcode/medium/1415.%20The%20k-th%20Lexicographical%20String%20of%20All%20Happy%20Strings%20of%20Length%20n.py) | [leetcode.com](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) |
-| 2026-03-11 | LeetCode Easy | Complement of Base 10 Integer | [python](leetcode/easy/1009.%20Complement%20of%20Base%2010%20Integer.py) | [leetcode.com](https://leetcode.com/problems/complement-of-base-10-integer/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -343,6 +343,7 @@ Recently solved and added problems.
 | 1513 | Number of Substrings With Only 1s | O(n) | O(1) | [python](leetcode/medium/1513.%20Number%20of%20Substrings%20With%20Only%201s.py) | [leetcode.com](https://leetcode.com/problems/number-of-substrings-with-only-1s/) |
 | 1536 | Minimum Swaps to Arrange a Binary Grid | O(n*n) | O(n) | [python](leetcode/medium/1536.%20Minimum%20Swaps%20to%20Arrange%20a%20Binary%20Grid.py) | [leetcode.com](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/) |
 | 1580 | Put Boxes Into the Warehouse II | O(n log n) | O(1) | [python](leetcode/medium/1580.%20Put%20Boxes%20Into%20the%20Warehouse%20II.py) | [leetcode.com](https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/) |
+| 1594 | Maximum Non Negative Product in a Matrix | O(n*m) | O(n) | [python](leetcode/medium/1594.%20Maximum%20Non%20Negative%20Product%20in%20a%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/) |
 | 1609 | - Even Odd Tree | O(n) | O(n) | [python](leetcode/medium/1609%20-%20Even%20Odd%20Tree.py) | [leetcode.com](https://leetcode.com/problems/even-odd-tree/) |
 | 1625 | Lexicographically Smallest String After Applying Operations | O(n) | O(1) | [python](leetcode/medium/1625.%20Lexicographically%20Smallest%20String%20After%20Applying%20Operations.py) | [leetcode.com](https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations/) |
 | 1653 | Minimum Deletions to Make String Balanced | O(n) | O(1) | [python](leetcode/medium/1653.%20Minimum%20Deletions%20to%20Make%20String%20Balanced.py) | [leetcode.com](https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/) |
