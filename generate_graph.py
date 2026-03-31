@@ -68,7 +68,7 @@ fig.update_layout(
 fig.update_traces(cliponaxis=False)
 
 # Save as PNG
-fig.write_image("solutions_growth.png", width=800, height=533, scale=2)
+fig.write_image("solutions_growth.png", width=1024, height=683)
 
 print(f"Total solutions: {df['Solutions'].iloc[-1]}")
 print(f"Date range: {df['Date'].iloc[0].date()} to {df['Date'].iloc[-1].date()}")
