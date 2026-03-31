@@ -61,6 +61,7 @@ graph:
     #!/usr/bin/env bash
     echo ""
     if uv run generate_graph.py; then
+        git add solutions_growth.png
         printf "\033[32m✓ solutions growth chart generated successfully\033[0m\n"
     else
         printf "\033[31m✗ graph failed: uv run exited with errors\033[0m\n"
