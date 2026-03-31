@@ -1,5 +1,7 @@
 This repository contains a collection of coding problems solved on various platforms, like LeetCode, Deep-ML, Codewars, and Advent of Code, organized by difficulty or type. Each solution is implemented in Python and includes a breakdown of the time complexity and space complexity. The goal of this repository is to document problem-solving techniques, data structures, and algorithms while providing insights into the performance of each approach.
 
+![Solutions Growth](solutions_growth.png)
+
 ## Directory Structure
 
 ```

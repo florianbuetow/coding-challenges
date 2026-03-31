@@ -39,18 +39,31 @@ help:
     @printf "\033[1mAvailable targets:\033[0m\n"
     @echo ""
     @printf "  \033[36mgenerate\033[0m   Generate README.md and CHANGES.md\n"
+    @printf "  \033[36mgraph\033[0m      Generate solutions growth chart\n"
     @printf "  \033[36mci\033[0m         Run CI checks (semgrep)\n"
     @printf "  \033[36mdestroy\033[0m    Remove virtual environment\n"
     @echo ""
 
 # Generate README.md and CHANGES.md
-generate:
+generate: graph
     #!/usr/bin/env bash
     echo ""
     if uv run generate_readme.py; then
         printf "\033[32m✓ README.md and CHANGES.md generated successfully\033[0m\n"
     else
         printf "\033[31m✗ generate failed: uv run exited with errors\033[0m\n"
+        exit 1
+    fi
+    echo ""
+
+# Generate solutions growth chart
+graph:
+    #!/usr/bin/env bash
+    echo ""
+    if uv run generate_graph.py; then
+        printf "\033[32m✓ solutions growth chart generated successfully\033[0m\n"
+    else
+        printf "\033[31m✗ graph failed: uv run exited with errors\033[0m\n"
         exit 1
     fi
     echo ""
