@@ -35,7 +35,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 109 | 1812 | 16 | 150 | 6 | 145 | 137 | 41 | 4 | 14 | 180 | 4 | 4 | 12 | 1 | 0 | 11 | 0 |
 | leetcode-medium | 156 | 4032 | 25 | 267 | 5 | 394 | 298 | 93 | 18 | 35 | 320 | 5 | 33 | 44 | 11 | 25 | 23 | 4 |
-| leetcode-hard | 29 | 917 | 31 | 53 | 4 | 78 | 71 | 19 | 8 | 15 | 63 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
+| leetcode-hard | 30 | 957 | 31 | 56 | 4 | 88 | 75 | 19 | 8 | 15 | 70 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
 ## Recent Changes
 
@@ -45,6 +45,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-03-31 | LeetCode Hard | Lexicographically Smallest Generated String | [python](leetcode/hard/3474.%20Lexicographically%20Smallest%20Generated%20String.py) | [leetcode.com](https://leetcode.com/problems/lexicographically-smallest-generated-string/) |
 | 2026-03-27 | LeetCode Easy | Matrix Similarity After Cyclic Shifts | [python](leetcode/easy/2946.%20Matrix%20Similarity%20After%20Cyclic%20Shifts.py) | [leetcode.com](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/) |
 | 2026-03-25 | LeetCode Medium | Construct Product Matrix | [python](leetcode/medium/2906.%20Construct%20Product%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/construct-product-matrix/) |
 | 2026-03-25 | LeetCode Medium | Equal Sum Grid Partition I | [python](leetcode/medium/3546.%20Equal%20Sum%20Grid%20Partition%20I.py) | [leetcode.com](https://leetcode.com/problems/equal-sum-grid-partition-i/) |
@@ -54,7 +55,6 @@ Recently solved and added problems.
 | 2026-03-19 | LeetCode Medium | Maximum Substrings With Distinct Start | [python](leetcode/medium/3760.%20Maximum%20Substrings%20With%20Distinct%20Start.py) | [leetcode.com](https://leetcode.com/problems/maximum-substrings-with-distinct-start/) |
 | 2026-03-19 | LeetCode Easy | Count Commas in Range | [python](leetcode/easy/3870.%20Count%20Commas%20in%20Range.py) | [leetcode.com](https://leetcode.com/problems/count-commas-in-range/) |
 | 2026-03-19 | LeetCode Easy | First Unique Even Element | [python](leetcode/easy/3866.%20First%20Unique%20Even%20Element.py) | [leetcode.com](https://leetcode.com/problems/first-unique-even-element/) |
-| 2026-03-19 | LeetCode Easy | Minimum Capacity Box | [python](leetcode/easy/3861.%20Minimum%20Capacity%20Box.py) | [leetcode.com](https://leetcode.com/problems/minimum-capacity-box/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -263,6 +263,7 @@ Recently solved and added problems.
 | 2977 | Minimum Cost to Convert String II | O(n) | O(1) | [python](leetcode/hard/2977.%20Minimum%20Cost%20to%20Convert%20String%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/) |
 | 3027 | Find the Number of Ways to Place People II | O(n) | O(1) | [python](leetcode/hard/3027.%20Find%20the%20Number%20of%20Ways%20to%20Place%20People%20II.py) | [leetcode.com](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-ii/) |
 | 3347 | Maximum Frequency of an Element After Performing Operations II | O(n) | O(1) | [python](leetcode/hard/3347.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20II.py) | [leetcode.com](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii/) |
+| 3474 | Lexicographically Smallest Generated String | O(n*m) | O(n+m) | [python](leetcode/hard/3474.%20Lexicographically%20Smallest%20Generated%20String.py) | [leetcode.com](https://leetcode.com/problems/lexicographically-smallest-generated-string/) |
 | 3666 | Minimum Operations to Equalize Binary String | O(n) | O(1) | [python](leetcode/hard/3666.%20Minimum%20Operations%20to%20Equalize%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/) |
 
 ### Medium
