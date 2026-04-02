@@ -36,7 +36,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 109 | 1812 | 16 | 150 | 6 | 145 | 137 | 41 | 4 | 14 | 180 | 4 | 4 | 12 | 1 | 0 | 11 | 0 |
-| leetcode-medium | 156 | 4032 | 25 | 267 | 5 | 394 | 298 | 93 | 18 | 35 | 320 | 5 | 33 | 44 | 11 | 25 | 23 | 4 |
+| leetcode-medium | 157 | 4073 | 25 | 269 | 5 | 399 | 300 | 93 | 18 | 35 | 325 | 5 | 33 | 44 | 11 | 25 | 23 | 4 |
 | leetcode-hard | 30 | 957 | 31 | 56 | 4 | 88 | 75 | 19 | 8 | 15 | 70 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-04-02 | LeetCode Medium | Maximum Amount of Money Robot Can Earn | [python](leetcode/medium/3418.%20Maximum%20Amount%20of%20Money%20Robot%20Can%20Earn.py) | [leetcode.com](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/) |
 | 2026-03-31 | LeetCode Hard | Lexicographically Smallest Generated String | [python](leetcode/hard/3474.%20Lexicographically%20Smallest%20Generated%20String.py) | [leetcode.com](https://leetcode.com/problems/lexicographically-smallest-generated-string/) |
 | 2026-03-27 | LeetCode Easy | Matrix Similarity After Cyclic Shifts | [python](leetcode/easy/2946.%20Matrix%20Similarity%20After%20Cyclic%20Shifts.py) | [leetcode.com](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/) |
 | 2026-03-25 | LeetCode Medium | Construct Product Matrix | [python](leetcode/medium/2906.%20Construct%20Product%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/construct-product-matrix/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-03-21 | LeetCode Easy | Flip Square Submatrix Vertically | [python](leetcode/easy/3643.%20Flip%20Square%20Submatrix%20Vertically.py) | [leetcode.com](https://leetcode.com/problems/flip-square-submatrix-vertically/) |
 | 2026-03-19 | LeetCode Medium | Maximum Substrings With Distinct Start | [python](leetcode/medium/3760.%20Maximum%20Substrings%20With%20Distinct%20Start.py) | [leetcode.com](https://leetcode.com/problems/maximum-substrings-with-distinct-start/) |
 | 2026-03-19 | LeetCode Easy | Count Commas in Range | [python](leetcode/easy/3870.%20Count%20Commas%20in%20Range.py) | [leetcode.com](https://leetcode.com/problems/count-commas-in-range/) |
-| 2026-03-19 | LeetCode Easy | First Unique Even Element | [python](leetcode/easy/3866.%20First%20Unique%20Even%20Element.py) | [leetcode.com](https://leetcode.com/problems/first-unique-even-element/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -410,6 +410,7 @@ Recently solved and added problems.
 | 3381 | Maximum Subarray Sum With Length Divisible by K | O(n) | O(1) | [python](leetcode/medium/3381.%20Maximum%20Subarray%20Sum%20With%20Length%20Divisible%20by%20K.py) | [leetcode.com](https://leetcode.com/problems/maximum-subarray-sum-with-length-divisible-by-k/) |
 | 3397 | Maximum Number of Distinct Elements After Operations | O(n) | O(1) | [python](leetcode/medium/3397.%20Maximum%20Number%20of%20Distinct%20Elements%20After%20Operations.py) | [leetcode.com](https://leetcode.com/problems/maximum-number-of-distinct-elements-after-operations/) |
 | 3408 | Design Task Manager | O(n) | O(1) | [python](leetcode/medium/3408.%20Design%20Task%20Manager.py) | [leetcode.com](https://leetcode.com/problems/design-task-manager/) |
+| 3418 | Maximum Amount of Money Robot Can Earn | O(n * m) | O(n * m) | [python](leetcode/medium/3418.%20Maximum%20Amount%20of%20Money%20Robot%20Can%20Earn.py) | [leetcode.com](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/) |
 | 3433 | Count Mentions Per User | O(n) | O(1) | [python](leetcode/medium/3433.%20Count%20Mentions%20Per%20User.py) | [leetcode.com](https://leetcode.com/problems/count-mentions-per-user/) |
 | 3453 | Separate Squares I | O(n) | O(1) | [python](leetcode/medium/3453.%20Separate%20Squares%20I.py) | [leetcode.com](https://leetcode.com/problems/separate-squares-i/) |
 | 3484 | Design Spreadsheet | O(n) | O(1) | [python](leetcode/medium/3484.%20Design%20Spreadsheet.py) | [leetcode.com](https://leetcode.com/problems/design-spreadsheet/) |
