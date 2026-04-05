@@ -6,6 +6,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-04-05 | LeetCode Easy | Robot Return to Origin | [python](leetcode/easy/657.%20Robot%20Return%20to%20Origin.py) | [leetcode.com](https://leetcode.com/problems/robot-return-to-origin/) |
 | 2026-04-02 | LeetCode Medium | Maximum Amount of Money Robot Can Earn | [python](leetcode/medium/3418.%20Maximum%20Amount%20of%20Money%20Robot%20Can%20Earn.py) | [leetcode.com](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/) |
 | 2026-03-31 | LeetCode Hard | Lexicographically Smallest Generated String | [python](leetcode/hard/3474.%20Lexicographically%20Smallest%20Generated%20String.py) | [leetcode.com](https://leetcode.com/problems/lexicographically-smallest-generated-string/) |
 | 2026-03-27 | LeetCode Easy | Matrix Similarity After Cyclic Shifts | [python](leetcode/easy/2946.%20Matrix%20Similarity%20After%20Cyclic%20Shifts.py) | [leetcode.com](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/) |
@@ -15,4 +16,3 @@ Recently solved and added problems.
 | 2026-03-22 | LeetCode Easy | Determine Whether Matrix Can Be Obtained By Rotation | [python](leetcode/easy/1886.%20Determine%20Whether%20Matrix%20Can%20Be%20Obtained%20By%20Rotation.py) | [leetcode.com](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) |
 | 2026-03-21 | LeetCode Easy | Flip Square Submatrix Vertically | [python](leetcode/easy/3643.%20Flip%20Square%20Submatrix%20Vertically.py) | [leetcode.com](https://leetcode.com/problems/flip-square-submatrix-vertically/) |
 | 2026-03-19 | LeetCode Medium | Maximum Substrings With Distinct Start | [python](leetcode/medium/3760.%20Maximum%20Substrings%20With%20Distinct%20Start.py) | [leetcode.com](https://leetcode.com/problems/maximum-substrings-with-distinct-start/) |
-| 2026-03-19 | LeetCode Easy | Count Commas in Range | [python](leetcode/easy/3870.%20Count%20Commas%20in%20Range.py) | [leetcode.com](https://leetcode.com/problems/count-commas-in-range/) |
