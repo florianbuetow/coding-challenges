@@ -36,7 +36,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 110 | 1824 | 16 | 151 | 6 | 145 | 138 | 41 | 4 | 14 | 181 | 4 | 4 | 13 | 1 | 0 | 11 | 0 |
-| leetcode-medium | 157 | 4073 | 25 | 269 | 5 | 399 | 300 | 93 | 18 | 35 | 325 | 5 | 33 | 44 | 11 | 25 | 23 | 4 |
+| leetcode-medium | 158 | 4117 | 26 | 273 | 5 | 411 | 303 | 93 | 19 | 35 | 333 | 5 | 33 | 45 | 11 | 25 | 23 | 4 |
 | leetcode-hard | 30 | 957 | 31 | 56 | 4 | 88 | 75 | 19 | 8 | 15 | 70 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-04-06 | LeetCode Medium | Walking Robot Simulation | [python](leetcode/medium/874.%20Walking%20Robot%20Simulation.py) | [leetcode.com](https://leetcode.com/problems/walking-robot-simulation/description) |
 | 2026-04-05 | LeetCode Easy | Robot Return to Origin | [python](leetcode/easy/657.%20Robot%20Return%20to%20Origin.py) | [leetcode.com](https://leetcode.com/problems/robot-return-to-origin/) |
 | 2026-04-02 | LeetCode Medium | Maximum Amount of Money Robot Can Earn | [python](leetcode/medium/3418.%20Maximum%20Amount%20of%20Money%20Robot%20Can%20Earn.py) | [leetcode.com](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/) |
 | 2026-03-31 | LeetCode Hard | Lexicographically Smallest Generated String | [python](leetcode/hard/3474.%20Lexicographically%20Smallest%20Generated%20String.py) | [leetcode.com](https://leetcode.com/problems/lexicographically-smallest-generated-string/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-03-23 | LeetCode Medium | Maximum Non Negative Product in a Matrix | [python](leetcode/medium/1594.%20Maximum%20Non%20Negative%20Product%20in%20a%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/) |
 | 2026-03-22 | LeetCode Easy | Determine Whether Matrix Can Be Obtained By Rotation | [python](leetcode/easy/1886.%20Determine%20Whether%20Matrix%20Can%20Be%20Obtained%20By%20Rotation.py) | [leetcode.com](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) |
 | 2026-03-21 | LeetCode Easy | Flip Square Submatrix Vertically | [python](leetcode/easy/3643.%20Flip%20Square%20Submatrix%20Vertically.py) | [leetcode.com](https://leetcode.com/problems/flip-square-submatrix-vertically/) |
-| 2026-03-19 | LeetCode Medium | Maximum Substrings With Distinct Start | [python](leetcode/medium/3760.%20Maximum%20Substrings%20With%20Distinct%20Start.py) | [leetcode.com](https://leetcode.com/problems/maximum-substrings-with-distinct-start/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -314,6 +314,7 @@ Recently solved and added problems.
 | 852 | Peak Index in a Mountain Array | O(n) | O(1) | [python](leetcode/medium/852.%20Peak%20Index%20in%20a%20Mountain%20Array.py) | [leetcode.com](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/) |
 | 861 | Score After Flipping Matrix | O(n * m) | O(1) | [python](leetcode/medium/861.%20Score%20After%20Flipping%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/score-after-flipping-matrix/) |
 | 865 | Smallest Subtree with all the Deepest Nodes | O(n) | O(n) | [python](leetcode/medium/865.%20Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes.py) | [leetcode.com](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes) |
+| 874 | Walking Robot Simulation | O(n) | O(1) | [python](leetcode/medium/874.%20Walking%20Robot%20Simulation.py) | [leetcode.com](https://leetcode.com/problems/walking-robot-simulation/description) |
 | 912 | Sort an Array | O(n) | O(1) | [python](leetcode/medium/912.%20Sort%20an%20Array.py) | [leetcode.com](https://leetcode.com/problems/sort-an-array/description/) |
 | 948 | Bag of Tokens | O(n log n) | O(1) | [python](leetcode/medium/948.%20Bag%20of%20Tokens.py) | [leetcode.com](https://leetcode.com/problems/bag-of-tokens/) |
 | 950 | Reveal Cards In Increasing Order | O(n log n) | O(n) | [python](leetcode/medium/950.%20Reveal%20Cards%20In%20Increasing%20Order.py) | [leetcode.com](https://leetcode.com/problems/reveal-cards-in-increasing-order/) |
