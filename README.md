@@ -35,8 +35,8 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 110 | 1824 | 16 | 151 | 6 | 145 | 138 | 41 | 4 | 14 | 181 | 4 | 4 | 13 | 1 | 0 | 11 | 0 |
-| leetcode-medium | 158 | 4117 | 26 | 273 | 5 | 411 | 303 | 93 | 19 | 35 | 333 | 5 | 33 | 45 | 11 | 25 | 23 | 4 |
+| leetcode-easy | 110 | 1825 | 16 | 151 | 6 | 145 | 138 | 41 | 4 | 14 | 181 | 4 | 4 | 13 | 1 | 0 | 11 | 0 |
+| leetcode-medium | 160 | 4168 | 26 | 279 | 5 | 417 | 306 | 94 | 19 | 35 | 337 | 5 | 33 | 45 | 11 | 25 | 23 | 4 |
 | leetcode-hard | 30 | 957 | 31 | 56 | 4 | 88 | 75 | 19 | 8 | 15 | 70 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-04-08 | LeetCode Medium | XOR After Range Multiplication Queries I | [python](leetcode/medium/3653.%20XOR%20After%20Range%20Multiplication%20Queries%20I.py) | [leetcode.com](https://leetcode.com/problems/xor-after-range-multiplication-queries-i) |
 | 2026-04-06 | LeetCode Medium | Walking Robot Simulation | [python](leetcode/medium/874.%20Walking%20Robot%20Simulation.py) | [leetcode.com](https://leetcode.com/problems/walking-robot-simulation/description) |
 | 2026-04-05 | LeetCode Easy | Robot Return to Origin | [python](leetcode/easy/657.%20Robot%20Return%20to%20Origin.py) | [leetcode.com](https://leetcode.com/problems/robot-return-to-origin/) |
 | 2026-04-02 | LeetCode Medium | Maximum Amount of Money Robot Can Earn | [python](leetcode/medium/3418.%20Maximum%20Amount%20of%20Money%20Robot%20Can%20Earn.py) | [leetcode.com](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-03-25 | LeetCode Medium | Equal Sum Grid Partition I | [python](leetcode/medium/3546.%20Equal%20Sum%20Grid%20Partition%20I.py) | [leetcode.com](https://leetcode.com/problems/equal-sum-grid-partition-i/) |
 | 2026-03-23 | LeetCode Medium | Maximum Non Negative Product in a Matrix | [python](leetcode/medium/1594.%20Maximum%20Non%20Negative%20Product%20in%20a%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/) |
 | 2026-03-22 | LeetCode Easy | Determine Whether Matrix Can Be Obtained By Rotation | [python](leetcode/easy/1886.%20Determine%20Whether%20Matrix%20Can%20Be%20Obtained%20By%20Rotation.py) | [leetcode.com](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) |
-| 2026-03-21 | LeetCode Easy | Flip Square Submatrix Vertically | [python](leetcode/easy/3643.%20Flip%20Square%20Submatrix%20Vertically.py) | [leetcode.com](https://leetcode.com/problems/flip-square-submatrix-vertically/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -165,7 +165,7 @@ Recently solved and added problems.
 | 1317 | Convert Integer to the Sum of Two No-Zero Integers | O(n) | O(1) | [python](leetcode/easy/1317.%20Convert%20Integer%20to%20the%20Sum%20of%20Two%20No-Zero%20Integers.py) | [leetcode.com](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) |
 | 1351 | Count Negative Numbers in a Sorted Matrix | O(n) | O(1) | [python](leetcode/easy/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix) |
 | 1356 | Sort Integers by The Number of 1 Bits | O(n) | O(1) | [python](leetcode/easy/1356.%20Sort%20Integers%20by%20The%20Number%20of%201%20Bits.py) | [leetcode.com](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) |
-| 1380 | Lucky Numbers in a Matrix | N/A | N/A | [python](leetcode/easy/1380.%20Lucky%20Numbers%20in%20a%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) |
+| 1380 | Lucky Numbers in a Matrix | O(m * m * n) | O(1) | [python](leetcode/easy/1380.%20Lucky%20Numbers%20in%20a%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) |
 | 1437 | Check If All 1's Are at Least Length K Places Away | O(n) | O(1) | [python](leetcode/easy/1437.%20Check%20If%20All%201%27s%20Are%20at%20Least%20Length%20K%20Places%20Away.py) | [leetcode.com](https://leetcode.com/problems/check-if-all-1-s-are-at-least-length-k-places-away/) |
 | 1469 | Find All The Lonely Nodes | O(n) | O(1) | [python](leetcode/easy/1469.%20Find%20All%20The%20Lonely%20Nodes.py) | [leetcode.com](https://leetcode.com/problems/find-all-the-lonely-nodes/) |
 | 1518 | Water Bottles (alt) | O(n) | O(1) | [python](leetcode/easy/1518.%20Water%20Bottles%20%28alt%29.py) | [leetcode.com](https://leetcode.com/problems/water-bottles/) |
@@ -369,6 +369,7 @@ Recently solved and added problems.
 | 2054 | Two Best Non-Overlapping Events | O(n) | O(1) | [python](leetcode/medium/2054.%20Two%20Best%20Non-Overlapping%20Events.py) | [leetcode.com](https://leetcode.com/problems/two-best-non-overlapping-events/description/) |
 | 2058 | Find the Minimum and Maximum Number of Nodes Between Critical Points | O(n) | O(1) | [python](leetcode/medium/2058.%20Find%20the%20Minimum%20and%20Maximum%20Number%20of%20Nodes%20Between%20Critical%20Points.py) | [leetcode.com](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) |
 | 2061 | Number of Spaces Cleaning Robot Cleaned | O(n * m) | O(n * m) | [python](leetcode/medium/2061.%20Number%20of%20Spaces%20Cleaning%20Robot%20Cleaned.py) | [leetcode.com](https://leetcode.com/problems/number-of-spaces-cleaning-robot-cleaned/) |
+| 2069 | Walking Robot Simulation II | O(n + m) | O(1) | [python](leetcode/medium/2069.%20Walking%20Robot%20Simulation%20II.py) | [leetcode.com](https://leetcode.com/problems/walking-robot-simulation-ii/) |
 | 2096 | Step-By-Step Directions From a Binary Tree Node to Another | O(n) | O(n) | [python](leetcode/medium/2096.%20Step-By-Step%20Directions%20From%20a%20Binary%20Tree%20Node%20to%20Another.py) | [leetcode.com](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) |
 | 2110 | Number of Smooth Descent Periods of a Stock | O(n) | O(1) | [python](leetcode/medium/2110.%20Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock.py) | [leetcode.com](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/) |
 | 2125 | Number of Laser Beams in a Bank | O(n) | O(1) | [python](leetcode/medium/2125.%20Number%20of%20Laser%20Beams%20in%20a%20Bank.py) | [leetcode.com](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/) |
@@ -425,6 +426,7 @@ Recently solved and added problems.
 | 3634 | Minimum Removals to Balance Array | O(n) | O(1) | [python](leetcode/medium/3634.%20Minimum%20Removals%20to%20Balance%20Array.py) | [leetcode.com](https://leetcode.com/problems/minimum-removals-to-balance-array/) |
 | 3650 | Minimum Cost Path with Edge Reversals | O(n) | O(1) | [python](leetcode/medium/3650.%20Minimum%20Cost%20Path%20with%20Edge%20Reversals.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/) |
 | 3652 | Best Time to Buy and Sell Stock using Strategy | O(n) | O(1) | [python](leetcode/medium/3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy.py) | [leetcode.com](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/) |
+| 3653 | XOR After Range Multiplication Queries I | O(n*n*m) | O(n) | [python](leetcode/medium/3653.%20XOR%20After%20Range%20Multiplication%20Queries%20I.py) | [leetcode.com](https://leetcode.com/problems/xor-after-range-multiplication-queries-i) |
 | 3713 | Longest Balanced Substring I | O(n) | O(1) | [python](leetcode/medium/3713.%20Longest%20Balanced%20Substring%20I.py) | [leetcode.com](https://leetcode.com/problems/longest-balanced-substring-i/) |
 | 3714 | Longest Balanced Substring II | O(n) | O(1) | [python](leetcode/medium/3714.%20Longest%20Balanced%20Substring%20II.py) | [leetcode.com](https://leetcode.com/problems/longest-balanced-substring-ii/) |
 | 3719 | Longest Balanced Subarray I | O(n) | O(1) | [python](leetcode/medium/3719.%20Longest%20Balanced%20Subarray%20I.py) | [leetcode.com](https://leetcode.com/problems/longest-balanced-subarray-i/) |
