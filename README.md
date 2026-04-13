@@ -35,7 +35,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 110 | 1825 | 16 | 151 | 6 | 145 | 138 | 41 | 4 | 14 | 181 | 4 | 4 | 13 | 1 | 0 | 11 | 0 |
+| leetcode-easy | 111 | 1835 | 16 | 152 | 6 | 146 | 139 | 41 | 4 | 14 | 182 | 4 | 4 | 13 | 1 | 0 | 11 | 0 |
 | leetcode-medium | 161 | 4192 | 26 | 280 | 5 | 418 | 309 | 94 | 19 | 35 | 338 | 5 | 33 | 46 | 11 | 25 | 23 | 4 |
 | leetcode-hard | 30 | 957 | 31 | 56 | 4 | 88 | 75 | 19 | 8 | 15 | 70 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-04-13 | LeetCode Easy | Minimum Distance to the Target Element | [python](leetcode/easy/1848.%20Minimum%20Distance%20to%20the%20Target%20Element.py) | [leetcode.com](https://leetcode.com/problems/minimum-distance-to-the-target-element/) |
 | 2026-04-11 | LeetCode Medium | Walking Robot Simulation II | [python](leetcode/medium/2069.%20Walking%20Robot%20Simulation%20II.py) | [leetcode.com](https://leetcode.com/problems/walking-robot-simulation-ii/) |
 | 2026-04-11 | LeetCode Medium | Minimum Distance Between Three Equal Elements II | [python](leetcode/medium/3741.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/) |
 | 2026-04-08 | LeetCode Medium | XOR After Range Multiplication Queries I | [python](leetcode/medium/3653.%20XOR%20After%20Range%20Multiplication%20Queries%20I.py) | [leetcode.com](https://leetcode.com/problems/xor-after-range-multiplication-queries-i) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-03-31 | LeetCode Hard | Lexicographically Smallest Generated String | [python](leetcode/hard/3474.%20Lexicographically%20Smallest%20Generated%20String.py) | [leetcode.com](https://leetcode.com/problems/lexicographically-smallest-generated-string/) |
 | 2026-03-27 | LeetCode Easy | Matrix Similarity After Cyclic Shifts | [python](leetcode/easy/2946.%20Matrix%20Similarity%20After%20Cyclic%20Shifts.py) | [leetcode.com](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/) |
 | 2026-03-25 | LeetCode Medium | Construct Product Matrix | [python](leetcode/medium/2906.%20Construct%20Product%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/construct-product-matrix/) |
-| 2026-03-25 | LeetCode Medium | Equal Sum Grid Partition I | [python](leetcode/medium/3546.%20Equal%20Sum%20Grid%20Partition%20I.py) | [leetcode.com](https://leetcode.com/problems/equal-sum-grid-partition-i/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -179,6 +179,7 @@ Recently solved and added problems.
 | 1758 | Minimum Changes To Make Alternating Binary String | O(n) | O(1) | [python](leetcode/easy/1758.%20Minimum%20Changes%20To%20Make%20Alternating%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) |
 | 1784 | Check if Binary String Has at Most One Segment of Ones | O(n) | O(1) | [python](leetcode/easy/1784.%20Check%20if%20Binary%20String%20Has%20at%20Most%20One%20Segment%20of%20Ones.py) | [leetcode.com](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) |
 | 1791 | Find Center of Star Graph | O(n) | O(1) | [python](leetcode/easy/1791.%20Find%20Center%20of%20Star%20Graph.py) | [leetcode.com](https://leetcode.com/problems/find-center-of-star-graph/) |
+| 1848 | Minimum Distance to the Target Element | O(n) | O(1) | [python](leetcode/easy/1848.%20Minimum%20Distance%20to%20the%20Target%20Element.py) | [leetcode.com](https://leetcode.com/problems/minimum-distance-to-the-target-element/) |
 | 1863 | Sum of All Subset XOR Totals | O(n) | O(1) | [python](leetcode/easy/1863.%20Sum%20of%20All%20Subset%20XOR%20Totals.py) | [leetcode.com](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) |
 | 1886 | Determine Whether Matrix Can Be Obtained By Rotation | O(n*n) | O(n*n) | [python](leetcode/easy/1886.%20Determine%20Whether%20Matrix%20Can%20Be%20Obtained%20By%20Rotation.py) | [leetcode.com](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/) |
 | 1925 | Count Square Sum Triples | O(n) | O(1) | [python](leetcode/easy/1925.%20Count%20Square%20Sum%20Triples.py) | [leetcode.com](https://leetcode.com/problems/count-square-sum-triples/) |
