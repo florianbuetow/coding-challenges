@@ -6,6 +6,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-04-13 | LeetCode Easy | Minimum Distance to the Target Element | [python](leetcode/easy/1848.%20Minimum%20Distance%20to%20the%20Target%20Element.py) | [leetcode.com](https://leetcode.com/problems/minimum-distance-to-the-target-element/) |
 | 2026-04-11 | LeetCode Medium | Walking Robot Simulation II | [python](leetcode/medium/2069.%20Walking%20Robot%20Simulation%20II.py) | [leetcode.com](https://leetcode.com/problems/walking-robot-simulation-ii/) |
 | 2026-04-11 | LeetCode Medium | Minimum Distance Between Three Equal Elements II | [python](leetcode/medium/3741.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/) |
 | 2026-04-08 | LeetCode Medium | XOR After Range Multiplication Queries I | [python](leetcode/medium/3653.%20XOR%20After%20Range%20Multiplication%20Queries%20I.py) | [leetcode.com](https://leetcode.com/problems/xor-after-range-multiplication-queries-i) |
@@ -15,4 +16,3 @@ Recently solved and added problems.
 | 2026-03-31 | LeetCode Hard | Lexicographically Smallest Generated String | [python](leetcode/hard/3474.%20Lexicographically%20Smallest%20Generated%20String.py) | [leetcode.com](https://leetcode.com/problems/lexicographically-smallest-generated-string/) |
 | 2026-03-27 | LeetCode Easy | Matrix Similarity After Cyclic Shifts | [python](leetcode/easy/2946.%20Matrix%20Similarity%20After%20Cyclic%20Shifts.py) | [leetcode.com](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/) |
 | 2026-03-25 | LeetCode Medium | Construct Product Matrix | [python](leetcode/medium/2906.%20Construct%20Product%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/construct-product-matrix/) |
-| 2026-03-25 | LeetCode Medium | Equal Sum Grid Partition I | [python](leetcode/medium/3546.%20Equal%20Sum%20Grid%20Partition%20I.py) | [leetcode.com](https://leetcode.com/problems/equal-sum-grid-partition-i/) |
