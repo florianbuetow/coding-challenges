@@ -35,7 +35,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 111 | 1835 | 16 | 152 | 6 | 146 | 139 | 41 | 4 | 14 | 182 | 4 | 4 | 13 | 1 | 0 | 11 | 0 |
+| leetcode-easy | 112 | 1854 | 16 | 154 | 6 | 148 | 140 | 41 | 4 | 14 | 186 | 4 | 4 | 13 | 1 | 0 | 11 | 0 |
 | leetcode-medium | 161 | 4192 | 26 | 280 | 5 | 418 | 309 | 94 | 19 | 35 | 338 | 5 | 33 | 46 | 11 | 25 | 23 | 4 |
 | leetcode-hard | 30 | 957 | 31 | 56 | 4 | 88 | 75 | 19 | 8 | 15 | 70 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-04-15 | LeetCode Easy | Shortest Distance to Target String in a Circular Array | [python](leetcode/easy/2515.%20Shortest%20Distance%20to%20Target%20String%20in%20a%20Circular%20Array.py) | [leetcode.com](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/) |
 | 2026-04-13 | LeetCode Easy | Minimum Distance to the Target Element | [python](leetcode/easy/1848.%20Minimum%20Distance%20to%20the%20Target%20Element.py) | [leetcode.com](https://leetcode.com/problems/minimum-distance-to-the-target-element/) |
 | 2026-04-11 | LeetCode Medium | Walking Robot Simulation II | [python](leetcode/medium/2069.%20Walking%20Robot%20Simulation%20II.py) | [leetcode.com](https://leetcode.com/problems/walking-robot-simulation-ii/) |
 | 2026-04-11 | LeetCode Medium | Minimum Distance Between Three Equal Elements II | [python](leetcode/medium/3741.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-04-02 | LeetCode Medium | Maximum Amount of Money Robot Can Earn | [python](leetcode/medium/3418.%20Maximum%20Amount%20of%20Money%20Robot%20Can%20Earn.py) | [leetcode.com](https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/) |
 | 2026-03-31 | LeetCode Hard | Lexicographically Smallest Generated String | [python](leetcode/hard/3474.%20Lexicographically%20Smallest%20Generated%20String.py) | [leetcode.com](https://leetcode.com/problems/lexicographically-smallest-generated-string/) |
 | 2026-03-27 | LeetCode Easy | Matrix Similarity After Cyclic Shifts | [python](leetcode/easy/2946.%20Matrix%20Similarity%20After%20Cyclic%20Shifts.py) | [leetcode.com](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/) |
-| 2026-03-25 | LeetCode Medium | Construct Product Matrix | [python](leetcode/medium/2906.%20Construct%20Product%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/construct-product-matrix/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -192,6 +192,7 @@ Recently solved and added problems.
 | 2273 | Find Resultant Array After Removing Anagrams | O(n) | O(1) | [python](leetcode/easy/2273.%20Find%20Resultant%20Array%20After%20Removing%20Anagrams.py) | [leetcode.com](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/) |
 | 2331 | Evaluate Boolean Binary Tree | O(n) | O(1) | [python](leetcode/easy/2331.%20Evaluate%20Boolean%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/evaluate-boolean-binary-tree/) |
 | 2490 | Circular Sentence | O(n) | O(1) | [python](leetcode/easy/2490.%20Circular%20Sentence.py) | [leetcode.com](https://leetcode.com/problems/circular-sentence/) |
+| 2515 | Shortest Distance to Target String in a Circular Array | O(n) | O(1) | [python](leetcode/easy/2515.%20Shortest%20Distance%20to%20Target%20String%20in%20a%20Circular%20Array.py) | [leetcode.com](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/) |
 | 2696 | Minimum String Length After Removing Substrings | O(n) | O(1) | [python](leetcode/easy/2696.%20Minimum%20String%20Length%20After%20Removing%20Substrings.py) | [leetcode.com](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/) |
 | 2946 | Matrix Similarity After Cyclic Shifts | O(n*m) | O(m) | [python](leetcode/easy/2946.%20Matrix%20Similarity%20After%20Cyclic%20Shifts.py) | [leetcode.com](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/) |
 | 3005 | Count Elements With Maximum Frequency | O(n) | O(1) | [python](leetcode/easy/3005.%20Count%20Elements%20With%20Maximum%20Frequency.py) | [leetcode.com](https://leetcode.com/problems/count-elements-with-maximum-frequency/) |
