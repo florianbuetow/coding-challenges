@@ -2,7 +2,6 @@
 
 class Robot:
     def __init__(self, width: int, height: int):
-        # O(1) time and space
         self.pos = [0, 0, 3]
         self.width = width
         self.height = height

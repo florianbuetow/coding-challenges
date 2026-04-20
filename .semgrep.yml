@@ -18,19 +18,28 @@ rules:
     severity: ERROR
 
   - id: leetcode-missing-complexity-comment
-    pattern-regex: "    def \\w+\\(self[^)]*\\)[^:\\n]*:\\n(?![ \\t]*# O\\()"
+    pattern-regex: "\\A(?!(?s).*# O\\([^)]*\\)[^\n]*time[^\n]*space)."
     languages: [generic]
     paths:
       include:
         - "leetcode/"
-    message: "First line inside method must be a complexity comment (# O(...))"
+    message: "File must contain exactly one complexity comment (e.g. # O(n) time and O(1) space)"
     severity: ERROR
 
-  - id: leetcode-duplicate-complexity-comment
-    pattern-regex: "^# O\\([^\\n]*\\n(?s).*^[ \\t]+# O\\("
+  - id: leetcode-complexity-not-in-method
+    pattern-regex: "^# O\\([^)]*\\)[^\n]*time[^\n]*space"
     languages: [generic]
     paths:
       include:
         - "leetcode/"
-    message: "Complexity comment appears both at file level and inside method — keep only the one inside the method"
+    message: "Complexity comment must be inside a method (indented after def), not at file level"
+    severity: ERROR
+
+  - id: leetcode-complexity-wrong-order
+    pattern-regex: "# O\\([^)]*\\)[^\n]*space[^\n]*time"
+    languages: [generic]
+    paths:
+      include:
+        - "leetcode/"
+    message: "Complexity comment must use 'time' before 'space' (e.g. # O(n) time and O(1) space)"
     severity: ERROR
