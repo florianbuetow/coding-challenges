@@ -3,6 +3,7 @@
 
 class Solution:
     def luckyNumbers (self, matrix: List[List[int]]) -> List[int]:
+        # O(m * m * n) time and O(1) space
         result = []
         for col in range(len(matrix[0])):
             max_val = -float('inf')

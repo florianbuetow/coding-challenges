@@ -5,7 +5,7 @@ from typing import List
 
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
-        # O(n) space and time
+        # O(n) time and space
         # link: https://leetcode.com/problems/product-of-array-except-self/
         # idea: two passes over nums using prefix product and postfix product
         result = [1] * len(nums)
