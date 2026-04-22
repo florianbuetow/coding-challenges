@@ -24,24 +24,33 @@
 #    appropriate error message.
 #
 # 6. Every target must end with a clear short status message:
-#    - On success: green (\033[32m) message confirming completion.
-#      E.g. printf "\033[32m✓ init completed successfully\033[0m\n"
-#    - On failure: red (\033[31m) message indicating what failed, then exit 1.
-#      E.g. printf "\033[31m✗ ci failed: tests exited with errors\033[0m\n"
+#    - On success: green (\033[0;32m) message confirming completion.
+#      E.g. printf "\033[0;32m✓ init completed successfully\033[0m\n"
+#    - On failure: red (\033[0;31m) message indicating what failed, then exit 1.
+#      E.g. printf "\033[0;31m✗ ci failed: tests exited with errors\033[0m\n"
 # =============================================================================
 
-# Default target
-default: help
+# Default recipe: show available commands
+_default:
+    @just help
 
 # Show available targets
 help:
     @echo ""
-    @printf "\033[1mAvailable targets:\033[0m\n"
+    @clear
     @echo ""
-    @printf "  \033[36mgenerate\033[0m   Generate README.md and CHANGES.md\n"
-    @printf "  \033[36mgraph\033[0m      Generate solutions growth chart\n"
-    @printf "  \033[36mci\033[0m         Run CI checks (semgrep)\n"
-    @printf "  \033[36mdestroy\033[0m    Remove virtual environment\n"
+    @printf "\033[0;34m=== coding-challenges ===\033[0m\n"
+    @echo ""
+    @printf "\033[0;33mSolutions:\033[0m\n"
+    @printf "  %-38s %s\n" "generate" "Generate README.md and CHANGES.md"
+    @printf "  %-38s %s\n" "graph" "Generate solutions growth chart"
+    @printf "  %-38s %s\n" "leetcode" "Show last 10 accepted LeetCode submissions"
+    @echo ""
+    @printf "\033[0;33mCode Quality:\033[0m\n"
+    @printf "  %-38s %s\n" "ci" "Run CI checks (semgrep)"
+    @echo ""
+    @printf "\033[0;33mLifecycle:\033[0m\n"
+    @printf "  %-38s %s\n" "destroy" "Remove virtual environment"
     @echo ""
 
 # Generate README.md and CHANGES.md
@@ -49,9 +58,9 @@ generate: graph
     #!/usr/bin/env bash
     echo ""
     if uv run generate_readme.py; then
-        printf "\033[32m✓ README.md and CHANGES.md generated successfully\033[0m\n"
+        printf "\033[0;32m✓ README.md and CHANGES.md generated successfully\033[0m\n"
     else
-        printf "\033[31m✗ generate failed: uv run exited with errors\033[0m\n"
+        printf "\033[0;31m✗ generate failed: uv run exited with errors\033[0m\n"
         exit 1
     fi
     echo ""
@@ -62,11 +71,19 @@ graph:
     echo ""
     if uv run generate_graph.py; then
         git add solutions_growth.png
-        printf "\033[32m✓ solutions growth chart generated successfully\033[0m\n"
+        printf "\033[0;32m✓ solutions growth chart generated successfully\033[0m\n"
     else
-        printf "\033[31m✗ graph failed: uv run exited with errors\033[0m\n"
+        printf "\033[0;31m✗ graph failed: uv run exited with errors\033[0m\n"
         exit 1
     fi
+    echo ""
+
+# Show last 10 accepted LeetCode submissions for sudoplz
+leetcode:
+    #!/usr/bin/env bash
+    echo ""
+    uv run leetcode_recent.py || exit 1
+    printf "\033[0;32m✓ done\033[0m\n"
     echo ""
 
 # Run CI checks
@@ -75,11 +92,11 @@ ci:
     echo ""
     output=$(semgrep --error --config .semgrep.yml leetcode/ 2>&1)
     if [ $? -eq 0 ]; then
-        printf "\033[32m✓ ci passed\033[0m\n"
+        printf "\033[0;32m✓ ci passed\033[0m\n"
     else
         echo "$output" | grep -B2 -A5 "❯❯❱" | head -8
         echo ""
-        printf "\033[31m✗ ci failed: semgrep found violations (showing first)\033[0m\n"
+        printf "\033[0;31m✗ ci failed: semgrep found violations (showing first)\033[0m\n"
         echo ""
         exit 1
     fi
@@ -91,8 +108,8 @@ destroy:
     echo ""
     if [ -d .venv ]; then
         rm -rf .venv
-        printf "\033[32m✓ Virtual environment removed\033[0m\n"
+        printf "\033[0;32m✓ Virtual environment removed\033[0m\n"
     else
-        printf "\033[32m✓ No virtual environment to remove\033[0m\n"
+        printf "\033[0;32m✓ No virtual environment to remove\033[0m\n"
     fi
     echo ""
