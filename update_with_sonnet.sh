@@ -1,0 +1,3 @@
+#!/bin/bash
+clear
+claude --model sonnet 'Run just leetcode. Read ONLY row #1 of the output table — ignore all other rows completely. Check the Local column of row #1: if it says yes, print "The latest solution is already in the repository." and STOP immediately — do not do anything else. If it says -, add only that problem. The cached solution is in .cache/solutions/<problem number>. <problem name>.py. If just leetcode returns an error, open https://leetcode.com in the browser using the open command, then ask the user to log in and paste their session cookie. Once the user provides the cookie value, write it to .cache/leetcode.cookie, then retry just leetcode.'

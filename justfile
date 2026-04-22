@@ -45,6 +45,7 @@ help:
     @printf "  %-38s %s\n" "generate" "Generate README.md and CHANGES.md"
     @printf "  %-38s %s\n" "graph" "Generate solutions growth chart"
     @printf "  %-38s %s\n" "leetcode" "Show last 10 accepted LeetCode submissions"
+    @printf "  %-38s %s\n" "update" "Add latest LeetCode solution to repository"
     @echo ""
     @printf "\033[0;33mCode Quality:\033[0m\n"
     @printf "  %-38s %s\n" "ci" "Run CI checks (semgrep)"
@@ -84,6 +85,13 @@ leetcode:
     echo ""
     uv run leetcode_recent.py || exit 1
     printf "\033[0;32m✓ done\033[0m\n"
+    echo ""
+
+# Add latest LeetCode solution to repository
+update:
+    #!/usr/bin/env bash
+    echo ""
+    bash update_with_sonnet.sh
     echo ""
 
 # Run CI checks
