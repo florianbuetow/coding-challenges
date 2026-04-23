@@ -6,6 +6,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-04-23 | LeetCode Medium | Sum of Distances | [python](leetcode/medium/2615.%20Sum%20of%20Distances.py) | [leetcode.com](https://leetcode.com/problems/sum-of-distances/) |
 | 2026-04-22 | LeetCode Medium | Words Within Two Edits of Dictionary | [python](leetcode/medium/2452.%20Words%20Within%20Two%20Edits%20of%20Dictionary.py) | [leetcode.com](https://leetcode.com/problems/words-within-two-edits-of-dictionary/) |
 | 2026-04-20 | LeetCode Easy | Lucky Numbers in a Matrix | [python](leetcode/easy/1380.%20Lucky%20Numbers%20in%20a%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) |
 | 2026-04-20 | LeetCode Medium | Walking Robot Simulation II | [python](leetcode/medium/2069.%20Walking%20Robot%20Simulation%20II.py) | [leetcode.com](https://leetcode.com/problems/walking-robot-simulation-ii/) |
@@ -15,4 +16,3 @@ Recently solved and added problems.
 | 2026-04-16 | LeetCode Medium | Closest Equal Element Queries | [python](leetcode/medium/3488.%20Closest%20Equal%20Element%20Queries.py) | [leetcode.com](https://leetcode.com/problems/closest-equal-element-queries/) |
 | 2026-04-15 | LeetCode Easy | Shortest Distance to Target String in a Circular Array | [python](leetcode/easy/2515.%20Shortest%20Distance%20to%20Target%20String%20in%20a%20Circular%20Array.py) | [leetcode.com](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/) |
 | 2026-04-13 | LeetCode Easy | Minimum Distance to the Target Element | [python](leetcode/easy/1848.%20Minimum%20Distance%20to%20the%20Target%20Element.py) | [leetcode.com](https://leetcode.com/problems/minimum-distance-to-the-target-element/) |
-| 2026-04-11 | LeetCode Medium | Walking Robot Simulation II | [python](leetcode/medium/2069.%20Walking%20Robot%20Simulation%20II.py) | [leetcode.com](https://leetcode.com/problems/walking-robot-simulation-ii/) |
