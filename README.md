@@ -36,7 +36,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 113 | 1871 | 16 | 155 | 6 | 150 | 142 | 41 | 4 | 14 | 187 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
-| leetcode-medium | 164 | 4288 | 26 | 289 | 5 | 427 | 316 | 95 | 19 | 35 | 350 | 6 | 33 | 50 | 11 | 25 | 23 | 7 |
+| leetcode-medium | 165 | 4305 | 26 | 290 | 5 | 427 | 318 | 95 | 19 | 35 | 351 | 6 | 33 | 52 | 11 | 25 | 23 | 7 |
 | leetcode-hard | 30 | 957 | 31 | 56 | 4 | 88 | 75 | 19 | 8 | 15 | 70 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-04-23 | LeetCode Medium | Sum of Distances | [python](leetcode/medium/2615.%20Sum%20of%20Distances.py) | [leetcode.com](https://leetcode.com/problems/sum-of-distances/) |
 | 2026-04-22 | LeetCode Medium | Words Within Two Edits of Dictionary | [python](leetcode/medium/2452.%20Words%20Within%20Two%20Edits%20of%20Dictionary.py) | [leetcode.com](https://leetcode.com/problems/words-within-two-edits-of-dictionary/) |
 | 2026-04-20 | LeetCode Easy | Lucky Numbers in a Matrix | [python](leetcode/easy/1380.%20Lucky%20Numbers%20in%20a%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) |
 | 2026-04-20 | LeetCode Medium | Walking Robot Simulation II | [python](leetcode/medium/2069.%20Walking%20Robot%20Simulation%20II.py) | [leetcode.com](https://leetcode.com/problems/walking-robot-simulation-ii/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-04-16 | LeetCode Medium | Closest Equal Element Queries | [python](leetcode/medium/3488.%20Closest%20Equal%20Element%20Queries.py) | [leetcode.com](https://leetcode.com/problems/closest-equal-element-queries/) |
 | 2026-04-15 | LeetCode Easy | Shortest Distance to Target String in a Circular Array | [python](leetcode/easy/2515.%20Shortest%20Distance%20to%20Target%20String%20in%20a%20Circular%20Array.py) | [leetcode.com](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/) |
 | 2026-04-13 | LeetCode Easy | Minimum Distance to the Target Element | [python](leetcode/easy/1848.%20Minimum%20Distance%20to%20the%20Target%20Element.py) | [leetcode.com](https://leetcode.com/problems/minimum-distance-to-the-target-element/) |
-| 2026-04-11 | LeetCode Medium | Walking Robot Simulation II | [python](leetcode/medium/2069.%20Walking%20Robot%20Simulation%20II.py) | [leetcode.com](https://leetcode.com/problems/walking-robot-simulation-ii/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -388,6 +388,7 @@ Recently solved and added problems.
 | 2483 | Minimum Penalty for a Shop | O(n) | O(1) | [python](leetcode/medium/2483.%20Minimum%20Penalty%20for%20a%20Shop.py) | [leetcode.com](https://leetcode.com/problems/minimum-penalty-for-a-shop) |
 | 2486 | Append Characters to String to Make Subsequence | O(n) | O(1) | [python](leetcode/medium/2486.%20Append%20Characters%20to%20String%20to%20Make%20Subsequence.py) | [leetcode.com](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/) |
 | 2536 | Increment Submatrices by One | O(n) | O(1) | [python](leetcode/medium/2536.%20Increment%20Submatrices%20by%20One.py) | [leetcode.com](https://leetcode.com/problems/increment-submatrices-by-one) |
+| 2615 | Sum of Distances | O(n) | O(n) | [python](leetcode/medium/2615.%20Sum%20of%20Distances.py) | [leetcode.com](https://leetcode.com/problems/sum-of-distances/) |
 | 2641 | Cousins in Binary Tree II | O(n) | O(n) | [python](leetcode/medium/2641.%20Cousins%20in%20Binary%20Tree%20II.py) | [leetcode.com](https://leetcode.com/problems/cousins-in-binary-tree-ii/) |
 | 2664 | The Knight’s Tour | O(8^(n*m)) | O(n*m) | [python](leetcode/medium/2664.%20The%20Knight%E2%80%99s%20Tour.py) | [leetcode.com](https://leetcode.com/problems/the-knight-s-tour/) |
 | 2684 | Maximum Number of Moves in a Grid | O(n*m) | O(n*m) | [python](leetcode/medium/2684.%20Maximum%20Number%20of%20Moves%20in%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/) |
