@@ -35,7 +35,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 113 | 1871 | 16 | 155 | 6 | 150 | 142 | 41 | 4 | 14 | 187 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
+| leetcode-easy | 114 | 1879 | 16 | 156 | 6 | 152 | 144 | 41 | 4 | 14 | 188 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
 | leetcode-medium | 165 | 4305 | 26 | 290 | 5 | 427 | 318 | 95 | 19 | 35 | 351 | 6 | 33 | 52 | 11 | 25 | 23 | 7 |
 | leetcode-hard | 30 | 957 | 31 | 56 | 4 | 88 | 75 | 19 | 8 | 15 | 70 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-04-24 | LeetCode Easy | Furthest Point From Origin | [python](leetcode/easy/2833.%20Furthest%20Point%20From%20Origin.py) | [leetcode.com](https://leetcode.com/problems/furthest-point-from-origin/) |
 | 2026-04-23 | LeetCode Medium | Sum of Distances | [python](leetcode/medium/2615.%20Sum%20of%20Distances.py) | [leetcode.com](https://leetcode.com/problems/sum-of-distances/) |
 | 2026-04-22 | LeetCode Medium | Words Within Two Edits of Dictionary | [python](leetcode/medium/2452.%20Words%20Within%20Two%20Edits%20of%20Dictionary.py) | [leetcode.com](https://leetcode.com/problems/words-within-two-edits-of-dictionary/) |
 | 2026-04-20 | LeetCode Easy | Lucky Numbers in a Matrix | [python](leetcode/easy/1380.%20Lucky%20Numbers%20in%20a%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-04-17 | LeetCode Medium | Minimum Absolute Distance Between Mirror Pairs | [python](leetcode/medium/3761.%20Minimum%20Absolute%20Distance%20Between%20Mirror%20Pairs.py) | [leetcode.com](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/) |
 | 2026-04-16 | LeetCode Medium | Closest Equal Element Queries | [python](leetcode/medium/3488.%20Closest%20Equal%20Element%20Queries.py) | [leetcode.com](https://leetcode.com/problems/closest-equal-element-queries/) |
 | 2026-04-15 | LeetCode Easy | Shortest Distance to Target String in a Circular Array | [python](leetcode/easy/2515.%20Shortest%20Distance%20to%20Target%20String%20in%20a%20Circular%20Array.py) | [leetcode.com](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/) |
-| 2026-04-13 | LeetCode Easy | Minimum Distance to the Target Element | [python](leetcode/easy/1848.%20Minimum%20Distance%20to%20the%20Target%20Element.py) | [leetcode.com](https://leetcode.com/problems/minimum-distance-to-the-target-element/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -195,6 +195,7 @@ Recently solved and added problems.
 | 2490 | Circular Sentence | O(n) | O(1) | [python](leetcode/easy/2490.%20Circular%20Sentence.py) | [leetcode.com](https://leetcode.com/problems/circular-sentence/) |
 | 2515 | Shortest Distance to Target String in a Circular Array | O(n) | O(1) | [python](leetcode/easy/2515.%20Shortest%20Distance%20to%20Target%20String%20in%20a%20Circular%20Array.py) | [leetcode.com](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/) |
 | 2696 | Minimum String Length After Removing Substrings | O(n) | O(1) | [python](leetcode/easy/2696.%20Minimum%20String%20Length%20After%20Removing%20Substrings.py) | [leetcode.com](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/) |
+| 2833 | Furthest Point From Origin | O(n) | O(1) | [python](leetcode/easy/2833.%20Furthest%20Point%20From%20Origin.py) | [leetcode.com](https://leetcode.com/problems/furthest-point-from-origin/) |
 | 2946 | Matrix Similarity After Cyclic Shifts | O(n*m) | O(m) | [python](leetcode/easy/2946.%20Matrix%20Similarity%20After%20Cyclic%20Shifts.py) | [leetcode.com](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/) |
 | 3005 | Count Elements With Maximum Frequency | O(n) | O(1) | [python](leetcode/easy/3005.%20Count%20Elements%20With%20Maximum%20Frequency.py) | [leetcode.com](https://leetcode.com/problems/count-elements-with-maximum-frequency/) |
 | 3063 | Linked List Frequency | O(n) | O(1) | [python](leetcode/easy/3063.%20Linked%20List%20Frequency.py) | [leetcode.com](https://leetcode.com/problems/linked-list-frequency/) |
