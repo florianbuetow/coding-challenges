@@ -36,7 +36,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 114 | 1879 | 16 | 156 | 6 | 152 | 144 | 41 | 4 | 14 | 188 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
-| leetcode-medium | 165 | 4305 | 26 | 290 | 5 | 427 | 318 | 95 | 19 | 35 | 351 | 6 | 33 | 52 | 11 | 25 | 23 | 7 |
+| leetcode-medium | 166 | 4332 | 26 | 292 | 5 | 435 | 321 | 95 | 19 | 36 | 356 | 6 | 34 | 52 | 11 | 25 | 23 | 7 |
 | leetcode-hard | 30 | 957 | 31 | 56 | 4 | 88 | 75 | 19 | 8 | 15 | 70 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-04-26 | LeetCode Medium | Detect Cycles in 2D Grid | [python](leetcode/medium/1559.%20Detect%20Cycles%20in%202D%20Grid.py) | [leetcode.com](https://leetcode.com/problems/detect-cycles-in-2d-grid/) |
 | 2026-04-24 | LeetCode Easy | Furthest Point From Origin | [python](leetcode/easy/2833.%20Furthest%20Point%20From%20Origin.py) | [leetcode.com](https://leetcode.com/problems/furthest-point-from-origin/) |
 | 2026-04-23 | LeetCode Medium | Sum of Distances | [python](leetcode/medium/2615.%20Sum%20of%20Distances.py) | [leetcode.com](https://leetcode.com/problems/sum-of-distances/) |
 | 2026-04-22 | LeetCode Medium | Words Within Two Edits of Dictionary | [python](leetcode/medium/2452.%20Words%20Within%20Two%20Edits%20of%20Dictionary.py) | [leetcode.com](https://leetcode.com/problems/words-within-two-edits-of-dictionary/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-04-20 | LeetCode Easy | Two Furthest Houses With Different Colors | [python](leetcode/easy/2078.%20Two%20Furthest%20Houses%20With%20Different%20Colors.py) | [leetcode.com](https://leetcode.com/problems/two-furthest-houses-with-different-colors/) |
 | 2026-04-17 | LeetCode Medium | Minimum Absolute Distance Between Mirror Pairs | [python](leetcode/medium/3761.%20Minimum%20Absolute%20Distance%20Between%20Mirror%20Pairs.py) | [leetcode.com](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/) |
 | 2026-04-16 | LeetCode Medium | Closest Equal Element Queries | [python](leetcode/medium/3488.%20Closest%20Equal%20Element%20Queries.py) | [leetcode.com](https://leetcode.com/problems/closest-equal-element-queries/) |
-| 2026-04-15 | LeetCode Easy | Shortest Distance to Target String in a Circular Array | [python](leetcode/easy/2515.%20Shortest%20Distance%20to%20Target%20String%20in%20a%20Circular%20Array.py) | [leetcode.com](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -352,6 +352,7 @@ Recently solved and added problems.
 | 1509 | Minimum Difference Between Largest and Small | O(n) | O(1) | [python](leetcode/medium/1509.%20Minimum%20Difference%20Between%20Largest%20and%20Small.py) | [leetcode.com](https://leetcode.com/problems/minimum-difference-between-largest-and-small/) |
 | 1513 | Number of Substrings With Only 1s | O(n) | O(1) | [python](leetcode/medium/1513.%20Number%20of%20Substrings%20With%20Only%201s.py) | [leetcode.com](https://leetcode.com/problems/number-of-substrings-with-only-1s/) |
 | 1536 | Minimum Swaps to Arrange a Binary Grid | O(n*n) | O(n) | [python](leetcode/medium/1536.%20Minimum%20Swaps%20to%20Arrange%20a%20Binary%20Grid.py) | [leetcode.com](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/) |
+| 1559 | Detect Cycles in 2D Grid | O(n*m) | O(n*m) | [python](leetcode/medium/1559.%20Detect%20Cycles%20in%202D%20Grid.py) | [leetcode.com](https://leetcode.com/problems/detect-cycles-in-2d-grid/) |
 | 1580 | Put Boxes Into the Warehouse II | O(n log n) | O(1) | [python](leetcode/medium/1580.%20Put%20Boxes%20Into%20the%20Warehouse%20II.py) | [leetcode.com](https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/) |
 | 1594 | Maximum Non Negative Product in a Matrix | O(n*m) | O(n) | [python](leetcode/medium/1594.%20Maximum%20Non%20Negative%20Product%20in%20a%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/maximum-non-negative-product-in-a-matrix/) |
 | 1609 | - Even Odd Tree | O(n) | O(n) | [python](leetcode/medium/1609%20-%20Even%20Odd%20Tree.py) | [leetcode.com](https://leetcode.com/problems/even-odd-tree/) |
