@@ -36,7 +36,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 114 | 1879 | 16 | 156 | 6 | 152 | 144 | 41 | 4 | 14 | 188 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
-| leetcode-medium | 166 | 4332 | 26 | 292 | 5 | 435 | 321 | 95 | 19 | 36 | 356 | 6 | 34 | 52 | 11 | 25 | 23 | 7 |
+| leetcode-medium | 168 | 4401 | 26 | 295 | 5 | 450 | 325 | 98 | 20 | 39 | 361 | 6 | 35 | 52 | 11 | 25 | 23 | 7 |
 | leetcode-hard | 30 | 957 | 31 | 56 | 4 | 88 | 75 | 19 | 8 | 15 | 70 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-04-28 | LeetCode Medium | Minimum Operations to Make a Uni-Value Grid | [python](leetcode/medium/2033.%20Minimum%20Operations%20to%20Make%20a%20Uni-Value%20Grid.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/) |
 | 2026-04-26 | LeetCode Medium | Detect Cycles in 2D Grid | [python](leetcode/medium/1559.%20Detect%20Cycles%20in%202D%20Grid.py) | [leetcode.com](https://leetcode.com/problems/detect-cycles-in-2d-grid/) |
 | 2026-04-24 | LeetCode Easy | Furthest Point From Origin | [python](leetcode/easy/2833.%20Furthest%20Point%20From%20Origin.py) | [leetcode.com](https://leetcode.com/problems/furthest-point-from-origin/) |
 | 2026-04-23 | LeetCode Medium | Sum of Distances | [python](leetcode/medium/2615.%20Sum%20of%20Distances.py) | [leetcode.com](https://leetcode.com/problems/sum-of-distances/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-04-20 | LeetCode Medium | Product of Array Except Self | [python](leetcode/medium/238.%20Product%20of%20Array%20Except%20Self.py) | [leetcode.com](https://leetcode.com/problems/product-of-array-except-self/) |
 | 2026-04-20 | LeetCode Easy | Two Furthest Houses With Different Colors | [python](leetcode/easy/2078.%20Two%20Furthest%20Houses%20With%20Different%20Colors.py) | [leetcode.com](https://leetcode.com/problems/two-furthest-houses-with-different-colors/) |
 | 2026-04-17 | LeetCode Medium | Minimum Absolute Distance Between Mirror Pairs | [python](leetcode/medium/3761.%20Minimum%20Absolute%20Distance%20Between%20Mirror%20Pairs.py) | [leetcode.com](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/) |
-| 2026-04-16 | LeetCode Medium | Closest Equal Element Queries | [python](leetcode/medium/3488.%20Closest%20Equal%20Element%20Queries.py) | [leetcode.com](https://leetcode.com/problems/closest-equal-element-queries/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -343,6 +343,7 @@ Recently solved and added problems.
 | 1339 | Maximum Product of Splitted Binary Tree | O(n) | O(1) | [python](leetcode/medium/1339.%20Maximum%20Product%20of%20Splitted%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) |
 | 1382 | Balance a Binary Search Tree | O(n) | O(1) | [python](leetcode/medium/1382.%20Balance%20a%20Binary%20Search%20Tree.py) | [leetcode.com](https://leetcode.com/problems/balance-a-binary-search-tree/) |
 | 1390 | Four Divisors | O(n) | O(1) | [python](leetcode/medium/1390.%20Four%20Divisors.py) | [leetcode.com](https://leetcode.com/problems/four-divisors) |
+| 1391 | Check if There is a Valid Path in a Grid | O(n*m) | O(n*m) | [python](leetcode/medium/1391.%20Check%20if%20There%20is%20a%20Valid%20Path%20in%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/) |
 | 1404 | Number of Steps to Reduce a Number in Binary | O(n) | O(1) | [python](leetcode/medium/1404.%20Number%20of%20Steps%20to%20Reduce%20a%20Number%20in%20Binary.py) | [leetcode.com](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary/) |
 | 1415 | The k-th Lexicographical String of All Happy Strings of Length n | O(2^n) | O(n) | [python](leetcode/medium/1415.%20The%20k-th%20Lexicographical%20String%20of%20All%20Happy%20Strings%20of%20Length%20n.py) | [leetcode.com](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) |
 | 1429 | First Unique Number | O(n) | O(n) | [python](leetcode/medium/1429.%20First%20Unique%20Number.py) | [leetcode.com](https://leetcode.com/problems/first-unique-number/) |
@@ -370,6 +371,7 @@ Recently solved and added problems.
 | 1975 | Maximum Matrix Sum | O(n) | O(1) | [python](leetcode/medium/1975.%20Maximum%20Matrix%20Sum.py) | [leetcode.com](https://leetcode.com/problems/maximum-matrix-sum) |
 | 1980 | Find Unique Binary String | O(n*k) | O(n*k) | [python](leetcode/medium/1980.%20Find%20Unique%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/find-unique-binary-string/) |
 | 1992 | Find All Groups of Farmland | O(n*m) | O(n*m) | [python](leetcode/medium/1992.%20Find%20All%20Groups%20of%20Farmland.py) | [leetcode.com](https://leetcode.com/problems/find-all-groups-of-farmland/) |
+| 2033 | Minimum Operations to Make a Uni-Value Grid | O(n*m) | O(1) | [python](leetcode/medium/2033.%20Minimum%20Operations%20to%20Make%20a%20Uni-Value%20Grid.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/) |
 | 2048 | Next Greater Numerically Balanced Number | O(n) | O(1) | [python](leetcode/medium/2048.%20Next%20Greater%20Numerically%20Balanced%20Number.py) | [leetcode.com](https://leetcode.com/problems/next-greater-numerically-balanced-number/) |
 | 2054 | Two Best Non-Overlapping Events | O(n) | O(1) | [python](leetcode/medium/2054.%20Two%20Best%20Non-Overlapping%20Events.py) | [leetcode.com](https://leetcode.com/problems/two-best-non-overlapping-events/description/) |
 | 2058 | Find the Minimum and Maximum Number of Nodes Between Critical Points | O(n) | O(1) | [python](leetcode/medium/2058.%20Find%20the%20Minimum%20and%20Maximum%20Number%20of%20Nodes%20Between%20Critical%20Points.py) | [leetcode.com](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) |
