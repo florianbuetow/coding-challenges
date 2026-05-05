@@ -36,7 +36,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 114 | 1879 | 16 | 156 | 6 | 152 | 144 | 41 | 4 | 14 | 188 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
-| leetcode-medium | 169 | 4423 | 26 | 296 | 5 | 450 | 327 | 99 | 20 | 39 | 363 | 6 | 35 | 52 | 11 | 25 | 23 | 7 |
+| leetcode-medium | 170 | 4459 | 26 | 299 | 5 | 452 | 329 | 101 | 20 | 39 | 367 | 6 | 35 | 52 | 11 | 25 | 23 | 7 |
 | leetcode-hard | 30 | 957 | 31 | 56 | 4 | 88 | 75 | 19 | 8 | 15 | 70 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-05-06 | LeetCode Medium | Rotate List | [python](leetcode/medium/61.%20Rotate%20List.py) | [leetcode.com](https://leetcode.com/problems/rotate-list/) |
 | 2026-05-04 | LeetCode Medium | Rotate Image | [python](leetcode/medium/48.%20Rotate%20Image.py) | [leetcode.com](https://leetcode.com/problems/rotate-image/) |
 | 2026-04-28 | LeetCode Medium | Minimum Operations to Make a Uni-Value Grid | [python](leetcode/medium/2033.%20Minimum%20Operations%20to%20Make%20a%20Uni-Value%20Grid.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/) |
 | 2026-04-26 | LeetCode Medium | Detect Cycles in 2D Grid | [python](leetcode/medium/1559.%20Detect%20Cycles%20in%202D%20Grid.py) | [leetcode.com](https://leetcode.com/problems/detect-cycles-in-2d-grid/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-04-20 | LeetCode Easy | Lucky Numbers in a Matrix | [python](leetcode/easy/1380.%20Lucky%20Numbers%20in%20a%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) |
 | 2026-04-20 | LeetCode Medium | Walking Robot Simulation II | [python](leetcode/medium/2069.%20Walking%20Robot%20Simulation%20II.py) | [leetcode.com](https://leetcode.com/problems/walking-robot-simulation-ii/) |
 | 2026-04-20 | LeetCode Medium | Product of Array Except Self | [python](leetcode/medium/238.%20Product%20of%20Array%20Except%20Self.py) | [leetcode.com](https://leetcode.com/problems/product-of-array-except-self/) |
-| 2026-04-20 | LeetCode Easy | Two Furthest Houses With Different Colors | [python](leetcode/easy/2078.%20Two%20Furthest%20Houses%20With%20Different%20Colors.py) | [leetcode.com](https://leetcode.com/problems/two-furthest-houses-with-different-colors/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -281,6 +281,7 @@ Recently solved and added problems.
 | 48 | Rotate Image | O(n*n) | O(1) | [python](leetcode/medium/48.%20Rotate%20Image.py) | [leetcode.com](https://leetcode.com/problems/rotate-image/) |
 | 49 | Group Anagrams | O(n*m) | O(n*m) | [python](leetcode/medium/49.%20Group%20Anagrams.py) | [leetcode.com](https://leetcode.com/problems/group-anagrams/) |
 | 56 | Merge Intervals | O(n) | O(1) | [python](leetcode/medium/56.%20Merge%20Intervals.py) | [leetcode.com](https://leetcode.com/problems/merge-intervals/description/) |
+| 61 | Rotate List | O(n) | O(1) | [python](leetcode/medium/61.%20Rotate%20List.py) | [leetcode.com](https://leetcode.com/problems/rotate-list/) |
 | 75 | Sort Colors | O(n) | O(1) | [python](leetcode/medium/75.%20Sort%20Colors.py) | [leetcode.com](https://leetcode.com/problems/sort-colors/) |
 | 106 | Construct Binary Tree from Inorder and Postorder Traversal | O(n) | O(n) | [python](leetcode/medium/106.%20Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal.py) | [leetcode.com](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) |
 | 120 | Triangle | O(n) | O(1) | [python](leetcode/medium/120.%20Triangle.py) | [leetcode.com](https://leetcode.com/problems/triangle/) |
