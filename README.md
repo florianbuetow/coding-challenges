@@ -36,7 +36,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 114 | 1879 | 16 | 156 | 6 | 152 | 144 | 41 | 4 | 14 | 188 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
-| leetcode-medium | 170 | 4459 | 26 | 299 | 5 | 452 | 329 | 101 | 20 | 39 | 367 | 6 | 35 | 52 | 11 | 25 | 23 | 7 |
+| leetcode-medium | 171 | 4493 | 26 | 302 | 5 | 456 | 331 | 102 | 20 | 39 | 372 | 6 | 36 | 52 | 11 | 25 | 23 | 7 |
 | leetcode-hard | 30 | 957 | 31 | 56 | 4 | 88 | 75 | 19 | 8 | 15 | 70 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,8 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-05-09 | LeetCode Medium | Cyclically Rotating a Grid | [python](leetcode/medium/1914.%20Cyclically%20Rotating%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/cyclically-rotating-a-grid/) |
+| 2026-05-06 | LeetCode Medium | Check if There is a Valid Path in a Grid | [python](leetcode/medium/1391.%20Check%20if%20There%20is%20a%20Valid%20Path%20in%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/) |
 | 2026-05-06 | LeetCode Medium | Rotate List | [python](leetcode/medium/61.%20Rotate%20List.py) | [leetcode.com](https://leetcode.com/problems/rotate-list/) |
 | 2026-05-04 | LeetCode Medium | Rotate Image | [python](leetcode/medium/48.%20Rotate%20Image.py) | [leetcode.com](https://leetcode.com/problems/rotate-image/) |
 | 2026-04-28 | LeetCode Medium | Minimum Operations to Make a Uni-Value Grid | [python](leetcode/medium/2033.%20Minimum%20Operations%20to%20Make%20a%20Uni-Value%20Grid.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/) |
@@ -55,8 +57,6 @@ Recently solved and added problems.
 | 2026-04-23 | LeetCode Medium | Sum of Distances | [python](leetcode/medium/2615.%20Sum%20of%20Distances.py) | [leetcode.com](https://leetcode.com/problems/sum-of-distances/) |
 | 2026-04-22 | LeetCode Medium | Words Within Two Edits of Dictionary | [python](leetcode/medium/2452.%20Words%20Within%20Two%20Edits%20of%20Dictionary.py) | [leetcode.com](https://leetcode.com/problems/words-within-two-edits-of-dictionary/) |
 | 2026-04-20 | LeetCode Easy | Lucky Numbers in a Matrix | [python](leetcode/easy/1380.%20Lucky%20Numbers%20in%20a%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) |
-| 2026-04-20 | LeetCode Medium | Walking Robot Simulation II | [python](leetcode/medium/2069.%20Walking%20Robot%20Simulation%20II.py) | [leetcode.com](https://leetcode.com/problems/walking-robot-simulation-ii/) |
-| 2026-04-20 | LeetCode Medium | Product of Array Except Self | [python](leetcode/medium/238.%20Product%20of%20Array%20Except%20Self.py) | [leetcode.com](https://leetcode.com/problems/product-of-array-except-self/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -369,6 +369,7 @@ Recently solved and added problems.
 | 1733 | Minimum Number of People to Teach | O(n) | O(1) | [python](leetcode/medium/1733.%20Minimum%20Number%20of%20People%20to%20Teach.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-people-to-teach/) |
 | 1740 | Find Distance in a Binary Tree | O(n) | O(m) | [python](leetcode/medium/1740.%20Find%20Distance%20in%20a%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/find-distance-in-a-binary-tree/) |
 | 1792 | Maximum Average Pass Ratio | O(n) | O(1) | [python](leetcode/medium/1792.%20Maximum%20Average%20Pass%20Ratio.py) | [leetcode.com](https://leetcode.com/problems/maximum-average-pass-ratio/) |
+| 1914 | Cyclically Rotating a Grid | O(n*m) | O(n+m) | [python](leetcode/medium/1914.%20Cyclically%20Rotating%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/cyclically-rotating-a-grid/) |
 | 1930 | Unique Length-3 Palindromic Subsequences | O(n) | O(1) | [python](leetcode/medium/1930.%20Unique%20Length-3%20Palindromic%20Subsequences.py) | [leetcode.com](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/) |
 | 1975 | Maximum Matrix Sum | O(n) | O(1) | [python](leetcode/medium/1975.%20Maximum%20Matrix%20Sum.py) | [leetcode.com](https://leetcode.com/problems/maximum-matrix-sum) |
 | 1980 | Find Unique Binary String | O(n*k) | O(n*k) | [python](leetcode/medium/1980.%20Find%20Unique%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/find-unique-binary-string/) |
