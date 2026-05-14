@@ -35,7 +35,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 114 | 1879 | 16 | 156 | 6 | 152 | 144 | 41 | 4 | 14 | 188 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
+| leetcode-easy | 115 | 1890 | 16 | 157 | 6 | 153 | 145 | 41 | 4 | 14 | 189 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
 | leetcode-medium | 171 | 4493 | 26 | 302 | 5 | 456 | 331 | 102 | 20 | 39 | 372 | 6 | 36 | 52 | 11 | 25 | 23 | 7 |
 | leetcode-hard | 30 | 957 | 31 | 56 | 4 | 88 | 75 | 19 | 8 | 15 | 70 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-05-14 | LeetCode Easy | Check if Array is Good | [python](leetcode/easy/2784.%20Check%20if%20Array%20is%20Good.py) | [leetcode.com](https://leetcode.com/problems/check-if-array-is-good/) |
 | 2026-05-09 | LeetCode Medium | Cyclically Rotating a Grid | [python](leetcode/medium/1914.%20Cyclically%20Rotating%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/cyclically-rotating-a-grid/) |
 | 2026-05-06 | LeetCode Medium | Check if There is a Valid Path in a Grid | [python](leetcode/medium/1391.%20Check%20if%20There%20is%20a%20Valid%20Path%20in%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/) |
 | 2026-05-06 | LeetCode Medium | Rotate List | [python](leetcode/medium/61.%20Rotate%20List.py) | [leetcode.com](https://leetcode.com/problems/rotate-list/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-04-24 | LeetCode Easy | Furthest Point From Origin | [python](leetcode/easy/2833.%20Furthest%20Point%20From%20Origin.py) | [leetcode.com](https://leetcode.com/problems/furthest-point-from-origin/) |
 | 2026-04-23 | LeetCode Medium | Sum of Distances | [python](leetcode/medium/2615.%20Sum%20of%20Distances.py) | [leetcode.com](https://leetcode.com/problems/sum-of-distances/) |
 | 2026-04-22 | LeetCode Medium | Words Within Two Edits of Dictionary | [python](leetcode/medium/2452.%20Words%20Within%20Two%20Edits%20of%20Dictionary.py) | [leetcode.com](https://leetcode.com/problems/words-within-two-edits-of-dictionary/) |
-| 2026-04-20 | LeetCode Easy | Lucky Numbers in a Matrix | [python](leetcode/easy/1380.%20Lucky%20Numbers%20in%20a%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -195,6 +195,7 @@ Recently solved and added problems.
 | 2490 | Circular Sentence | O(n) | O(1) | [python](leetcode/easy/2490.%20Circular%20Sentence.py) | [leetcode.com](https://leetcode.com/problems/circular-sentence/) |
 | 2515 | Shortest Distance to Target String in a Circular Array | O(n) | O(1) | [python](leetcode/easy/2515.%20Shortest%20Distance%20to%20Target%20String%20in%20a%20Circular%20Array.py) | [leetcode.com](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/) |
 | 2696 | Minimum String Length After Removing Substrings | O(n) | O(1) | [python](leetcode/easy/2696.%20Minimum%20String%20Length%20After%20Removing%20Substrings.py) | [leetcode.com](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/) |
+| 2784 | Check if Array is Good | O(n) | O(1) | [python](leetcode/easy/2784.%20Check%20if%20Array%20is%20Good.py) | [leetcode.com](https://leetcode.com/problems/check-if-array-is-good/) |
 | 2833 | Furthest Point From Origin | O(n) | O(1) | [python](leetcode/easy/2833.%20Furthest%20Point%20From%20Origin.py) | [leetcode.com](https://leetcode.com/problems/furthest-point-from-origin/) |
 | 2946 | Matrix Similarity After Cyclic Shifts | O(n*m) | O(m) | [python](leetcode/easy/2946.%20Matrix%20Similarity%20After%20Cyclic%20Shifts.py) | [leetcode.com](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/) |
 | 3005 | Count Elements With Maximum Frequency | O(n) | O(1) | [python](leetcode/easy/3005.%20Count%20Elements%20With%20Maximum%20Frequency.py) | [leetcode.com](https://leetcode.com/problems/count-elements-with-maximum-frequency/) |
