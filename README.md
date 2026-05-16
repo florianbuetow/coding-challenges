@@ -37,7 +37,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 115 | 1890 | 16 | 157 | 6 | 153 | 145 | 41 | 4 | 14 | 189 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
 | leetcode-medium | 171 | 4493 | 26 | 302 | 5 | 456 | 331 | 102 | 20 | 39 | 372 | 6 | 36 | 52 | 11 | 25 | 23 | 7 |
-| leetcode-hard | 30 | 957 | 31 | 56 | 4 | 88 | 75 | 19 | 8 | 15 | 70 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
+| leetcode-hard | 31 | 966 | 31 | 57 | 4 | 88 | 75 | 19 | 8 | 15 | 71 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
 ## Recent Changes
 
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-05-16 | LeetCode Hard | Find Minimum in Rotated Sorted Array II | [python](leetcode/hard/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.py) | [leetcode.com](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) |
 | 2026-05-14 | LeetCode Easy | Check if Array is Good | [python](leetcode/easy/2784.%20Check%20if%20Array%20is%20Good.py) | [leetcode.com](https://leetcode.com/problems/check-if-array-is-good/) |
 | 2026-05-09 | LeetCode Medium | Cyclically Rotating a Grid | [python](leetcode/medium/1914.%20Cyclically%20Rotating%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/cyclically-rotating-a-grid/) |
 | 2026-05-06 | LeetCode Medium | Check if There is a Valid Path in a Grid | [python](leetcode/medium/1391.%20Check%20if%20There%20is%20a%20Valid%20Path%20in%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-04-26 | LeetCode Medium | Detect Cycles in 2D Grid | [python](leetcode/medium/1559.%20Detect%20Cycles%20in%202D%20Grid.py) | [leetcode.com](https://leetcode.com/problems/detect-cycles-in-2d-grid/) |
 | 2026-04-24 | LeetCode Easy | Furthest Point From Origin | [python](leetcode/easy/2833.%20Furthest%20Point%20From%20Origin.py) | [leetcode.com](https://leetcode.com/problems/furthest-point-from-origin/) |
 | 2026-04-23 | LeetCode Medium | Sum of Distances | [python](leetcode/medium/2615.%20Sum%20of%20Distances.py) | [leetcode.com](https://leetcode.com/problems/sum-of-distances/) |
-| 2026-04-22 | LeetCode Medium | Words Within Two Edits of Dictionary | [python](leetcode/medium/2452.%20Words%20Within%20Two%20Edits%20of%20Dictionary.py) | [leetcode.com](https://leetcode.com/problems/words-within-two-edits-of-dictionary/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -247,6 +247,7 @@ Recently solved and added problems.
 | 84 | Largest Rectangle in Histogram | O(n) | O(n) | [python](leetcode/hard/84.%20Largest%20Rectangle%20in%20Histogram.py) | [leetcode.com](https://leetcode.com/problems/largest-rectangle-in-histogram/) |
 | 85 | Maximal Rectangle | O(n* m) | O(n) | [python](leetcode/hard/85.%20Maximal%20Rectangle.py) | [leetcode.com](https://leetcode.com/problems/maximal-rectangle/) |
 | 140 | Word Break II | O(n) | O(1) | [python](leetcode/hard/140.%20Word%20Break%20II.py) | [leetcode.com](https://leetcode.com/problems/word-break-ii/) |
+| 154 | Find Minimum in Rotated Sorted Array II | O(n) | O(1) | [python](leetcode/hard/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.py) | [leetcode.com](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) |
 | 305 | Number of Islands II | O(n) | O(1) | [python](leetcode/hard/305.%20Number%20of%20Islands%20II.py) | [leetcode.com](https://leetcode.com/problems/number-of-islands-ii/) |
 | 407 | Trapping Rain Water II | O(n) | O(1) | [python](leetcode/hard/407.%20Trapping%20Rain%20Water%20II.py) | [leetcode.com](https://leetcode.com/problems/trapping-rain-water-ii/) |
 | 514 | Freedom Trail | O(n*m) | O(m) | [python](leetcode/hard/514.%20Freedom%20Trail.py) | [leetcode.com](https://leetcode.com/problems/freedom-trail/) |
