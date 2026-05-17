@@ -36,7 +36,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 115 | 1890 | 16 | 157 | 6 | 153 | 145 | 41 | 4 | 14 | 189 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
-| leetcode-medium | 171 | 4493 | 26 | 302 | 5 | 456 | 331 | 102 | 20 | 39 | 372 | 6 | 36 | 52 | 11 | 25 | 23 | 7 |
+| leetcode-medium | 172 | 4510 | 26 | 304 | 5 | 459 | 332 | 102 | 20 | 39 | 376 | 6 | 37 | 52 | 11 | 25 | 23 | 7 |
 | leetcode-hard | 31 | 966 | 31 | 57 | 4 | 88 | 75 | 19 | 8 | 15 | 71 | 3 | 7 | 11 | 8 | 2 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-05-17 | LeetCode Medium | Jump Game III | [python](leetcode/medium/1306.%20Jump%20Game%20III.py) | [leetcode.com](https://leetcode.com/problems/jump-game-iii/) |
 | 2026-05-16 | LeetCode Hard | Find Minimum in Rotated Sorted Array II | [python](leetcode/hard/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.py) | [leetcode.com](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) |
 | 2026-05-14 | LeetCode Easy | Check if Array is Good | [python](leetcode/easy/2784.%20Check%20if%20Array%20is%20Good.py) | [leetcode.com](https://leetcode.com/problems/check-if-array-is-good/) |
 | 2026-05-09 | LeetCode Medium | Cyclically Rotating a Grid | [python](leetcode/medium/1914.%20Cyclically%20Rotating%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/cyclically-rotating-a-grid/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-04-28 | LeetCode Medium | Minimum Operations to Make a Uni-Value Grid | [python](leetcode/medium/2033.%20Minimum%20Operations%20to%20Make%20a%20Uni-Value%20Grid.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/) |
 | 2026-04-26 | LeetCode Medium | Detect Cycles in 2D Grid | [python](leetcode/medium/1559.%20Detect%20Cycles%20in%202D%20Grid.py) | [leetcode.com](https://leetcode.com/problems/detect-cycles-in-2d-grid/) |
 | 2026-04-24 | LeetCode Easy | Furthest Point From Origin | [python](leetcode/easy/2833.%20Furthest%20Point%20From%20Origin.py) | [leetcode.com](https://leetcode.com/problems/furthest-point-from-origin/) |
-| 2026-04-23 | LeetCode Medium | Sum of Distances | [python](leetcode/medium/2615.%20Sum%20of%20Distances.py) | [leetcode.com](https://leetcode.com/problems/sum-of-distances/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -344,6 +344,7 @@ Recently solved and added problems.
 | 1249 | Minimum Remove to Make Valid Parentheses | O(n) | O(n) | [python](leetcode/medium/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.py) | [leetcode.com](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) |
 | 1262 | Greatest Sum Divisible by Three | O(n) | O(1) | [python](leetcode/medium/1262.%20Greatest%20Sum%20Divisible%20by%20Three.py) | [leetcode.com](https://leetcode.com/problems/greatest-sum-divisible-by-three/) |
 | 1292 | Maximum Side Length of a Square with Sum Less than or Equal to Threshold | O(n) | O(1) | [python](leetcode/medium/1292.%20Maximum%20Side%20Length%20of%20a%20Square%20with%20Sum%20Less%20than%20or%20Equal%20to%20Threshold.py) | [leetcode.com](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
+| 1306 | Jump Game III | O(n) | O(n) | [python](leetcode/medium/1306.%20Jump%20Game%20III.py) | [leetcode.com](https://leetcode.com/problems/jump-game-iii/) |
 | 1339 | Maximum Product of Splitted Binary Tree | O(n) | O(1) | [python](leetcode/medium/1339.%20Maximum%20Product%20of%20Splitted%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) |
 | 1382 | Balance a Binary Search Tree | O(n) | O(1) | [python](leetcode/medium/1382.%20Balance%20a%20Binary%20Search%20Tree.py) | [leetcode.com](https://leetcode.com/problems/balance-a-binary-search-tree/) |
 | 1390 | Four Divisors | O(n) | O(1) | [python](leetcode/medium/1390.%20Four%20Divisors.py) | [leetcode.com](https://leetcode.com/problems/four-divisors) |
