@@ -35,7 +35,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 115 | 1890 | 16 | 157 | 6 | 153 | 145 | 41 | 4 | 14 | 189 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
+| leetcode-easy | 116 | 1903 | 16 | 158 | 6 | 155 | 146 | 42 | 4 | 14 | 192 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
 | leetcode-medium | 172 | 4510 | 26 | 304 | 5 | 459 | 332 | 102 | 20 | 39 | 376 | 6 | 37 | 52 | 11 | 25 | 23 | 7 |
 | leetcode-hard | 32 | 1002 | 31 | 58 | 4 | 91 | 77 | 21 | 8 | 15 | 74 | 3 | 7 | 12 | 8 | 3 | 9 | 9 |
 
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-05-19 | LeetCode Easy | Minimum Common Value | [python](leetcode/easy/2540.%20Minimum%20Common%20Value.py) | [leetcode.com](https://leetcode.com/problems/minimum-common-value/) |
 | 2026-05-18 | LeetCode Hard | Jump Game IV | [python](leetcode/hard/1345.%20Jump%20Game%20IV.py) | [leetcode.com](https://leetcode.com/problems/jump-game-iv/) |
 | 2026-05-17 | LeetCode Medium | Jump Game III | [python](leetcode/medium/1306.%20Jump%20Game%20III.py) | [leetcode.com](https://leetcode.com/problems/jump-game-iii/) |
 | 2026-05-16 | LeetCode Hard | Find Minimum in Rotated Sorted Array II | [python](leetcode/hard/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.py) | [leetcode.com](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-05-06 | LeetCode Medium | Rotate List | [python](leetcode/medium/61.%20Rotate%20List.py) | [leetcode.com](https://leetcode.com/problems/rotate-list/) |
 | 2026-05-04 | LeetCode Medium | Rotate Image | [python](leetcode/medium/48.%20Rotate%20Image.py) | [leetcode.com](https://leetcode.com/problems/rotate-image/) |
 | 2026-04-28 | LeetCode Medium | Minimum Operations to Make a Uni-Value Grid | [python](leetcode/medium/2033.%20Minimum%20Operations%20to%20Make%20a%20Uni-Value%20Grid.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/) |
-| 2026-04-26 | LeetCode Medium | Detect Cycles in 2D Grid | [python](leetcode/medium/1559.%20Detect%20Cycles%20in%202D%20Grid.py) | [leetcode.com](https://leetcode.com/problems/detect-cycles-in-2d-grid/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -194,6 +194,7 @@ Recently solved and added problems.
 | 2331 | Evaluate Boolean Binary Tree | O(n) | O(1) | [python](leetcode/easy/2331.%20Evaluate%20Boolean%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/evaluate-boolean-binary-tree/) |
 | 2490 | Circular Sentence | O(n) | O(1) | [python](leetcode/easy/2490.%20Circular%20Sentence.py) | [leetcode.com](https://leetcode.com/problems/circular-sentence/) |
 | 2515 | Shortest Distance to Target String in a Circular Array | O(n) | O(1) | [python](leetcode/easy/2515.%20Shortest%20Distance%20to%20Target%20String%20in%20a%20Circular%20Array.py) | [leetcode.com](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/) |
+| 2540 | Minimum Common Value | O(n) | O(1) | [python](leetcode/easy/2540.%20Minimum%20Common%20Value.py) | [leetcode.com](https://leetcode.com/problems/minimum-common-value/) |
 | 2696 | Minimum String Length After Removing Substrings | O(n) | O(1) | [python](leetcode/easy/2696.%20Minimum%20String%20Length%20After%20Removing%20Substrings.py) | [leetcode.com](https://leetcode.com/problems/minimum-string-length-after-removing-substrings/) |
 | 2784 | Check if Array is Good | O(n) | O(1) | [python](leetcode/easy/2784.%20Check%20if%20Array%20is%20Good.py) | [leetcode.com](https://leetcode.com/problems/check-if-array-is-good/) |
 | 2833 | Furthest Point From Origin | O(n) | O(1) | [python](leetcode/easy/2833.%20Furthest%20Point%20From%20Origin.py) | [leetcode.com](https://leetcode.com/problems/furthest-point-from-origin/) |
