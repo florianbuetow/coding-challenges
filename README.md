@@ -36,7 +36,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 116 | 1903 | 16 | 158 | 6 | 155 | 146 | 42 | 4 | 14 | 192 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
-| leetcode-medium | 172 | 4510 | 26 | 304 | 5 | 459 | 332 | 102 | 20 | 39 | 376 | 6 | 37 | 52 | 11 | 25 | 23 | 7 |
+| leetcode-medium | 173 | 4525 | 26 | 305 | 5 | 461 | 334 | 102 | 20 | 39 | 377 | 6 | 37 | 53 | 11 | 25 | 23 | 7 |
 | leetcode-hard | 32 | 1002 | 31 | 58 | 4 | 91 | 77 | 21 | 8 | 15 | 74 | 3 | 7 | 12 | 8 | 3 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-05-20 | LeetCode Medium | Find the Prefix Common Array of Two Arrays | [python](leetcode/medium/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays.py) | [leetcode.com](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/) |
 | 2026-05-19 | LeetCode Easy | Minimum Common Value | [python](leetcode/easy/2540.%20Minimum%20Common%20Value.py) | [leetcode.com](https://leetcode.com/problems/minimum-common-value/) |
 | 2026-05-18 | LeetCode Hard | Jump Game IV | [python](leetcode/hard/1345.%20Jump%20Game%20IV.py) | [leetcode.com](https://leetcode.com/problems/jump-game-iv/) |
 | 2026-05-17 | LeetCode Medium | Jump Game III | [python](leetcode/medium/1306.%20Jump%20Game%20III.py) | [leetcode.com](https://leetcode.com/problems/jump-game-iii/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-05-06 | LeetCode Medium | Check if There is a Valid Path in a Grid | [python](leetcode/medium/1391.%20Check%20if%20There%20is%20a%20Valid%20Path%20in%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/) |
 | 2026-05-06 | LeetCode Medium | Rotate List | [python](leetcode/medium/61.%20Rotate%20List.py) | [leetcode.com](https://leetcode.com/problems/rotate-list/) |
 | 2026-05-04 | LeetCode Medium | Rotate Image | [python](leetcode/medium/48.%20Rotate%20Image.py) | [leetcode.com](https://leetcode.com/problems/rotate-image/) |
-| 2026-04-28 | LeetCode Medium | Minimum Operations to Make a Uni-Value Grid | [python](leetcode/medium/2033.%20Minimum%20Operations%20to%20Make%20a%20Uni-Value%20Grid.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -402,6 +402,7 @@ Recently solved and added problems.
 | 2536 | Increment Submatrices by One | O(n) | O(1) | [python](leetcode/medium/2536.%20Increment%20Submatrices%20by%20One.py) | [leetcode.com](https://leetcode.com/problems/increment-submatrices-by-one) |
 | 2615 | Sum of Distances | O(n) | O(n) | [python](leetcode/medium/2615.%20Sum%20of%20Distances.py) | [leetcode.com](https://leetcode.com/problems/sum-of-distances/) |
 | 2641 | Cousins in Binary Tree II | O(n) | O(n) | [python](leetcode/medium/2641.%20Cousins%20in%20Binary%20Tree%20II.py) | [leetcode.com](https://leetcode.com/problems/cousins-in-binary-tree-ii/) |
+| 2657 | Find the Prefix Common Array of Two Arrays | O(n) | O(n) | [python](leetcode/medium/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays.py) | [leetcode.com](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/) |
 | 2664 | The Knight’s Tour | O(8^(n*m)) | O(n*m) | [python](leetcode/medium/2664.%20The%20Knight%E2%80%99s%20Tour.py) | [leetcode.com](https://leetcode.com/problems/the-knight-s-tour/) |
 | 2684 | Maximum Number of Moves in a Grid | O(n*m) | O(n*m) | [python](leetcode/medium/2684.%20Maximum%20Number%20of%20Moves%20in%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/) |
 | 2743 | Count Substrings Without Repeating Character | O(n) | O(1) | [python](leetcode/medium/2743.%20Count%20Substrings%20Without%20Repeating%20Character.py) | [leetcode.com](https://leetcode.com/problems/count-substrings-without-repeating-character/) |
