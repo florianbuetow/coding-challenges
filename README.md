@@ -36,7 +36,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 116 | 1903 | 16 | 158 | 6 | 155 | 146 | 42 | 4 | 14 | 192 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
-| leetcode-medium | 173 | 4525 | 26 | 305 | 5 | 461 | 334 | 102 | 20 | 39 | 377 | 6 | 37 | 53 | 11 | 25 | 23 | 7 |
+| leetcode-medium | 174 | 4556 | 26 | 307 | 5 | 464 | 338 | 102 | 21 | 39 | 380 | 6 | 37 | 55 | 11 | 25 | 23 | 7 |
 | leetcode-hard | 32 | 1002 | 31 | 58 | 4 | 91 | 77 | 21 | 8 | 15 | 74 | 3 | 7 | 12 | 8 | 3 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-05-21 | LeetCode Medium | Find the Length of the Longest Common Prefix | [python](leetcode/medium/3043.%20Find%20the%20Length%20of%20the%20Longest%20Common%20Prefix.py) | [leetcode.com](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/) |
 | 2026-05-20 | LeetCode Medium | Find the Prefix Common Array of Two Arrays | [python](leetcode/medium/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays.py) | [leetcode.com](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/) |
 | 2026-05-19 | LeetCode Easy | Minimum Common Value | [python](leetcode/easy/2540.%20Minimum%20Common%20Value.py) | [leetcode.com](https://leetcode.com/problems/minimum-common-value/) |
 | 2026-05-18 | LeetCode Hard | Jump Game IV | [python](leetcode/hard/1345.%20Jump%20Game%20IV.py) | [leetcode.com](https://leetcode.com/problems/jump-game-iv/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-05-09 | LeetCode Medium | Cyclically Rotating a Grid | [python](leetcode/medium/1914.%20Cyclically%20Rotating%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/cyclically-rotating-a-grid/) |
 | 2026-05-06 | LeetCode Medium | Check if There is a Valid Path in a Grid | [python](leetcode/medium/1391.%20Check%20if%20There%20is%20a%20Valid%20Path%20in%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/) |
 | 2026-05-06 | LeetCode Medium | Rotate List | [python](leetcode/medium/61.%20Rotate%20List.py) | [leetcode.com](https://leetcode.com/problems/rotate-list/) |
-| 2026-05-04 | LeetCode Medium | Rotate Image | [python](leetcode/medium/48.%20Rotate%20Image.py) | [leetcode.com](https://leetcode.com/problems/rotate-image/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -416,6 +416,7 @@ Recently solved and added problems.
 | 2970 | Count the Number of Incremovable Subarrays I | O(n*n) | O(n*n) | [python](leetcode/medium/2970.%20Count%20the%20Number%20of%20Incremovable%20Subarrays%20I.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/) |
 | 2975 | Maximum Square Area by Removing Fences From a Field | O(n) | O(1) | [python](leetcode/medium/2975.%20Maximum%20Square%20Area%20by%20Removing%20Fences%20From%20a%20Field.py) | [leetcode.com](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field) |
 | 3025 | Find the Number of Ways to Place People I | O(n) | O(1) | [python](leetcode/medium/3025.%20Find%20the%20Number%20of%20Ways%20to%20Place%20People%20I.py) | [leetcode.com](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i/) |
+| 3043 | Find the Length of the Longest Common Prefix | O(n) | O(n) | [python](leetcode/medium/3043.%20Find%20the%20Length%20of%20the%20Longest%20Common%20Prefix.py) | [leetcode.com](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/) |
 | 3047 | Find the Largest Area of Square Inside Two Rectangles | O(n) | O(1) | [python](leetcode/medium/3047.%20Find%20the%20Largest%20Area%20of%20Square%20Inside%20Two%20Rectangles.py) | [leetcode.com](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/) |
 | 3070 | Count Submatrices with Top-Left Element and Sum Less Than k | O(n*m) | O(1) | [python](leetcode/medium/3070.%20Count%20Submatrices%20with%20Top-Left%20Element%20and%20Sum%20Less%20Than%20k.py) | [leetcode.com](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/) |
 | 3075 | Maximize Happiness of Selected Children | O(n) | O(1) | [python](leetcode/medium/3075.%20Maximize%20Happiness%20of%20Selected%20Children.py) | [leetcode.com](https://leetcode.com/problems/maximize-happiness-of-selected-children/) |
