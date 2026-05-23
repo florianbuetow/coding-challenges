@@ -35,7 +35,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 116 | 1903 | 16 | 158 | 6 | 155 | 146 | 42 | 4 | 14 | 192 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
+| leetcode-easy | 117 | 1924 | 16 | 159 | 6 | 159 | 149 | 42 | 6 | 14 | 194 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
 | leetcode-medium | 174 | 4556 | 26 | 307 | 5 | 464 | 338 | 102 | 21 | 39 | 380 | 6 | 37 | 55 | 11 | 25 | 23 | 7 |
 | leetcode-hard | 32 | 1002 | 31 | 58 | 4 | 91 | 77 | 21 | 8 | 15 | 74 | 3 | 7 | 12 | 8 | 3 | 9 | 9 |
 
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-05-23 | LeetCode Easy | Check if Array Is Sorted and Rotated | [python](leetcode/easy/1752.%20Check%20if%20Array%20Is%20Sorted%20and%20Rotated.py) | [leetcode.com](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) |
 | 2026-05-21 | LeetCode Medium | Find the Length of the Longest Common Prefix | [python](leetcode/medium/3043.%20Find%20the%20Length%20of%20the%20Longest%20Common%20Prefix.py) | [leetcode.com](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/) |
 | 2026-05-20 | LeetCode Medium | Find the Prefix Common Array of Two Arrays | [python](leetcode/medium/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays.py) | [leetcode.com](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/) |
 | 2026-05-19 | LeetCode Easy | Minimum Common Value | [python](leetcode/easy/2540.%20Minimum%20Common%20Value.py) | [leetcode.com](https://leetcode.com/problems/minimum-common-value/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-05-14 | LeetCode Easy | Check if Array is Good | [python](leetcode/easy/2784.%20Check%20if%20Array%20is%20Good.py) | [leetcode.com](https://leetcode.com/problems/check-if-array-is-good/) |
 | 2026-05-09 | LeetCode Medium | Cyclically Rotating a Grid | [python](leetcode/medium/1914.%20Cyclically%20Rotating%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/cyclically-rotating-a-grid/) |
 | 2026-05-06 | LeetCode Medium | Check if There is a Valid Path in a Grid | [python](leetcode/medium/1391.%20Check%20if%20There%20is%20a%20Valid%20Path%20in%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/) |
-| 2026-05-06 | LeetCode Medium | Rotate List | [python](leetcode/medium/61.%20Rotate%20List.py) | [leetcode.com](https://leetcode.com/problems/rotate-list/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -176,6 +176,7 @@ Recently solved and added problems.
 | 1608 | Special Array With X Elements Greater Than or Equal X | O(n) | O(1) | [python](leetcode/easy/1608.%20Special%20Array%20With%20X%20Elements%20Greater%20Than%20or%20Equal%20X.py) | [leetcode.com](https://leetcode.com/problems/special-array-with-x-elements-greater-than-or-equal-x/) |
 | 1716 | Calculate Money in Leetcode Bank | O(n) | O(1) | [python](leetcode/easy/1716.%20Calculate%20Money%20in%20Leetcode%20Bank.py) | [leetcode.com](https://leetcode.com/problems/calculate-money-in-leetcode-bank/) |
 | 1732 | Find the Highest Altitude | O(n) | O(1) | [python](leetcode/easy/1732.%20Find%20the%20Highest%20Altitude.py) | [leetcode.com](https://leetcode.com/problems/find-the-highest-altitude/) |
+| 1752 | Check if Array Is Sorted and Rotated | O(n) | O(1) | [python](leetcode/easy/1752.%20Check%20if%20Array%20Is%20Sorted%20and%20Rotated.py) | [leetcode.com](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) |
 | 1758 | Minimum Changes To Make Alternating Binary String | O(n) | O(1) | [python](leetcode/easy/1758.%20Minimum%20Changes%20To%20Make%20Alternating%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string/) |
 | 1784 | Check if Binary String Has at Most One Segment of Ones | O(n) | O(1) | [python](leetcode/easy/1784.%20Check%20if%20Binary%20String%20Has%20at%20Most%20One%20Segment%20of%20Ones.py) | [leetcode.com](https://leetcode.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/) |
 | 1791 | Find Center of Star Graph | O(n) | O(1) | [python](leetcode/easy/1791.%20Find%20Center%20of%20Star%20Graph.py) | [leetcode.com](https://leetcode.com/problems/find-center-of-star-graph/) |
