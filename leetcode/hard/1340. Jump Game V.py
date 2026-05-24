@@ -2,7 +2,7 @@
 
 class Solution:
     def maxJumps(self, arr: List[int], d: int) -> int:
-        # O(n) time and space
+        # O(n * d) time and O(n) space
         @cache
         def helper(i):
             res = 1
