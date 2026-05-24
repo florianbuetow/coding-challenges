@@ -48,6 +48,7 @@ Recently solved and added problems.
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
 | 2026-05-24 | LeetCode Hard | Jump Game V | [python](leetcode/hard/1340.%20Jump%20Game%20V.py) | [leetcode.com](https://leetcode.com/problems/jump-game-v/) |
+| 2026-05-24 | LeetCode Hard | Jump Game V | [python](leetcode/hard/1340.%20Jump%20Game%20V.py) | [leetcode.com](https://leetcode.com/problems/jump-game-v/) |
 | 2026-05-23 | LeetCode Easy | Check if Array Is Sorted and Rotated | [python](leetcode/easy/1752.%20Check%20if%20Array%20Is%20Sorted%20and%20Rotated.py) | [leetcode.com](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) |
 | 2026-05-21 | LeetCode Medium | Find the Length of the Longest Common Prefix | [python](leetcode/medium/3043.%20Find%20the%20Length%20of%20the%20Longest%20Common%20Prefix.py) | [leetcode.com](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/) |
 | 2026-05-20 | LeetCode Medium | Find the Prefix Common Array of Two Arrays | [python](leetcode/medium/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays.py) | [leetcode.com](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-05-17 | LeetCode Medium | Jump Game III | [python](leetcode/medium/1306.%20Jump%20Game%20III.py) | [leetcode.com](https://leetcode.com/problems/jump-game-iii/) |
 | 2026-05-16 | LeetCode Hard | Find Minimum in Rotated Sorted Array II | [python](leetcode/hard/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.py) | [leetcode.com](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) |
 | 2026-05-14 | LeetCode Easy | Check if Array is Good | [python](leetcode/easy/2784.%20Check%20if%20Array%20is%20Good.py) | [leetcode.com](https://leetcode.com/problems/check-if-array-is-good/) |
-| 2026-05-09 | LeetCode Medium | Cyclically Rotating a Grid | [python](leetcode/medium/1914.%20Cyclically%20Rotating%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/cyclically-rotating-a-grid/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -259,7 +259,7 @@ Recently solved and added problems.
 | 857 | Minimum Cost to Hire K Workers | O(n log n) | O(n) | [python](leetcode/hard/857.%20Minimum%20Cost%20to%20Hire%20K%20Workers.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) |
 | 960 | Delete Columns to Make Sorted III | O(n * m) | O(m) | [python](leetcode/hard/960.%20Delete%20Columns%20to%20Make%20Sorted%20III.py) | [leetcode.com](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/) |
 | 1289 | Minimum Falling Path Sum II | O(n*m) | O(n) | [python](leetcode/hard/1289.%20Minimum%20Falling%20Path%20Sum%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-falling-path-sum-ii/) |
-| 1340 | Jump Game V | O(n) | O(n) | [python](leetcode/hard/1340.%20Jump%20Game%20V.py) | [leetcode.com](https://leetcode.com/problems/jump-game-v/) |
+| 1340 | Jump Game V | O(n * d) | O(n) | [python](leetcode/hard/1340.%20Jump%20Game%20V.py) | [leetcode.com](https://leetcode.com/problems/jump-game-v/) |
 | 1345 | Jump Game IV | O(n) | O(n) | [python](leetcode/hard/1345.%20Jump%20Game%20IV.py) | [leetcode.com](https://leetcode.com/problems/jump-game-iv/) |
 | 1354 | Construct Target Array With Multiple Sums | O(n) | O(1) | [python](leetcode/hard/1354.%20Construct%20Target%20Array%20With%20Multiple%20Sums.py) | [leetcode.com](https://leetcode.com/problems/construct-target-array-with-multiple-sums/) |
 | 1458 | Max Dot Product of Two Subsequences | O(n) | O(1) | [python](leetcode/hard/1458.%20Max%20Dot%20Product%20of%20Two%20Subsequences.py) | [leetcode.com](https://leetcode.com/problems/max-dot-product-of-two-subsequences) |
