@@ -36,7 +36,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 117 | 1924 | 16 | 159 | 6 | 159 | 149 | 42 | 6 | 14 | 194 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
-| leetcode-medium | 174 | 4556 | 26 | 307 | 5 | 464 | 338 | 102 | 21 | 39 | 380 | 6 | 37 | 55 | 11 | 25 | 23 | 7 |
+| leetcode-medium | 175 | 4573 | 26 | 308 | 5 | 467 | 339 | 103 | 21 | 39 | 383 | 6 | 37 | 55 | 11 | 26 | 23 | 7 |
 | leetcode-hard | 33 | 1022 | 30 | 60 | 4 | 93 | 80 | 21 | 10 | 15 | 76 | 3 | 7 | 12 | 8 | 3 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-05-25 | LeetCode Medium | Jump Game VII | [python](leetcode/medium/1871.%20Jump%20Game%20VII.py) | [leetcode.com](https://leetcode.com/problems/jump-game-vii/) |
 | 2026-05-24 | LeetCode Hard | Jump Game V | [python](leetcode/hard/1340.%20Jump%20Game%20V.py) | [leetcode.com](https://leetcode.com/problems/jump-game-v/) |
 | 2026-05-24 | LeetCode Hard | Jump Game V | [python](leetcode/hard/1340.%20Jump%20Game%20V.py) | [leetcode.com](https://leetcode.com/problems/jump-game-v/) |
 | 2026-05-23 | LeetCode Easy | Check if Array Is Sorted and Rotated | [python](leetcode/easy/1752.%20Check%20if%20Array%20Is%20Sorted%20and%20Rotated.py) | [leetcode.com](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-05-18 | LeetCode Hard | Jump Game IV | [python](leetcode/hard/1345.%20Jump%20Game%20IV.py) | [leetcode.com](https://leetcode.com/problems/jump-game-iv/) |
 | 2026-05-17 | LeetCode Medium | Jump Game III | [python](leetcode/medium/1306.%20Jump%20Game%20III.py) | [leetcode.com](https://leetcode.com/problems/jump-game-iii/) |
 | 2026-05-16 | LeetCode Hard | Find Minimum in Rotated Sorted Array II | [python](leetcode/hard/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.py) | [leetcode.com](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) |
-| 2026-05-14 | LeetCode Easy | Check if Array is Good | [python](leetcode/easy/2784.%20Check%20if%20Array%20is%20Good.py) | [leetcode.com](https://leetcode.com/problems/check-if-array-is-good/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -376,6 +376,7 @@ Recently solved and added problems.
 | 1733 | Minimum Number of People to Teach | O(n) | O(1) | [python](leetcode/medium/1733.%20Minimum%20Number%20of%20People%20to%20Teach.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-people-to-teach/) |
 | 1740 | Find Distance in a Binary Tree | O(n) | O(m) | [python](leetcode/medium/1740.%20Find%20Distance%20in%20a%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/find-distance-in-a-binary-tree/) |
 | 1792 | Maximum Average Pass Ratio | O(n) | O(1) | [python](leetcode/medium/1792.%20Maximum%20Average%20Pass%20Ratio.py) | [leetcode.com](https://leetcode.com/problems/maximum-average-pass-ratio/) |
+| 1871 | Jump Game VII | O(n) | O(n) | [python](leetcode/medium/1871.%20Jump%20Game%20VII.py) | [leetcode.com](https://leetcode.com/problems/jump-game-vii/) |
 | 1914 | Cyclically Rotating a Grid | O(n*m) | O(n+m) | [python](leetcode/medium/1914.%20Cyclically%20Rotating%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/cyclically-rotating-a-grid/) |
 | 1930 | Unique Length-3 Palindromic Subsequences | O(n) | O(1) | [python](leetcode/medium/1930.%20Unique%20Length-3%20Palindromic%20Subsequences.py) | [leetcode.com](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/) |
 | 1975 | Maximum Matrix Sum | O(n) | O(1) | [python](leetcode/medium/1975.%20Maximum%20Matrix%20Sum.py) | [leetcode.com](https://leetcode.com/problems/maximum-matrix-sum) |
