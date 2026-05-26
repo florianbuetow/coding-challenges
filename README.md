@@ -35,7 +35,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 117 | 1924 | 16 | 159 | 6 | 159 | 149 | 42 | 6 | 14 | 194 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
+| leetcode-easy | 118 | 1941 | 16 | 160 | 6 | 164 | 151 | 42 | 6 | 14 | 195 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
 | leetcode-medium | 175 | 4573 | 26 | 308 | 5 | 467 | 339 | 103 | 21 | 39 | 383 | 6 | 37 | 55 | 11 | 26 | 23 | 7 |
 | leetcode-hard | 33 | 1022 | 30 | 60 | 4 | 93 | 80 | 21 | 10 | 15 | 76 | 3 | 7 | 12 | 8 | 3 | 9 | 9 |
 
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-05-26 | LeetCode Easy | Count the Number of Special Characters I | [python](leetcode/easy/3120.%20Count%20the%20Number%20of%20Special%20Characters%20I.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-special-characters-i/) |
 | 2026-05-25 | LeetCode Medium | Jump Game VII | [python](leetcode/medium/1871.%20Jump%20Game%20VII.py) | [leetcode.com](https://leetcode.com/problems/jump-game-vii/) |
 | 2026-05-24 | LeetCode Hard | Jump Game V | [python](leetcode/hard/1340.%20Jump%20Game%20V.py) | [leetcode.com](https://leetcode.com/problems/jump-game-v/) |
 | 2026-05-24 | LeetCode Hard | Jump Game V | [python](leetcode/hard/1340.%20Jump%20Game%20V.py) | [leetcode.com](https://leetcode.com/problems/jump-game-v/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-05-19 | LeetCode Easy | Minimum Common Value | [python](leetcode/easy/2540.%20Minimum%20Common%20Value.py) | [leetcode.com](https://leetcode.com/problems/minimum-common-value/) |
 | 2026-05-18 | LeetCode Hard | Jump Game IV | [python](leetcode/hard/1345.%20Jump%20Game%20IV.py) | [leetcode.com](https://leetcode.com/problems/jump-game-iv/) |
 | 2026-05-17 | LeetCode Medium | Jump Game III | [python](leetcode/medium/1306.%20Jump%20Game%20III.py) | [leetcode.com](https://leetcode.com/problems/jump-game-iii/) |
-| 2026-05-16 | LeetCode Hard | Find Minimum in Rotated Sorted Array II | [python](leetcode/hard/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.py) | [leetcode.com](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -205,6 +205,7 @@ Recently solved and added problems.
 | 3074 | Apple Redistribution into Boxes | O(n) | O(1) | [python](leetcode/easy/3074.%20Apple%20Redistribution%20into%20Boxes.py) | [leetcode.com](https://leetcode.com/problems/apple-redistribution-into-boxes/) |
 | 3105 | Longest Strictly Increasing or Strictly Decreasing Subarray | O(n) | O(1) | [python](leetcode/easy/3105.%20Longest%20Strictly%20Increasing%20or%20Strictly%20Decreasing%20Subarray.py) | [leetcode.com](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/) |
 | 3110 | Score of a String | O(n) | O(1) | [python](leetcode/easy/3110.%20Score%20of%20a%20String.py) | [leetcode.com](https://leetcode.com/problems/score-of-a-string/) |
+| 3120 | Count the Number of Special Characters I | O(n) | O(1) | [python](leetcode/easy/3120.%20Count%20the%20Number%20of%20Special%20Characters%20I.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-special-characters-i/) |
 | 3190 | Find Minimum Operations to Make All Elements Divisible by Three | O(n) | O(1) | [python](leetcode/easy/3190.%20Find%20Minimum%20Operations%20to%20Make%20All%20Elements%20Divisible%20by%20Three.py) | [leetcode.com](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | 3206 | Alternating Groups I | O(n) | O(1) | [python](leetcode/easy/3206.%20Alternating%20Groups%20I.py) | [leetcode.com](https://leetcode.com/problems/alternating-groups-i/) |
 | 3289 | The Two Sneaky Numbers of Digitville | O(n) | O(1) | [python](leetcode/easy/3289.%20The%20Two%20Sneaky%20Numbers%20of%20Digitville.py) | [leetcode.com](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) |
