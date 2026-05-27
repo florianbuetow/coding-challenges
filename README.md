@@ -36,7 +36,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 118 | 1941 | 16 | 160 | 6 | 164 | 151 | 42 | 6 | 14 | 195 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
-| leetcode-medium | 175 | 4573 | 26 | 308 | 5 | 467 | 339 | 103 | 21 | 39 | 383 | 6 | 37 | 55 | 11 | 26 | 23 | 7 |
+| leetcode-medium | 176 | 4595 | 26 | 309 | 5 | 471 | 341 | 103 | 21 | 39 | 384 | 6 | 37 | 57 | 11 | 26 | 23 | 7 |
 | leetcode-hard | 33 | 1022 | 30 | 60 | 4 | 93 | 80 | 21 | 10 | 15 | 76 | 3 | 7 | 12 | 8 | 3 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-05-27 | LeetCode Medium | Count the Number of Special Characters II | [python](leetcode/medium/3121.%20Count%20the%20Number%20of%20Special%20Characters%20II.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) |
 | 2026-05-26 | LeetCode Easy | Count the Number of Special Characters I | [python](leetcode/easy/3120.%20Count%20the%20Number%20of%20Special%20Characters%20I.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-special-characters-i/) |
 | 2026-05-25 | LeetCode Medium | Jump Game VII | [python](leetcode/medium/1871.%20Jump%20Game%20VII.py) | [leetcode.com](https://leetcode.com/problems/jump-game-vii/) |
 | 2026-05-24 | LeetCode Hard | Jump Game V | [python](leetcode/hard/1340.%20Jump%20Game%20V.py) | [leetcode.com](https://leetcode.com/problems/jump-game-v/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-05-20 | LeetCode Medium | Find the Prefix Common Array of Two Arrays | [python](leetcode/medium/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays.py) | [leetcode.com](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/) |
 | 2026-05-19 | LeetCode Easy | Minimum Common Value | [python](leetcode/easy/2540.%20Minimum%20Common%20Value.py) | [leetcode.com](https://leetcode.com/problems/minimum-common-value/) |
 | 2026-05-18 | LeetCode Hard | Jump Game IV | [python](leetcode/hard/1345.%20Jump%20Game%20IV.py) | [leetcode.com](https://leetcode.com/problems/jump-game-iv/) |
-| 2026-05-17 | LeetCode Medium | Jump Game III | [python](leetcode/medium/1306.%20Jump%20Game%20III.py) | [leetcode.com](https://leetcode.com/problems/jump-game-iii/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -425,6 +425,7 @@ Recently solved and added problems.
 | 3070 | Count Submatrices with Top-Left Element and Sum Less Than k | O(n*m) | O(1) | [python](leetcode/medium/3070.%20Count%20Submatrices%20with%20Top-Left%20Element%20and%20Sum%20Less%20Than%20k.py) | [leetcode.com](https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/) |
 | 3075 | Maximize Happiness of Selected Children | O(n) | O(1) | [python](leetcode/medium/3075.%20Maximize%20Happiness%20of%20Selected%20Children.py) | [leetcode.com](https://leetcode.com/problems/maximize-happiness-of-selected-children/) |
 | 3100 | Water Bottles II | O(n) | O(1) | [python](leetcode/medium/3100.%20Water%20Bottles%20II.py) | [leetcode.com](https://leetcode.com/problems/water-bottles-ii/) |
+| 3121 | Count the Number of Special Characters II | O(n) | O(n) | [python](leetcode/medium/3121.%20Count%20the%20Number%20of%20Special%20Characters%20II.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) |
 | 3147 | Taking Maximum Energy From the Mystic Dungeon | O(n) | O(1) | [python](leetcode/medium/3147.%20Taking%20Maximum%20Energy%20From%20the%20Mystic%20Dungeon.py) | [leetcode.com](https://leetcode.com/problems/taking-maximum-energy-from-the-mystic-dungeon/) |
 | 3163 | String Compression III | O(n) | O(n) | [python](leetcode/medium/3163.%20String%20Compression%20III.py) | [leetcode.com](https://leetcode.com/problems/string-compression-iii/) |
 | 3186 | Maximum Total Damage With Spell Casting | O(n) | O(1) | [python](leetcode/medium/3186.%20Maximum%20Total%20Damage%20With%20Spell%20Casting.py) | [leetcode.com](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/) |
