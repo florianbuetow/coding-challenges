@@ -37,7 +37,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 118 | 1941 | 16 | 160 | 6 | 164 | 151 | 42 | 6 | 14 | 195 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
 | leetcode-medium | 176 | 4595 | 26 | 309 | 5 | 471 | 341 | 103 | 21 | 39 | 384 | 6 | 37 | 57 | 11 | 26 | 23 | 7 |
-| leetcode-hard | 33 | 1022 | 30 | 60 | 4 | 93 | 80 | 21 | 10 | 15 | 76 | 3 | 7 | 12 | 8 | 3 | 9 | 9 |
+| leetcode-hard | 34 | 1061 | 31 | 63 | 4 | 97 | 84 | 21 | 11 | 15 | 79 | 3 | 7 | 14 | 8 | 3 | 9 | 9 |
 
 ## Recent Changes
 
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-05-28 | LeetCode Hard | Longest Common Suffix Queries | [python](leetcode/hard/3093.%20Longest%20Common%20Suffix%20Queries.py) | [leetcode.com](https://leetcode.com/problems/longest-common-suffix-queries/) |
 | 2026-05-27 | LeetCode Medium | Count the Number of Special Characters II | [python](leetcode/medium/3121.%20Count%20the%20Number%20of%20Special%20Characters%20II.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) |
 | 2026-05-26 | LeetCode Easy | Count the Number of Special Characters I | [python](leetcode/easy/3120.%20Count%20the%20Number%20of%20Special%20Characters%20I.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-special-characters-i/) |
 | 2026-05-25 | LeetCode Medium | Jump Game VII | [python](leetcode/medium/1871.%20Jump%20Game%20VII.py) | [leetcode.com](https://leetcode.com/problems/jump-game-vii/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-05-21 | LeetCode Medium | Find the Length of the Longest Common Prefix | [python](leetcode/medium/3043.%20Find%20the%20Length%20of%20the%20Longest%20Common%20Prefix.py) | [leetcode.com](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/) |
 | 2026-05-20 | LeetCode Medium | Find the Prefix Common Array of Two Arrays | [python](leetcode/medium/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays.py) | [leetcode.com](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/) |
 | 2026-05-19 | LeetCode Easy | Minimum Common Value | [python](leetcode/easy/2540.%20Minimum%20Common%20Value.py) | [leetcode.com](https://leetcode.com/problems/minimum-common-value/) |
-| 2026-05-18 | LeetCode Hard | Jump Game IV | [python](leetcode/hard/1345.%20Jump%20Game%20IV.py) | [leetcode.com](https://leetcode.com/problems/jump-game-iv/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -276,6 +276,7 @@ Recently solved and added problems.
 | 2872 | Maximum Number of K-Divisible Components | O(n) | O(1) | [python](leetcode/hard/2872.%20Maximum%20Number%20of%20K-Divisible%20Components.py) | [leetcode.com](https://leetcode.com/problems/maximum-number-of-k-divisible-components/) |
 | 2977 | Minimum Cost to Convert String II | O(n) | O(1) | [python](leetcode/hard/2977.%20Minimum%20Cost%20to%20Convert%20String%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/) |
 | 3027 | Find the Number of Ways to Place People II | O(n) | O(1) | [python](leetcode/hard/3027.%20Find%20the%20Number%20of%20Ways%20to%20Place%20People%20II.py) | [leetcode.com](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-ii/) |
+| 3093 | Longest Common Suffix Queries | O((n+m)*l) | O(n*l) | [python](leetcode/hard/3093.%20Longest%20Common%20Suffix%20Queries.py) | [leetcode.com](https://leetcode.com/problems/longest-common-suffix-queries/) |
 | 3347 | Maximum Frequency of an Element After Performing Operations II | O(n) | O(1) | [python](leetcode/hard/3347.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20II.py) | [leetcode.com](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii/) |
 | 3474 | Lexicographically Smallest Generated String | O(n*m) | O(n+m) | [python](leetcode/hard/3474.%20Lexicographically%20Smallest%20Generated%20String.py) | [leetcode.com](https://leetcode.com/problems/lexicographically-smallest-generated-string/) |
 | 3666 | Minimum Operations to Equalize Binary String | O(n) | O(1) | [python](leetcode/hard/3666.%20Minimum%20Operations%20to%20Equalize%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/) |
