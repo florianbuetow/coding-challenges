@@ -35,7 +35,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 118 | 1941 | 16 | 160 | 6 | 164 | 151 | 42 | 6 | 14 | 195 | 4 | 4 | 14 | 1 | 0 | 11 | 0 |
+| leetcode-easy | 119 | 1953 | 16 | 161 | 6 | 165 | 152 | 42 | 6 | 14 | 196 | 4 | 4 | 14 | 1 | 0 | 12 | 0 |
 | leetcode-medium | 176 | 4595 | 26 | 309 | 5 | 471 | 341 | 103 | 21 | 39 | 384 | 6 | 37 | 57 | 11 | 26 | 23 | 7 |
 | leetcode-hard | 34 | 1061 | 31 | 63 | 4 | 97 | 84 | 21 | 11 | 15 | 79 | 3 | 7 | 14 | 8 | 3 | 9 | 9 |
 
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-06-01 | LeetCode Easy | Minimum Cost of Buying Candies With Discount | [python](leetcode/easy/2144.%20Minimum%20Cost%20of%20Buying%20Candies%20With%20Discount.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) |
 | 2026-05-28 | LeetCode Hard | Longest Common Suffix Queries | [python](leetcode/hard/3093.%20Longest%20Common%20Suffix%20Queries.py) | [leetcode.com](https://leetcode.com/problems/longest-common-suffix-queries/) |
 | 2026-05-27 | LeetCode Medium | Count the Number of Special Characters II | [python](leetcode/medium/3121.%20Count%20the%20Number%20of%20Special%20Characters%20II.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) |
 | 2026-05-26 | LeetCode Easy | Count the Number of Special Characters I | [python](leetcode/easy/3120.%20Count%20the%20Number%20of%20Special%20Characters%20I.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-special-characters-i/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-05-23 | LeetCode Easy | Check if Array Is Sorted and Rotated | [python](leetcode/easy/1752.%20Check%20if%20Array%20Is%20Sorted%20and%20Rotated.py) | [leetcode.com](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) |
 | 2026-05-21 | LeetCode Medium | Find the Length of the Longest Common Prefix | [python](leetcode/medium/3043.%20Find%20the%20Length%20of%20the%20Longest%20Common%20Prefix.py) | [leetcode.com](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/) |
 | 2026-05-20 | LeetCode Medium | Find the Prefix Common Array of Two Arrays | [python](leetcode/medium/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays.py) | [leetcode.com](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/) |
-| 2026-05-19 | LeetCode Easy | Minimum Common Value | [python](leetcode/easy/2540.%20Minimum%20Common%20Value.py) | [leetcode.com](https://leetcode.com/problems/minimum-common-value/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -190,6 +190,7 @@ Recently solved and added problems.
 | 2011 | Final Value of Variable After Performing Operations | O(n) | O(1) | [python](leetcode/easy/2011.%20Final%20Value%20of%20Variable%20After%20Performing%20Operations.py) | [leetcode.com](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) |
 | 2073 | Time Needed to Buy Tickets | O(n) | O(1) | [python](leetcode/easy/2073.%20Time%20Needed%20to%20Buy%20Tickets.py) | [leetcode.com](https://leetcode.com/problems/time-needed-to-buy-tickets/) |
 | 2078 | Two Furthest Houses With Different Colors | O(n) | O(n) | [python](leetcode/easy/2078.%20Two%20Furthest%20Houses%20With%20Different%20Colors.py) | [leetcode.com](https://leetcode.com/problems/two-furthest-houses-with-different-colors/) |
+| 2144 | Minimum Cost of Buying Candies With Discount | O(n log n) | O(1) | [python](leetcode/easy/2144.%20Minimum%20Cost%20of%20Buying%20Candies%20With%20Discount.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) |
 | 2154 | Keep Multiplying Found Values by Two | O(n) | O(1) | [python](leetcode/easy/2154.%20Keep%20Multiplying%20Found%20Values%20by%20Two.py) | [leetcode.com](https://leetcode.com/problems/keep-multiplying-found-values-by-two/) |
 | 2273 | Find Resultant Array After Removing Anagrams | O(n) | O(1) | [python](leetcode/easy/2273.%20Find%20Resultant%20Array%20After%20Removing%20Anagrams.py) | [leetcode.com](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/) |
 | 2331 | Evaluate Boolean Binary Tree | O(n) | O(1) | [python](leetcode/easy/2331.%20Evaluate%20Boolean%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/evaluate-boolean-binary-tree/) |
