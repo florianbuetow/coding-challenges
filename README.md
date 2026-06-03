@@ -35,8 +35,8 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 119 | 1953 | 16 | 161 | 6 | 165 | 152 | 42 | 6 | 14 | 196 | 4 | 4 | 14 | 1 | 0 | 12 | 0 |
-| leetcode-medium | 176 | 4595 | 26 | 309 | 5 | 471 | 341 | 103 | 21 | 39 | 384 | 6 | 37 | 57 | 11 | 26 | 23 | 7 |
+| leetcode-easy | 120 | 1967 | 16 | 162 | 6 | 165 | 157 | 42 | 6 | 14 | 197 | 4 | 4 | 14 | 1 | 0 | 12 | 0 |
+| leetcode-medium | 177 | 4611 | 26 | 310 | 5 | 471 | 345 | 103 | 21 | 39 | 385 | 6 | 37 | 57 | 11 | 26 | 23 | 7 |
 | leetcode-hard | 34 | 1061 | 31 | 63 | 4 | 97 | 84 | 21 | 11 | 15 | 79 | 3 | 7 | 14 | 8 | 3 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,8 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-06-04 | LeetCode Medium | Earliest Finish Time for Land and Water Rides II | [python](leetcode/medium/3635.%20Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20II.py) | [leetcode.com](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) |
+| 2026-06-04 | LeetCode Easy | Earliest Finish Time for Land and Water Rides I | [python](leetcode/easy/3633.%20Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20I.py) | [leetcode.com](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) |
 | 2026-06-01 | LeetCode Easy | Minimum Cost of Buying Candies With Discount | [python](leetcode/easy/2144.%20Minimum%20Cost%20of%20Buying%20Candies%20With%20Discount.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) |
 | 2026-05-28 | LeetCode Hard | Longest Common Suffix Queries | [python](leetcode/hard/3093.%20Longest%20Common%20Suffix%20Queries.py) | [leetcode.com](https://leetcode.com/problems/longest-common-suffix-queries/) |
 | 2026-05-27 | LeetCode Medium | Count the Number of Special Characters II | [python](leetcode/medium/3121.%20Count%20the%20Number%20of%20Special%20Characters%20II.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) |
@@ -55,8 +57,6 @@ Recently solved and added problems.
 | 2026-05-24 | LeetCode Hard | Jump Game V | [python](leetcode/hard/1340.%20Jump%20Game%20V.py) | [leetcode.com](https://leetcode.com/problems/jump-game-v/) |
 | 2026-05-24 | LeetCode Hard | Jump Game V | [python](leetcode/hard/1340.%20Jump%20Game%20V.py) | [leetcode.com](https://leetcode.com/problems/jump-game-v/) |
 | 2026-05-23 | LeetCode Easy | Check if Array Is Sorted and Rotated | [python](leetcode/easy/1752.%20Check%20if%20Array%20Is%20Sorted%20and%20Rotated.py) | [leetcode.com](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) |
-| 2026-05-21 | LeetCode Medium | Find the Length of the Longest Common Prefix | [python](leetcode/medium/3043.%20Find%20the%20Length%20of%20the%20Longest%20Common%20Prefix.py) | [leetcode.com](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/) |
-| 2026-05-20 | LeetCode Medium | Find the Prefix Common Array of Two Arrays | [python](leetcode/medium/2657.%20Find%20the%20Prefix%20Common%20Array%20of%20Two%20Arrays.py) | [leetcode.com](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -219,6 +219,7 @@ Recently solved and added problems.
 | 3516 | Find Closest Person | O(n) | O(1) | [python](leetcode/easy/3516.%20Find%20Closest%20Person.py) | [leetcode.com](https://leetcode.com/problems/find-closest-person/) |
 | 3541 | Find Most Frequent Vowel and Consonant | O(n) | O(1) | [python](leetcode/easy/3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant.py) | [leetcode.com](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) |
 | 3606 | Coupon Code Validator | O(n) | O(1) | [python](leetcode/easy/3606.%20Coupon%20Code%20Validator.py) | [leetcode.com](https://leetcode.com/problems/coupon-code-validator/) |
+| 3633 | Earliest Finish Time for Land and Water Rides I | O(n+m) | O(1) | [python](leetcode/easy/3633.%20Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20I.py) | [leetcode.com](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) |
 | 3643 | Flip Square Submatrix Vertically | O(k*k) | O(1) | [python](leetcode/easy/3643.%20Flip%20Square%20Submatrix%20Vertically.py) | [leetcode.com](https://leetcode.com/problems/flip-square-submatrix-vertically/) |
 | 3731 | Find Missing Elements | O(n) | O(1) | [python](leetcode/easy/3731.%20Find%20Missing%20Elements.py) | [leetcode.com](https://leetcode.com/problems/find-missing-elements/) |
 | 3736 | Minimum Moves to Equal Array Elements III | O(n) | O(1) | [python](leetcode/easy/3736.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20III.py) | [leetcode.com](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) |
@@ -451,6 +452,7 @@ Recently solved and added problems.
 | 3577 | Count the Number of Computer Unlocking Permutations | O(n) | O(1) | [python](leetcode/medium/3577.%20Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/) |
 | 3578 | Count Partitions With Max-Min Difference at Most K | O(n) | O(1) | [python](leetcode/medium/3578.%20Count%20Partitions%20With%20Max-Min%20Difference%20at%20Most%20K.py) | [leetcode.com](https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k) |
 | 3634 | Minimum Removals to Balance Array | O(n) | O(1) | [python](leetcode/medium/3634.%20Minimum%20Removals%20to%20Balance%20Array.py) | [leetcode.com](https://leetcode.com/problems/minimum-removals-to-balance-array/) |
+| 3635 | Earliest Finish Time for Land and Water Rides II | O(n+m) | O(1) | [python](leetcode/medium/3635.%20Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20II.py) | [leetcode.com](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) |
 | 3650 | Minimum Cost Path with Edge Reversals | O(n) | O(1) | [python](leetcode/medium/3650.%20Minimum%20Cost%20Path%20with%20Edge%20Reversals.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/) |
 | 3652 | Best Time to Buy and Sell Stock using Strategy | O(n) | O(1) | [python](leetcode/medium/3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy.py) | [leetcode.com](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/) |
 | 3653 | XOR After Range Multiplication Queries I | O(n*n*m) | O(n) | [python](leetcode/medium/3653.%20XOR%20After%20Range%20Multiplication%20Queries%20I.py) | [leetcode.com](https://leetcode.com/problems/xor-after-range-multiplication-queries-i) |
