@@ -36,7 +36,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 120 | 1967 | 16 | 162 | 6 | 165 | 157 | 42 | 6 | 14 | 197 | 4 | 4 | 14 | 1 | 0 | 12 | 0 |
-| leetcode-medium | 177 | 4611 | 26 | 310 | 5 | 471 | 345 | 103 | 21 | 39 | 385 | 6 | 37 | 57 | 11 | 26 | 23 | 7 |
+| leetcode-medium | 178 | 4646 | 26 | 314 | 5 | 476 | 348 | 104 | 21 | 39 | 391 | 6 | 37 | 57 | 11 | 26 | 23 | 7 |
 | leetcode-hard | 34 | 1061 | 31 | 63 | 4 | 97 | 84 | 21 | 11 | 15 | 79 | 3 | 7 | 14 | 8 | 3 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-06-04 | LeetCode Medium | Total Waviness of Numbers in Range I | [python](leetcode/medium/3751.%20Total%20Waviness%20of%20Numbers%20in%20Range%20I.py) | [leetcode.com](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) |
 | 2026-06-04 | LeetCode Medium | Earliest Finish Time for Land and Water Rides II | [python](leetcode/medium/3635.%20Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20II.py) | [leetcode.com](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) |
 | 2026-06-04 | LeetCode Easy | Earliest Finish Time for Land and Water Rides I | [python](leetcode/easy/3633.%20Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20I.py) | [leetcode.com](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) |
 | 2026-06-01 | LeetCode Easy | Minimum Cost of Buying Candies With Discount | [python](leetcode/easy/2144.%20Minimum%20Cost%20of%20Buying%20Candies%20With%20Discount.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-05-25 | LeetCode Medium | Jump Game VII | [python](leetcode/medium/1871.%20Jump%20Game%20VII.py) | [leetcode.com](https://leetcode.com/problems/jump-game-vii/) |
 | 2026-05-24 | LeetCode Hard | Jump Game V | [python](leetcode/hard/1340.%20Jump%20Game%20V.py) | [leetcode.com](https://leetcode.com/problems/jump-game-v/) |
 | 2026-05-24 | LeetCode Hard | Jump Game V | [python](leetcode/hard/1340.%20Jump%20Game%20V.py) | [leetcode.com](https://leetcode.com/problems/jump-game-v/) |
-| 2026-05-23 | LeetCode Easy | Check if Array Is Sorted and Rotated | [python](leetcode/easy/1752.%20Check%20if%20Array%20Is%20Sorted%20and%20Rotated.py) | [leetcode.com](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -460,6 +460,7 @@ Recently solved and added problems.
 | 3714 | Longest Balanced Substring II | O(n) | O(1) | [python](leetcode/medium/3714.%20Longest%20Balanced%20Substring%20II.py) | [leetcode.com](https://leetcode.com/problems/longest-balanced-substring-ii/) |
 | 3719 | Longest Balanced Subarray I | O(n) | O(1) | [python](leetcode/medium/3719.%20Longest%20Balanced%20Subarray%20I.py) | [leetcode.com](https://leetcode.com/problems/longest-balanced-subarray-i/) |
 | 3741 | Minimum Distance Between Three Equal Elements II | O(n) | O(n) | [python](leetcode/medium/3741.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/) |
+| 3751 | Total Waviness of Numbers in Range I | O(n) | O(log n) | [python](leetcode/medium/3751.%20Total%20Waviness%20of%20Numbers%20in%20Range%20I.py) | [leetcode.com](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) |
 | 3760 | Maximum Substrings With Distinct Start | O(n) | O(n) | [python](leetcode/medium/3760.%20Maximum%20Substrings%20With%20Distinct%20Start.py) | [leetcode.com](https://leetcode.com/problems/maximum-substrings-with-distinct-start/) |
 | 3761 | Minimum Absolute Distance Between Mirror Pairs | O(n) | O(n) | [python](leetcode/medium/3761.%20Minimum%20Absolute%20Distance%20Between%20Mirror%20Pairs.py) | [leetcode.com](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/) |
 | 3788 | Maximum Score of a Split | O(n) | O(1) | [python](leetcode/medium/3788.%20Maximum%20Score%20of%20a%20Split.py) | [leetcode.com](https://leetcode.com/problems/maximum-score-of-a-split) |
