@@ -36,7 +36,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 121 | 1980 | 16 | 163 | 6 | 165 | 158 | 42 | 6 | 14 | 198 | 4 | 4 | 14 | 1 | 0 | 12 | 0 |
-| leetcode-medium | 178 | 4646 | 26 | 314 | 5 | 476 | 348 | 104 | 21 | 39 | 391 | 6 | 37 | 57 | 11 | 26 | 23 | 7 |
+| leetcode-medium | 179 | 4660 | 26 | 315 | 5 | 479 | 351 | 104 | 21 | 39 | 392 | 6 | 37 | 57 | 11 | 26 | 23 | 7 |
 | leetcode-hard | 34 | 1061 | 31 | 63 | 4 | 97 | 84 | 21 | 11 | 15 | 79 | 3 | 7 | 14 | 8 | 3 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,8 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-06-08 | LeetCode Medium | Partition Array According to Given Pivot | [python](leetcode/medium/2161.%20Partition%20Array%20According%20to%20Given%20Pivot.py) | [leetcode.com](https://leetcode.com/problems/partition-array-according-to-given-pivot/) |
+| 2026-06-07 | LeetCode Medium | Create Binary Tree From Descriptions | [python](leetcode/medium/2196.%20Create%20Binary%20Tree%20From%20Descriptions.py) | [leetcode.com](https://leetcode.com/problems/create-binary-tree-from-descriptions/) |
 | 2026-06-06 | LeetCode Easy | Left and Right Sum Differences | [python](leetcode/easy/2574.%20Left%20and%20Right%20Sum%20Differences.py) | [leetcode.com](https://leetcode.com/problems/left-and-right-sum-differences/) |
 | 2026-06-04 | LeetCode Medium | Total Waviness of Numbers in Range I | [python](leetcode/medium/3751.%20Total%20Waviness%20of%20Numbers%20in%20Range%20I.py) | [leetcode.com](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) |
 | 2026-06-04 | LeetCode Medium | Earliest Finish Time for Land and Water Rides II | [python](leetcode/medium/3635.%20Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20II.py) | [leetcode.com](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) |
@@ -55,8 +57,6 @@ Recently solved and added problems.
 | 2026-05-28 | LeetCode Hard | Longest Common Suffix Queries | [python](leetcode/hard/3093.%20Longest%20Common%20Suffix%20Queries.py) | [leetcode.com](https://leetcode.com/problems/longest-common-suffix-queries/) |
 | 2026-05-27 | LeetCode Medium | Count the Number of Special Characters II | [python](leetcode/medium/3121.%20Count%20the%20Number%20of%20Special%20Characters%20II.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) |
 | 2026-05-26 | LeetCode Easy | Count the Number of Special Characters I | [python](leetcode/easy/3120.%20Count%20the%20Number%20of%20Special%20Characters%20I.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-special-characters-i/) |
-| 2026-05-25 | LeetCode Medium | Jump Game VII | [python](leetcode/medium/1871.%20Jump%20Game%20VII.py) | [leetcode.com](https://leetcode.com/problems/jump-game-vii/) |
-| 2026-05-24 | LeetCode Hard | Jump Game V | [python](leetcode/hard/1340.%20Jump%20Game%20V.py) | [leetcode.com](https://leetcode.com/problems/jump-game-v/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -396,6 +396,7 @@ Recently solved and added problems.
 | 2096 | Step-By-Step Directions From a Binary Tree Node to Another | O(n) | O(n) | [python](leetcode/medium/2096.%20Step-By-Step%20Directions%20From%20a%20Binary%20Tree%20Node%20to%20Another.py) | [leetcode.com](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) |
 | 2110 | Number of Smooth Descent Periods of a Stock | O(n) | O(1) | [python](leetcode/medium/2110.%20Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock.py) | [leetcode.com](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/) |
 | 2125 | Number of Laser Beams in a Bank | O(n) | O(1) | [python](leetcode/medium/2125.%20Number%20of%20Laser%20Beams%20in%20a%20Bank.py) | [leetcode.com](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/) |
+| 2161 | Partition Array According to Given Pivot | O(n) | O(n) | [python](leetcode/medium/2161.%20Partition%20Array%20According%20to%20Given%20Pivot.py) | [leetcode.com](https://leetcode.com/problems/partition-array-according-to-given-pivot/) |
 | 2181 | Merge Nodes in Between Zeros | O(n) | O(1) | [python](leetcode/medium/2181.%20Merge%20Nodes%20in%20Between%20Zeros.py) | [leetcode.com](https://leetcode.com/problems/merge-nodes-in-between-zeros/) |
 | 2196 | Create Binary Tree From Descriptions | O(n) | O(n) | [python](leetcode/medium/2196.%20Create%20Binary%20Tree%20From%20Descriptions.py) | [leetcode.com](https://leetcode.com/problems/create-binary-tree-from-descriptions/) |
 | 2211 | Count Collisions on a Road | O(n) | O(1) | [python](leetcode/medium/2211.%20Count%20Collisions%20on%20a%20Road.py) | [leetcode.com](https://leetcode.com/problems/count-collisions-on-a-road) |
