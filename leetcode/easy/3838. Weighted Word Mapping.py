@@ -11,6 +11,5 @@ class Solution:
 
         result = []
         for word in words:
-            print(word, calcWeight(word), calcWeight(word)%26)
             result.append(chr(ord('z') - (calcWeight(word) % 26)))
         return ''.join(result)
