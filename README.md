@@ -35,7 +35,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 121 | 1980 | 16 | 163 | 6 | 165 | 158 | 42 | 6 | 14 | 198 | 4 | 4 | 14 | 1 | 0 | 12 | 0 |
+| leetcode-easy | 121 | 1979 | 16 | 163 | 6 | 165 | 158 | 42 | 6 | 14 | 198 | 4 | 4 | 14 | 1 | 0 | 12 | 0 |
 | leetcode-medium | 181 | 4708 | 26 | 320 | 5 | 479 | 352 | 107 | 21 | 39 | 396 | 6 | 37 | 57 | 11 | 26 | 23 | 7 |
 | leetcode-hard | 34 | 1061 | 31 | 63 | 4 | 97 | 84 | 21 | 11 | 15 | 79 | 3 | 7 | 14 | 8 | 3 | 9 | 9 |
 
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-06-14 | LeetCode Easy | Weighted Word Mapping | [python](leetcode/easy/3838.%20Weighted%20Word%20Mapping.py) | [leetcode.com](https://leetcode.com/problems/weighted-word-mapping/) |
 | 2026-06-14 | LeetCode Medium | Maximum Twin Sum of a Linked List | [python](leetcode/medium/2130.%20Maximum%20Twin%20Sum%20of%20a%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) |
 | 2026-06-09 | LeetCode Medium | Maximum Total Subarray Value I | [python](leetcode/medium/3689.%20Maximum%20Total%20Subarray%20Value%20I.py) | [leetcode.com](https://leetcode.com/problems/maximum-total-subarray-value-i/) |
 | 2026-06-08 | LeetCode Medium | Partition Array According to Given Pivot | [python](leetcode/medium/2161.%20Partition%20Array%20According%20to%20Given%20Pivot.py) | [leetcode.com](https://leetcode.com/problems/partition-array-according-to-given-pivot/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-06-04 | LeetCode Medium | Earliest Finish Time for Land and Water Rides II | [python](leetcode/medium/3635.%20Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20II.py) | [leetcode.com](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) |
 | 2026-06-04 | LeetCode Easy | Earliest Finish Time for Land and Water Rides I | [python](leetcode/easy/3633.%20Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20I.py) | [leetcode.com](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) |
 | 2026-06-01 | LeetCode Easy | Minimum Cost of Buying Candies With Discount | [python](leetcode/easy/2144.%20Minimum%20Cost%20of%20Buying%20Candies%20With%20Discount.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) |
-| 2026-05-28 | LeetCode Hard | Longest Common Suffix Queries | [python](leetcode/hard/3093.%20Longest%20Common%20Suffix%20Queries.py) | [leetcode.com](https://leetcode.com/problems/longest-common-suffix-queries/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
