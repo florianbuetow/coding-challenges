@@ -36,7 +36,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 121 | 1980 | 16 | 163 | 6 | 165 | 158 | 42 | 6 | 14 | 198 | 4 | 4 | 14 | 1 | 0 | 12 | 0 |
-| leetcode-medium | 180 | 4667 | 25 | 316 | 5 | 479 | 351 | 104 | 21 | 39 | 393 | 6 | 37 | 57 | 11 | 26 | 23 | 7 |
+| leetcode-medium | 181 | 4708 | 26 | 320 | 5 | 479 | 352 | 107 | 21 | 39 | 396 | 6 | 37 | 57 | 11 | 26 | 23 | 7 |
 | leetcode-hard | 34 | 1061 | 31 | 63 | 4 | 97 | 84 | 21 | 11 | 15 | 79 | 3 | 7 | 14 | 8 | 3 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-06-14 | LeetCode Medium | Maximum Twin Sum of a Linked List | [python](leetcode/medium/2130.%20Maximum%20Twin%20Sum%20of%20a%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) |
 | 2026-06-09 | LeetCode Medium | Maximum Total Subarray Value I | [python](leetcode/medium/3689.%20Maximum%20Total%20Subarray%20Value%20I.py) | [leetcode.com](https://leetcode.com/problems/maximum-total-subarray-value-i/) |
 | 2026-06-08 | LeetCode Medium | Partition Array According to Given Pivot | [python](leetcode/medium/2161.%20Partition%20Array%20According%20to%20Given%20Pivot.py) | [leetcode.com](https://leetcode.com/problems/partition-array-according-to-given-pivot/) |
 | 2026-06-07 | LeetCode Medium | Create Binary Tree From Descriptions | [python](leetcode/medium/2196.%20Create%20Binary%20Tree%20From%20Descriptions.py) | [leetcode.com](https://leetcode.com/problems/create-binary-tree-from-descriptions/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-06-04 | LeetCode Easy | Earliest Finish Time for Land and Water Rides I | [python](leetcode/easy/3633.%20Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20I.py) | [leetcode.com](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) |
 | 2026-06-01 | LeetCode Easy | Minimum Cost of Buying Candies With Discount | [python](leetcode/easy/2144.%20Minimum%20Cost%20of%20Buying%20Candies%20With%20Discount.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) |
 | 2026-05-28 | LeetCode Hard | Longest Common Suffix Queries | [python](leetcode/hard/3093.%20Longest%20Common%20Suffix%20Queries.py) | [leetcode.com](https://leetcode.com/problems/longest-common-suffix-queries/) |
-| 2026-05-27 | LeetCode Medium | Count the Number of Special Characters II | [python](leetcode/medium/3121.%20Count%20the%20Number%20of%20Special%20Characters%20II.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-special-characters-ii/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -396,6 +396,7 @@ Recently solved and added problems.
 | 2096 | Step-By-Step Directions From a Binary Tree Node to Another | O(n) | O(n) | [python](leetcode/medium/2096.%20Step-By-Step%20Directions%20From%20a%20Binary%20Tree%20Node%20to%20Another.py) | [leetcode.com](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) |
 | 2110 | Number of Smooth Descent Periods of a Stock | O(n) | O(1) | [python](leetcode/medium/2110.%20Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock.py) | [leetcode.com](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/) |
 | 2125 | Number of Laser Beams in a Bank | O(n) | O(1) | [python](leetcode/medium/2125.%20Number%20of%20Laser%20Beams%20in%20a%20Bank.py) | [leetcode.com](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/) |
+| 2130 | Maximum Twin Sum of a Linked List | O(n) | O(1) | [python](leetcode/medium/2130.%20Maximum%20Twin%20Sum%20of%20a%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) |
 | 2161 | Partition Array According to Given Pivot | O(n) | O(n) | [python](leetcode/medium/2161.%20Partition%20Array%20According%20to%20Given%20Pivot.py) | [leetcode.com](https://leetcode.com/problems/partition-array-according-to-given-pivot/) |
 | 2181 | Merge Nodes in Between Zeros | O(n) | O(1) | [python](leetcode/medium/2181.%20Merge%20Nodes%20in%20Between%20Zeros.py) | [leetcode.com](https://leetcode.com/problems/merge-nodes-in-between-zeros/) |
 | 2196 | Create Binary Tree From Descriptions | O(n) | O(n) | [python](leetcode/medium/2196.%20Create%20Binary%20Tree%20From%20Descriptions.py) | [leetcode.com](https://leetcode.com/problems/create-binary-tree-from-descriptions/) |
