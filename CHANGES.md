@@ -6,6 +6,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-06-15 | LeetCode Medium | Delete the Middle Node of a Linked List | [python](leetcode/medium/2095.%20Delete%20the%20Middle%20Node%20of%20a%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) |
 | 2026-06-14 | LeetCode Easy | Weighted Word Mapping | [python](leetcode/easy/3838.%20Weighted%20Word%20Mapping.py) | [leetcode.com](https://leetcode.com/problems/weighted-word-mapping/) |
 | 2026-06-14 | LeetCode Medium | Maximum Twin Sum of a Linked List | [python](leetcode/medium/2130.%20Maximum%20Twin%20Sum%20of%20a%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) |
 | 2026-06-09 | LeetCode Medium | Maximum Total Subarray Value I | [python](leetcode/medium/3689.%20Maximum%20Total%20Subarray%20Value%20I.py) | [leetcode.com](https://leetcode.com/problems/maximum-total-subarray-value-i/) |
@@ -15,4 +16,3 @@ Recently solved and added problems.
 | 2026-06-04 | LeetCode Medium | Total Waviness of Numbers in Range I | [python](leetcode/medium/3751.%20Total%20Waviness%20of%20Numbers%20in%20Range%20I.py) | [leetcode.com](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) |
 | 2026-06-04 | LeetCode Medium | Earliest Finish Time for Land and Water Rides II | [python](leetcode/medium/3635.%20Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20II.py) | [leetcode.com](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) |
 | 2026-06-04 | LeetCode Easy | Earliest Finish Time for Land and Water Rides I | [python](leetcode/easy/3633.%20Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20I.py) | [leetcode.com](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) |
-| 2026-06-01 | LeetCode Easy | Minimum Cost of Buying Candies With Discount | [python](leetcode/easy/2144.%20Minimum%20Cost%20of%20Buying%20Candies%20With%20Discount.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) |
