@@ -36,7 +36,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 121 | 1979 | 16 | 163 | 6 | 165 | 158 | 42 | 6 | 14 | 198 | 4 | 4 | 14 | 1 | 0 | 12 | 0 |
-| leetcode-medium | 182 | 4729 | 25 | 322 | 5 | 480 | 353 | 108 | 21 | 39 | 397 | 6 | 37 | 57 | 11 | 26 | 23 | 7 |
+| leetcode-medium | 183 | 4746 | 25 | 323 | 5 | 484 | 354 | 108 | 21 | 39 | 398 | 6 | 37 | 57 | 11 | 26 | 23 | 7 |
 | leetcode-hard | 34 | 1061 | 31 | 63 | 4 | 97 | 84 | 21 | 11 | 15 | 79 | 3 | 7 | 14 | 8 | 3 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-06-16 | LeetCode Medium | Process String with Special Operations I | [python](leetcode/medium/3612.%20Process%20String%20with%20Special%20Operations%20I.py) | [leetcode.com](https://leetcode.com/problems/process-string-with-special-operations-i/) |
 | 2026-06-15 | LeetCode Medium | Delete the Middle Node of a Linked List | [python](leetcode/medium/2095.%20Delete%20the%20Middle%20Node%20of%20a%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) |
 | 2026-06-14 | LeetCode Easy | Weighted Word Mapping | [python](leetcode/easy/3838.%20Weighted%20Word%20Mapping.py) | [leetcode.com](https://leetcode.com/problems/weighted-word-mapping/) |
 | 2026-06-14 | LeetCode Medium | Maximum Twin Sum of a Linked List | [python](leetcode/medium/2130.%20Maximum%20Twin%20Sum%20of%20a%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-06-06 | LeetCode Easy | Left and Right Sum Differences | [python](leetcode/easy/2574.%20Left%20and%20Right%20Sum%20Differences.py) | [leetcode.com](https://leetcode.com/problems/left-and-right-sum-differences/) |
 | 2026-06-04 | LeetCode Medium | Total Waviness of Numbers in Range I | [python](leetcode/medium/3751.%20Total%20Waviness%20of%20Numbers%20in%20Range%20I.py) | [leetcode.com](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) |
 | 2026-06-04 | LeetCode Medium | Earliest Finish Time for Land and Water Rides II | [python](leetcode/medium/3635.%20Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20II.py) | [leetcode.com](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) |
-| 2026-06-04 | LeetCode Easy | Earliest Finish Time for Land and Water Rides I | [python](leetcode/easy/3633.%20Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20I.py) | [leetcode.com](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -455,6 +455,7 @@ Recently solved and added problems.
 | 3546 | Equal Sum Grid Partition I | O(n*m) | O(1) | [python](leetcode/medium/3546.%20Equal%20Sum%20Grid%20Partition%20I.py) | [leetcode.com](https://leetcode.com/problems/equal-sum-grid-partition-i/) |
 | 3577 | Count the Number of Computer Unlocking Permutations | O(n) | O(1) | [python](leetcode/medium/3577.%20Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/) |
 | 3578 | Count Partitions With Max-Min Difference at Most K | O(n) | O(1) | [python](leetcode/medium/3578.%20Count%20Partitions%20With%20Max-Min%20Difference%20at%20Most%20K.py) | [leetcode.com](https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k) |
+| 3612 | Process String with Special Operations I | O(2^n) | O(2^n) | [python](leetcode/medium/3612.%20Process%20String%20with%20Special%20Operations%20I.py) | [leetcode.com](https://leetcode.com/problems/process-string-with-special-operations-i/) |
 | 3634 | Minimum Removals to Balance Array | O(n) | O(1) | [python](leetcode/medium/3634.%20Minimum%20Removals%20to%20Balance%20Array.py) | [leetcode.com](https://leetcode.com/problems/minimum-removals-to-balance-array/) |
 | 3635 | Earliest Finish Time for Land and Water Rides II | O(n+m) | O(1) | [python](leetcode/medium/3635.%20Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20II.py) | [leetcode.com](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) |
 | 3650 | Minimum Cost Path with Edge Reversals | O(n) | O(1) | [python](leetcode/medium/3650.%20Minimum%20Cost%20Path%20with%20Edge%20Reversals.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/) |
