@@ -36,7 +36,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 121 | 1979 | 16 | 163 | 6 | 165 | 158 | 42 | 6 | 14 | 198 | 4 | 4 | 14 | 1 | 0 | 12 | 0 |
-| leetcode-medium | 183 | 4746 | 25 | 323 | 5 | 484 | 354 | 108 | 21 | 39 | 398 | 6 | 37 | 57 | 11 | 26 | 23 | 7 |
+| leetcode-medium | 184 | 4764 | 25 | 326 | 5 | 484 | 354 | 108 | 21 | 39 | 401 | 6 | 37 | 57 | 11 | 26 | 23 | 7 |
 | leetcode-hard | 34 | 1061 | 31 | 63 | 4 | 97 | 84 | 21 | 11 | 15 | 79 | 3 | 7 | 14 | 8 | 3 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-06-20 | LeetCode Medium | Angle Between Hands of a Clock | [python](leetcode/medium/1344.%20Angle%20Between%20Hands%20of%20a%20Clock.py) | [leetcode.com](https://leetcode.com/problems/angle-between-hands-of-a-clock/) |
 | 2026-06-16 | LeetCode Medium | Process String with Special Operations I | [python](leetcode/medium/3612.%20Process%20String%20with%20Special%20Operations%20I.py) | [leetcode.com](https://leetcode.com/problems/process-string-with-special-operations-i/) |
 | 2026-06-15 | LeetCode Medium | Delete the Middle Node of a Linked List | [python](leetcode/medium/2095.%20Delete%20the%20Middle%20Node%20of%20a%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) |
 | 2026-06-14 | LeetCode Easy | Weighted Word Mapping | [python](leetcode/easy/3838.%20Weighted%20Word%20Mapping.py) | [leetcode.com](https://leetcode.com/problems/weighted-word-mapping/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-06-07 | LeetCode Medium | Create Binary Tree From Descriptions | [python](leetcode/medium/2196.%20Create%20Binary%20Tree%20From%20Descriptions.py) | [leetcode.com](https://leetcode.com/problems/create-binary-tree-from-descriptions/) |
 | 2026-06-06 | LeetCode Easy | Left and Right Sum Differences | [python](leetcode/easy/2574.%20Left%20and%20Right%20Sum%20Differences.py) | [leetcode.com](https://leetcode.com/problems/left-and-right-sum-differences/) |
 | 2026-06-04 | LeetCode Medium | Total Waviness of Numbers in Range I | [python](leetcode/medium/3751.%20Total%20Waviness%20of%20Numbers%20in%20Range%20I.py) | [leetcode.com](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) |
-| 2026-06-04 | LeetCode Medium | Earliest Finish Time for Land and Water Rides II | [python](leetcode/medium/3635.%20Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20II.py) | [leetcode.com](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -355,6 +355,7 @@ Recently solved and added problems.
 | 1292 | Maximum Side Length of a Square with Sum Less than or Equal to Threshold | O(n) | O(1) | [python](leetcode/medium/1292.%20Maximum%20Side%20Length%20of%20a%20Square%20with%20Sum%20Less%20than%20or%20Equal%20to%20Threshold.py) | [leetcode.com](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | 1306 | Jump Game III | O(n) | O(n) | [python](leetcode/medium/1306.%20Jump%20Game%20III.py) | [leetcode.com](https://leetcode.com/problems/jump-game-iii/) |
 | 1339 | Maximum Product of Splitted Binary Tree | O(n) | O(1) | [python](leetcode/medium/1339.%20Maximum%20Product%20of%20Splitted%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) |
+| 1344 | Angle Between Hands of a Clock | O(1) | O(1) | [python](leetcode/medium/1344.%20Angle%20Between%20Hands%20of%20a%20Clock.py) | [leetcode.com](https://leetcode.com/problems/angle-between-hands-of-a-clock/) |
 | 1382 | Balance a Binary Search Tree | O(n) | O(1) | [python](leetcode/medium/1382.%20Balance%20a%20Binary%20Search%20Tree.py) | [leetcode.com](https://leetcode.com/problems/balance-a-binary-search-tree/) |
 | 1390 | Four Divisors | O(n) | O(1) | [python](leetcode/medium/1390.%20Four%20Divisors.py) | [leetcode.com](https://leetcode.com/problems/four-divisors) |
 | 1391 | Check if There is a Valid Path in a Grid | O(n*m) | O(n*m) | [python](leetcode/medium/1391.%20Check%20if%20There%20is%20a%20Valid%20Path%20in%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/) |
