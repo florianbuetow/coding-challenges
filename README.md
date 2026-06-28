@@ -36,7 +36,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 121 | 1979 | 16 | 163 | 6 | 165 | 158 | 42 | 6 | 14 | 198 | 4 | 4 | 14 | 1 | 0 | 12 | 0 |
-| leetcode-medium | 185 | 4777 | 25 | 327 | 5 | 485 | 355 | 108 | 22 | 39 | 402 | 6 | 37 | 57 | 11 | 26 | 24 | 7 |
+| leetcode-medium | 186 | 4795 | 25 | 328 | 5 | 485 | 357 | 108 | 22 | 39 | 403 | 6 | 37 | 58 | 11 | 26 | 24 | 7 |
 | leetcode-hard | 34 | 1061 | 31 | 63 | 4 | 97 | 84 | 21 | 11 | 15 | 79 | 3 | 7 | 14 | 8 | 3 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-06-28 | LeetCode Medium | Maximum Element After Decreasing and Rearranging | [python](leetcode/medium/1846.%20Maximum%20Element%20After%20Decreasing%20and%20Rearranging.py) | [leetcode.com](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) |
 | 2026-06-21 | LeetCode Medium | Maximum Ice Cream Bars | [python](leetcode/medium/1833.%20Maximum%20Ice%20Cream%20Bars.py) | [leetcode.com](https://leetcode.com/problems/maximum-ice-cream-bars/) |
 | 2026-06-20 | LeetCode Medium | Angle Between Hands of a Clock | [python](leetcode/medium/1344.%20Angle%20Between%20Hands%20of%20a%20Clock.py) | [leetcode.com](https://leetcode.com/problems/angle-between-hands-of-a-clock/) |
 | 2026-06-16 | LeetCode Medium | Process String with Special Operations I | [python](leetcode/medium/3612.%20Process%20String%20with%20Special%20Operations%20I.py) | [leetcode.com](https://leetcode.com/problems/process-string-with-special-operations-i/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-06-09 | LeetCode Medium | Maximum Total Subarray Value I | [python](leetcode/medium/3689.%20Maximum%20Total%20Subarray%20Value%20I.py) | [leetcode.com](https://leetcode.com/problems/maximum-total-subarray-value-i/) |
 | 2026-06-08 | LeetCode Medium | Partition Array According to Given Pivot | [python](leetcode/medium/2161.%20Partition%20Array%20According%20to%20Given%20Pivot.py) | [leetcode.com](https://leetcode.com/problems/partition-array-according-to-given-pivot/) |
 | 2026-06-07 | LeetCode Medium | Create Binary Tree From Descriptions | [python](leetcode/medium/2196.%20Create%20Binary%20Tree%20From%20Descriptions.py) | [leetcode.com](https://leetcode.com/problems/create-binary-tree-from-descriptions/) |
-| 2026-06-06 | LeetCode Easy | Left and Right Sum Differences | [python](leetcode/easy/2574.%20Left%20and%20Right%20Sum%20Differences.py) | [leetcode.com](https://leetcode.com/problems/left-and-right-sum-differences/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -383,6 +383,7 @@ Recently solved and added problems.
 | 1740 | Find Distance in a Binary Tree | O(n) | O(m) | [python](leetcode/medium/1740.%20Find%20Distance%20in%20a%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/find-distance-in-a-binary-tree/) |
 | 1792 | Maximum Average Pass Ratio | O(n) | O(1) | [python](leetcode/medium/1792.%20Maximum%20Average%20Pass%20Ratio.py) | [leetcode.com](https://leetcode.com/problems/maximum-average-pass-ratio/) |
 | 1833 | Maximum Ice Cream Bars | O(n log n) | O(1) | [python](leetcode/medium/1833.%20Maximum%20Ice%20Cream%20Bars.py) | [leetcode.com](https://leetcode.com/problems/maximum-ice-cream-bars/) |
+| 1846 | Maximum Element After Decreasing and Rearranging | O(n) | O(n) | [python](leetcode/medium/1846.%20Maximum%20Element%20After%20Decreasing%20and%20Rearranging.py) | [leetcode.com](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) |
 | 1871 | Jump Game VII | O(n) | O(n) | [python](leetcode/medium/1871.%20Jump%20Game%20VII.py) | [leetcode.com](https://leetcode.com/problems/jump-game-vii/) |
 | 1914 | Cyclically Rotating a Grid | O(n*m) | O(n+m) | [python](leetcode/medium/1914.%20Cyclically%20Rotating%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/cyclically-rotating-a-grid/) |
 | 1930 | Unique Length-3 Palindromic Subsequences | O(n) | O(1) | [python](leetcode/medium/1930.%20Unique%20Length-3%20Palindromic%20Subsequences.py) | [leetcode.com](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/) |
