@@ -35,7 +35,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 121 | 1979 | 16 | 163 | 6 | 165 | 158 | 42 | 6 | 14 | 198 | 4 | 4 | 14 | 1 | 0 | 12 | 0 |
+| leetcode-easy | 122 | 1990 | 16 | 164 | 6 | 166 | 159 | 42 | 6 | 14 | 199 | 4 | 4 | 14 | 1 | 0 | 12 | 0 |
 | leetcode-medium | 186 | 4795 | 25 | 328 | 5 | 485 | 357 | 108 | 22 | 39 | 403 | 6 | 37 | 58 | 11 | 26 | 24 | 7 |
 | leetcode-hard | 34 | 1061 | 31 | 63 | 4 | 97 | 84 | 21 | 11 | 15 | 79 | 3 | 7 | 14 | 8 | 3 | 9 | 9 |
 
@@ -187,6 +187,7 @@ Recently solved and added problems.
 | 1935 | Maximum Number of Words You Can Type (alt) | O(n) | O(1) | [python](leetcode/easy/1935.%20Maximum%20Number%20of%20Words%20You%20Can%20Type%20%28alt%29.py) | [leetcode.com](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) |
 | 1935 | Maximum Number of Words You Can Type | O(n) | O(1) | [python](leetcode/easy/1935.%20Maximum%20Number%20of%20Words%20You%20Can%20Type.py) | [leetcode.com](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) |
 | 1957 | Delete Characters to Make Fancy String | O(n) | O(n) | [python](leetcode/easy/1957.%20Delete%20Characters%20to%20Make%20Fancy%20String.py) | [leetcode.com](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) |
+| 1967 | Number of Strings That Appear as Substrings in Word | O(n*m) | O(1) | [python](leetcode/easy/1967.%20Number%20of%20Strings%20That%20Appear%20as%20Substrings%20in%20Word.py) | [leetcode.com](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) |
 | 2011 | Final Value of Variable After Performing Operations | O(n) | O(1) | [python](leetcode/easy/2011.%20Final%20Value%20of%20Variable%20After%20Performing%20Operations.py) | [leetcode.com](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) |
 | 2073 | Time Needed to Buy Tickets | O(n) | O(1) | [python](leetcode/easy/2073.%20Time%20Needed%20to%20Buy%20Tickets.py) | [leetcode.com](https://leetcode.com/problems/time-needed-to-buy-tickets/) |
 | 2078 | Two Furthest Houses With Different Colors | O(n) | O(n) | [python](leetcode/easy/2078.%20Two%20Furthest%20Houses%20With%20Different%20Colors.py) | [leetcode.com](https://leetcode.com/problems/two-furthest-houses-with-different-colors/) |
