@@ -6,6 +6,9 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-07-03 | LeetCode Hard | Network Recovery Pathways | [python](leetcode/hard/3620.%20Network%20Recovery%20Pathways.py) | [leetcode.com](https://leetcode.com/problems/network-recovery-pathways/) |
+| 2026-07-03 | LeetCode Medium | Find a Safe Walk Through a Grid | [python](leetcode/medium/3286.%20Find%20a%20Safe%20Walk%20Through%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) |
+| 2026-06-29 | LeetCode Easy | Number of Strings That Appear as Substrings in Word | [python](leetcode/easy/1967.%20Number%20of%20Strings%20That%20Appear%20as%20Substrings%20in%20Word.py) | [leetcode.com](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) |
 | 2026-06-28 | LeetCode Medium | Maximum Element After Decreasing and Rearranging | [python](leetcode/medium/1846.%20Maximum%20Element%20After%20Decreasing%20and%20Rearranging.py) | [leetcode.com](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) |
 | 2026-06-21 | LeetCode Medium | Maximum Ice Cream Bars | [python](leetcode/medium/1833.%20Maximum%20Ice%20Cream%20Bars.py) | [leetcode.com](https://leetcode.com/problems/maximum-ice-cream-bars/) |
 | 2026-06-20 | LeetCode Medium | Angle Between Hands of a Clock | [python](leetcode/medium/1344.%20Angle%20Between%20Hands%20of%20a%20Clock.py) | [leetcode.com](https://leetcode.com/problems/angle-between-hands-of-a-clock/) |
@@ -13,6 +16,3 @@ Recently solved and added problems.
 | 2026-06-15 | LeetCode Medium | Delete the Middle Node of a Linked List | [python](leetcode/medium/2095.%20Delete%20the%20Middle%20Node%20of%20a%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) |
 | 2026-06-14 | LeetCode Easy | Weighted Word Mapping | [python](leetcode/easy/3838.%20Weighted%20Word%20Mapping.py) | [leetcode.com](https://leetcode.com/problems/weighted-word-mapping/) |
 | 2026-06-14 | LeetCode Medium | Maximum Twin Sum of a Linked List | [python](leetcode/medium/2130.%20Maximum%20Twin%20Sum%20of%20a%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) |
-| 2026-06-09 | LeetCode Medium | Maximum Total Subarray Value I | [python](leetcode/medium/3689.%20Maximum%20Total%20Subarray%20Value%20I.py) | [leetcode.com](https://leetcode.com/problems/maximum-total-subarray-value-i/) |
-| 2026-06-08 | LeetCode Medium | Partition Array According to Given Pivot | [python](leetcode/medium/2161.%20Partition%20Array%20According%20to%20Given%20Pivot.py) | [leetcode.com](https://leetcode.com/problems/partition-array-according-to-given-pivot/) |
-| 2026-06-07 | LeetCode Medium | Create Binary Tree From Descriptions | [python](leetcode/medium/2196.%20Create%20Binary%20Tree%20From%20Descriptions.py) | [leetcode.com](https://leetcode.com/problems/create-binary-tree-from-descriptions/) |

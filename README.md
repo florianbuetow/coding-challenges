@@ -36,8 +36,8 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 122 | 1990 | 16 | 164 | 6 | 166 | 159 | 42 | 6 | 14 | 199 | 4 | 4 | 14 | 1 | 0 | 12 | 0 |
-| leetcode-medium | 186 | 4795 | 25 | 328 | 5 | 485 | 357 | 108 | 22 | 39 | 403 | 6 | 37 | 58 | 11 | 26 | 24 | 7 |
-| leetcode-hard | 34 | 1061 | 31 | 63 | 4 | 97 | 84 | 21 | 11 | 15 | 79 | 3 | 7 | 14 | 8 | 3 | 9 | 9 |
+| leetcode-medium | 187 | 4837 | 25 | 330 | 5 | 491 | 359 | 109 | 22 | 43 | 406 | 6 | 37 | 59 | 11 | 28 | 24 | 7 |
+| leetcode-hard | 35 | 1107 | 31 | 65 | 4 | 104 | 91 | 23 | 11 | 16 | 82 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
 
 ## Recent Changes
 
@@ -47,6 +47,9 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-07-03 | LeetCode Hard | Network Recovery Pathways | [python](leetcode/hard/3620.%20Network%20Recovery%20Pathways.py) | [leetcode.com](https://leetcode.com/problems/network-recovery-pathways/) |
+| 2026-07-03 | LeetCode Medium | Find a Safe Walk Through a Grid | [python](leetcode/medium/3286.%20Find%20a%20Safe%20Walk%20Through%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) |
+| 2026-06-29 | LeetCode Easy | Number of Strings That Appear as Substrings in Word | [python](leetcode/easy/1967.%20Number%20of%20Strings%20That%20Appear%20as%20Substrings%20in%20Word.py) | [leetcode.com](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) |
 | 2026-06-28 | LeetCode Medium | Maximum Element After Decreasing and Rearranging | [python](leetcode/medium/1846.%20Maximum%20Element%20After%20Decreasing%20and%20Rearranging.py) | [leetcode.com](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) |
 | 2026-06-21 | LeetCode Medium | Maximum Ice Cream Bars | [python](leetcode/medium/1833.%20Maximum%20Ice%20Cream%20Bars.py) | [leetcode.com](https://leetcode.com/problems/maximum-ice-cream-bars/) |
 | 2026-06-20 | LeetCode Medium | Angle Between Hands of a Clock | [python](leetcode/medium/1344.%20Angle%20Between%20Hands%20of%20a%20Clock.py) | [leetcode.com](https://leetcode.com/problems/angle-between-hands-of-a-clock/) |
@@ -54,9 +57,6 @@ Recently solved and added problems.
 | 2026-06-15 | LeetCode Medium | Delete the Middle Node of a Linked List | [python](leetcode/medium/2095.%20Delete%20the%20Middle%20Node%20of%20a%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) |
 | 2026-06-14 | LeetCode Easy | Weighted Word Mapping | [python](leetcode/easy/3838.%20Weighted%20Word%20Mapping.py) | [leetcode.com](https://leetcode.com/problems/weighted-word-mapping/) |
 | 2026-06-14 | LeetCode Medium | Maximum Twin Sum of a Linked List | [python](leetcode/medium/2130.%20Maximum%20Twin%20Sum%20of%20a%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) |
-| 2026-06-09 | LeetCode Medium | Maximum Total Subarray Value I | [python](leetcode/medium/3689.%20Maximum%20Total%20Subarray%20Value%20I.py) | [leetcode.com](https://leetcode.com/problems/maximum-total-subarray-value-i/) |
-| 2026-06-08 | LeetCode Medium | Partition Array According to Given Pivot | [python](leetcode/medium/2161.%20Partition%20Array%20According%20to%20Given%20Pivot.py) | [leetcode.com](https://leetcode.com/problems/partition-array-according-to-given-pivot/) |
-| 2026-06-07 | LeetCode Medium | Create Binary Tree From Descriptions | [python](leetcode/medium/2196.%20Create%20Binary%20Tree%20From%20Descriptions.py) | [leetcode.com](https://leetcode.com/problems/create-binary-tree-from-descriptions/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -283,6 +283,7 @@ Recently solved and added problems.
 | 3093 | Longest Common Suffix Queries | O((n+m)*l) | O(n*l) | [python](leetcode/hard/3093.%20Longest%20Common%20Suffix%20Queries.py) | [leetcode.com](https://leetcode.com/problems/longest-common-suffix-queries/) |
 | 3347 | Maximum Frequency of an Element After Performing Operations II | O(n) | O(1) | [python](leetcode/hard/3347.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20II.py) | [leetcode.com](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii/) |
 | 3474 | Lexicographically Smallest Generated String | O(n*m) | O(n+m) | [python](leetcode/hard/3474.%20Lexicographically%20Smallest%20Generated%20String.py) | [leetcode.com](https://leetcode.com/problems/lexicographically-smallest-generated-string/) |
+| 3620 | Network Recovery Pathways | O((n + m) * log k) | O(n + m) | [python](leetcode/hard/3620.%20Network%20Recovery%20Pathways.py) | [leetcode.com](https://leetcode.com/problems/network-recovery-pathways/) |
 | 3666 | Minimum Operations to Equalize Binary String | O(n) | O(1) | [python](leetcode/hard/3666.%20Minimum%20Operations%20to%20Equalize%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/) |
 
 ### Medium
@@ -443,6 +444,7 @@ Recently solved and added problems.
 | 3217 | Delete Nodes From LinkedList Present in Array | O(n) | O(1) | [python](leetcode/medium/3217.%20Delete%20Nodes%20From%20LinkedList%20Present%20in%20Array.py) | [leetcode.com](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array) |
 | 3227 | Vowels Game in a String | O(n) | O(1) | [python](leetcode/medium/3227.%20Vowels%20Game%20in%20a%20String.py) | [leetcode.com](https://leetcode.com/problems/vowels-game-in-a-string/) |
 | 3228 | Maximum Number of Operations to Move Ones to the End | O(n) | O(1) | [python](leetcode/medium/3228.%20Maximum%20Number%20of%20Operations%20to%20Move%20Ones%20to%20the%20End.py) | [leetcode.com](https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end) |
+| 3286 | Find a Safe Walk Through a Grid | O(n * m) | O(n * m) | [python](leetcode/medium/3286.%20Find%20a%20Safe%20Walk%20Through%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) |
 | 3346 | Maximum Frequency of an Element After Performing Operations I | O(n) | O(1) | [python](leetcode/medium/3346.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20I.py) | [leetcode.com](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i/) |
 | 3350 | Adjacent Increasing Subarrays Detection II | O(n) | O(1) | [python](leetcode/medium/3350.%20Adjacent%20Increasing%20Subarrays%20Detection%20II.py) | [leetcode.com](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/) |
 | 3381 | Maximum Subarray Sum With Length Divisible by K | O(n) | O(1) | [python](leetcode/medium/3381.%20Maximum%20Subarray%20Sum%20With%20Length%20Divisible%20by%20K.py) | [leetcode.com](https://leetcode.com/problems/maximum-subarray-sum-with-length-divisible-by-k/) |
