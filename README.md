@@ -36,7 +36,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 122 | 1990 | 16 | 164 | 6 | 166 | 159 | 42 | 6 | 14 | 199 | 4 | 4 | 14 | 1 | 0 | 12 | 0 |
-| leetcode-medium | 187 | 4837 | 25 | 330 | 5 | 491 | 359 | 109 | 22 | 43 | 406 | 6 | 37 | 59 | 11 | 28 | 24 | 7 |
+| leetcode-medium | 188 | 4859 | 25 | 332 | 7 | 493 | 360 | 109 | 22 | 44 | 408 | 6 | 37 | 59 | 11 | 28 | 26 | 7 |
 | leetcode-hard | 35 | 1107 | 31 | 65 | 4 | 104 | 91 | 23 | 11 | 16 | 82 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-07-06 | LeetCode Medium | Remove Covered Intervals | [python](leetcode/medium/1288.%20Remove%20Covered%20Intervals.py) | [leetcode.com](https://leetcode.com/problems/remove-covered-intervals/) |
 | 2026-07-03 | LeetCode Hard | Network Recovery Pathways | [python](leetcode/hard/3620.%20Network%20Recovery%20Pathways.py) | [leetcode.com](https://leetcode.com/problems/network-recovery-pathways/) |
 | 2026-07-03 | LeetCode Medium | Find a Safe Walk Through a Grid | [python](leetcode/medium/3286.%20Find%20a%20Safe%20Walk%20Through%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) |
 | 2026-06-29 | LeetCode Easy | Number of Strings That Appear as Substrings in Word | [python](leetcode/easy/1967.%20Number%20of%20Strings%20That%20Appear%20as%20Substrings%20in%20Word.py) | [leetcode.com](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-06-16 | LeetCode Medium | Process String with Special Operations I | [python](leetcode/medium/3612.%20Process%20String%20with%20Special%20Operations%20I.py) | [leetcode.com](https://leetcode.com/problems/process-string-with-special-operations-i/) |
 | 2026-06-15 | LeetCode Medium | Delete the Middle Node of a Linked List | [python](leetcode/medium/2095.%20Delete%20the%20Middle%20Node%20of%20a%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) |
 | 2026-06-14 | LeetCode Easy | Weighted Word Mapping | [python](leetcode/easy/3838.%20Weighted%20Word%20Mapping.py) | [leetcode.com](https://leetcode.com/problems/weighted-word-mapping/) |
-| 2026-06-14 | LeetCode Medium | Maximum Twin Sum of a Linked List | [python](leetcode/medium/2130.%20Maximum%20Twin%20Sum%20of%20a%20Linked%20List.py) | [leetcode.com](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -354,6 +354,7 @@ Recently solved and added problems.
 | 1248 | Count Number of Nice Subarrays | O(n) | O(1) | [python](leetcode/medium/1248.%20Count%20Number%20of%20Nice%20Subarrays.py) | [leetcode.com](https://leetcode.com/problems/count-number-of-nice-subarrays/) |
 | 1249 | Minimum Remove to Make Valid Parentheses | O(n) | O(n) | [python](leetcode/medium/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.py) | [leetcode.com](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) |
 | 1262 | Greatest Sum Divisible by Three | O(n) | O(1) | [python](leetcode/medium/1262.%20Greatest%20Sum%20Divisible%20by%20Three.py) | [leetcode.com](https://leetcode.com/problems/greatest-sum-divisible-by-three/) |
+| 1288 | Remove Covered Intervals | O(n log n) | O(1) | [python](leetcode/medium/1288.%20Remove%20Covered%20Intervals.py) | [leetcode.com](https://leetcode.com/problems/remove-covered-intervals/) |
 | 1292 | Maximum Side Length of a Square with Sum Less than or Equal to Threshold | O(n) | O(1) | [python](leetcode/medium/1292.%20Maximum%20Side%20Length%20of%20a%20Square%20with%20Sum%20Less%20than%20or%20Equal%20to%20Threshold.py) | [leetcode.com](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | 1306 | Jump Game III | O(n) | O(n) | [python](leetcode/medium/1306.%20Jump%20Game%20III.py) | [leetcode.com](https://leetcode.com/problems/jump-game-iii/) |
 | 1339 | Maximum Product of Splitted Binary Tree | O(n) | O(1) | [python](leetcode/medium/1339.%20Maximum%20Product%20of%20Splitted%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) |
