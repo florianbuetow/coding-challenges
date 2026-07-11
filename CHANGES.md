@@ -6,6 +6,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-07-11 | LeetCode Hard | Path Existence Queries in a Graph II | [python](leetcode/hard/3534.%20Path%20Existence%20Queries%20in%20a%20Graph%20II.py) | [leetcode.com](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/) |
 | 2026-07-11 | LeetCode Medium | Count the Number of Complete Components | [python](leetcode/medium/2685.%20Count%20the%20Number%20of%20Complete%20Components.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-complete-components/) |
 | 2026-07-09 | LeetCode Medium | Path Existence Queries in a Graph I | [python](leetcode/medium/3532.%20Path%20Existence%20Queries%20in%20a%20Graph%20I.py) | [leetcode.com](https://leetcode.com/problems/path-existence-queries-in-a-graph-i/) |
 | 2026-07-06 | LeetCode Medium | Remove Covered Intervals | [python](leetcode/medium/1288.%20Remove%20Covered%20Intervals.py) | [leetcode.com](https://leetcode.com/problems/remove-covered-intervals/) |
@@ -15,4 +16,3 @@ Recently solved and added problems.
 | 2026-06-28 | LeetCode Medium | Maximum Element After Decreasing and Rearranging | [python](leetcode/medium/1846.%20Maximum%20Element%20After%20Decreasing%20and%20Rearranging.py) | [leetcode.com](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) |
 | 2026-06-21 | LeetCode Medium | Maximum Ice Cream Bars | [python](leetcode/medium/1833.%20Maximum%20Ice%20Cream%20Bars.py) | [leetcode.com](https://leetcode.com/problems/maximum-ice-cream-bars/) |
 | 2026-06-20 | LeetCode Medium | Angle Between Hands of a Clock | [python](leetcode/medium/1344.%20Angle%20Between%20Hands%20of%20a%20Clock.py) | [leetcode.com](https://leetcode.com/problems/angle-between-hands-of-a-clock/) |
-| 2026-06-16 | LeetCode Medium | Process String with Special Operations I | [python](leetcode/medium/3612.%20Process%20String%20with%20Special%20Operations%20I.py) | [leetcode.com](https://leetcode.com/problems/process-string-with-special-operations-i/) |
