@@ -37,7 +37,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 122 | 1990 | 16 | 164 | 6 | 166 | 159 | 42 | 6 | 14 | 199 | 4 | 4 | 14 | 1 | 0 | 12 | 0 |
 | leetcode-medium | 190 | 4921 | 25 | 338 | 7 | 499 | 368 | 110 | 22 | 46 | 415 | 6 | 39 | 61 | 11 | 28 | 26 | 7 |
-| leetcode-hard | 35 | 1107 | 31 | 65 | 4 | 104 | 91 | 23 | 11 | 16 | 82 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
+| leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
 
 ## Recent Changes
 
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-07-11 | LeetCode Hard | Path Existence Queries in a Graph II | [python](leetcode/hard/3534.%20Path%20Existence%20Queries%20in%20a%20Graph%20II.py) | [leetcode.com](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/) |
 | 2026-07-11 | LeetCode Medium | Count the Number of Complete Components | [python](leetcode/medium/2685.%20Count%20the%20Number%20of%20Complete%20Components.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-complete-components/) |
 | 2026-07-09 | LeetCode Medium | Path Existence Queries in a Graph I | [python](leetcode/medium/3532.%20Path%20Existence%20Queries%20in%20a%20Graph%20I.py) | [leetcode.com](https://leetcode.com/problems/path-existence-queries-in-a-graph-i/) |
 | 2026-07-06 | LeetCode Medium | Remove Covered Intervals | [python](leetcode/medium/1288.%20Remove%20Covered%20Intervals.py) | [leetcode.com](https://leetcode.com/problems/remove-covered-intervals/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-06-28 | LeetCode Medium | Maximum Element After Decreasing and Rearranging | [python](leetcode/medium/1846.%20Maximum%20Element%20After%20Decreasing%20and%20Rearranging.py) | [leetcode.com](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) |
 | 2026-06-21 | LeetCode Medium | Maximum Ice Cream Bars | [python](leetcode/medium/1833.%20Maximum%20Ice%20Cream%20Bars.py) | [leetcode.com](https://leetcode.com/problems/maximum-ice-cream-bars/) |
 | 2026-06-20 | LeetCode Medium | Angle Between Hands of a Clock | [python](leetcode/medium/1344.%20Angle%20Between%20Hands%20of%20a%20Clock.py) | [leetcode.com](https://leetcode.com/problems/angle-between-hands-of-a-clock/) |
-| 2026-06-16 | LeetCode Medium | Process String with Special Operations I | [python](leetcode/medium/3612.%20Process%20String%20with%20Special%20Operations%20I.py) | [leetcode.com](https://leetcode.com/problems/process-string-with-special-operations-i/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -283,6 +283,7 @@ Recently solved and added problems.
 | 3093 | Longest Common Suffix Queries | O((n+m)*l) | O(n*l) | [python](leetcode/hard/3093.%20Longest%20Common%20Suffix%20Queries.py) | [leetcode.com](https://leetcode.com/problems/longest-common-suffix-queries/) |
 | 3347 | Maximum Frequency of an Element After Performing Operations II | O(n) | O(1) | [python](leetcode/hard/3347.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20II.py) | [leetcode.com](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii/) |
 | 3474 | Lexicographically Smallest Generated String | O(n*m) | O(n+m) | [python](leetcode/hard/3474.%20Lexicographically%20Smallest%20Generated%20String.py) | [leetcode.com](https://leetcode.com/problems/lexicographically-smallest-generated-string/) |
+| 3534 | Path Existence Queries in a Graph II | O((n + q) log n) | O(n log n) | [python](leetcode/hard/3534.%20Path%20Existence%20Queries%20in%20a%20Graph%20II.py) | [leetcode.com](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/) |
 | 3620 | Network Recovery Pathways | O((n + m) * log k) | O(n + m) | [python](leetcode/hard/3620.%20Network%20Recovery%20Pathways.py) | [leetcode.com](https://leetcode.com/problems/network-recovery-pathways/) |
 | 3666 | Minimum Operations to Equalize Binary String | O(n) | O(1) | [python](leetcode/hard/3666.%20Minimum%20Operations%20to%20Equalize%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/) |
 
