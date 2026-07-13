@@ -36,7 +36,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 123 | 2001 | 16 | 165 | 6 | 166 | 161 | 42 | 6 | 14 | 200 | 4 | 5 | 15 | 1 | 0 | 12 | 0 |
-| leetcode-medium | 190 | 4921 | 25 | 338 | 7 | 499 | 368 | 110 | 22 | 46 | 415 | 6 | 39 | 61 | 11 | 28 | 26 | 7 |
+| leetcode-medium | 191 | 4934 | 25 | 339 | 7 | 500 | 370 | 110 | 22 | 46 | 416 | 6 | 39 | 61 | 11 | 28 | 26 | 7 |
 | leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-07-13 | LeetCode Medium | Sequential Digits | [python](leetcode/medium/1291.%20Sequential%20Digits.py) | [leetcode.com](https://leetcode.com/problems/sequential-digits/) |
 | 2026-07-12 | LeetCode Easy | Rank Transform of an Array | [python](leetcode/easy/1331.%20Rank%20Transform%20of%20an%20Array.py) | [leetcode.com](https://leetcode.com/problems/rank-transform-of-an-array/) |
 | 2026-07-11 | LeetCode Hard | Path Existence Queries in a Graph II | [python](leetcode/hard/3534.%20Path%20Existence%20Queries%20in%20a%20Graph%20II.py) | [leetcode.com](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/) |
 | 2026-07-11 | LeetCode Medium | Count the Number of Complete Components | [python](leetcode/medium/2685.%20Count%20the%20Number%20of%20Complete%20Components.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-complete-components/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-07-03 | LeetCode Medium | Find a Safe Walk Through a Grid | [python](leetcode/medium/3286.%20Find%20a%20Safe%20Walk%20Through%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) |
 | 2026-06-29 | LeetCode Easy | Number of Strings That Appear as Substrings in Word | [python](leetcode/easy/1967.%20Number%20of%20Strings%20That%20Appear%20as%20Substrings%20in%20Word.py) | [leetcode.com](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) |
 | 2026-06-28 | LeetCode Medium | Maximum Element After Decreasing and Rearranging | [python](leetcode/medium/1846.%20Maximum%20Element%20After%20Decreasing%20and%20Rearranging.py) | [leetcode.com](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) |
-| 2026-06-21 | LeetCode Medium | Maximum Ice Cream Bars | [python](leetcode/medium/1833.%20Maximum%20Ice%20Cream%20Bars.py) | [leetcode.com](https://leetcode.com/problems/maximum-ice-cream-bars/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -357,6 +357,7 @@ Recently solved and added problems.
 | 1249 | Minimum Remove to Make Valid Parentheses | O(n) | O(n) | [python](leetcode/medium/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.py) | [leetcode.com](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) |
 | 1262 | Greatest Sum Divisible by Three | O(n) | O(1) | [python](leetcode/medium/1262.%20Greatest%20Sum%20Divisible%20by%20Three.py) | [leetcode.com](https://leetcode.com/problems/greatest-sum-divisible-by-three/) |
 | 1288 | Remove Covered Intervals | O(n log n) | O(1) | [python](leetcode/medium/1288.%20Remove%20Covered%20Intervals.py) | [leetcode.com](https://leetcode.com/problems/remove-covered-intervals/) |
+| 1291 | Sequential Digits | O(1) | O(1) | [python](leetcode/medium/1291.%20Sequential%20Digits.py) | [leetcode.com](https://leetcode.com/problems/sequential-digits/) |
 | 1292 | Maximum Side Length of a Square with Sum Less than or Equal to Threshold | O(n) | O(1) | [python](leetcode/medium/1292.%20Maximum%20Side%20Length%20of%20a%20Square%20with%20Sum%20Less%20than%20or%20Equal%20to%20Threshold.py) | [leetcode.com](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | 1306 | Jump Game III | O(n) | O(n) | [python](leetcode/medium/1306.%20Jump%20Game%20III.py) | [leetcode.com](https://leetcode.com/problems/jump-game-iii/) |
 | 1339 | Maximum Product of Splitted Binary Tree | O(n) | O(1) | [python](leetcode/medium/1339.%20Maximum%20Product%20of%20Splitted%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/) |
