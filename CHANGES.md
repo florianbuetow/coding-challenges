@@ -6,6 +6,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-07-15 | LeetCode Easy | GCD of Odd and Even Sums | [python](leetcode/easy/3658.%20GCD%20of%20Odd%20and%20Even%20Sums.py) | [leetcode.com](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) |
 | 2026-07-13 | LeetCode Medium | Sequential Digits | [python](leetcode/medium/1291.%20Sequential%20Digits.py) | [leetcode.com](https://leetcode.com/problems/sequential-digits/) |
 | 2026-07-12 | LeetCode Easy | Rank Transform of an Array | [python](leetcode/easy/1331.%20Rank%20Transform%20of%20an%20Array.py) | [leetcode.com](https://leetcode.com/problems/rank-transform-of-an-array/) |
 | 2026-07-11 | LeetCode Hard | Path Existence Queries in a Graph II | [python](leetcode/hard/3534.%20Path%20Existence%20Queries%20in%20a%20Graph%20II.py) | [leetcode.com](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/) |
@@ -15,4 +16,3 @@ Recently solved and added problems.
 | 2026-07-03 | LeetCode Hard | Network Recovery Pathways | [python](leetcode/hard/3620.%20Network%20Recovery%20Pathways.py) | [leetcode.com](https://leetcode.com/problems/network-recovery-pathways/) |
 | 2026-07-03 | LeetCode Medium | Find a Safe Walk Through a Grid | [python](leetcode/medium/3286.%20Find%20a%20Safe%20Walk%20Through%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) |
 | 2026-06-29 | LeetCode Easy | Number of Strings That Appear as Substrings in Word | [python](leetcode/easy/1967.%20Number%20of%20Strings%20That%20Appear%20as%20Substrings%20in%20Word.py) | [leetcode.com](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) |
-| 2026-06-28 | LeetCode Medium | Maximum Element After Decreasing and Rearranging | [python](leetcode/medium/1846.%20Maximum%20Element%20After%20Decreasing%20and%20Rearranging.py) | [leetcode.com](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) |

@@ -35,7 +35,7 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 123 | 2001 | 16 | 165 | 6 | 166 | 161 | 42 | 6 | 14 | 200 | 4 | 5 | 15 | 1 | 0 | 12 | 0 |
+| leetcode-easy | 124 | 2007 | 16 | 166 | 6 | 166 | 161 | 42 | 6 | 14 | 201 | 4 | 5 | 15 | 1 | 0 | 12 | 0 |
 | leetcode-medium | 191 | 4934 | 25 | 339 | 7 | 500 | 370 | 110 | 22 | 46 | 416 | 6 | 39 | 61 | 11 | 28 | 26 | 7 |
 | leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
 
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-07-15 | LeetCode Easy | GCD of Odd and Even Sums | [python](leetcode/easy/3658.%20GCD%20of%20Odd%20and%20Even%20Sums.py) | [leetcode.com](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) |
 | 2026-07-13 | LeetCode Medium | Sequential Digits | [python](leetcode/medium/1291.%20Sequential%20Digits.py) | [leetcode.com](https://leetcode.com/problems/sequential-digits/) |
 | 2026-07-12 | LeetCode Easy | Rank Transform of an Array | [python](leetcode/easy/1331.%20Rank%20Transform%20of%20an%20Array.py) | [leetcode.com](https://leetcode.com/problems/rank-transform-of-an-array/) |
 | 2026-07-11 | LeetCode Hard | Path Existence Queries in a Graph II | [python](leetcode/hard/3534.%20Path%20Existence%20Queries%20in%20a%20Graph%20II.py) | [leetcode.com](https://leetcode.com/problems/path-existence-queries-in-a-graph-ii/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-07-03 | LeetCode Hard | Network Recovery Pathways | [python](leetcode/hard/3620.%20Network%20Recovery%20Pathways.py) | [leetcode.com](https://leetcode.com/problems/network-recovery-pathways/) |
 | 2026-07-03 | LeetCode Medium | Find a Safe Walk Through a Grid | [python](leetcode/medium/3286.%20Find%20a%20Safe%20Walk%20Through%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) |
 | 2026-06-29 | LeetCode Easy | Number of Strings That Appear as Substrings in Word | [python](leetcode/easy/1967.%20Number%20of%20Strings%20That%20Appear%20as%20Substrings%20in%20Word.py) | [leetcode.com](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) |
-| 2026-06-28 | LeetCode Medium | Maximum Element After Decreasing and Rearranging | [python](leetcode/medium/1846.%20Maximum%20Element%20After%20Decreasing%20and%20Rearranging.py) | [leetcode.com](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -224,6 +224,7 @@ Recently solved and added problems.
 | 3606 | Coupon Code Validator | O(n) | O(1) | [python](leetcode/easy/3606.%20Coupon%20Code%20Validator.py) | [leetcode.com](https://leetcode.com/problems/coupon-code-validator/) |
 | 3633 | Earliest Finish Time for Land and Water Rides I | O(n+m) | O(1) | [python](leetcode/easy/3633.%20Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20I.py) | [leetcode.com](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) |
 | 3643 | Flip Square Submatrix Vertically | O(k*k) | O(1) | [python](leetcode/easy/3643.%20Flip%20Square%20Submatrix%20Vertically.py) | [leetcode.com](https://leetcode.com/problems/flip-square-submatrix-vertically/) |
+| 3658 | GCD of Odd and Even Sums | O(1) | O(1) | [python](leetcode/easy/3658.%20GCD%20of%20Odd%20and%20Even%20Sums.py) | [leetcode.com](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) |
 | 3731 | Find Missing Elements | O(n) | O(1) | [python](leetcode/easy/3731.%20Find%20Missing%20Elements.py) | [leetcode.com](https://leetcode.com/problems/find-missing-elements/) |
 | 3736 | Minimum Moves to Equal Array Elements III | O(n) | O(1) | [python](leetcode/easy/3736.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20III.py) | [leetcode.com](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) |
 | 3740 | Minimum Distance Between Three Equal Elements I | O(n) | O(1) | [python](leetcode/easy/3740.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20I.py) | [leetcode.com](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/) |
