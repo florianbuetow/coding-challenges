@@ -35,8 +35,8 @@ This repository contains a collection of coding problems solved on various platf
 | codewars-kyu-5 | 1 | 19 | 19 | 2 | 0 | 2 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| leetcode-easy | 124 | 2007 | 16 | 166 | 6 | 166 | 161 | 42 | 6 | 14 | 201 | 4 | 5 | 15 | 1 | 0 | 12 | 0 |
-| leetcode-medium | 191 | 4934 | 25 | 339 | 7 | 500 | 370 | 110 | 22 | 46 | 416 | 6 | 39 | 61 | 11 | 28 | 26 | 7 |
+| leetcode-easy | 125 | 2019 | 16 | 168 | 6 | 166 | 161 | 43 | 6 | 14 | 203 | 4 | 5 | 15 | 1 | 0 | 12 | 0 |
+| leetcode-medium | 192 | 4959 | 25 | 341 | 7 | 500 | 371 | 112 | 22 | 46 | 418 | 6 | 39 | 61 | 11 | 28 | 27 | 7 |
 | leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-07-19 | LeetCode Easy | Find Greatest Common Divisor of Array | [python](leetcode/easy/1979.%20Find%20Greatest%20Common%20Divisor%20of%20Array.py) | [leetcode.com](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) |
 | 2026-07-15 | LeetCode Easy | GCD of Odd and Even Sums | [python](leetcode/easy/3658.%20GCD%20of%20Odd%20and%20Even%20Sums.py) | [leetcode.com](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) |
 | 2026-07-13 | LeetCode Medium | Sequential Digits | [python](leetcode/medium/1291.%20Sequential%20Digits.py) | [leetcode.com](https://leetcode.com/problems/sequential-digits/) |
 | 2026-07-12 | LeetCode Easy | Rank Transform of an Array | [python](leetcode/easy/1331.%20Rank%20Transform%20of%20an%20Array.py) | [leetcode.com](https://leetcode.com/problems/rank-transform-of-an-array/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-07-06 | LeetCode Medium | Remove Covered Intervals | [python](leetcode/medium/1288.%20Remove%20Covered%20Intervals.py) | [leetcode.com](https://leetcode.com/problems/remove-covered-intervals/) |
 | 2026-07-03 | LeetCode Hard | Network Recovery Pathways | [python](leetcode/hard/3620.%20Network%20Recovery%20Pathways.py) | [leetcode.com](https://leetcode.com/problems/network-recovery-pathways/) |
 | 2026-07-03 | LeetCode Medium | Find a Safe Walk Through a Grid | [python](leetcode/medium/3286.%20Find%20a%20Safe%20Walk%20Through%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) |
-| 2026-06-29 | LeetCode Easy | Number of Strings That Appear as Substrings in Word | [python](leetcode/easy/1967.%20Number%20of%20Strings%20That%20Appear%20as%20Substrings%20in%20Word.py) | [leetcode.com](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -189,6 +189,7 @@ Recently solved and added problems.
 | 1935 | Maximum Number of Words You Can Type | O(n) | O(1) | [python](leetcode/easy/1935.%20Maximum%20Number%20of%20Words%20You%20Can%20Type.py) | [leetcode.com](https://leetcode.com/problems/maximum-number-of-words-you-can-type/) |
 | 1957 | Delete Characters to Make Fancy String | O(n) | O(n) | [python](leetcode/easy/1957.%20Delete%20Characters%20to%20Make%20Fancy%20String.py) | [leetcode.com](https://leetcode.com/problems/delete-characters-to-make-fancy-string/) |
 | 1967 | Number of Strings That Appear as Substrings in Word | O(n*m) | O(1) | [python](leetcode/easy/1967.%20Number%20of%20Strings%20That%20Appear%20as%20Substrings%20in%20Word.py) | [leetcode.com](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/) |
+| 1979 | Find Greatest Common Divisor of Array | O(log n) | O(1) | [python](leetcode/easy/1979.%20Find%20Greatest%20Common%20Divisor%20of%20Array.py) | [leetcode.com](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) |
 | 2011 | Final Value of Variable After Performing Operations | O(n) | O(1) | [python](leetcode/easy/2011.%20Final%20Value%20of%20Variable%20After%20Performing%20Operations.py) | [leetcode.com](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) |
 | 2073 | Time Needed to Buy Tickets | O(n) | O(1) | [python](leetcode/easy/2073.%20Time%20Needed%20to%20Buy%20Tickets.py) | [leetcode.com](https://leetcode.com/problems/time-needed-to-buy-tickets/) |
 | 2078 | Two Furthest Houses With Different Colors | O(n) | O(n) | [python](leetcode/easy/2078.%20Two%20Furthest%20Houses%20With%20Different%20Colors.py) | [leetcode.com](https://leetcode.com/problems/two-furthest-houses-with-different-colors/) |
@@ -483,6 +484,7 @@ Recently solved and added problems.
 | 3760 | Maximum Substrings With Distinct Start | O(n) | O(n) | [python](leetcode/medium/3760.%20Maximum%20Substrings%20With%20Distinct%20Start.py) | [leetcode.com](https://leetcode.com/problems/maximum-substrings-with-distinct-start/) |
 | 3761 | Minimum Absolute Distance Between Mirror Pairs | O(n) | O(n) | [python](leetcode/medium/3761.%20Minimum%20Absolute%20Distance%20Between%20Mirror%20Pairs.py) | [leetcode.com](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/) |
 | 3788 | Maximum Score of a Split | O(n) | O(1) | [python](leetcode/medium/3788.%20Maximum%20Score%20of%20a%20Split.py) | [leetcode.com](https://leetcode.com/problems/maximum-score-of-a-split) |
+| 3867 | Sum of GCD of Formed Pairs | O(n log n) | O(n) | [python](leetcode/medium/3867.%20Sum%20of%20GCD%20of%20Formed%20Pairs.py) | [leetcode.com](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/) |
 
 ## Generating the README
 
