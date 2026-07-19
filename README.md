@@ -36,7 +36,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-easy | 9 | 72 | 8 | 10 | 0 | 2 | 13 | 0 | 0 | 0 | 12 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | leetcode-easy | 125 | 2019 | 16 | 168 | 6 | 166 | 161 | 43 | 6 | 14 | 203 | 4 | 5 | 15 | 1 | 0 | 12 | 0 |
-| leetcode-medium | 192 | 4959 | 25 | 341 | 7 | 500 | 371 | 112 | 22 | 46 | 418 | 6 | 39 | 61 | 11 | 28 | 27 | 7 |
+| leetcode-medium | 193 | 4981 | 25 | 342 | 7 | 501 | 373 | 113 | 22 | 46 | 419 | 6 | 40 | 62 | 11 | 28 | 27 | 7 |
 | leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
 
 ## Recent Changes
@@ -47,6 +47,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-07-19 | LeetCode Medium | Smallest Subsequence of Distinct Characters | [python](leetcode/medium/1081.%20Smallest%20Subsequence%20of%20Distinct%20Characters.py) | [leetcode.com](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) |
 | 2026-07-19 | LeetCode Easy | Find Greatest Common Divisor of Array | [python](leetcode/easy/1979.%20Find%20Greatest%20Common%20Divisor%20of%20Array.py) | [leetcode.com](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) |
 | 2026-07-15 | LeetCode Easy | GCD of Odd and Even Sums | [python](leetcode/easy/3658.%20GCD%20of%20Odd%20and%20Even%20Sums.py) | [leetcode.com](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) |
 | 2026-07-13 | LeetCode Medium | Sequential Digits | [python](leetcode/medium/1291.%20Sequential%20Digits.py) | [leetcode.com](https://leetcode.com/problems/sequential-digits/) |
@@ -56,7 +57,6 @@ Recently solved and added problems.
 | 2026-07-09 | LeetCode Medium | Path Existence Queries in a Graph I | [python](leetcode/medium/3532.%20Path%20Existence%20Queries%20in%20a%20Graph%20I.py) | [leetcode.com](https://leetcode.com/problems/path-existence-queries-in-a-graph-i/) |
 | 2026-07-06 | LeetCode Medium | Remove Covered Intervals | [python](leetcode/medium/1288.%20Remove%20Covered%20Intervals.py) | [leetcode.com](https://leetcode.com/problems/remove-covered-intervals/) |
 | 2026-07-03 | LeetCode Hard | Network Recovery Pathways | [python](leetcode/hard/3620.%20Network%20Recovery%20Pathways.py) | [leetcode.com](https://leetcode.com/problems/network-recovery-pathways/) |
-| 2026-07-03 | LeetCode Medium | Find a Safe Walk Through a Grid | [python](leetcode/medium/3286.%20Find%20a%20Safe%20Walk%20Through%20a%20Grid.py) | [leetcode.com](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -348,6 +348,7 @@ Recently solved and added problems.
 | 988 | Smallest String Starting From Leaf | O(n*h) | O(h) | [python](leetcode/medium/988.%20Smallest%20String%20Starting%20From%20Leaf.py) | [leetcode.com](https://leetcode.com/problems/smallest-string-starting-from-leaf/) |
 | 1015 | Smallest Integer Divisible by K | O(n) | O(1) | [python](leetcode/medium/1015.%20Smallest%20Integer%20Divisible%20by%20K.py) | [leetcode.com](https://leetcode.com/problems/smallest-integer-divisible-by-k) |
 | 1052 | Grumpy Bookstore Owner | O(n) | O(1) | [python](leetcode/medium/1052.%20Grumpy%20Bookstore%20Owner.py) | [leetcode.com](https://leetcode.com/problems/grumpy-bookstore-owner/) |
+| 1081 | Smallest Subsequence of Distinct Characters | O(n) | O(n) | [python](leetcode/medium/1081.%20Smallest%20Subsequence%20of%20Distinct%20Characters.py) | [leetcode.com](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) |
 | 1110 | Delete Nodes And Return Forest | O(n) | O(n) | [python](leetcode/medium/1110.%20Delete%20Nodes%20And%20Return%20Forest.py) | [leetcode.com](https://leetcode.com/problems/delete-nodes-and-return-forest/) |
 | 1161 | Maximum Level Sum of a Binary Tree | O(n) | O(1) | [python](leetcode/medium/1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree.py) | [leetcode.com](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) |
 | 1167 | Minimum Cost to Connect Sticks | O(n) | O(1) | [python](leetcode/medium/1167.%20Minimum%20Cost%20to%20Connect%20Sticks.py) | [leetcode.com](https://leetcode.com/problems/minimum-cost-to-connect-sticks) |
