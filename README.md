@@ -37,7 +37,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
-| leetcode-easy | 126 | 2051 | 16 | 172 | 6 | 167 | 162 | 44 | 6 | 15 | 206 | 4 | 6 | 15 | 1 | 0 | 12 | 0 |
+| leetcode-easy | 127 | 2071 | 16 | 173 | 6 | 168 | 163 | 44 | 6 | 15 | 207 | 4 | 6 | 15 | 1 | 0 | 14 | 0 |
 | leetcode-medium | 194 | 4990 | 25 | 343 | 7 | 502 | 373 | 113 | 22 | 46 | 420 | 6 | 40 | 62 | 11 | 28 | 27 | 7 |
 | leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
 
@@ -49,6 +49,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-07-27 | LeetCode Easy | Maximum Product of Three Numbers | [python](leetcode/easy/628.%20Maximum%20Product%20of%20Three%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-three-numbers/) |
 | 2026-07-26 | HackerRank Medium | gridland-metro | [python](hackerrank/medium/gridland-metro.py) | [hackerrank.com](https://www.hackerrank.com/challenges/gridland-metro) |
 | 2026-07-26 | HackerRank Medium | the-power-sum | [python](hackerrank/medium/the-power-sum.py) | [hackerrank.com](https://www.hackerrank.com/challenges/the-power-sum) |
 | 2026-07-26 | HackerRank Medium | sherlock-and-anagrams | [python](hackerrank/medium/sherlock-and-anagrams.py) | [hackerrank.com](https://www.hackerrank.com/challenges/sherlock-and-anagrams) |
@@ -58,7 +59,6 @@ Recently solved and added problems.
 | 2026-07-20 | LeetCode Medium | Sum of GCD of Formed Pairs | [python](leetcode/medium/3867.%20Sum%20of%20GCD%20of%20Formed%20Pairs.py) | [leetcode.com](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/) |
 | 2026-07-20 | LeetCode Easy | Shift 2D Grid | [python](leetcode/easy/1260.%20Shift%202D%20Grid.py) | [leetcode.com](https://leetcode.com/problems/shift-2d-grid/) |
 | 2026-07-19 | LeetCode Medium | Smallest Subsequence of Distinct Characters | [python](leetcode/medium/1081.%20Smallest%20Subsequence%20of%20Distinct%20Characters.py) | [leetcode.com](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) |
-| 2026-07-19 | LeetCode Easy | Find Greatest Common Divisor of Array | [python](leetcode/easy/1979.%20Find%20Greatest%20Common%20Divisor%20of%20Array.py) | [leetcode.com](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -155,6 +155,7 @@ Recently solved and added problems.
 | 463 | Island Perimeter | O(n) | O(1) | [python](leetcode/easy/463.%20Island%20Perimeter.py) | [leetcode.com](https://leetcode.com/problems/island-perimeter/) |
 | 482 | License Key Formatting | O(n) | O(1) | [python](leetcode/easy/482.%20License%20Key%20Formatting.py) | [leetcode.com](https://leetcode.com/problems/license-key-formatting/) |
 | 520 | Detect Capital | O(n) | O(1) | [python](leetcode/easy/520.%20Detect%20Capital.py) | [leetcode.com](https://leetcode.com/problems/detect-capital/) |
+| 628 | Maximum Product of Three Numbers | O(n) | O(1) | [python](leetcode/easy/628.%20Maximum%20Product%20of%20Three%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-three-numbers/) |
 | 657 | Robot Return to Origin | O(n) | O(1) | [python](leetcode/easy/657.%20Robot%20Return%20to%20Origin.py) | [leetcode.com](https://leetcode.com/problems/robot-return-to-origin/) |
 | 693 | Binary Number with Alternating Bits | O(n) | O(1) | [python](leetcode/easy/693.%20Binary%20Number%20with%20Alternating%20Bits.py) | [leetcode.com](https://leetcode.com/problems/binary-number-with-alternating-bits/) |
 | 696 | Count Binary Substrings | O(n) | O(1) | [python](leetcode/easy/696.%20Count%20Binary%20Substrings.py) | [leetcode.com](https://leetcode.com/problems/count-binary-substrings/) |
