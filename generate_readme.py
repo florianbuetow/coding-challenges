@@ -205,6 +205,11 @@ class DeepMLProcessor(TwoLevelProcessor):
     pass
 
 
+class HackerRankProcessor(TwoLevelProcessor):
+    """Processor for HackerRank challenges."""
+    pass
+
+
 class AdventOfCodeProcessor(BaseChallengeProcessor):
     """Processor for Advent of Code challenges with 3-level structure: aoc/year/day-XX/"""
 
@@ -400,7 +405,8 @@ class ReadmeGenerator:
             'leetcode': LeetCodeProcessor(),
             'deep-ml': DeepMLProcessor(),
             'aoc': AdventOfCodeProcessor(),
-            'codewars': CodewarsProcessor()
+            'codewars': CodewarsProcessor(),
+            'hackerrank': HackerRankProcessor()
         }
 
     def read_file(self, filename):
