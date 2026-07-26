@@ -13,7 +13,7 @@ result = subprocess.run(
 )
 
 # Parse git output into (date, filepath) pairs
-solution_dirs = {"leetcode/": "LeetCode", "deep-ml/": "Deep-ML", "codewars/": "Codewars", "aoc/": "AoC"}
+solution_dirs = {"leetcode/": "LeetCode", "deep-ml/": "Deep-ML", "codewars/": "Codewars", "aoc/": "AoC", "hackerrank/": "HackerRank"}
 date = None
 records = []
 
