@@ -26,6 +26,7 @@ class ChangesGenerator:
         r'^deep-ml/(easy|medium)/.*\.py$',
         r'^codewars/kyu-\d+/.*\.py$',
         r'^aoc/\d{4}/day-\d{2}/solution_part_[12]\.py$',
+        r'^hackerrank/(easy|medium|hard)/.*\.py$',
     ]
     
     def __init__(self, path: str, limit: int):
@@ -272,6 +273,9 @@ class ChangesGenerator:
             year = parts[1]
             day = parts[2].replace('day-', 'Day ').title()
             return f"AoC {year} {day}"
+        elif parts[0] == 'hackerrank' and len(parts) >= 2:
+            difficulty = parts[1].capitalize()
+            return f"HackerRank {difficulty}"
         return parts[0] if parts else "Unknown"
     
     def format_file_link(self, filepath: str) -> str:
