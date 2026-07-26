@@ -6,6 +6,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-07-27 | LeetCode Easy | Maximum Product of Three Numbers | [python](leetcode/easy/628.%20Maximum%20Product%20of%20Three%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-three-numbers/) |
 | 2026-07-26 | HackerRank Medium | gridland-metro | [python](hackerrank/medium/gridland-metro.py) | [hackerrank.com](https://www.hackerrank.com/challenges/gridland-metro) |
 | 2026-07-26 | HackerRank Medium | the-power-sum | [python](hackerrank/medium/the-power-sum.py) | [hackerrank.com](https://www.hackerrank.com/challenges/the-power-sum) |
 | 2026-07-26 | HackerRank Medium | sherlock-and-anagrams | [python](hackerrank/medium/sherlock-and-anagrams.py) | [hackerrank.com](https://www.hackerrank.com/challenges/sherlock-and-anagrams) |
@@ -15,4 +16,3 @@ Recently solved and added problems.
 | 2026-07-20 | LeetCode Medium | Sum of GCD of Formed Pairs | [python](leetcode/medium/3867.%20Sum%20of%20GCD%20of%20Formed%20Pairs.py) | [leetcode.com](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/) |
 | 2026-07-20 | LeetCode Easy | Shift 2D Grid | [python](leetcode/easy/1260.%20Shift%202D%20Grid.py) | [leetcode.com](https://leetcode.com/problems/shift-2d-grid/) |
 | 2026-07-19 | LeetCode Medium | Smallest Subsequence of Distinct Characters | [python](leetcode/medium/1081.%20Smallest%20Subsequence%20of%20Distinct%20Characters.py) | [leetcode.com](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) |
-| 2026-07-19 | LeetCode Easy | Find Greatest Common Divisor of Array | [python](leetcode/easy/1979.%20Find%20Greatest%20Common%20Divisor%20of%20Array.py) | [leetcode.com](https://leetcode.com/problems/find-greatest-common-divisor-of-array/) |
