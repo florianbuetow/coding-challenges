@@ -37,7 +37,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
-| leetcode-easy | 127 | 2071 | 16 | 173 | 6 | 168 | 163 | 44 | 6 | 15 | 207 | 4 | 6 | 15 | 1 | 0 | 14 | 0 |
+| leetcode-easy | 128 | 2083 | 16 | 174 | 6 | 169 | 164 | 44 | 6 | 15 | 208 | 4 | 6 | 15 | 1 | 0 | 15 | 0 |
 | leetcode-medium | 194 | 4990 | 25 | 343 | 7 | 502 | 373 | 113 | 22 | 46 | 420 | 6 | 40 | 62 | 11 | 28 | 27 | 7 |
 | leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
 
@@ -49,6 +49,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-07-27 | LeetCode Easy | Maximum Product of Two Elements in an Array | [python](leetcode/easy/1464.%20Maximum%20Product%20of%20Two%20Elements%20in%20an%20Array.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) |
 | 2026-07-27 | LeetCode Easy | Maximum Product of Three Numbers | [python](leetcode/easy/628.%20Maximum%20Product%20of%20Three%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-three-numbers/) |
 | 2026-07-26 | HackerRank Medium | gridland-metro | [python](hackerrank/medium/gridland-metro.py) | [hackerrank.com](https://www.hackerrank.com/challenges/gridland-metro) |
 | 2026-07-26 | HackerRank Medium | the-power-sum | [python](hackerrank/medium/the-power-sum.py) | [hackerrank.com](https://www.hackerrank.com/challenges/the-power-sum) |
@@ -58,7 +59,6 @@ Recently solved and added problems.
 | 2026-07-23 | LeetCode Medium | Number of Unique XOR Triplets I | [python](leetcode/medium/3513.%20Number%20of%20Unique%20XOR%20Triplets%20I.py) | [leetcode.com](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) |
 | 2026-07-20 | LeetCode Medium | Sum of GCD of Formed Pairs | [python](leetcode/medium/3867.%20Sum%20of%20GCD%20of%20Formed%20Pairs.py) | [leetcode.com](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/) |
 | 2026-07-20 | LeetCode Easy | Shift 2D Grid | [python](leetcode/easy/1260.%20Shift%202D%20Grid.py) | [leetcode.com](https://leetcode.com/problems/shift-2d-grid/) |
-| 2026-07-19 | LeetCode Medium | Smallest Subsequence of Distinct Characters | [python](leetcode/medium/1081.%20Smallest%20Subsequence%20of%20Distinct%20Characters.py) | [leetcode.com](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -186,6 +186,7 @@ Recently solved and added problems.
 | 1356 | Sort Integers by The Number of 1 Bits | O(n) | O(1) | [python](leetcode/easy/1356.%20Sort%20Integers%20by%20The%20Number%20of%201%20Bits.py) | [leetcode.com](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) |
 | 1380 | Lucky Numbers in a Matrix | O(m * m * n) | O(1) | [python](leetcode/easy/1380.%20Lucky%20Numbers%20in%20a%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) |
 | 1437 | Check If All 1's Are at Least Length K Places Away | O(n) | O(1) | [python](leetcode/easy/1437.%20Check%20If%20All%201%27s%20Are%20at%20Least%20Length%20K%20Places%20Away.py) | [leetcode.com](https://leetcode.com/problems/check-if-all-1-s-are-at-least-length-k-places-away/) |
+| 1464 | Maximum Product of Two Elements in an Array | O(n) | O(1) | [python](leetcode/easy/1464.%20Maximum%20Product%20of%20Two%20Elements%20in%20an%20Array.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) |
 | 1469 | Find All The Lonely Nodes | O(n) | O(1) | [python](leetcode/easy/1469.%20Find%20All%20The%20Lonely%20Nodes.py) | [leetcode.com](https://leetcode.com/problems/find-all-the-lonely-nodes/) |
 | 1518 | Water Bottles (alt) | O(n) | O(1) | [python](leetcode/easy/1518.%20Water%20Bottles%20%28alt%29.py) | [leetcode.com](https://leetcode.com/problems/water-bottles/) |
 | 1518 | Water Bottles | O(n) | O(1) | [python](leetcode/easy/1518.%20Water%20Bottles.py) | [leetcode.com](https://leetcode.com/problems/water-bottles/) |
