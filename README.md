@@ -38,7 +38,7 @@ This repository contains a collection of coding problems solved on various platf
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
 | leetcode-easy | 128 | 2083 | 16 | 174 | 6 | 169 | 164 | 44 | 6 | 15 | 208 | 4 | 6 | 15 | 1 | 0 | 15 | 0 |
-| leetcode-medium | 194 | 4990 | 25 | 343 | 7 | 502 | 373 | 113 | 22 | 46 | 420 | 6 | 40 | 62 | 11 | 28 | 27 | 7 |
+| leetcode-medium | 195 | 5014 | 25 | 344 | 7 | 503 | 375 | 114 | 22 | 46 | 421 | 6 | 40 | 62 | 11 | 28 | 27 | 7 |
 | leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
 
 ## Recent Changes
@@ -49,6 +49,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-07-28 | LeetCode Medium | Smallest Palindromic Rearrangement I | [python](leetcode/medium/3517.%20Smallest%20Palindromic%20Rearrangement%20I.py) | [leetcode.com](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) |
 | 2026-07-27 | LeetCode Easy | Maximum Product of Two Elements in an Array | [python](leetcode/easy/1464.%20Maximum%20Product%20of%20Two%20Elements%20in%20an%20Array.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) |
 | 2026-07-27 | LeetCode Easy | Maximum Product of Three Numbers | [python](leetcode/easy/628.%20Maximum%20Product%20of%20Three%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-three-numbers/) |
 | 2026-07-26 | HackerRank Medium | gridland-metro | [python](hackerrank/medium/gridland-metro.py) | [hackerrank.com](https://www.hackerrank.com/challenges/gridland-metro) |
@@ -58,7 +59,6 @@ Recently solved and added problems.
 | 2026-07-26 | HackerRank Easy | compare-the-triplets | [python](hackerrank/easy/compare-the-triplets.py) | [hackerrank.com](https://www.hackerrank.com/challenges/compare-the-triplets) |
 | 2026-07-23 | LeetCode Medium | Number of Unique XOR Triplets I | [python](leetcode/medium/3513.%20Number%20of%20Unique%20XOR%20Triplets%20I.py) | [leetcode.com](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) |
 | 2026-07-20 | LeetCode Medium | Sum of GCD of Formed Pairs | [python](leetcode/medium/3867.%20Sum%20of%20GCD%20of%20Formed%20Pairs.py) | [leetcode.com](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/) |
-| 2026-07-20 | LeetCode Easy | Shift 2D Grid | [python](leetcode/easy/1260.%20Shift%202D%20Grid.py) | [leetcode.com](https://leetcode.com/problems/shift-2d-grid/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -484,6 +484,7 @@ Recently solved and added problems.
 | 3488 | Closest Equal Element Queries | O(n log m) | O(m) | [python](leetcode/medium/3488.%20Closest%20Equal%20Element%20Queries.py) | [leetcode.com](https://leetcode.com/problems/closest-equal-element-queries/) |
 | 3494 | Find the Minimum Amount of Time to Brew Potions | O(n) | O(1) | [python](leetcode/medium/3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions.py) | [leetcode.com](https://leetcode.com/problems/find-the-minimum-amount-of-time-to-brew-potions/) |
 | 3513 | Number of Unique XOR Triplets I | O(1) | O(1) | [python](leetcode/medium/3513.%20Number%20of%20Unique%20XOR%20Triplets%20I.py) | [leetcode.com](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) |
+| 3517 | Smallest Palindromic Rearrangement I | O(n) | O(n) | [python](leetcode/medium/3517.%20Smallest%20Palindromic%20Rearrangement%20I.py) | [leetcode.com](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) |
 | 3531 | Count Covered Buildings | O(n) | O(1) | [python](leetcode/medium/3531.%20Count%20Covered%20Buildings.py) | [leetcode.com](https://leetcode.com/problems/count-covered-buildings/) |
 | 3532 | Path Existence Queries in a Graph I | O(n) | O(n) | [python](leetcode/medium/3532.%20Path%20Existence%20Queries%20in%20a%20Graph%20I.py) | [leetcode.com](https://leetcode.com/problems/path-existence-queries-in-a-graph-i/) |
 | 3542 | Minimum Operations to Convert All Elements to Zero | O(n) | O(1) | [python](leetcode/medium/3542.%20Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-convert-all-elements-to-zero) |
