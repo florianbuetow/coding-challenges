@@ -37,7 +37,7 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
-| leetcode-easy | 128 | 2083 | 16 | 174 | 6 | 169 | 164 | 44 | 6 | 15 | 208 | 4 | 6 | 15 | 1 | 0 | 15 | 0 |
+| leetcode-easy | 129 | 2106 | 16 | 175 | 6 | 169 | 165 | 45 | 6 | 15 | 209 | 4 | 6 | 15 | 1 | 0 | 16 | 0 |
 | leetcode-medium | 195 | 5014 | 25 | 344 | 7 | 503 | 375 | 114 | 22 | 46 | 421 | 6 | 40 | 62 | 11 | 28 | 27 | 7 |
 | leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
 
@@ -49,6 +49,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-07-30 | LeetCode Easy | Minimum Number of Pushes to Type Word I | [python](leetcode/easy/3014.%20Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20I.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) |
 | 2026-07-28 | LeetCode Medium | Smallest Palindromic Rearrangement I | [python](leetcode/medium/3517.%20Smallest%20Palindromic%20Rearrangement%20I.py) | [leetcode.com](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) |
 | 2026-07-27 | LeetCode Easy | Maximum Product of Two Elements in an Array | [python](leetcode/easy/1464.%20Maximum%20Product%20of%20Two%20Elements%20in%20an%20Array.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) |
 | 2026-07-27 | LeetCode Easy | Maximum Product of Three Numbers | [python](leetcode/easy/628.%20Maximum%20Product%20of%20Three%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-three-numbers/) |
@@ -58,7 +59,6 @@ Recently solved and added problems.
 | 2026-07-26 | HackerRank Easy | time-conversion | [python](hackerrank/easy/time-conversion.py) | [hackerrank.com](https://www.hackerrank.com/challenges/time-conversion) |
 | 2026-07-26 | HackerRank Easy | compare-the-triplets | [python](hackerrank/easy/compare-the-triplets.py) | [hackerrank.com](https://www.hackerrank.com/challenges/compare-the-triplets) |
 | 2026-07-23 | LeetCode Medium | Number of Unique XOR Triplets I | [python](leetcode/medium/3513.%20Number%20of%20Unique%20XOR%20Triplets%20I.py) | [leetcode.com](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) |
-| 2026-07-20 | LeetCode Medium | Sum of GCD of Formed Pairs | [python](leetcode/medium/3867.%20Sum%20of%20GCD%20of%20Formed%20Pairs.py) | [leetcode.com](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -225,6 +225,7 @@ Recently solved and added problems.
 | 2833 | Furthest Point From Origin | O(n) | O(1) | [python](leetcode/easy/2833.%20Furthest%20Point%20From%20Origin.py) | [leetcode.com](https://leetcode.com/problems/furthest-point-from-origin/) |
 | 2946 | Matrix Similarity After Cyclic Shifts | O(n*m) | O(m) | [python](leetcode/easy/2946.%20Matrix%20Similarity%20After%20Cyclic%20Shifts.py) | [leetcode.com](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts/) |
 | 3005 | Count Elements With Maximum Frequency | O(n) | O(1) | [python](leetcode/easy/3005.%20Count%20Elements%20With%20Maximum%20Frequency.py) | [leetcode.com](https://leetcode.com/problems/count-elements-with-maximum-frequency/) |
+| 3014 | Minimum Number of Pushes to Type Word I | O(n log n) | O(n) | [python](leetcode/easy/3014.%20Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20I.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) |
 | 3063 | Linked List Frequency | O(n) | O(1) | [python](leetcode/easy/3063.%20Linked%20List%20Frequency.py) | [leetcode.com](https://leetcode.com/problems/linked-list-frequency/) |
 | 3074 | Apple Redistribution into Boxes | O(n) | O(1) | [python](leetcode/easy/3074.%20Apple%20Redistribution%20into%20Boxes.py) | [leetcode.com](https://leetcode.com/problems/apple-redistribution-into-boxes/) |
 | 3105 | Longest Strictly Increasing or Strictly Decreasing Subarray | O(n) | O(1) | [python](leetcode/easy/3105.%20Longest%20Strictly%20Increasing%20or%20Strictly%20Decreasing%20Subarray.py) | [leetcode.com](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/) |
