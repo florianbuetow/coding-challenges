@@ -38,7 +38,7 @@ This repository contains a collection of coding problems solved on various platf
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
 | leetcode-easy | 129 | 2106 | 16 | 175 | 6 | 169 | 165 | 45 | 6 | 15 | 209 | 4 | 6 | 15 | 1 | 0 | 16 | 0 |
-| leetcode-medium | 195 | 5014 | 25 | 344 | 7 | 503 | 375 | 114 | 22 | 46 | 421 | 6 | 40 | 62 | 11 | 28 | 27 | 7 |
+| leetcode-medium | 196 | 5030 | 25 | 345 | 7 | 503 | 377 | 114 | 22 | 46 | 422 | 6 | 40 | 63 | 11 | 28 | 28 | 7 |
 | leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
 
 ## Recent Changes
@@ -49,6 +49,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-07-31 | LeetCode Medium | Minimum Number of Pushes to Type Word II | [python](leetcode/medium/3016.%20Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) |
 | 2026-07-30 | LeetCode Easy | Minimum Number of Pushes to Type Word I | [python](leetcode/easy/3014.%20Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20I.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) |
 | 2026-07-28 | LeetCode Medium | Smallest Palindromic Rearrangement I | [python](leetcode/medium/3517.%20Smallest%20Palindromic%20Rearrangement%20I.py) | [leetcode.com](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) |
 | 2026-07-27 | LeetCode Easy | Maximum Product of Two Elements in an Array | [python](leetcode/easy/1464.%20Maximum%20Product%20of%20Two%20Elements%20in%20an%20Array.py) | [leetcode.com](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) |
@@ -58,7 +59,6 @@ Recently solved and added problems.
 | 2026-07-26 | HackerRank Medium | sherlock-and-anagrams | [python](hackerrank/medium/sherlock-and-anagrams.py) | [hackerrank.com](https://www.hackerrank.com/challenges/sherlock-and-anagrams) |
 | 2026-07-26 | HackerRank Easy | time-conversion | [python](hackerrank/easy/time-conversion.py) | [hackerrank.com](https://www.hackerrank.com/challenges/time-conversion) |
 | 2026-07-26 | HackerRank Easy | compare-the-triplets | [python](hackerrank/easy/compare-the-triplets.py) | [hackerrank.com](https://www.hackerrank.com/challenges/compare-the-triplets) |
-| 2026-07-23 | LeetCode Medium | Number of Unique XOR Triplets I | [python](leetcode/medium/3513.%20Number%20of%20Unique%20XOR%20Triplets%20I.py) | [leetcode.com](https://leetcode.com/problems/number-of-unique-xor-triplets-i/) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -459,6 +459,7 @@ Recently solved and added problems.
 | 2962 | Count Subarrays Where Max Element Appears at Least K Times | O(n) | O(1) | [python](leetcode/medium/2962.%20Count%20Subarrays%20Where%20Max%20Element%20Appears%20at%20Least%20K%20Times.py) | [leetcode.com](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/) |
 | 2970 | Count the Number of Incremovable Subarrays I | O(n*n) | O(n*n) | [python](leetcode/medium/2970.%20Count%20the%20Number%20of%20Incremovable%20Subarrays%20I.py) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/) |
 | 2975 | Maximum Square Area by Removing Fences From a Field | O(n) | O(1) | [python](leetcode/medium/2975.%20Maximum%20Square%20Area%20by%20Removing%20Fences%20From%20a%20Field.py) | [leetcode.com](https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field) |
+| 3016 | Minimum Number of Pushes to Type Word II | O(n) | O(n) | [python](leetcode/medium/3016.%20Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) |
 | 3025 | Find the Number of Ways to Place People I | O(n) | O(1) | [python](leetcode/medium/3025.%20Find%20the%20Number%20of%20Ways%20to%20Place%20People%20I.py) | [leetcode.com](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i/) |
 | 3043 | Find the Length of the Longest Common Prefix | O(n) | O(n) | [python](leetcode/medium/3043.%20Find%20the%20Length%20of%20the%20Longest%20Common%20Prefix.py) | [leetcode.com](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/) |
 | 3047 | Find the Largest Area of Square Inside Two Rectangles | O(n) | O(1) | [python](leetcode/medium/3047.%20Find%20the%20Largest%20Area%20of%20Square%20Inside%20Two%20Rectangles.py) | [leetcode.com](https://leetcode.com/problems/find-the-largest-area-of-square-inside-two-rectangles/) |
