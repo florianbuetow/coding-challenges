@@ -292,11 +292,9 @@ class ChangesGenerator:
     def generate_changes_md(self, commits: List[Dict[str, str]], limit: Optional[int]) -> str:
         """Generate markdown content for CHANGES.md in table format."""
         lines = [
-            "## Recent Changes",
-            "",
-            "Recently solved and added problems.",
-            "",
             "---",
+            "",
+            "## Recent Solves",
             "",
         ]
         
@@ -385,7 +383,7 @@ class ChangesGenerator:
                 solution_commits.append(commit)
 
         if not solution_commits:
-            return "# Recent Changes\n\nNo recent changes to solution files.\n"
+            return "---\n\n## Recent Solves\n\nNo recent solves.\n"
 
         return self.generate_changes_md(solution_commits, limit=self.limit)
     
