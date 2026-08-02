@@ -341,13 +341,13 @@ class ChangesGenerator:
             all_changes = all_changes[:limit]
         
         # Generate single table
-        lines.append("| Date | Type | Challenge | Solution | Problem |")
+        lines.append("| Date | Type | Challenge | Problem | Solution |")
         lines.append("| --- | --- | --- | --- | --- |")
 
         for change in all_changes:
             lines.append(
                 f"| {change['date']} | {change['type']} | {change['challenge']} | "
-                f"{change['solution_link']} | {change['problem_link']} |"
+                f"{change['problem_link']} | {change['solution_link']} |"
             )
         
         lines.append("")
