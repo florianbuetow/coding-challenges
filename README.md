@@ -43,6 +43,7 @@ This repository contains a collection of coding problems solved on various platf
 | leetcode-easy | 129 | 2106 | 16 | 175 | 6 | 169 | 165 | 45 | 6 | 15 | 209 | 4 | 6 | 15 | 1 | 0 | 16 | 0 |
 | leetcode-medium | 198 | 5061 | 25 | 348 | 7 | 508 | 377 | 114 | 22 | 46 | 428 | 6 | 40 | 63 | 11 | 28 | 28 | 7 |
 | leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
+| **total** | 408 | 9815 | 24 | 702 | 20 | 929 | 816 | 189 | 40 | 91 | 837 | 26 | 64 | 111 | 22 | 38 | 57 | 16 |
 
 ---
 
