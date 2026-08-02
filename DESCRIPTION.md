@@ -14,6 +14,9 @@ This repository contains a collection of coding problems solved on various platf
 ├── deep-ml/           # Deep-ML problems
 │   ├── easy/          # Easy difficulty problems
 │   └── medium/        # Medium difficulty problems
+├── hackerrank/        # HackerRank problems
+│   ├── easy/          # Easy difficulty problems
+│   └── medium/        # Medium difficulty problems
 ├── leetcode/          # LeetCode problems
 │   ├── easy/          # Easy difficulty problems
 │   ├── medium/        # Medium difficulty problems
