@@ -1,8 +1,6 @@
-## Recent Changes
-
-Recently solved and added problems.
-
 ---
+
+## Recent Solves
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
