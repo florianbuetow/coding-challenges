@@ -48,7 +48,7 @@ This repository contains a collection of coding problems solved on various platf
 
 ## Recent Solves
 
-| Date | Type | Challenge | Solution Code | Problem Link |
+| Date | Type | Challenge | Solution | Problem |
 | --- | --- | --- | --- | --- |
 | 2026-08-02 | LeetCode Medium | Stone Game | [python](leetcode/medium/877.%20Stone%20Game.py) | [leetcode.com](https://leetcode.com/problems/stone-game/) |
 | 2026-08-02 | LeetCode Medium | Predict the Winner | [python](leetcode/medium/486.%20Predict%20the%20Winner.py) | [leetcode.com](https://leetcode.com/problems/predict-the-winner/) |
@@ -62,7 +62,7 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-07-26 | HackerRank Medium | sherlock-and-anagrams | [python](hackerrank/medium/sherlock-and-anagrams.py) | [hackerrank.com](https://www.hackerrank.com/challenges/sherlock-and-anagrams) |
 # Advent of Code
 ### 2025
-| Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
+| Day | Challenge | Time | Space | Solution | Problem |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Secret Entrance 1/2 | O(n) | O(1) | [python](aoc/2025/day-01/solution_part_1.py) | [adventofcode.com](https://adventofcode.com/2025/day/1) |
 | 1 | Secret Entrance 2/2 | O(n) | O(1) | [python](aoc/2025/day-01/solution_part_2.py) | [adventofcode.com](https://adventofcode.com/2025/day/1) |
@@ -91,18 +91,18 @@ This repository contains a collection of coding problems solved on various platf
 
 # Codewars
 ### Kyu-4
-| Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
+| Challenge | Time | Space | Solution | Problem |
 | --- | --- | --- | --- | --- |
 | The Observed Pin | O(n) | O(n) | [python](codewars/kyu-4/the_observed_pin.py) | [codewars.com](https://www.codewars.com/kata/5263c6999e0f40dee200059d) |
 
 ### Kyu-5
-| Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
+| Challenge | Time | Space | Solution | Problem |
 | --- | --- | --- | --- | --- |
 | Rot13 | O(n) | O(n) | [python](codewars/kyu-5/rot13.py) | [codewars.com](https://www.codewars.com/kata/530e15517bc88ac656000716/) |
 
 # Deep-ml
 ### Easy
-| Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
+| Nr. | Challenge | Time | Space | Solution | Problem |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Matrix times Vector | O(n*m) | O(m) | [python](deep-ml/easy/1%20Matrix%20times%20Vector.py) | [deep-ml.com](https://www.deep-ml.com/problem/Matrix%20times%20Vector) |
 | 2 | Transpose of a Matrix | O(width * height) | O(width * height) | [python](deep-ml/easy/2%20Transpose%20of%20a%20Matrix.py) | N/A |
@@ -115,7 +115,7 @@ This repository contains a collection of coding problems solved on various platf
 | 24 | Single Neuron | N/A | N/A | [python](deep-ml/easy/24%20Single%20Neuron.py) | N/A |
 
 ### Medium
-| Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
+| Nr. | Challenge | Time | Space | Solution | Problem |
 | --- | --- | --- | --- | --- | --- |
 | 4 | Calculate 2x2 Matrix Inverse | N/A | N/A | [python](deep-ml/medium/Calculate%202x2%20Matrix%20Inverse.py) | N/A |
 | 5 | Calculate Covariance Matrix | N/A | N/A | [python](deep-ml/medium/Calculate%20Covariance%20Matrix.py) | N/A |
@@ -125,13 +125,13 @@ This repository contains a collection of coding problems solved on various platf
 
 # Hackerrank
 ### Easy
-| Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
+| Nr. | Challenge | Time | Space | Solution | Problem |
 | --- | --- | --- | --- | --- | --- |
 | 1 | compare-the-triplets | O(1) | O(1) | [python](hackerrank/easy/compare-the-triplets.py) | [hackerrank.com](https://www.hackerrank.com/challenges/compare-the-triplets) |
 | 2 | time-conversion | O(1) | O(1) | [python](hackerrank/easy/time-conversion.py) | [hackerrank.com](https://www.hackerrank.com/challenges/time-conversion) |
 
 ### Medium
-| Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
+| Nr. | Challenge | Time | Space | Solution | Problem |
 | --- | --- | --- | --- | --- | --- |
 | 1 | gridland-metro | O(n*m + (m+n)log(m+n)) | O(n*m + (m+n)log(m+n)) | [python](hackerrank/medium/gridland-metro.py) | [hackerrank.com](https://www.hackerrank.com/challenges/gridland-metro) |
 | 2 | sherlock-and-anagrams | O(n*n) | O(n*n) | [python](hackerrank/medium/sherlock-and-anagrams.py) | [hackerrank.com](https://www.hackerrank.com/challenges/sherlock-and-anagrams) |
@@ -139,7 +139,7 @@ This repository contains a collection of coding problems solved on various platf
 
 # Leetcode
 ### Easy
-| Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
+| Nr. | Challenge | Time | Space | Solution | Problem |
 | --- | --- | --- | --- | --- | --- |
 | 21 | Merge Two Sorted Lists | O(n) | O(1) | [python](leetcode/easy/21.%20Merge%20Two%20Sorted%20Lists.py) | [leetcode.com](https://leetcode.com/problems/merge-two-sorted-lists/) |
 | 66 | Plus One | O(n) | O(1) | [python](leetcode/easy/66.%20Plus%20One.py) | [leetcode.com](https://leetcode.com/problems/plus-one/) |
@@ -272,7 +272,7 @@ This repository contains a collection of coding problems solved on various platf
 | 3870 | Count Commas in Range | O(1) | O(1) | [python](leetcode/easy/3870.%20Count%20Commas%20in%20Range.py) | [leetcode.com](https://leetcode.com/problems/count-commas-in-range/) |
 
 ### Hard
-| Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
+| Nr. | Challenge | Time | Space | Solution | Problem |
 | --- | --- | --- | --- | --- | --- |
 | 42 | Trapping Rain Water | O(n) | O(1) | [python](leetcode/hard/42.%20Trapping%20Rain%20Water.py) | [leetcode.com](https://leetcode.com/problems/trapping-rain-water/) |
 | 84 | Largest Rectangle in Histogram | O(n) | O(n) | [python](leetcode/hard/84.%20Largest%20Rectangle%20in%20Histogram.py) | [leetcode.com](https://leetcode.com/problems/largest-rectangle-in-histogram/) |
@@ -312,7 +312,7 @@ This repository contains a collection of coding problems solved on various platf
 | 3666 | Minimum Operations to Equalize Binary String | O(n) | O(1) | [python](leetcode/hard/3666.%20Minimum%20Operations%20to%20Equalize%20Binary%20String.py) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-equalize-binary-string/) |
 
 ### Medium
-| Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
+| Nr. | Challenge | Time | Space | Solution | Problem |
 | --- | --- | --- | --- | --- | --- |
 | 11 | Container With Most Water | O(n) | O(1) | [python](leetcode/medium/11.%20Container%20With%20Most%20Water.py) | [leetcode.com](https://leetcode.com/problems/container-with-most-water/) |
 | 33 | Search in Rotated Sorted Array | O(n) | O(1) | [python](leetcode/medium/33.%20Search%20in%20Rotated%20Sorted%20Array.py) | [leetcode.com](https://leetcode.com/problems/search-in-rotated-sorted-array/) |
