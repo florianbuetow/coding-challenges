@@ -530,6 +530,12 @@ class ReadmeGenerator:
         ]
         for s in stats:
             lines.append(f"| {s['category']} | {s['solves']} | {s['loc']} | {s['avg_loc']} | {s['def']} | {s['lambda']} | {s['if']} | {s['for']} | {s['while']} | {s['break']} | {s['continue']} | {s['return']} | {s['list']} | {s['set']} | {s['dict']} | {s['heapq']} | {s['deque']} | {s['sort']} | {s['bisect']} |\n")
+
+        if stats:
+            t = {key: sum(s[key] for s in stats) for key in stats[0] if key != 'category'}
+            t['avg_loc'] = t['loc'] // t['solves'] if t['solves'] else 0
+            lines.append(f"| **total** | {t['solves']} | {t['loc']} | {t['avg_loc']} | {t['def']} | {t['lambda']} | {t['if']} | {t['for']} | {t['while']} | {t['break']} | {t['continue']} | {t['return']} | {t['list']} | {t['set']} | {t['dict']} | {t['heapq']} | {t['deque']} | {t['sort']} | {t['bisect']} |\n")
+
         lines.append("\n")
 
         return ''.join(lines)
