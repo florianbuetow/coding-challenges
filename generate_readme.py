@@ -563,7 +563,7 @@ class ReadmeGenerator:
         changes_content = self.read_file('CHANGES.md')
 
         with open(readme_file, 'w') as readme:
-            readme.write('# Coding-Challenges\n\n')
+            readme.write('# Coding Challenges\n\n')
             readme.write(f'{project_description}\n\n')
             stats_table = self.generate_stats_table(root_dir)
             readme.write(stats_table)
