@@ -2,7 +2,7 @@
 
 ## Recent Solves
 
-| Date | Type | Challenge | Solution Code | Problem Link |
+| Date | Type | Challenge | Solution | Problem |
 | --- | --- | --- | --- | --- |
 | 2026-08-02 | LeetCode Medium | Stone Game | [python](leetcode/medium/877.%20Stone%20Game.py) | [leetcode.com](https://leetcode.com/problems/stone-game/) |
 | 2026-08-02 | LeetCode Medium | Predict the Winner | [python](leetcode/medium/486.%20Predict%20the%20Winner.py) | [leetcode.com](https://leetcode.com/problems/predict-the-winner/) |
