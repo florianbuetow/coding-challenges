@@ -38,7 +38,7 @@ This repository contains a collection of coding problems solved on various platf
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
 | leetcode-easy | 129 | 2106 | 16 | 175 | 6 | 169 | 165 | 45 | 6 | 15 | 209 | 4 | 6 | 15 | 1 | 0 | 16 | 0 |
-| leetcode-medium | 197 | 5055 | 25 | 347 | 7 | 508 | 377 | 114 | 22 | 46 | 427 | 6 | 40 | 63 | 11 | 28 | 28 | 7 |
+| leetcode-medium | 198 | 5061 | 25 | 348 | 7 | 508 | 377 | 114 | 22 | 46 | 428 | 6 | 40 | 63 | 11 | 28 | 28 | 7 |
 | leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
 
 ## Recent Changes
@@ -49,6 +49,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-08-02 | LeetCode Medium | Stone Game | [python](leetcode/medium/877.%20Stone%20Game.py) | [leetcode.com](https://leetcode.com/problems/stone-game/) |
 | 2026-08-02 | LeetCode Medium | Predict the Winner | [python](leetcode/medium/486.%20Predict%20the%20Winner.py) | [leetcode.com](https://leetcode.com/problems/predict-the-winner/) |
 | 2026-07-31 | LeetCode Medium | Minimum Number of Pushes to Type Word II | [python](leetcode/medium/3016.%20Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) |
 | 2026-07-30 | LeetCode Easy | Minimum Number of Pushes to Type Word I | [python](leetcode/easy/3014.%20Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20I.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) |
@@ -58,7 +59,6 @@ Recently solved and added problems.
 | 2026-07-26 | HackerRank Medium | gridland-metro | [python](hackerrank/medium/gridland-metro.py) | [hackerrank.com](https://www.hackerrank.com/challenges/gridland-metro) |
 | 2026-07-26 | HackerRank Medium | the-power-sum | [python](hackerrank/medium/the-power-sum.py) | [hackerrank.com](https://www.hackerrank.com/challenges/the-power-sum) |
 | 2026-07-26 | HackerRank Medium | sherlock-and-anagrams | [python](hackerrank/medium/sherlock-and-anagrams.py) | [hackerrank.com](https://www.hackerrank.com/challenges/sherlock-and-anagrams) |
-| 2026-07-26 | HackerRank Easy | time-conversion | [python](hackerrank/easy/time-conversion.py) | [hackerrank.com](https://www.hackerrank.com/challenges/time-conversion) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -359,6 +359,7 @@ Recently solved and added problems.
 | 861 | Score After Flipping Matrix | O(n * m) | O(1) | [python](leetcode/medium/861.%20Score%20After%20Flipping%20Matrix.py) | [leetcode.com](https://leetcode.com/problems/score-after-flipping-matrix/) |
 | 865 | Smallest Subtree with all the Deepest Nodes | O(n) | O(n) | [python](leetcode/medium/865.%20Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes.py) | [leetcode.com](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes) |
 | 874 | Walking Robot Simulation | O(n) | O(1) | [python](leetcode/medium/874.%20Walking%20Robot%20Simulation.py) | [leetcode.com](https://leetcode.com/problems/walking-robot-simulation/description) |
+| 877 | Stone Game | O(1) | O(1) | [python](leetcode/medium/877.%20Stone%20Game.py) | [leetcode.com](https://leetcode.com/problems/stone-game/) |
 | 912 | Sort an Array | O(n) | O(1) | [python](leetcode/medium/912.%20Sort%20an%20Array.py) | [leetcode.com](https://leetcode.com/problems/sort-an-array/description/) |
 | 948 | Bag of Tokens | O(n log n) | O(1) | [python](leetcode/medium/948.%20Bag%20of%20Tokens.py) | [leetcode.com](https://leetcode.com/problems/bag-of-tokens/) |
 | 950 | Reveal Cards In Increasing Order | O(n log n) | O(n) | [python](leetcode/medium/950.%20Reveal%20Cards%20In%20Increasing%20Order.py) | [leetcode.com](https://leetcode.com/problems/reveal-cards-in-increasing-order/) |
