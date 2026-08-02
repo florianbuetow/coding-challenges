@@ -38,7 +38,7 @@ This repository contains a collection of coding problems solved on various platf
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
 | leetcode-easy | 129 | 2106 | 16 | 175 | 6 | 169 | 165 | 45 | 6 | 15 | 209 | 4 | 6 | 15 | 1 | 0 | 16 | 0 |
-| leetcode-medium | 196 | 5030 | 25 | 345 | 7 | 503 | 377 | 114 | 22 | 46 | 422 | 6 | 40 | 63 | 11 | 28 | 28 | 7 |
+| leetcode-medium | 197 | 5055 | 25 | 347 | 7 | 508 | 377 | 114 | 22 | 46 | 427 | 6 | 40 | 63 | 11 | 28 | 28 | 7 |
 | leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
 
 ## Recent Changes
@@ -49,6 +49,7 @@ Recently solved and added problems.
 
 | Date | Type | Challenge | Solution Code | Problem Link |
 | --- | --- | --- | --- | --- |
+| 2026-08-02 | LeetCode Medium | Predict the Winner | [python](leetcode/medium/486.%20Predict%20the%20Winner.py) | [leetcode.com](https://leetcode.com/problems/predict-the-winner/) |
 | 2026-07-31 | LeetCode Medium | Minimum Number of Pushes to Type Word II | [python](leetcode/medium/3016.%20Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20II.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) |
 | 2026-07-30 | LeetCode Easy | Minimum Number of Pushes to Type Word I | [python](leetcode/easy/3014.%20Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20I.py) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) |
 | 2026-07-28 | LeetCode Medium | Smallest Palindromic Rearrangement I | [python](leetcode/medium/3517.%20Smallest%20Palindromic%20Rearrangement%20I.py) | [leetcode.com](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) |
@@ -58,7 +59,6 @@ Recently solved and added problems.
 | 2026-07-26 | HackerRank Medium | the-power-sum | [python](hackerrank/medium/the-power-sum.py) | [hackerrank.com](https://www.hackerrank.com/challenges/the-power-sum) |
 | 2026-07-26 | HackerRank Medium | sherlock-and-anagrams | [python](hackerrank/medium/sherlock-and-anagrams.py) | [hackerrank.com](https://www.hackerrank.com/challenges/sherlock-and-anagrams) |
 | 2026-07-26 | HackerRank Easy | time-conversion | [python](hackerrank/easy/time-conversion.py) | [hackerrank.com](https://www.hackerrank.com/challenges/time-conversion) |
-| 2026-07-26 | HackerRank Easy | compare-the-triplets | [python](hackerrank/easy/compare-the-triplets.py) | [hackerrank.com](https://www.hackerrank.com/challenges/compare-the-triplets) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |
@@ -342,6 +342,7 @@ Recently solved and added problems.
 | 442 | Find All Duplicates in an Array | O(n) | O(n) | [python](leetcode/medium/442.%20Find%20All%20Duplicates%20in%20an%20Array.py) | [leetcode.com](https://leetcode.com/problems/find-all-duplicates-in-an-array/) |
 | 474 | Ones and Zeroes | O(n) | O(1) | [python](leetcode/medium/474.%20Ones%20and%20Zeroes.py) | [leetcode.com](https://leetcode.com/problems/ones-and-zeroes/) |
 | 481 | Magical String | O(n) | O(1) | [python](leetcode/medium/481.%20Magical%20String.py) | [leetcode.com](https://leetcode.com/problems/magical-string/) |
+| 486 | Predict the Winner | O(2^n) | O(n) | [python](leetcode/medium/486.%20Predict%20the%20Winner.py) | [leetcode.com](https://leetcode.com/problems/predict-the-winner/) |
 | 611 | Valid Triangle Number | O(n) | O(1) | [python](leetcode/medium/611.%20Valid%20Triangle%20Number.py) | [leetcode.com](https://leetcode.com/problems/valid-triangle-number/) |
 | 623 | Add One Row to Tree | O(n) | O(n) | [python](leetcode/medium/623.%20Add%20One%20Row%20to%20Tree.py) | [leetcode.com](https://leetcode.com/problems/add-one-row-to-tree/) |
 | 633 | Sum of Square Numbers | O(n) | O(1) | [python](leetcode/medium/633.%20Sum%20of%20Square%20Numbers.py) | [leetcode.com](https://leetcode.com/problems/sum-of-square-numbers/) |
