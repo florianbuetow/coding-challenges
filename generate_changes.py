@@ -341,7 +341,7 @@ class ChangesGenerator:
             all_changes = all_changes[:limit]
         
         # Generate single table
-        lines.append("| Date | Type | Challenge | Solution Code | Problem Link |")
+        lines.append("| Date | Type | Challenge | Solution | Problem |")
         lines.append("| --- | --- | --- | --- | --- |")
 
         for change in all_changes:

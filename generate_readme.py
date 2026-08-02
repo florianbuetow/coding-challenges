@@ -182,7 +182,7 @@ class TwoLevelProcessor(BaseChallengeProcessor):
         for subfolder in sorted(subfolders):
             problems = subfolders[subfolder]
             markdown.append(f'### {subfolder.capitalize()}\n')
-            markdown.append('| Nr. | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |\n')
+            markdown.append('| Nr. | Challenge | Time | Space | Solution | Problem |\n')
             markdown.append('| --- | --- | --- | --- | --- | --- |\n')
             for problem in problems:
                 problem_md_link = self._format_problem_link(problem)
@@ -307,7 +307,7 @@ class AdventOfCodeProcessor(BaseChallengeProcessor):
         for year in sorted(sections):
             problems = sections[year]
             markdown.append(f'### {year.capitalize()}\n')
-            markdown.append('| Day | Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |\n')
+            markdown.append('| Day | Challenge | Time | Space | Solution | Problem |\n')
             markdown.append('| --- | --- | --- | --- | --- | --- |\n')
             for problem in problems:
                 problem_md_link = self._format_problem_link(problem)
@@ -383,7 +383,7 @@ class CodewarsProcessor(BaseChallengeProcessor):
         for kyu_folder in sorted(sections):
             problems = sections[kyu_folder]
             markdown.append(f'### {kyu_folder.capitalize()}\n')
-            markdown.append('| Challenge | Time Complexity | Space Complexity | Solution Code | Problem Link |\n')
+            markdown.append('| Challenge | Time | Space | Solution | Problem |\n')
             markdown.append('| --- | --- | --- | --- | --- |\n')
             for problem in problems:
                 problem_md_link = self._format_problem_link(problem)
