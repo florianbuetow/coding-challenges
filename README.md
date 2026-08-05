@@ -41,9 +41,9 @@ This repository contains a collection of coding problems solved on various platf
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
 | leetcode-easy | 129 | 2106 | 16 | 175 | 6 | 169 | 165 | 45 | 6 | 15 | 209 | 4 | 6 | 15 | 1 | 0 | 16 | 0 |
-| leetcode-medium | 198 | 5061 | 25 | 348 | 7 | 508 | 377 | 114 | 22 | 46 | 428 | 6 | 40 | 63 | 11 | 28 | 28 | 7 |
+| leetcode-medium | 199 | 5095 | 25 | 351 | 7 | 512 | 383 | 115 | 22 | 48 | 432 | 7 | 43 | 64 | 11 | 29 | 28 | 7 |
 | leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
-| **total** | 408 | 9815 | 24 | 702 | 20 | 929 | 816 | 189 | 40 | 91 | 837 | 26 | 64 | 111 | 22 | 38 | 57 | 16 |
+| **total** | 409 | 9849 | 24 | 705 | 20 | 933 | 822 | 190 | 40 | 93 | 841 | 27 | 67 | 112 | 22 | 39 | 57 | 16 |
 
 ---
 
@@ -51,6 +51,7 @@ This repository contains a collection of coding problems solved on various platf
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-08-05 | LeetCode Medium | Remove Methods From Project | [leetcode.com](https://leetcode.com/problems/remove-methods-from-project/) | [python](leetcode/medium/3310.%20Remove%20Methods%20From%20Project.py) |
 | 2026-08-02 | LeetCode Medium | Stone Game | [leetcode.com](https://leetcode.com/problems/stone-game/) | [python](leetcode/medium/877.%20Stone%20Game.py) |
 | 2026-08-02 | LeetCode Medium | Predict the Winner | [leetcode.com](https://leetcode.com/problems/predict-the-winner/) | [python](leetcode/medium/486.%20Predict%20the%20Winner.py) |
 | 2026-07-31 | LeetCode Medium | Minimum Number of Pushes to Type Word II | [leetcode.com](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | [python](leetcode/medium/3016.%20Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20II.py) |
@@ -60,7 +61,6 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-07-27 | LeetCode Easy | Maximum Product of Three Numbers | [leetcode.com](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [python](leetcode/easy/628.%20Maximum%20Product%20of%20Three%20Numbers.py) |
 | 2026-07-26 | HackerRank Medium | gridland-metro | [hackerrank.com](https://www.hackerrank.com/challenges/gridland-metro) | [python](hackerrank/medium/gridland-metro.py) |
 | 2026-07-26 | HackerRank Medium | the-power-sum | [hackerrank.com](https://www.hackerrank.com/challenges/the-power-sum) | [python](hackerrank/medium/the-power-sum.py) |
-| 2026-07-26 | HackerRank Medium | sherlock-and-anagrams | [hackerrank.com](https://www.hackerrank.com/challenges/sherlock-and-anagrams) | [python](hackerrank/medium/sherlock-and-anagrams.py) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time | Space | Problem | Solution |
@@ -478,6 +478,7 @@ This repository contains a collection of coding problems solved on various platf
 | 3227 | Vowels Game in a String | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/vowels-game-in-a-string/) | [python](leetcode/medium/3227.%20Vowels%20Game%20in%20a%20String.py) |
 | 3228 | Maximum Number of Operations to Move Ones to the End | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end) | [python](leetcode/medium/3228.%20Maximum%20Number%20of%20Operations%20to%20Move%20Ones%20to%20the%20End.py) |
 | 3286 | Find a Safe Walk Through a Grid | O(n * m) | O(n * m) | [leetcode.com](https://leetcode.com/problems/find-a-safe-walk-through-a-grid/) | [python](leetcode/medium/3286.%20Find%20a%20Safe%20Walk%20Through%20a%20Grid.py) |
+| 3310 | Remove Methods From Project | O(n^2) | O(n) | [leetcode.com](https://leetcode.com/problems/remove-methods-from-project/) | [python](leetcode/medium/3310.%20Remove%20Methods%20From%20Project.py) |
 | 3346 | Maximum Frequency of an Element After Performing Operations I | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-i/) | [python](leetcode/medium/3346.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20I.py) |
 | 3350 | Adjacent Increasing Subarrays Detection II | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-ii/) | [python](leetcode/medium/3350.%20Adjacent%20Increasing%20Subarrays%20Detection%20II.py) |
 | 3381 | Maximum Subarray Sum With Length Divisible by K | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/maximum-subarray-sum-with-length-divisible-by-k/) | [python](leetcode/medium/3381.%20Maximum%20Subarray%20Sum%20With%20Length%20Divisible%20by%20K.py) |
