@@ -4,6 +4,7 @@
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-08-06 | LeetCode Easy | Smallest Divisible Digit Product I | [leetcode.com](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | [python](leetcode/easy/3345.%20Smallest%20Divisible%20Digit%20Product%20I.py) |
 | 2026-08-05 | LeetCode Medium | Remove Methods From Project | [leetcode.com](https://leetcode.com/problems/remove-methods-from-project/) | [python](leetcode/medium/3310.%20Remove%20Methods%20From%20Project.py) |
 | 2026-08-02 | LeetCode Medium | Stone Game | [leetcode.com](https://leetcode.com/problems/stone-game/) | [python](leetcode/medium/877.%20Stone%20Game.py) |
 | 2026-08-02 | LeetCode Medium | Predict the Winner | [leetcode.com](https://leetcode.com/problems/predict-the-winner/) | [python](leetcode/medium/486.%20Predict%20the%20Winner.py) |
@@ -13,4 +14,3 @@
 | 2026-07-27 | LeetCode Easy | Maximum Product of Two Elements in an Array | [leetcode.com](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | [python](leetcode/easy/1464.%20Maximum%20Product%20of%20Two%20Elements%20in%20an%20Array.py) |
 | 2026-07-27 | LeetCode Easy | Maximum Product of Three Numbers | [leetcode.com](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [python](leetcode/easy/628.%20Maximum%20Product%20of%20Three%20Numbers.py) |
 | 2026-07-26 | HackerRank Medium | gridland-metro | [hackerrank.com](https://www.hackerrank.com/challenges/gridland-metro) | [python](hackerrank/medium/gridland-metro.py) |
-| 2026-07-26 | HackerRank Medium | the-power-sum | [hackerrank.com](https://www.hackerrank.com/challenges/the-power-sum) | [python](hackerrank/medium/the-power-sum.py) |

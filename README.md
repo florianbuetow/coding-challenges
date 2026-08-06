@@ -40,10 +40,10 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
-| leetcode-easy | 129 | 2106 | 16 | 175 | 6 | 169 | 165 | 45 | 6 | 15 | 209 | 4 | 6 | 15 | 1 | 0 | 16 | 0 |
+| leetcode-easy | 130 | 2122 | 16 | 177 | 6 | 169 | 165 | 46 | 6 | 15 | 211 | 4 | 6 | 15 | 1 | 0 | 16 | 0 |
 | leetcode-medium | 199 | 5095 | 25 | 351 | 7 | 512 | 383 | 115 | 22 | 48 | 432 | 7 | 43 | 64 | 11 | 29 | 28 | 7 |
 | leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
-| **total** | 409 | 9849 | 24 | 705 | 20 | 933 | 822 | 190 | 40 | 93 | 841 | 27 | 67 | 112 | 22 | 39 | 57 | 16 |
+| **total** | 410 | 9865 | 24 | 707 | 20 | 933 | 822 | 191 | 40 | 93 | 843 | 27 | 67 | 112 | 22 | 39 | 57 | 16 |
 
 ---
 
@@ -51,6 +51,7 @@ This repository contains a collection of coding problems solved on various platf
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-08-06 | LeetCode Easy | Smallest Divisible Digit Product I | [leetcode.com](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | [python](leetcode/easy/3345.%20Smallest%20Divisible%20Digit%20Product%20I.py) |
 | 2026-08-05 | LeetCode Medium | Remove Methods From Project | [leetcode.com](https://leetcode.com/problems/remove-methods-from-project/) | [python](leetcode/medium/3310.%20Remove%20Methods%20From%20Project.py) |
 | 2026-08-02 | LeetCode Medium | Stone Game | [leetcode.com](https://leetcode.com/problems/stone-game/) | [python](leetcode/medium/877.%20Stone%20Game.py) |
 | 2026-08-02 | LeetCode Medium | Predict the Winner | [leetcode.com](https://leetcode.com/problems/predict-the-winner/) | [python](leetcode/medium/486.%20Predict%20the%20Winner.py) |
@@ -60,7 +61,6 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-07-27 | LeetCode Easy | Maximum Product of Two Elements in an Array | [leetcode.com](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | [python](leetcode/easy/1464.%20Maximum%20Product%20of%20Two%20Elements%20in%20an%20Array.py) |
 | 2026-07-27 | LeetCode Easy | Maximum Product of Three Numbers | [leetcode.com](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [python](leetcode/easy/628.%20Maximum%20Product%20of%20Three%20Numbers.py) |
 | 2026-07-26 | HackerRank Medium | gridland-metro | [hackerrank.com](https://www.hackerrank.com/challenges/gridland-metro) | [python](hackerrank/medium/gridland-metro.py) |
-| 2026-07-26 | HackerRank Medium | the-power-sum | [hackerrank.com](https://www.hackerrank.com/challenges/the-power-sum) | [python](hackerrank/medium/the-power-sum.py) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time | Space | Problem | Solution |
@@ -236,6 +236,7 @@ This repository contains a collection of coding problems solved on various platf
 | 3190 | Find Minimum Operations to Make All Elements Divisible by Three | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three) | [python](leetcode/easy/3190.%20Find%20Minimum%20Operations%20to%20Make%20All%20Elements%20Divisible%20by%20Three.py) |
 | 3206 | Alternating Groups I | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/alternating-groups-i/) | [python](leetcode/easy/3206.%20Alternating%20Groups%20I.py) |
 | 3289 | The Two Sneaky Numbers of Digitville | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/) | [python](leetcode/easy/3289.%20The%20Two%20Sneaky%20Numbers%20of%20Digitville.py) |
+| 3345 | Smallest Divisible Digit Product I | O(log n) | O(log n) | [leetcode.com](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | [python](leetcode/easy/3345.%20Smallest%20Divisible%20Digit%20Product%20I.py) |
 | 3349 | Adjacent Increasing Subarrays Detection I | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/) | [python](leetcode/easy/3349.%20Adjacent%20Increasing%20Subarrays%20Detection%20I.py) |
 | 3354 | Make Array Elements Equal to Zero | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/make-array-elements-equal-to-zero/) | [python](leetcode/easy/3354.%20Make%20Array%20Elements%20Equal%20to%20Zero.py) |
 | 3370 | Smallest Number With All Set Bits | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | [python](leetcode/easy/3370.%20Smallest%20Number%20With%20All%20Set%20Bits.py) |
