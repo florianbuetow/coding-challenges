@@ -40,10 +40,10 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
-| leetcode-easy | 130 | 2122 | 16 | 177 | 6 | 169 | 165 | 46 | 6 | 15 | 211 | 4 | 6 | 15 | 1 | 0 | 16 | 0 |
+| leetcode-easy | 131 | 2137 | 16 | 178 | 6 | 169 | 166 | 47 | 6 | 15 | 212 | 4 | 6 | 16 | 1 | 0 | 16 | 0 |
 | leetcode-medium | 199 | 5092 | 25 | 351 | 7 | 512 | 383 | 115 | 22 | 48 | 432 | 7 | 43 | 64 | 11 | 29 | 28 | 7 |
 | leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
-| **total** | 410 | 9862 | 24 | 707 | 20 | 933 | 822 | 191 | 40 | 93 | 843 | 27 | 67 | 112 | 22 | 39 | 57 | 16 |
+| **total** | 411 | 9877 | 24 | 708 | 20 | 933 | 823 | 192 | 40 | 93 | 844 | 27 | 67 | 113 | 22 | 39 | 57 | 16 |
 
 ---
 
@@ -51,6 +51,7 @@ This repository contains a collection of coding problems solved on various platf
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-08-14 | LeetCode Easy | Maximum Length Substring With Two Occurrences | [leetcode.com](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | [python](leetcode/easy/3090.%20Maximum%20Length%20Substring%20With%20Two%20Occurrences.py) |
 | 2026-08-12 | LeetCode Medium | Length of Longest Subarray With at Most K Frequency | [leetcode.com](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) | [python](leetcode/medium/2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency.py) |
 | 2026-08-06 | LeetCode Easy | Smallest Divisible Digit Product I | [leetcode.com](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | [python](leetcode/easy/3345.%20Smallest%20Divisible%20Digit%20Product%20I.py) |
 | 2026-08-05 | LeetCode Medium | Remove Methods From Project | [leetcode.com](https://leetcode.com/problems/remove-methods-from-project/) | [python](leetcode/medium/3310.%20Remove%20Methods%20From%20Project.py) |
@@ -60,7 +61,6 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-07-30 | LeetCode Easy | Minimum Number of Pushes to Type Word I | [leetcode.com](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | [python](leetcode/easy/3014.%20Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20I.py) |
 | 2026-07-28 | LeetCode Medium | Smallest Palindromic Rearrangement I | [leetcode.com](https://leetcode.com/problems/smallest-palindromic-rearrangement-i/) | [python](leetcode/medium/3517.%20Smallest%20Palindromic%20Rearrangement%20I.py) |
 | 2026-07-27 | LeetCode Easy | Maximum Product of Two Elements in an Array | [leetcode.com](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | [python](leetcode/easy/1464.%20Maximum%20Product%20of%20Two%20Elements%20in%20an%20Array.py) |
-| 2026-07-27 | LeetCode Easy | Maximum Product of Three Numbers | [leetcode.com](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [python](leetcode/easy/628.%20Maximum%20Product%20of%20Three%20Numbers.py) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time | Space | Problem | Solution |
@@ -230,6 +230,7 @@ This repository contains a collection of coding problems solved on various platf
 | 3014 | Minimum Number of Pushes to Type Word I | O(n log n) | O(n) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/) | [python](leetcode/easy/3014.%20Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20I.py) |
 | 3063 | Linked List Frequency | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/linked-list-frequency/) | [python](leetcode/easy/3063.%20Linked%20List%20Frequency.py) |
 | 3074 | Apple Redistribution into Boxes | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/apple-redistribution-into-boxes/) | [python](leetcode/easy/3074.%20Apple%20Redistribution%20into%20Boxes.py) |
+| 3090 | Maximum Length Substring With Two Occurrences | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | [python](leetcode/easy/3090.%20Maximum%20Length%20Substring%20With%20Two%20Occurrences.py) |
 | 3105 | Longest Strictly Increasing or Strictly Decreasing Subarray | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/) | [python](leetcode/easy/3105.%20Longest%20Strictly%20Increasing%20or%20Strictly%20Decreasing%20Subarray.py) |
 | 3110 | Score of a String | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/score-of-a-string/) | [python](leetcode/easy/3110.%20Score%20of%20a%20String.py) |
 | 3120 | Count the Number of Special Characters I | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-special-characters-i/) | [python](leetcode/easy/3120.%20Count%20the%20Number%20of%20Special%20Characters%20I.py) |
