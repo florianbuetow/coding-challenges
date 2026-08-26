@@ -40,10 +40,10 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
-| leetcode-easy | 133 | 2174 | 16 | 182 | 6 | 172 | 167 | 49 | 6 | 15 | 216 | 4 | 6 | 16 | 1 | 0 | 16 | 0 |
-| leetcode-medium | 200 | 5105 | 25 | 352 | 7 | 514 | 384 | 115 | 22 | 48 | 435 | 7 | 43 | 64 | 11 | 29 | 28 | 7 |
+| leetcode-easy | 134 | 2184 | 16 | 183 | 6 | 172 | 167 | 50 | 6 | 15 | 217 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
+| leetcode-medium | 201 | 5132 | 25 | 353 | 7 | 522 | 384 | 117 | 22 | 48 | 436 | 7 | 43 | 64 | 11 | 29 | 28 | 7 |
 | leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
-| **total** | 414 | 9927 | 23 | 713 | 20 | 938 | 825 | 194 | 40 | 93 | 851 | 27 | 67 | 113 | 22 | 39 | 57 | 16 |
+| **total** | 416 | 9964 | 23 | 715 | 20 | 946 | 825 | 197 | 40 | 93 | 853 | 27 | 68 | 113 | 22 | 39 | 57 | 16 |
 
 ---
 
@@ -51,6 +51,8 @@ This repository contains a collection of coding problems solved on various platf
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-08-26 | LeetCode Medium | Shortest and Lexicographically Smallest Beautiful String | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
+| 2026-08-26 | LeetCode Easy | Smallest Missing Multiple of K | [leetcode.com](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | [python](leetcode/easy/3718.%20Smallest%20Missing%20Multiple%20of%20K.py) |
 | 2026-08-22 | LeetCode Easy | Check Divisibility by Digit Sum and Product | [leetcode.com](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | [python](leetcode/easy/3622.%20Check%20Divisibility%20by%20Digit%20Sum%20and%20Product.py) |
 | 2026-08-20 | LeetCode Easy | Distribute Elements Into Two Arrays I | [leetcode.com](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | [python](leetcode/easy/3069.%20Distribute%20Elements%20Into%20Two%20Arrays%20I.py) |
 | 2026-08-15 | LeetCode Medium | Longest Subsequence With Non-Zero Bitwise XOR | [leetcode.com](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | [python](leetcode/medium/3702.%20Longest%20Subsequence%20With%20Non-Zero%20Bitwise%20XOR.py) |
@@ -59,8 +61,6 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-08-06 | LeetCode Easy | Smallest Divisible Digit Product I | [leetcode.com](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | [python](leetcode/easy/3345.%20Smallest%20Divisible%20Digit%20Product%20I.py) |
 | 2026-08-05 | LeetCode Medium | Remove Methods From Project | [leetcode.com](https://leetcode.com/problems/remove-methods-from-project/) | [python](leetcode/medium/3310.%20Remove%20Methods%20From%20Project.py) |
 | 2026-08-02 | LeetCode Medium | Stone Game | [leetcode.com](https://leetcode.com/problems/stone-game/) | [python](leetcode/medium/877.%20Stone%20Game.py) |
-| 2026-08-02 | LeetCode Medium | Predict the Winner | [leetcode.com](https://leetcode.com/problems/predict-the-winner/) | [python](leetcode/medium/486.%20Predict%20the%20Winner.py) |
-| 2026-07-31 | LeetCode Medium | Minimum Number of Pushes to Type Word II | [leetcode.com](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/) | [python](leetcode/medium/3016.%20Minimum%20Number%20of%20Pushes%20to%20Type%20Word%20II.py) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time | Space | Problem | Solution |
@@ -252,6 +252,7 @@ This repository contains a collection of coding problems solved on various platf
 | 3633 | Earliest Finish Time for Land and Water Rides I | O(n+m) | O(1) | [leetcode.com](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/) | [python](leetcode/easy/3633.%20Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20I.py) |
 | 3643 | Flip Square Submatrix Vertically | O(k*k) | O(1) | [leetcode.com](https://leetcode.com/problems/flip-square-submatrix-vertically/) | [python](leetcode/easy/3643.%20Flip%20Square%20Submatrix%20Vertically.py) |
 | 3658 | GCD of Odd and Even Sums | O(1) | O(1) | [leetcode.com](https://leetcode.com/problems/gcd-of-odd-and-even-sums/) | [python](leetcode/easy/3658.%20GCD%20of%20Odd%20and%20Even%20Sums.py) |
+| 3718 | Smallest Missing Multiple of K | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | [python](leetcode/easy/3718.%20Smallest%20Missing%20Multiple%20of%20K.py) |
 | 3731 | Find Missing Elements | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/find-missing-elements/) | [python](leetcode/easy/3731.%20Find%20Missing%20Elements.py) |
 | 3736 | Minimum Moves to Equal Array Elements III | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | [python](leetcode/easy/3736.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20III.py) |
 | 3740 | Minimum Distance Between Three Equal Elements I | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/) | [python](leetcode/easy/3740.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20I.py) |
@@ -461,6 +462,7 @@ This repository contains a collection of coding problems solved on various platf
 | 2749 | Minimum Operations to Make the Integer Zero | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/) | [python](leetcode/medium/2749.%20Minimum%20Operations%20to%20Make%20the%20Integer%20Zero.py) |
 | 2785 | Sort Vowels in a String | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/sort-vowels-in-a-string/) | [python](leetcode/medium/2785.%20Sort%20Vowels%20in%20a%20String.py) |
 | 2816 | Double a Number Represented as a Linked List | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/) | [python](leetcode/medium/2816.%20Double%20a%20Number%20Represented%20as%20a%20Linked%20List.py) |
+| 2904 | Shortest and Lexicographically Smallest Beautiful String | O(n*k) | O(n) | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
 | 2906 | Construct Product Matrix | O(n*m) | O(n*m) | [leetcode.com](https://leetcode.com/problems/construct-product-matrix/) | [python](leetcode/medium/2906.%20Construct%20Product%20Matrix.py) |
 | 2943 | Maximize Area of Square Hole in Grid | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/) | [python](leetcode/medium/2943.%20Maximize%20Area%20of%20Square%20Hole%20in%20Grid.py) |
 | 2958 | Length of Longest Subarray With at Most K Frequency | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) | [python](leetcode/medium/2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency.py) |
