@@ -41,9 +41,9 @@ This repository contains a collection of coding problems solved on various platf
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
 | leetcode-easy | 134 | 2184 | 16 | 183 | 6 | 172 | 167 | 50 | 6 | 15 | 217 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
-| leetcode-medium | 201 | 5132 | 25 | 353 | 7 | 522 | 384 | 117 | 22 | 48 | 436 | 7 | 43 | 64 | 11 | 29 | 28 | 7 |
+| leetcode-medium | 201 | 5130 | 25 | 353 | 7 | 521 | 384 | 117 | 22 | 48 | 436 | 7 | 43 | 64 | 11 | 29 | 28 | 7 |
 | leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
-| **total** | 416 | 9964 | 23 | 715 | 20 | 946 | 825 | 197 | 40 | 93 | 853 | 27 | 68 | 113 | 22 | 39 | 57 | 16 |
+| **total** | 416 | 9962 | 23 | 715 | 20 | 945 | 825 | 197 | 40 | 93 | 853 | 27 | 68 | 113 | 22 | 39 | 57 | 16 |
 
 ---
 
@@ -51,6 +51,7 @@ This repository contains a collection of coding problems solved on various platf
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-08-26 | LeetCode Medium | Shortest and Lexicographically Smallest Beautiful String | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
 | 2026-08-26 | LeetCode Medium | Shortest and Lexicographically Smallest Beautiful String | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
 | 2026-08-26 | LeetCode Easy | Smallest Missing Multiple of K | [leetcode.com](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | [python](leetcode/easy/3718.%20Smallest%20Missing%20Multiple%20of%20K.py) |
 | 2026-08-22 | LeetCode Easy | Check Divisibility by Digit Sum and Product | [leetcode.com](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | [python](leetcode/easy/3622.%20Check%20Divisibility%20by%20Digit%20Sum%20and%20Product.py) |
@@ -60,7 +61,6 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-08-12 | LeetCode Medium | Length of Longest Subarray With at Most K Frequency | [leetcode.com](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) | [python](leetcode/medium/2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency.py) |
 | 2026-08-06 | LeetCode Easy | Smallest Divisible Digit Product I | [leetcode.com](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | [python](leetcode/easy/3345.%20Smallest%20Divisible%20Digit%20Product%20I.py) |
 | 2026-08-05 | LeetCode Medium | Remove Methods From Project | [leetcode.com](https://leetcode.com/problems/remove-methods-from-project/) | [python](leetcode/medium/3310.%20Remove%20Methods%20From%20Project.py) |
-| 2026-08-02 | LeetCode Medium | Stone Game | [leetcode.com](https://leetcode.com/problems/stone-game/) | [python](leetcode/medium/877.%20Stone%20Game.py) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time | Space | Problem | Solution |

@@ -5,6 +5,7 @@
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
 | 2026-08-26 | LeetCode Medium | Shortest and Lexicographically Smallest Beautiful String | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
+| 2026-08-26 | LeetCode Medium | Shortest and Lexicographically Smallest Beautiful String | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
 | 2026-08-26 | LeetCode Easy | Smallest Missing Multiple of K | [leetcode.com](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | [python](leetcode/easy/3718.%20Smallest%20Missing%20Multiple%20of%20K.py) |
 | 2026-08-22 | LeetCode Easy | Check Divisibility by Digit Sum and Product | [leetcode.com](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | [python](leetcode/easy/3622.%20Check%20Divisibility%20by%20Digit%20Sum%20and%20Product.py) |
 | 2026-08-20 | LeetCode Easy | Distribute Elements Into Two Arrays I | [leetcode.com](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | [python](leetcode/easy/3069.%20Distribute%20Elements%20Into%20Two%20Arrays%20I.py) |
@@ -13,4 +14,3 @@
 | 2026-08-12 | LeetCode Medium | Length of Longest Subarray With at Most K Frequency | [leetcode.com](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) | [python](leetcode/medium/2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency.py) |
 | 2026-08-06 | LeetCode Easy | Smallest Divisible Digit Product I | [leetcode.com](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | [python](leetcode/easy/3345.%20Smallest%20Divisible%20Digit%20Product%20I.py) |
 | 2026-08-05 | LeetCode Medium | Remove Methods From Project | [leetcode.com](https://leetcode.com/problems/remove-methods-from-project/) | [python](leetcode/medium/3310.%20Remove%20Methods%20From%20Project.py) |
-| 2026-08-02 | LeetCode Medium | Stone Game | [leetcode.com](https://leetcode.com/problems/stone-game/) | [python](leetcode/medium/877.%20Stone%20Game.py) |
