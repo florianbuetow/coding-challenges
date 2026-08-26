@@ -17,8 +17,6 @@ class Solution:
                 word = s[left:right]
                 if result is None:
                     result = word
-                elif right-left < len(result):
-                    result = word
                 elif len(result) > len(word):
                     result = word
                 elif len(result) == len(word) and word < result:
