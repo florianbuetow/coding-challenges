@@ -41,9 +41,9 @@ This repository contains a collection of coding problems solved on various platf
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
 | leetcode-easy | 134 | 2184 | 16 | 183 | 6 | 172 | 167 | 50 | 6 | 15 | 217 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
-| leetcode-medium | 201 | 5130 | 25 | 353 | 7 | 521 | 384 | 117 | 22 | 48 | 436 | 7 | 43 | 64 | 11 | 29 | 28 | 7 |
+| leetcode-medium | 202 | 5156 | 25 | 355 | 9 | 523 | 389 | 117 | 22 | 48 | 437 | 7 | 43 | 64 | 11 | 29 | 31 | 7 |
 | leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
-| **total** | 416 | 9962 | 23 | 715 | 20 | 945 | 825 | 197 | 40 | 93 | 853 | 27 | 68 | 113 | 22 | 39 | 57 | 16 |
+| **total** | 417 | 9988 | 23 | 717 | 22 | 947 | 830 | 197 | 40 | 93 | 854 | 27 | 68 | 113 | 22 | 39 | 60 | 16 |
 
 ---
 
@@ -51,6 +51,7 @@ This repository contains a collection of coding problems solved on various platf
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-08-29 | LeetCode Medium | Make Lexicographically Smallest Array by Swapping Elements | [leetcode.com](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) | [python](leetcode/medium/2948.%20Make%20Lexicographically%20Smallest%20Array%20by%20Swapping%20Elements.py) |
 | 2026-08-26 | LeetCode Medium | Shortest and Lexicographically Smallest Beautiful String | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
 | 2026-08-26 | LeetCode Medium | Shortest and Lexicographically Smallest Beautiful String | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
 | 2026-08-26 | LeetCode Easy | Smallest Missing Multiple of K | [leetcode.com](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | [python](leetcode/easy/3718.%20Smallest%20Missing%20Multiple%20of%20K.py) |
@@ -60,7 +61,6 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-08-14 | LeetCode Easy | Maximum Length Substring With Two Occurrences | [leetcode.com](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | [python](leetcode/easy/3090.%20Maximum%20Length%20Substring%20With%20Two%20Occurrences.py) |
 | 2026-08-12 | LeetCode Medium | Length of Longest Subarray With at Most K Frequency | [leetcode.com](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) | [python](leetcode/medium/2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency.py) |
 | 2026-08-06 | LeetCode Easy | Smallest Divisible Digit Product I | [leetcode.com](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | [python](leetcode/easy/3345.%20Smallest%20Divisible%20Digit%20Product%20I.py) |
-| 2026-08-05 | LeetCode Medium | Remove Methods From Project | [leetcode.com](https://leetcode.com/problems/remove-methods-from-project/) | [python](leetcode/medium/3310.%20Remove%20Methods%20From%20Project.py) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time | Space | Problem | Solution |
@@ -465,6 +465,7 @@ This repository contains a collection of coding problems solved on various platf
 | 2904 | Shortest and Lexicographically Smallest Beautiful String | O(n*k) | O(n) | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
 | 2906 | Construct Product Matrix | O(n*m) | O(n*m) | [leetcode.com](https://leetcode.com/problems/construct-product-matrix/) | [python](leetcode/medium/2906.%20Construct%20Product%20Matrix.py) |
 | 2943 | Maximize Area of Square Hole in Grid | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/) | [python](leetcode/medium/2943.%20Maximize%20Area%20of%20Square%20Hole%20in%20Grid.py) |
+| 2948 | Make Lexicographically Smallest Array by Swapping Elements | O(n log n) | O(n) | [leetcode.com](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) | [python](leetcode/medium/2948.%20Make%20Lexicographically%20Smallest%20Array%20by%20Swapping%20Elements.py) |
 | 2958 | Length of Longest Subarray With at Most K Frequency | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) | [python](leetcode/medium/2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency.py) |
 | 2962 | Count Subarrays Where Max Element Appears at Least K Times | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/) | [python](leetcode/medium/2962.%20Count%20Subarrays%20Where%20Max%20Element%20Appears%20at%20Least%20K%20Times.py) |
 | 2970 | Count the Number of Incremovable Subarrays I | O(n*n) | O(n*n) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-incremovable-subarrays-i/) | [python](leetcode/medium/2970.%20Count%20the%20Number%20of%20Incremovable%20Subarrays%20I.py) |
