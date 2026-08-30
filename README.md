@@ -41,9 +41,9 @@ This repository contains a collection of coding problems solved on various platf
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
 | leetcode-easy | 134 | 2184 | 16 | 183 | 6 | 172 | 167 | 50 | 6 | 15 | 217 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
-| leetcode-medium | 202 | 5156 | 25 | 355 | 9 | 523 | 389 | 117 | 22 | 48 | 437 | 7 | 43 | 64 | 11 | 29 | 31 | 7 |
+| leetcode-medium | 203 | 5171 | 25 | 356 | 9 | 525 | 390 | 117 | 22 | 48 | 438 | 7 | 43 | 64 | 11 | 29 | 31 | 7 |
 | leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
-| **total** | 417 | 9988 | 23 | 717 | 22 | 947 | 830 | 197 | 40 | 93 | 854 | 27 | 68 | 113 | 22 | 39 | 60 | 16 |
+| **total** | 418 | 10003 | 23 | 718 | 22 | 949 | 831 | 197 | 40 | 93 | 855 | 27 | 68 | 113 | 22 | 39 | 60 | 16 |
 
 ---
 
@@ -51,6 +51,7 @@ This repository contains a collection of coding problems solved on various platf
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-08-30 | LeetCode Medium | Removing Minimum and Maximum From Array | [leetcode.com](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) | [python](leetcode/medium/2091.%20Removing%20Minimum%20and%20Maximum%20From%20Array.py) |
 | 2026-08-29 | LeetCode Medium | Make Lexicographically Smallest Array by Swapping Elements | [leetcode.com](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) | [python](leetcode/medium/2948.%20Make%20Lexicographically%20Smallest%20Array%20by%20Swapping%20Elements.py) |
 | 2026-08-26 | LeetCode Medium | Shortest and Lexicographically Smallest Beautiful String | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
 | 2026-08-26 | LeetCode Medium | Shortest and Lexicographically Smallest Beautiful String | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
@@ -60,7 +61,6 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-08-15 | LeetCode Medium | Longest Subsequence With Non-Zero Bitwise XOR | [leetcode.com](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | [python](leetcode/medium/3702.%20Longest%20Subsequence%20With%20Non-Zero%20Bitwise%20XOR.py) |
 | 2026-08-14 | LeetCode Easy | Maximum Length Substring With Two Occurrences | [leetcode.com](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | [python](leetcode/easy/3090.%20Maximum%20Length%20Substring%20With%20Two%20Occurrences.py) |
 | 2026-08-12 | LeetCode Medium | Length of Longest Subarray With at Most K Frequency | [leetcode.com](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) | [python](leetcode/medium/2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency.py) |
-| 2026-08-06 | LeetCode Easy | Smallest Divisible Digit Product I | [leetcode.com](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | [python](leetcode/easy/3345.%20Smallest%20Divisible%20Digit%20Product%20I.py) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time | Space | Problem | Solution |
@@ -434,6 +434,7 @@ This repository contains a collection of coding problems solved on various platf
 | 2058 | Find the Minimum and Maximum Number of Nodes Between Critical Points | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) | [python](leetcode/medium/2058.%20Find%20the%20Minimum%20and%20Maximum%20Number%20of%20Nodes%20Between%20Critical%20Points.py) |
 | 2061 | Number of Spaces Cleaning Robot Cleaned | O(n * m) | O(n * m) | [leetcode.com](https://leetcode.com/problems/number-of-spaces-cleaning-robot-cleaned/) | [python](leetcode/medium/2061.%20Number%20of%20Spaces%20Cleaning%20Robot%20Cleaned.py) |
 | 2069 | Walking Robot Simulation II | O(n + m) | O(1) | [leetcode.com](https://leetcode.com/problems/walking-robot-simulation-ii/) | [python](leetcode/medium/2069.%20Walking%20Robot%20Simulation%20II.py) |
+| 2091 | Removing Minimum and Maximum From Array | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) | [python](leetcode/medium/2091.%20Removing%20Minimum%20and%20Maximum%20From%20Array.py) |
 | 2095 | Delete the Middle Node of a Linked List | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | [python](leetcode/medium/2095.%20Delete%20the%20Middle%20Node%20of%20a%20Linked%20List.py) |
 | 2096 | Step-By-Step Directions From a Binary Tree Node to Another | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) | [python](leetcode/medium/2096.%20Step-By-Step%20Directions%20From%20a%20Binary%20Tree%20Node%20to%20Another.py) |
 | 2110 | Number of Smooth Descent Periods of a Stock | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/number-of-smooth-descent-periods-of-a-stock/) | [python](leetcode/medium/2110.%20Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock.py) |
