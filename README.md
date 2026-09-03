@@ -40,10 +40,10 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
-| leetcode-easy | 134 | 2184 | 16 | 183 | 6 | 172 | 167 | 50 | 6 | 15 | 217 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
-| leetcode-medium | 203 | 5171 | 25 | 356 | 9 | 525 | 390 | 117 | 22 | 48 | 438 | 7 | 43 | 64 | 11 | 29 | 31 | 7 |
+| leetcode-easy | 135 | 2199 | 16 | 184 | 6 | 174 | 168 | 50 | 6 | 15 | 219 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
+| leetcode-medium | 204 | 5178 | 25 | 357 | 9 | 526 | 391 | 117 | 22 | 48 | 440 | 7 | 43 | 64 | 11 | 29 | 31 | 7 |
 | leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
-| **total** | 418 | 10003 | 23 | 718 | 22 | 949 | 831 | 197 | 40 | 93 | 855 | 27 | 68 | 113 | 22 | 39 | 60 | 16 |
+| **total** | 420 | 10025 | 23 | 720 | 22 | 952 | 833 | 197 | 40 | 93 | 859 | 27 | 68 | 113 | 22 | 39 | 60 | 16 |
 
 ---
 
@@ -51,6 +51,7 @@ This repository contains a collection of coding problems solved on various platf
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-09-03 | LeetCode Medium | Construct Uniform Parity Array II | [leetcode.com](https://leetcode.com/problems/construct-uniform-parity-array-ii/) | [python](leetcode/medium/3876.%20Construct%20Uniform%20Parity%20Array%20II.py) |
 | 2026-08-30 | LeetCode Medium | Removing Minimum and Maximum From Array | [leetcode.com](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) | [python](leetcode/medium/2091.%20Removing%20Minimum%20and%20Maximum%20From%20Array.py) |
 | 2026-08-29 | LeetCode Medium | Make Lexicographically Smallest Array by Swapping Elements | [leetcode.com](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) | [python](leetcode/medium/2948.%20Make%20Lexicographically%20Smallest%20Array%20by%20Swapping%20Elements.py) |
 | 2026-08-26 | LeetCode Medium | Shortest and Lexicographically Smallest Beautiful String | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
@@ -60,7 +61,6 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-08-20 | LeetCode Easy | Distribute Elements Into Two Arrays I | [leetcode.com](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | [python](leetcode/easy/3069.%20Distribute%20Elements%20Into%20Two%20Arrays%20I.py) |
 | 2026-08-15 | LeetCode Medium | Longest Subsequence With Non-Zero Bitwise XOR | [leetcode.com](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | [python](leetcode/medium/3702.%20Longest%20Subsequence%20With%20Non-Zero%20Bitwise%20XOR.py) |
 | 2026-08-14 | LeetCode Easy | Maximum Length Substring With Two Occurrences | [leetcode.com](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | [python](leetcode/easy/3090.%20Maximum%20Length%20Substring%20With%20Two%20Occurrences.py) |
-| 2026-08-12 | LeetCode Medium | Length of Longest Subarray With at Most K Frequency | [leetcode.com](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) | [python](leetcode/medium/2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency.py) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time | Space | Problem | Solution |
@@ -276,6 +276,7 @@ This repository contains a collection of coding problems solved on various platf
 | 3861 | Minimum Capacity Box | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/minimum-capacity-box/) | [python](leetcode/easy/3861.%20Minimum%20Capacity%20Box.py) |
 | 3866 | First Unique Even Element | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/first-unique-even-element/) | [python](leetcode/easy/3866.%20First%20Unique%20Even%20Element.py) |
 | 3870 | Count Commas in Range | O(1) | O(1) | [leetcode.com](https://leetcode.com/problems/count-commas-in-range/) | [python](leetcode/easy/3870.%20Count%20Commas%20in%20Range.py) |
+| 3875 | Construct Uniform Parity Array I | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/construct-uniform-parity-array-i/) | [python](leetcode/easy/3875.%20Construct%20Uniform%20Parity%20Array%20I.py) |
 
 ### Hard
 | Nr. | Challenge | Time | Space | Problem | Solution |
@@ -523,6 +524,7 @@ This repository contains a collection of coding problems solved on various platf
 | 3761 | Minimum Absolute Distance Between Mirror Pairs | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/) | [python](leetcode/medium/3761.%20Minimum%20Absolute%20Distance%20Between%20Mirror%20Pairs.py) |
 | 3788 | Maximum Score of a Split | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/maximum-score-of-a-split) | [python](leetcode/medium/3788.%20Maximum%20Score%20of%20a%20Split.py) |
 | 3867 | Sum of GCD of Formed Pairs | O(n log n) | O(n) | [leetcode.com](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | [python](leetcode/medium/3867.%20Sum%20of%20GCD%20of%20Formed%20Pairs.py) |
+| 3876 | Construct Uniform Parity Array II | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/construct-uniform-parity-array-ii/) | [python](leetcode/medium/3876.%20Construct%20Uniform%20Parity%20Array%20II.py) |
 
 ## Generating the README
 

@@ -4,6 +4,7 @@
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-09-03 | LeetCode Medium | Construct Uniform Parity Array II | [leetcode.com](https://leetcode.com/problems/construct-uniform-parity-array-ii/) | [python](leetcode/medium/3876.%20Construct%20Uniform%20Parity%20Array%20II.py) |
 | 2026-08-30 | LeetCode Medium | Removing Minimum and Maximum From Array | [leetcode.com](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) | [python](leetcode/medium/2091.%20Removing%20Minimum%20and%20Maximum%20From%20Array.py) |
 | 2026-08-29 | LeetCode Medium | Make Lexicographically Smallest Array by Swapping Elements | [leetcode.com](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) | [python](leetcode/medium/2948.%20Make%20Lexicographically%20Smallest%20Array%20by%20Swapping%20Elements.py) |
 | 2026-08-26 | LeetCode Medium | Shortest and Lexicographically Smallest Beautiful String | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
@@ -13,4 +14,3 @@
 | 2026-08-20 | LeetCode Easy | Distribute Elements Into Two Arrays I | [leetcode.com](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | [python](leetcode/easy/3069.%20Distribute%20Elements%20Into%20Two%20Arrays%20I.py) |
 | 2026-08-15 | LeetCode Medium | Longest Subsequence With Non-Zero Bitwise XOR | [leetcode.com](https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/) | [python](leetcode/medium/3702.%20Longest%20Subsequence%20With%20Non-Zero%20Bitwise%20XOR.py) |
 | 2026-08-14 | LeetCode Easy | Maximum Length Substring With Two Occurrences | [leetcode.com](https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/) | [python](leetcode/easy/3090.%20Maximum%20Length%20Substring%20With%20Two%20Occurrences.py) |
-| 2026-08-12 | LeetCode Medium | Length of Longest Subarray With at Most K Frequency | [leetcode.com](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) | [python](leetcode/medium/2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency.py) |
