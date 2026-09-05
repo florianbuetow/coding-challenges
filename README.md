@@ -41,9 +41,9 @@ This repository contains a collection of coding problems solved on various platf
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
 | leetcode-easy | 136 | 2218 | 16 | 186 | 6 | 177 | 168 | 50 | 6 | 15 | 222 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
-| leetcode-medium | 204 | 5178 | 25 | 357 | 9 | 526 | 391 | 117 | 22 | 48 | 440 | 7 | 43 | 64 | 11 | 29 | 31 | 7 |
+| leetcode-medium | 205 | 5197 | 25 | 358 | 9 | 530 | 393 | 117 | 22 | 48 | 442 | 7 | 43 | 64 | 11 | 29 | 31 | 7 |
 | leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
-| **total** | 421 | 10044 | 23 | 722 | 22 | 955 | 833 | 197 | 40 | 93 | 862 | 27 | 68 | 113 | 22 | 39 | 60 | 16 |
+| **total** | 422 | 10063 | 23 | 723 | 22 | 959 | 835 | 197 | 40 | 93 | 864 | 27 | 68 | 113 | 22 | 39 | 60 | 16 |
 
 ---
 
@@ -51,6 +51,7 @@ This repository contains a collection of coding problems solved on various platf
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-09-05 | LeetCode Medium | Smallest Stable Index II | [leetcode.com](https://leetcode.com/problems/smallest-stable-index-ii/) | [python](leetcode/medium/3904.%20Smallest%20Stable%20Index%20II.py) |
 | 2026-09-04 | LeetCode Easy | Smallest Stable Index I | [leetcode.com](https://leetcode.com/problems/smallest-stable-index-i/) | [python](leetcode/easy/3903.%20Smallest%20Stable%20Index%20I.py) |
 | 2026-09-03 | LeetCode Easy | Construct Uniform Parity Array I | [leetcode.com](https://leetcode.com/problems/construct-uniform-parity-array-i/) | [python](leetcode/easy/3875.%20Construct%20Uniform%20Parity%20Array%20I.py) |
 | 2026-09-03 | LeetCode Medium | Construct Uniform Parity Array II | [leetcode.com](https://leetcode.com/problems/construct-uniform-parity-array-ii/) | [python](leetcode/medium/3876.%20Construct%20Uniform%20Parity%20Array%20II.py) |
@@ -60,7 +61,6 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-08-26 | LeetCode Medium | Shortest and Lexicographically Smallest Beautiful String | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
 | 2026-08-26 | LeetCode Easy | Smallest Missing Multiple of K | [leetcode.com](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | [python](leetcode/easy/3718.%20Smallest%20Missing%20Multiple%20of%20K.py) |
 | 2026-08-22 | LeetCode Easy | Check Divisibility by Digit Sum and Product | [leetcode.com](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | [python](leetcode/easy/3622.%20Check%20Divisibility%20by%20Digit%20Sum%20and%20Product.py) |
-| 2026-08-20 | LeetCode Easy | Distribute Elements Into Two Arrays I | [leetcode.com](https://leetcode.com/problems/distribute-elements-into-two-arrays-i/) | [python](leetcode/easy/3069.%20Distribute%20Elements%20Into%20Two%20Arrays%20I.py) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time | Space | Problem | Solution |
@@ -526,6 +526,7 @@ This repository contains a collection of coding problems solved on various platf
 | 3788 | Maximum Score of a Split | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/maximum-score-of-a-split) | [python](leetcode/medium/3788.%20Maximum%20Score%20of%20a%20Split.py) |
 | 3867 | Sum of GCD of Formed Pairs | O(n log n) | O(n) | [leetcode.com](https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/) | [python](leetcode/medium/3867.%20Sum%20of%20GCD%20of%20Formed%20Pairs.py) |
 | 3876 | Construct Uniform Parity Array II | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/construct-uniform-parity-array-ii/) | [python](leetcode/medium/3876.%20Construct%20Uniform%20Parity%20Array%20II.py) |
+| 3904 | Smallest Stable Index II | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/smallest-stable-index-ii/) | [python](leetcode/medium/3904.%20Smallest%20Stable%20Index%20II.py) |
 
 ## Generating the README
 
