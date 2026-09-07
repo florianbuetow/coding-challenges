@@ -42,8 +42,8 @@ This repository contains a collection of coding problems solved on various platf
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
 | leetcode-easy | 136 | 2218 | 16 | 186 | 6 | 177 | 168 | 50 | 6 | 15 | 222 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
 | leetcode-medium | 205 | 5197 | 25 | 358 | 9 | 530 | 393 | 117 | 22 | 48 | 442 | 7 | 43 | 64 | 11 | 29 | 31 | 7 |
-| leetcode-hard | 36 | 1150 | 31 | 66 | 5 | 109 | 98 | 24 | 11 | 17 | 83 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
-| **total** | 422 | 10063 | 23 | 723 | 22 | 959 | 835 | 197 | 40 | 93 | 864 | 27 | 68 | 113 | 22 | 39 | 60 | 16 |
+| leetcode-hard | 37 | 1164 | 31 | 67 | 5 | 109 | 99 | 24 | 11 | 17 | 84 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
+| **total** | 423 | 10077 | 23 | 724 | 22 | 959 | 836 | 197 | 40 | 93 | 865 | 27 | 68 | 113 | 22 | 39 | 60 | 16 |
 
 ---
 
@@ -51,6 +51,7 @@ This repository contains a collection of coding problems solved on various platf
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-09-07 | LeetCode Hard | Distinct Subsequences II | [leetcode.com](https://leetcode.com/problems/distinct-subsequences-ii/) | [python](leetcode/hard/940.%20Distinct%20Subsequences%20II.py) |
 | 2026-09-05 | LeetCode Medium | Smallest Stable Index II | [leetcode.com](https://leetcode.com/problems/smallest-stable-index-ii/) | [python](leetcode/medium/3904.%20Smallest%20Stable%20Index%20II.py) |
 | 2026-09-04 | LeetCode Easy | Smallest Stable Index I | [leetcode.com](https://leetcode.com/problems/smallest-stable-index-i/) | [python](leetcode/easy/3903.%20Smallest%20Stable%20Index%20I.py) |
 | 2026-09-03 | LeetCode Easy | Construct Uniform Parity Array I | [leetcode.com](https://leetcode.com/problems/construct-uniform-parity-array-i/) | [python](leetcode/easy/3875.%20Construct%20Uniform%20Parity%20Array%20I.py) |
@@ -60,7 +61,6 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-08-26 | LeetCode Medium | Shortest and Lexicographically Smallest Beautiful String | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
 | 2026-08-26 | LeetCode Medium | Shortest and Lexicographically Smallest Beautiful String | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
 | 2026-08-26 | LeetCode Easy | Smallest Missing Multiple of K | [leetcode.com](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | [python](leetcode/easy/3718.%20Smallest%20Missing%20Multiple%20of%20K.py) |
-| 2026-08-22 | LeetCode Easy | Check Divisibility by Digit Sum and Product | [leetcode.com](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/) | [python](leetcode/easy/3622.%20Check%20Divisibility%20by%20Digit%20Sum%20and%20Product.py) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time | Space | Problem | Solution |
@@ -294,6 +294,7 @@ This repository contains a collection of coding problems solved on various platf
 | 761 | Special Binary String | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/special-binary-string/) | [python](leetcode/hard/761.%20Special%20Binary%20String.py) |
 | 778 | Swim in Rising Water | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/swim-in-rising-water/) | [python](leetcode/hard/778.%20Swim%20in%20Rising%20Water.py) |
 | 857 | Minimum Cost to Hire K Workers | O(n log n) | O(n) | [leetcode.com](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) | [python](leetcode/hard/857.%20Minimum%20Cost%20to%20Hire%20K%20Workers.py) |
+| 940 | Distinct Subsequences II | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/distinct-subsequences-ii/) | [python](leetcode/hard/940.%20Distinct%20Subsequences%20II.py) |
 | 960 | Delete Columns to Make Sorted III | O(n * m) | O(m) | [leetcode.com](https://leetcode.com/problems/delete-columns-to-make-sorted-iii/) | [python](leetcode/hard/960.%20Delete%20Columns%20to%20Make%20Sorted%20III.py) |
 | 1289 | Minimum Falling Path Sum II | O(n*m) | O(n) | [leetcode.com](https://leetcode.com/problems/minimum-falling-path-sum-ii/) | [python](leetcode/hard/1289.%20Minimum%20Falling%20Path%20Sum%20II.py) |
 | 1340 | Jump Game V | O(n * d) | O(n) | [leetcode.com](https://leetcode.com/problems/jump-game-v/) | [python](leetcode/hard/1340.%20Jump%20Game%20V.py) |
