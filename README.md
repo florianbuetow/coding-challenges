@@ -41,9 +41,9 @@ This repository contains a collection of coding problems solved on various platf
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
 | leetcode-easy | 137 | 2241 | 16 | 187 | 6 | 180 | 172 | 50 | 6 | 17 | 223 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
-| leetcode-medium | 205 | 5197 | 25 | 358 | 9 | 530 | 393 | 117 | 22 | 48 | 442 | 7 | 43 | 64 | 11 | 29 | 31 | 7 |
+| leetcode-medium | 206 | 5222 | 25 | 361 | 9 | 532 | 394 | 117 | 22 | 48 | 444 | 7 | 43 | 64 | 11 | 29 | 31 | 7 |
 | leetcode-hard | 37 | 1164 | 31 | 67 | 5 | 109 | 99 | 24 | 11 | 17 | 84 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
-| **total** | 424 | 10100 | 23 | 725 | 22 | 962 | 840 | 197 | 40 | 95 | 866 | 27 | 68 | 113 | 22 | 39 | 60 | 16 |
+| **total** | 425 | 10125 | 23 | 728 | 22 | 964 | 841 | 197 | 40 | 95 | 868 | 27 | 68 | 113 | 22 | 39 | 60 | 16 |
 
 ---
 
@@ -51,6 +51,7 @@ This repository contains a collection of coding problems solved on various platf
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-09-13 | LeetCode Medium | Count Nodes Equal to Average of Subtree | [leetcode.com](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/) | [python](leetcode/medium/2265.%20Count%20Nodes%20Equal%20to%20Average%20of%20Subtree.py) |
 | 2026-09-12 | LeetCode Easy | Unique 3-Digit Even Numbers | [leetcode.com](https://leetcode.com/problems/unique-3-digit-even-numbers/) | [python](leetcode/easy/3483.%20Unique%203-Digit%20Even%20Numbers.py) |
 | 2026-09-07 | LeetCode Hard | Distinct Subsequences II | [leetcode.com](https://leetcode.com/problems/distinct-subsequences-ii/) | [python](leetcode/hard/940.%20Distinct%20Subsequences%20II.py) |
 | 2026-09-05 | LeetCode Medium | Smallest Stable Index II | [leetcode.com](https://leetcode.com/problems/smallest-stable-index-ii/) | [python](leetcode/medium/3904.%20Smallest%20Stable%20Index%20II.py) |
@@ -59,7 +60,6 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-09-03 | LeetCode Medium | Construct Uniform Parity Array II | [leetcode.com](https://leetcode.com/problems/construct-uniform-parity-array-ii/) | [python](leetcode/medium/3876.%20Construct%20Uniform%20Parity%20Array%20II.py) |
 | 2026-08-30 | LeetCode Medium | Removing Minimum and Maximum From Array | [leetcode.com](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) | [python](leetcode/medium/2091.%20Removing%20Minimum%20and%20Maximum%20From%20Array.py) |
 | 2026-08-29 | LeetCode Medium | Make Lexicographically Smallest Array by Swapping Elements | [leetcode.com](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) | [python](leetcode/medium/2948.%20Make%20Lexicographically%20Smallest%20Array%20by%20Swapping%20Elements.py) |
-| 2026-08-26 | LeetCode Medium | Shortest and Lexicographically Smallest Beautiful String | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
 | 2026-08-26 | LeetCode Medium | Shortest and Lexicographically Smallest Beautiful String | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
 # Advent of Code
 ### 2025
@@ -450,6 +450,7 @@ This repository contains a collection of coding problems solved on various platf
 | 2211 | Count Collisions on a Road | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/count-collisions-on-a-road) | [python](leetcode/medium/2211.%20Count%20Collisions%20on%20a%20Road.py) |
 | 2221 | Find Triangular Sum of an Array | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/find-triangular-sum-of-an-array/) | [python](leetcode/medium/2221.%20Find%20Triangular%20Sum%20of%20an%20Array.py) |
 | 2257 | Count Unguarded Cells in the Grid | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/count-unguarded-cells-in-the-grid/) | [python](leetcode/medium/2257.%20Count%20Unguarded%20Cells%20in%20the%20Grid.py) |
+| 2265 | Count Nodes Equal to Average of Subtree | O(n) | O(h) | [leetcode.com](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/) | [python](leetcode/medium/2265.%20Count%20Nodes%20Equal%20to%20Average%20of%20Subtree.py) |
 | 2300 | Successful Pairs of Spells and Potions | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/) | [python](leetcode/medium/2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions.py) |
 | 2353 | Design a Food Rating System | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/design-a-food-rating-system/) | [python](leetcode/medium/2353.%20Design%20a%20Food%20Rating%20System.py) |
 | 2370 | Longest Ideal Subsequence | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/longest-ideal-subsequence/) | [python](leetcode/medium/2370.%20Longest%20Ideal%20Subsequence.py) |
