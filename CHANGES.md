@@ -4,6 +4,7 @@
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-09-12 | LeetCode Easy | Unique 3-Digit Even Numbers | [leetcode.com](https://leetcode.com/problems/unique-3-digit-even-numbers/) | [python](leetcode/easy/3483.%20Unique%203-Digit%20Even%20Numbers.py) |
 | 2026-09-07 | LeetCode Hard | Distinct Subsequences II | [leetcode.com](https://leetcode.com/problems/distinct-subsequences-ii/) | [python](leetcode/hard/940.%20Distinct%20Subsequences%20II.py) |
 | 2026-09-05 | LeetCode Medium | Smallest Stable Index II | [leetcode.com](https://leetcode.com/problems/smallest-stable-index-ii/) | [python](leetcode/medium/3904.%20Smallest%20Stable%20Index%20II.py) |
 | 2026-09-04 | LeetCode Easy | Smallest Stable Index I | [leetcode.com](https://leetcode.com/problems/smallest-stable-index-i/) | [python](leetcode/easy/3903.%20Smallest%20Stable%20Index%20I.py) |
@@ -13,4 +14,3 @@
 | 2026-08-29 | LeetCode Medium | Make Lexicographically Smallest Array by Swapping Elements | [leetcode.com](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) | [python](leetcode/medium/2948.%20Make%20Lexicographically%20Smallest%20Array%20by%20Swapping%20Elements.py) |
 | 2026-08-26 | LeetCode Medium | Shortest and Lexicographically Smallest Beautiful String | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
 | 2026-08-26 | LeetCode Medium | Shortest and Lexicographically Smallest Beautiful String | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
-| 2026-08-26 | LeetCode Easy | Smallest Missing Multiple of K | [leetcode.com](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | [python](leetcode/easy/3718.%20Smallest%20Missing%20Multiple%20of%20K.py) |

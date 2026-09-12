@@ -40,10 +40,10 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
-| leetcode-easy | 136 | 2218 | 16 | 186 | 6 | 177 | 168 | 50 | 6 | 15 | 222 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
+| leetcode-easy | 137 | 2241 | 16 | 187 | 6 | 180 | 172 | 50 | 6 | 17 | 223 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
 | leetcode-medium | 205 | 5197 | 25 | 358 | 9 | 530 | 393 | 117 | 22 | 48 | 442 | 7 | 43 | 64 | 11 | 29 | 31 | 7 |
 | leetcode-hard | 37 | 1164 | 31 | 67 | 5 | 109 | 99 | 24 | 11 | 17 | 84 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
-| **total** | 423 | 10077 | 23 | 724 | 22 | 959 | 836 | 197 | 40 | 93 | 865 | 27 | 68 | 113 | 22 | 39 | 60 | 16 |
+| **total** | 424 | 10100 | 23 | 725 | 22 | 962 | 840 | 197 | 40 | 95 | 866 | 27 | 68 | 113 | 22 | 39 | 60 | 16 |
 
 ---
 
@@ -51,6 +51,7 @@ This repository contains a collection of coding problems solved on various platf
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-09-12 | LeetCode Easy | Unique 3-Digit Even Numbers | [leetcode.com](https://leetcode.com/problems/unique-3-digit-even-numbers/) | [python](leetcode/easy/3483.%20Unique%203-Digit%20Even%20Numbers.py) |
 | 2026-09-07 | LeetCode Hard | Distinct Subsequences II | [leetcode.com](https://leetcode.com/problems/distinct-subsequences-ii/) | [python](leetcode/hard/940.%20Distinct%20Subsequences%20II.py) |
 | 2026-09-05 | LeetCode Medium | Smallest Stable Index II | [leetcode.com](https://leetcode.com/problems/smallest-stable-index-ii/) | [python](leetcode/medium/3904.%20Smallest%20Stable%20Index%20II.py) |
 | 2026-09-04 | LeetCode Easy | Smallest Stable Index I | [leetcode.com](https://leetcode.com/problems/smallest-stable-index-i/) | [python](leetcode/easy/3903.%20Smallest%20Stable%20Index%20I.py) |
@@ -60,7 +61,6 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-08-29 | LeetCode Medium | Make Lexicographically Smallest Array by Swapping Elements | [leetcode.com](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) | [python](leetcode/medium/2948.%20Make%20Lexicographically%20Smallest%20Array%20by%20Swapping%20Elements.py) |
 | 2026-08-26 | LeetCode Medium | Shortest and Lexicographically Smallest Beautiful String | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
 | 2026-08-26 | LeetCode Medium | Shortest and Lexicographically Smallest Beautiful String | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
-| 2026-08-26 | LeetCode Easy | Smallest Missing Multiple of K | [leetcode.com](https://leetcode.com/problems/smallest-missing-multiple-of-k/) | [python](leetcode/easy/3718.%20Smallest%20Missing%20Multiple%20of%20K.py) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time | Space | Problem | Solution |
@@ -244,6 +244,7 @@ This repository contains a collection of coding problems solved on various platf
 | 3370 | Smallest Number With All Set Bits | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | [python](leetcode/easy/3370.%20Smallest%20Number%20With%20All%20Set%20Bits.py) |
 | 3432 | Count Partitions with Even Sum Difference | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | [python](leetcode/easy/3432.%20Count%20Partitions%20with%20Even%20Sum%20Difference.py) |
 | 3461 | Check If Digits Are Equal in String After Operations I | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | [python](leetcode/easy/3461.%20Check%20If%20Digits%20Are%20Equal%20in%20String%20After%20Operations%20I.py) |
+| 3483 | Unique 3-Digit Even Numbers | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/unique-3-digit-even-numbers/) | [python](leetcode/easy/3483.%20Unique%203-Digit%20Even%20Numbers.py) |
 | 3512 | Minimum Operations to Make Array Sum Divisible by K | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k) | [python](leetcode/easy/3512.%20Minimum%20Operations%20to%20Make%20Array%20Sum%20Divisible%20by%20K.py) |
 | 3516 | Find Closest Person | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/find-closest-person/) | [python](leetcode/easy/3516.%20Find%20Closest%20Person.py) |
 | 3541 | Find Most Frequent Vowel and Consonant | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/find-most-frequent-vowel-and-consonant/) | [python](leetcode/easy/3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant.py) |
