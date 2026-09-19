@@ -41,9 +41,9 @@ This repository contains a collection of coding problems solved on various platf
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
 | leetcode-easy | 137 | 2241 | 16 | 187 | 6 | 180 | 172 | 50 | 6 | 17 | 223 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
-| leetcode-medium | 208 | 5275 | 25 | 366 | 9 | 537 | 400 | 119 | 22 | 50 | 449 | 7 | 43 | 64 | 11 | 29 | 31 | 7 |
+| leetcode-medium | 209 | 5310 | 25 | 369 | 9 | 539 | 402 | 119 | 22 | 50 | 454 | 7 | 43 | 64 | 11 | 29 | 31 | 7 |
 | leetcode-hard | 37 | 1164 | 31 | 67 | 5 | 109 | 99 | 24 | 11 | 17 | 84 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
-| **total** | 427 | 10178 | 23 | 733 | 22 | 969 | 847 | 199 | 40 | 97 | 873 | 27 | 68 | 113 | 22 | 39 | 60 | 16 |
+| **total** | 428 | 10213 | 23 | 736 | 22 | 971 | 849 | 199 | 40 | 97 | 878 | 27 | 68 | 113 | 22 | 39 | 60 | 16 |
 
 ---
 
@@ -51,6 +51,7 @@ This repository contains a collection of coding problems solved on various platf
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-09-19 | LeetCode Medium | Circle and Rectangle Overlapping | [leetcode.com](https://leetcode.com/problems/circle-and-rectangle-overlapping/) | [python](leetcode/medium/1401.%20Circle%20and%20Rectangle%20Overlapping.py) |
 | 2026-09-18 | LeetCode Medium | Find Two Non-overlapping Sub-arrays Each With Target Sum | [leetcode.com](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/) | [python](leetcode/medium/1477.%20Find%20Two%20Non-overlapping%20Sub-arrays%20Each%20With%20Target%20Sum.py) |
 | 2026-09-13 | LeetCode Medium | Image Overlap | [leetcode.com](https://leetcode.com/problems/image-overlap/) | [python](leetcode/medium/835.%20Image%20Overlap.py) |
 | 2026-09-13 | LeetCode Medium | Count Nodes Equal to Average of Subtree | [leetcode.com](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/) | [python](leetcode/medium/2265.%20Count%20Nodes%20Equal%20to%20Average%20of%20Subtree.py) |
@@ -60,7 +61,6 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-09-04 | LeetCode Easy | Smallest Stable Index I | [leetcode.com](https://leetcode.com/problems/smallest-stable-index-i/) | [python](leetcode/easy/3903.%20Smallest%20Stable%20Index%20I.py) |
 | 2026-09-03 | LeetCode Easy | Construct Uniform Parity Array I | [leetcode.com](https://leetcode.com/problems/construct-uniform-parity-array-i/) | [python](leetcode/easy/3875.%20Construct%20Uniform%20Parity%20Array%20I.py) |
 | 2026-09-03 | LeetCode Medium | Construct Uniform Parity Array II | [leetcode.com](https://leetcode.com/problems/construct-uniform-parity-array-ii/) | [python](leetcode/medium/3876.%20Construct%20Uniform%20Parity%20Array%20II.py) |
-| 2026-08-30 | LeetCode Medium | Removing Minimum and Maximum From Array | [leetcode.com](https://leetcode.com/problems/removing-minimum-and-maximum-from-array/) | [python](leetcode/medium/2091.%20Removing%20Minimum%20and%20Maximum%20From%20Array.py) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time | Space | Problem | Solution |
@@ -402,6 +402,7 @@ This repository contains a collection of coding problems solved on various platf
 | 1382 | Balance a Binary Search Tree | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/balance-a-binary-search-tree/) | [python](leetcode/medium/1382.%20Balance%20a%20Binary%20Search%20Tree.py) |
 | 1390 | Four Divisors | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/four-divisors) | [python](leetcode/medium/1390.%20Four%20Divisors.py) |
 | 1391 | Check if There is a Valid Path in a Grid | O(n*m) | O(n*m) | [leetcode.com](https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/) | [python](leetcode/medium/1391.%20Check%20if%20There%20is%20a%20Valid%20Path%20in%20a%20Grid.py) |
+| 1401 | Circle and Rectangle Overlapping | O(1) | O(1) | [leetcode.com](https://leetcode.com/problems/circle-and-rectangle-overlapping/) | [python](leetcode/medium/1401.%20Circle%20and%20Rectangle%20Overlapping.py) |
 | 1404 | Number of Steps to Reduce a Number in Binary | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary/) | [python](leetcode/medium/1404.%20Number%20of%20Steps%20to%20Reduce%20a%20Number%20in%20Binary.py) |
 | 1415 | The k-th Lexicographical String of All Happy Strings of Length n | O(2^n) | O(n) | [leetcode.com](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | [python](leetcode/medium/1415.%20The%20k-th%20Lexicographical%20String%20of%20All%20Happy%20Strings%20of%20Length%20n.py) |
 | 1429 | First Unique Number | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/first-unique-number/) | [python](leetcode/medium/1429.%20First%20Unique%20Number.py) |
