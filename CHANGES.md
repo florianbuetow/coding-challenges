@@ -4,6 +4,7 @@
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-09-24 | LeetCode Easy | Smallest Index With Digit Sum Equal to Index | [leetcode.com](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | [python](leetcode/easy/3550.%20Smallest%20Index%20With%20Digit%20Sum%20Equal%20to%20Index.py) |
 | 2026-09-19 | LeetCode Medium | Circle and Rectangle Overlapping | [leetcode.com](https://leetcode.com/problems/circle-and-rectangle-overlapping/) | [python](leetcode/medium/1401.%20Circle%20and%20Rectangle%20Overlapping.py) |
 | 2026-09-18 | LeetCode Medium | Find Two Non-overlapping Sub-arrays Each With Target Sum | [leetcode.com](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/) | [python](leetcode/medium/1477.%20Find%20Two%20Non-overlapping%20Sub-arrays%20Each%20With%20Target%20Sum.py) |
 | 2026-09-13 | LeetCode Medium | Image Overlap | [leetcode.com](https://leetcode.com/problems/image-overlap/) | [python](leetcode/medium/835.%20Image%20Overlap.py) |
@@ -13,4 +14,3 @@
 | 2026-09-05 | LeetCode Medium | Smallest Stable Index II | [leetcode.com](https://leetcode.com/problems/smallest-stable-index-ii/) | [python](leetcode/medium/3904.%20Smallest%20Stable%20Index%20II.py) |
 | 2026-09-04 | LeetCode Easy | Smallest Stable Index I | [leetcode.com](https://leetcode.com/problems/smallest-stable-index-i/) | [python](leetcode/easy/3903.%20Smallest%20Stable%20Index%20I.py) |
 | 2026-09-03 | LeetCode Easy | Construct Uniform Parity Array I | [leetcode.com](https://leetcode.com/problems/construct-uniform-parity-array-i/) | [python](leetcode/easy/3875.%20Construct%20Uniform%20Parity%20Array%20I.py) |
-| 2026-09-03 | LeetCode Medium | Construct Uniform Parity Array II | [leetcode.com](https://leetcode.com/problems/construct-uniform-parity-array-ii/) | [python](leetcode/medium/3876.%20Construct%20Uniform%20Parity%20Array%20II.py) |
