@@ -1,3 +1,5 @@
+# link: https://leetcode.com/problems/score-of-parentheses
+
 class Solution:
     def scoreOfParentheses(self, s: str) -> int:
         # O(n) time and space

@@ -41,9 +41,9 @@ This repository contains a collection of coding problems solved on various platf
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
 | leetcode-easy | 138 | 2257 | 16 | 189 | 6 | 181 | 173 | 51 | 6 | 17 | 226 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
-| leetcode-medium | 210 | 5331 | 25 | 370 | 9 | 542 | 404 | 119 | 22 | 50 | 455 | 7 | 43 | 65 | 11 | 29 | 31 | 7 |
+| leetcode-medium | 211 | 5356 | 25 | 371 | 9 | 544 | 405 | 120 | 22 | 50 | 456 | 7 | 43 | 65 | 11 | 29 | 31 | 7 |
 | leetcode-hard | 37 | 1164 | 31 | 67 | 5 | 109 | 99 | 24 | 11 | 17 | 84 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
-| **total** | 430 | 10250 | 23 | 739 | 22 | 975 | 852 | 200 | 40 | 97 | 882 | 27 | 68 | 114 | 22 | 39 | 60 | 16 |
+| **total** | 431 | 10275 | 23 | 740 | 22 | 977 | 853 | 201 | 40 | 97 | 883 | 27 | 68 | 114 | 22 | 39 | 60 | 16 |
 
 ---
 
@@ -51,6 +51,7 @@ This repository contains a collection of coding problems solved on various platf
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-10-08 | LeetCode Medium | Score of Parentheses | N/A | [python](leetcode/medium/856.%20Score%20of%20Parentheses.py) |
 | 2026-09-26 | LeetCode Medium | Evaluate the Bracket Pairs of a String | [leetcode.com](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/) | [python](leetcode/medium/1807.%20Evaluate%20the%20Bracket%20Pairs%20of%20a%20String.py) |
 | 2026-09-24 | LeetCode Easy | Smallest Index With Digit Sum Equal to Index | [leetcode.com](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | [python](leetcode/easy/3550.%20Smallest%20Index%20With%20Digit%20Sum%20Equal%20to%20Index.py) |
 | 2026-09-19 | LeetCode Medium | Circle and Rectangle Overlapping | [leetcode.com](https://leetcode.com/problems/circle-and-rectangle-overlapping/) | [python](leetcode/medium/1401.%20Circle%20and%20Rectangle%20Overlapping.py) |
@@ -60,7 +61,6 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-09-12 | LeetCode Easy | Unique 3-Digit Even Numbers | [leetcode.com](https://leetcode.com/problems/unique-3-digit-even-numbers/) | [python](leetcode/easy/3483.%20Unique%203-Digit%20Even%20Numbers.py) |
 | 2026-09-07 | LeetCode Hard | Distinct Subsequences II | [leetcode.com](https://leetcode.com/problems/distinct-subsequences-ii/) | [python](leetcode/hard/940.%20Distinct%20Subsequences%20II.py) |
 | 2026-09-05 | LeetCode Medium | Smallest Stable Index II | [leetcode.com](https://leetcode.com/problems/smallest-stable-index-ii/) | [python](leetcode/medium/3904.%20Smallest%20Stable%20Index%20II.py) |
-| 2026-09-04 | LeetCode Easy | Smallest Stable Index I | [leetcode.com](https://leetcode.com/problems/smallest-stable-index-i/) | [python](leetcode/easy/3903.%20Smallest%20Stable%20Index%20I.py) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time | Space | Problem | Solution |
@@ -369,6 +369,7 @@ This repository contains a collection of coding problems solved on various platf
 | 835 | Image Overlap | O(n^4) | O(1) | [leetcode.com](https://leetcode.com/problems/image-overlap/) | [python](leetcode/medium/835.%20Image%20Overlap.py) |
 | 840 | Magic Squares In Grid | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/magic-squares-in-grid) | [python](leetcode/medium/840.%20Magic%20Squares%20In%20Grid.py) |
 | 852 | Peak Index in a Mountain Array | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/) | [python](leetcode/medium/852.%20Peak%20Index%20in%20a%20Mountain%20Array.py) |
+| 856 | Score of Parentheses | O(n) | O(n) | N/A | [python](leetcode/medium/856.%20Score%20of%20Parentheses.py) |
 | 861 | Score After Flipping Matrix | O(n * m) | O(1) | [leetcode.com](https://leetcode.com/problems/score-after-flipping-matrix/) | [python](leetcode/medium/861.%20Score%20After%20Flipping%20Matrix.py) |
 | 865 | Smallest Subtree with all the Deepest Nodes | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes) | [python](leetcode/medium/865.%20Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes.py) |
 | 874 | Walking Robot Simulation | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/walking-robot-simulation/description) | [python](leetcode/medium/874.%20Walking%20Robot%20Simulation.py) |
