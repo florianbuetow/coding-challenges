@@ -41,9 +41,9 @@ This repository contains a collection of coding problems solved on various platf
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
 | leetcode-easy | 138 | 2257 | 16 | 189 | 6 | 181 | 173 | 51 | 6 | 17 | 226 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
-| leetcode-medium | 211 | 5356 | 25 | 371 | 9 | 544 | 405 | 120 | 22 | 50 | 456 | 7 | 43 | 65 | 11 | 29 | 31 | 7 |
+| leetcode-medium | 212 | 5372 | 25 | 372 | 9 | 545 | 406 | 120 | 22 | 50 | 457 | 7 | 43 | 65 | 11 | 29 | 32 | 7 |
 | leetcode-hard | 37 | 1164 | 31 | 67 | 5 | 109 | 99 | 24 | 11 | 17 | 84 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
-| **total** | 431 | 10275 | 23 | 740 | 22 | 977 | 853 | 201 | 40 | 97 | 883 | 27 | 68 | 114 | 22 | 39 | 60 | 16 |
+| **total** | 432 | 10291 | 23 | 741 | 22 | 978 | 854 | 201 | 40 | 97 | 884 | 27 | 68 | 114 | 22 | 39 | 61 | 16 |
 
 ---
 
@@ -51,7 +51,9 @@ This repository contains a collection of coding problems solved on various platf
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
-| 2026-10-08 | LeetCode Medium | Score of Parentheses | N/A | [python](leetcode/medium/856.%20Score%20of%20Parentheses.py) |
+| 2026-10-13 | LeetCode Medium | Maximum Alternating Sum of Squares | [leetcode.com](https://leetcode.com/problems/maximum-alternating-sum-of-squares) | [python](leetcode/medium/3727.%20Maximum%20Alternating%20Sum%20of%20Squares.py) |
+| 2026-10-08 | LeetCode Medium | Score of Parentheses | [leetcode.com](https://leetcode.com/problems/score-of-parentheses) | [python](leetcode/medium/856.%20Score%20of%20Parentheses.py) |
+| 2026-10-08 | LeetCode Medium | Score of Parentheses | [leetcode.com](https://leetcode.com/problems/score-of-parentheses) | [python](leetcode/medium/856.%20Score%20of%20Parentheses.py) |
 | 2026-09-26 | LeetCode Medium | Evaluate the Bracket Pairs of a String | [leetcode.com](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/) | [python](leetcode/medium/1807.%20Evaluate%20the%20Bracket%20Pairs%20of%20a%20String.py) |
 | 2026-09-24 | LeetCode Easy | Smallest Index With Digit Sum Equal to Index | [leetcode.com](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | [python](leetcode/easy/3550.%20Smallest%20Index%20With%20Digit%20Sum%20Equal%20to%20Index.py) |
 | 2026-09-19 | LeetCode Medium | Circle and Rectangle Overlapping | [leetcode.com](https://leetcode.com/problems/circle-and-rectangle-overlapping/) | [python](leetcode/medium/1401.%20Circle%20and%20Rectangle%20Overlapping.py) |
@@ -59,8 +61,6 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-09-13 | LeetCode Medium | Image Overlap | [leetcode.com](https://leetcode.com/problems/image-overlap/) | [python](leetcode/medium/835.%20Image%20Overlap.py) |
 | 2026-09-13 | LeetCode Medium | Count Nodes Equal to Average of Subtree | [leetcode.com](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/) | [python](leetcode/medium/2265.%20Count%20Nodes%20Equal%20to%20Average%20of%20Subtree.py) |
 | 2026-09-12 | LeetCode Easy | Unique 3-Digit Even Numbers | [leetcode.com](https://leetcode.com/problems/unique-3-digit-even-numbers/) | [python](leetcode/easy/3483.%20Unique%203-Digit%20Even%20Numbers.py) |
-| 2026-09-07 | LeetCode Hard | Distinct Subsequences II | [leetcode.com](https://leetcode.com/problems/distinct-subsequences-ii/) | [python](leetcode/hard/940.%20Distinct%20Subsequences%20II.py) |
-| 2026-09-05 | LeetCode Medium | Smallest Stable Index II | [leetcode.com](https://leetcode.com/problems/smallest-stable-index-ii/) | [python](leetcode/medium/3904.%20Smallest%20Stable%20Index%20II.py) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time | Space | Problem | Solution |
@@ -369,7 +369,7 @@ This repository contains a collection of coding problems solved on various platf
 | 835 | Image Overlap | O(n^4) | O(1) | [leetcode.com](https://leetcode.com/problems/image-overlap/) | [python](leetcode/medium/835.%20Image%20Overlap.py) |
 | 840 | Magic Squares In Grid | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/magic-squares-in-grid) | [python](leetcode/medium/840.%20Magic%20Squares%20In%20Grid.py) |
 | 852 | Peak Index in a Mountain Array | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/) | [python](leetcode/medium/852.%20Peak%20Index%20in%20a%20Mountain%20Array.py) |
-| 856 | Score of Parentheses | O(n) | O(n) | N/A | [python](leetcode/medium/856.%20Score%20of%20Parentheses.py) |
+| 856 | Score of Parentheses | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/score-of-parentheses) | [python](leetcode/medium/856.%20Score%20of%20Parentheses.py) |
 | 861 | Score After Flipping Matrix | O(n * m) | O(1) | [leetcode.com](https://leetcode.com/problems/score-after-flipping-matrix/) | [python](leetcode/medium/861.%20Score%20After%20Flipping%20Matrix.py) |
 | 865 | Smallest Subtree with all the Deepest Nodes | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes) | [python](leetcode/medium/865.%20Smallest%20Subtree%20with%20all%20the%20Deepest%20Nodes.py) |
 | 874 | Walking Robot Simulation | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/walking-robot-simulation/description) | [python](leetcode/medium/874.%20Walking%20Robot%20Simulation.py) |
@@ -528,6 +528,7 @@ This repository contains a collection of coding problems solved on various platf
 | 3713 | Longest Balanced Substring I | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/longest-balanced-substring-i/) | [python](leetcode/medium/3713.%20Longest%20Balanced%20Substring%20I.py) |
 | 3714 | Longest Balanced Substring II | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/longest-balanced-substring-ii/) | [python](leetcode/medium/3714.%20Longest%20Balanced%20Substring%20II.py) |
 | 3719 | Longest Balanced Subarray I | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/longest-balanced-subarray-i/) | [python](leetcode/medium/3719.%20Longest%20Balanced%20Subarray%20I.py) |
+| 3727 | Maximum Alternating Sum of Squares | O(n log n) | O(1) | [leetcode.com](https://leetcode.com/problems/maximum-alternating-sum-of-squares) | [python](leetcode/medium/3727.%20Maximum%20Alternating%20Sum%20of%20Squares.py) |
 | 3741 | Minimum Distance Between Three Equal Elements II | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/minimum-distance-between-three-equal-elements-ii/) | [python](leetcode/medium/3741.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20II.py) |
 | 3751 | Total Waviness of Numbers in Range I | O(n) | O(log n) | [leetcode.com](https://leetcode.com/problems/total-waviness-of-numbers-in-range-i/) | [python](leetcode/medium/3751.%20Total%20Waviness%20of%20Numbers%20in%20Range%20I.py) |
 | 3760 | Maximum Substrings With Distinct Start | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/maximum-substrings-with-distinct-start/) | [python](leetcode/medium/3760.%20Maximum%20Substrings%20With%20Distinct%20Start.py) |
