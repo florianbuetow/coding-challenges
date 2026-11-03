@@ -4,6 +4,7 @@
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-11-03 | LeetCode Easy | Minimum Moves to Equal Array Elements III | [leetcode.com](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | [python](leetcode/easy/3736.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20III.py) |
 | 2026-10-13 | LeetCode Medium | Maximum Alternating Sum of Squares | [leetcode.com](https://leetcode.com/problems/maximum-alternating-sum-of-squares) | [python](leetcode/medium/3727.%20Maximum%20Alternating%20Sum%20of%20Squares.py) |
 | 2026-10-08 | LeetCode Medium | Score of Parentheses | [leetcode.com](https://leetcode.com/problems/score-of-parentheses) | [python](leetcode/medium/856.%20Score%20of%20Parentheses.py) |
 | 2026-10-08 | LeetCode Medium | Score of Parentheses | [leetcode.com](https://leetcode.com/problems/score-of-parentheses) | [python](leetcode/medium/856.%20Score%20of%20Parentheses.py) |
@@ -13,4 +14,3 @@
 | 2026-09-18 | LeetCode Medium | Find Two Non-overlapping Sub-arrays Each With Target Sum | [leetcode.com](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/) | [python](leetcode/medium/1477.%20Find%20Two%20Non-overlapping%20Sub-arrays%20Each%20With%20Target%20Sum.py) |
 | 2026-09-13 | LeetCode Medium | Image Overlap | [leetcode.com](https://leetcode.com/problems/image-overlap/) | [python](leetcode/medium/835.%20Image%20Overlap.py) |
 | 2026-09-13 | LeetCode Medium | Count Nodes Equal to Average of Subtree | [leetcode.com](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/) | [python](leetcode/medium/2265.%20Count%20Nodes%20Equal%20to%20Average%20of%20Subtree.py) |
-| 2026-09-12 | LeetCode Easy | Unique 3-Digit Even Numbers | [leetcode.com](https://leetcode.com/problems/unique-3-digit-even-numbers/) | [python](leetcode/easy/3483.%20Unique%203-Digit%20Even%20Numbers.py) |

@@ -40,10 +40,10 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
-| leetcode-easy | 138 | 2257 | 16 | 189 | 6 | 181 | 173 | 51 | 6 | 17 | 226 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
-| leetcode-medium | 212 | 5372 | 25 | 372 | 9 | 545 | 406 | 120 | 22 | 50 | 457 | 7 | 43 | 65 | 11 | 29 | 32 | 7 |
+| leetcode-easy | 139 | 2264 | 16 | 190 | 6 | 182 | 173 | 51 | 6 | 17 | 227 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
+| leetcode-medium | 214 | 5431 | 25 | 377 | 9 | 554 | 411 | 121 | 22 | 58 | 462 | 7 | 44 | 65 | 11 | 31 | 33 | 7 |
 | leetcode-hard | 37 | 1164 | 31 | 67 | 5 | 109 | 99 | 24 | 11 | 17 | 84 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
-| **total** | 432 | 10291 | 23 | 741 | 22 | 978 | 854 | 201 | 40 | 97 | 884 | 27 | 68 | 114 | 22 | 39 | 61 | 16 |
+| **total** | 435 | 10357 | 23 | 747 | 22 | 988 | 859 | 202 | 40 | 105 | 890 | 27 | 69 | 114 | 22 | 41 | 62 | 16 |
 
 ---
 
@@ -51,6 +51,7 @@ This repository contains a collection of coding problems solved on various platf
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-11-03 | LeetCode Easy | Minimum Moves to Equal Array Elements III | [leetcode.com](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | [python](leetcode/easy/3736.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20III.py) |
 | 2026-10-13 | LeetCode Medium | Maximum Alternating Sum of Squares | [leetcode.com](https://leetcode.com/problems/maximum-alternating-sum-of-squares) | [python](leetcode/medium/3727.%20Maximum%20Alternating%20Sum%20of%20Squares.py) |
 | 2026-10-08 | LeetCode Medium | Score of Parentheses | [leetcode.com](https://leetcode.com/problems/score-of-parentheses) | [python](leetcode/medium/856.%20Score%20of%20Parentheses.py) |
 | 2026-10-08 | LeetCode Medium | Score of Parentheses | [leetcode.com](https://leetcode.com/problems/score-of-parentheses) | [python](leetcode/medium/856.%20Score%20of%20Parentheses.py) |
@@ -60,7 +61,6 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-09-18 | LeetCode Medium | Find Two Non-overlapping Sub-arrays Each With Target Sum | [leetcode.com](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/) | [python](leetcode/medium/1477.%20Find%20Two%20Non-overlapping%20Sub-arrays%20Each%20With%20Target%20Sum.py) |
 | 2026-09-13 | LeetCode Medium | Image Overlap | [leetcode.com](https://leetcode.com/problems/image-overlap/) | [python](leetcode/medium/835.%20Image%20Overlap.py) |
 | 2026-09-13 | LeetCode Medium | Count Nodes Equal to Average of Subtree | [leetcode.com](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/) | [python](leetcode/medium/2265.%20Count%20Nodes%20Equal%20to%20Average%20of%20Subtree.py) |
-| 2026-09-12 | LeetCode Easy | Unique 3-Digit Even Numbers | [leetcode.com](https://leetcode.com/problems/unique-3-digit-even-numbers/) | [python](leetcode/easy/3483.%20Unique%203-Digit%20Even%20Numbers.py) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time | Space | Problem | Solution |
@@ -280,6 +280,7 @@ This repository contains a collection of coding problems solved on various platf
 | 3870 | Count Commas in Range | O(1) | O(1) | [leetcode.com](https://leetcode.com/problems/count-commas-in-range/) | [python](leetcode/easy/3870.%20Count%20Commas%20in%20Range.py) |
 | 3875 | Construct Uniform Parity Array I | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/construct-uniform-parity-array-i/) | [python](leetcode/easy/3875.%20Construct%20Uniform%20Parity%20Array%20I.py) |
 | 3903 | Smallest Stable Index I | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/smallest-stable-index-i/) | [python](leetcode/easy/3903.%20Smallest%20Stable%20Index%20I.py) |
+| 3963 | Create Grid With Exactly One Path | O(n * m) | O(n * m) | [leetcode.com](https://leetcode.com/problems/create-grid-with-exactly-one-path/) | [python](leetcode/easy/3963.%20Create%20Grid%20With%20Exactly%20One%20Path.py) |
 
 ### Hard
 | Nr. | Challenge | Time | Space | Problem | Solution |
@@ -352,6 +353,7 @@ This repository contains a collection of coding problems solved on various platf
 | 373 | Find K Pairs with Smallest Sums | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [python](leetcode/medium/373.%20Find%20K%20Pairs%20with%20Smallest%20Sums.py) |
 | 417 | Pacific Atlantic Water Flow | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/pacific-atlantic-water-flow/) | [python](leetcode/medium/417.%20Pacific%20Atlantic%20Water%20Flow.py) |
 | 442 | Find All Duplicates in an Array | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [python](leetcode/medium/442.%20Find%20All%20Duplicates%20in%20an%20Array.py) |
+| 462 | Minimum Moves to Equal Array Elements II | O(n log n) | O(1) | [leetcode.com](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | [python](leetcode/medium/462.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20II.py) |
 | 474 | Ones and Zeroes | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/ones-and-zeroes/) | [python](leetcode/medium/474.%20Ones%20and%20Zeroes.py) |
 | 481 | Magical String | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/magical-string/) | [python](leetcode/medium/481.%20Magical%20String.py) |
 | 486 | Predict the Winner | O(2^n) | O(n) | [leetcode.com](https://leetcode.com/problems/predict-the-winner/) | [python](leetcode/medium/486.%20Predict%20the%20Winner.py) |
@@ -518,6 +520,7 @@ This repository contains a collection of coding problems solved on various platf
 | 3577 | Count the Number of Computer Unlocking Permutations | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/count-the-number-of-computer-unlocking-permutations/) | [python](leetcode/medium/3577.%20Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations.py) |
 | 3578 | Count Partitions With Max-Min Difference at Most K | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/count-partitions-with-max-min-difference-at-most-k) | [python](leetcode/medium/3578.%20Count%20Partitions%20With%20Max-Min%20Difference%20at%20Most%20K.py) |
 | 3612 | Process String with Special Operations I | O(2^n) | O(2^n) | [leetcode.com](https://leetcode.com/problems/process-string-with-special-operations-i/) | [python](leetcode/medium/3612.%20Process%20String%20with%20Special%20Operations%20I.py) |
+| 3619 | Count Islands With Total Value Divisible by K | O(n*m) | O(n*m) | [leetcode.com](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k) | [python](leetcode/medium/3619.%20Count%20Islands%20With%20Total%20Value%20Divisible%20by%20K.py) |
 | 3634 | Minimum Removals to Balance Array | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/minimum-removals-to-balance-array/) | [python](leetcode/medium/3634.%20Minimum%20Removals%20to%20Balance%20Array.py) |
 | 3635 | Earliest Finish Time for Land and Water Rides II | O(n+m) | O(1) | [leetcode.com](https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-ii/) | [python](leetcode/medium/3635.%20Earliest%20Finish%20Time%20for%20Land%20and%20Water%20Rides%20II.py) |
 | 3650 | Minimum Cost Path with Edge Reversals | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/minimum-cost-path-with-edge-reversals/) | [python](leetcode/medium/3650.%20Minimum%20Cost%20Path%20with%20Edge%20Reversals.py) |
