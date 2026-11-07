@@ -41,9 +41,9 @@ This repository contains a collection of coding problems solved on various platf
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
 | leetcode-easy | 139 | 2264 | 16 | 190 | 6 | 182 | 173 | 51 | 6 | 17 | 227 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
-| leetcode-medium | 214 | 5431 | 25 | 377 | 9 | 554 | 411 | 121 | 22 | 58 | 462 | 7 | 44 | 65 | 11 | 31 | 33 | 7 |
+| leetcode-medium | 215 | 5467 | 25 | 378 | 9 | 555 | 413 | 124 | 22 | 58 | 463 | 7 | 44 | 66 | 12 | 31 | 33 | 7 |
 | leetcode-hard | 37 | 1164 | 31 | 67 | 5 | 109 | 99 | 24 | 11 | 17 | 84 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
-| **total** | 435 | 10357 | 23 | 747 | 22 | 988 | 859 | 202 | 40 | 105 | 890 | 27 | 69 | 114 | 22 | 41 | 62 | 16 |
+| **total** | 436 | 10393 | 23 | 748 | 22 | 989 | 861 | 205 | 40 | 105 | 891 | 27 | 69 | 115 | 23 | 41 | 62 | 16 |
 
 ---
 
@@ -51,6 +51,7 @@ This repository contains a collection of coding problems solved on various platf
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-11-07 | LeetCode Medium | Process Tasks Using Servers | [leetcode.com](https://leetcode.com/problems/process-tasks-using-servers/) | [python](leetcode/medium/1882.%20Process%20Tasks%20Using%20Servers.py) |
 | 2026-11-03 | LeetCode Easy | Minimum Moves to Equal Array Elements III | [leetcode.com](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | [python](leetcode/easy/3736.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20III.py) |
 | 2026-10-13 | LeetCode Medium | Maximum Alternating Sum of Squares | [leetcode.com](https://leetcode.com/problems/maximum-alternating-sum-of-squares) | [python](leetcode/medium/3727.%20Maximum%20Alternating%20Sum%20of%20Squares.py) |
 | 2026-10-08 | LeetCode Medium | Score of Parentheses | [leetcode.com](https://leetcode.com/problems/score-of-parentheses) | [python](leetcode/medium/856.%20Score%20of%20Parentheses.py) |
@@ -60,7 +61,6 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-09-19 | LeetCode Medium | Circle and Rectangle Overlapping | [leetcode.com](https://leetcode.com/problems/circle-and-rectangle-overlapping/) | [python](leetcode/medium/1401.%20Circle%20and%20Rectangle%20Overlapping.py) |
 | 2026-09-18 | LeetCode Medium | Find Two Non-overlapping Sub-arrays Each With Target Sum | [leetcode.com](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/) | [python](leetcode/medium/1477.%20Find%20Two%20Non-overlapping%20Sub-arrays%20Each%20With%20Target%20Sum.py) |
 | 2026-09-13 | LeetCode Medium | Image Overlap | [leetcode.com](https://leetcode.com/problems/image-overlap/) | [python](leetcode/medium/835.%20Image%20Overlap.py) |
-| 2026-09-13 | LeetCode Medium | Count Nodes Equal to Average of Subtree | [leetcode.com](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/) | [python](leetcode/medium/2265.%20Count%20Nodes%20Equal%20to%20Average%20of%20Subtree.py) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time | Space | Problem | Solution |
@@ -435,6 +435,7 @@ This repository contains a collection of coding problems solved on various platf
 | 1833 | Maximum Ice Cream Bars | O(n log n) | O(1) | [leetcode.com](https://leetcode.com/problems/maximum-ice-cream-bars/) | [python](leetcode/medium/1833.%20Maximum%20Ice%20Cream%20Bars.py) |
 | 1846 | Maximum Element After Decreasing and Rearranging | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/) | [python](leetcode/medium/1846.%20Maximum%20Element%20After%20Decreasing%20and%20Rearranging.py) |
 | 1871 | Jump Game VII | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/jump-game-vii/) | [python](leetcode/medium/1871.%20Jump%20Game%20VII.py) |
+| 1882 | Process Tasks Using Servers | O(n log n + m log n) | O(n+m) | [leetcode.com](https://leetcode.com/problems/process-tasks-using-servers/) | [python](leetcode/medium/1882.%20Process%20Tasks%20Using%20Servers.py) |
 | 1914 | Cyclically Rotating a Grid | O(n*m) | O(n+m) | [leetcode.com](https://leetcode.com/problems/cyclically-rotating-a-grid/) | [python](leetcode/medium/1914.%20Cyclically%20Rotating%20a%20Grid.py) |
 | 1930 | Unique Length-3 Palindromic Subsequences | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/unique-length-3-palindromic-subsequences/) | [python](leetcode/medium/1930.%20Unique%20Length-3%20Palindromic%20Subsequences.py) |
 | 1975 | Maximum Matrix Sum | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/maximum-matrix-sum) | [python](leetcode/medium/1975.%20Maximum%20Matrix%20Sum.py) |
