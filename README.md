@@ -41,9 +41,9 @@ This repository contains a collection of coding problems solved on various platf
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
 | leetcode-easy | 139 | 2264 | 16 | 190 | 6 | 182 | 173 | 51 | 6 | 17 | 227 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
-| leetcode-medium | 215 | 5467 | 25 | 378 | 9 | 555 | 413 | 124 | 22 | 58 | 463 | 7 | 44 | 66 | 12 | 31 | 33 | 7 |
+| leetcode-medium | 216 | 5488 | 25 | 379 | 9 | 557 | 417 | 124 | 22 | 58 | 464 | 7 | 44 | 68 | 12 | 31 | 33 | 7 |
 | leetcode-hard | 37 | 1164 | 31 | 67 | 5 | 109 | 99 | 24 | 11 | 17 | 84 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
-| **total** | 436 | 10393 | 23 | 748 | 22 | 989 | 861 | 205 | 40 | 105 | 891 | 27 | 69 | 115 | 23 | 41 | 62 | 16 |
+| **total** | 437 | 10414 | 23 | 749 | 22 | 991 | 865 | 205 | 40 | 105 | 892 | 27 | 69 | 117 | 23 | 41 | 62 | 16 |
 
 ---
 
@@ -51,6 +51,7 @@ This repository contains a collection of coding problems solved on various platf
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-11-08 | LeetCode Medium | Count Servers that Communicate | [leetcode.com](https://leetcode.com/problems/count-servers-that-communicate/) | [python](leetcode/medium/1267.%20Count%20Servers%20that%20Communicate.py) |
 | 2026-11-07 | LeetCode Medium | Minimum Moves to Equal Array Elements II | [leetcode.com](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | [python](leetcode/medium/462.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20II.py) |
 | 2026-11-07 | LeetCode Medium | Count Islands With Total Value Divisible by K | [leetcode.com](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k) | [python](leetcode/medium/3619.%20Count%20Islands%20With%20Total%20Value%20Divisible%20by%20K.py) |
 | 2026-11-07 | LeetCode Easy | Create Grid With Exactly One Path | [leetcode.com](https://leetcode.com/problems/create-grid-with-exactly-one-path/) | [python](leetcode/easy/3963.%20Create%20Grid%20With%20Exactly%20One%20Path.py) |
@@ -60,7 +61,6 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-10-08 | LeetCode Medium | Score of Parentheses | [leetcode.com](https://leetcode.com/problems/score-of-parentheses) | [python](leetcode/medium/856.%20Score%20of%20Parentheses.py) |
 | 2026-10-08 | LeetCode Medium | Score of Parentheses | [leetcode.com](https://leetcode.com/problems/score-of-parentheses) | [python](leetcode/medium/856.%20Score%20of%20Parentheses.py) |
 | 2026-09-26 | LeetCode Medium | Evaluate the Bracket Pairs of a String | [leetcode.com](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/) | [python](leetcode/medium/1807.%20Evaluate%20the%20Bracket%20Pairs%20of%20a%20String.py) |
-| 2026-09-24 | LeetCode Easy | Smallest Index With Digit Sum Equal to Index | [leetcode.com](https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/) | [python](leetcode/easy/3550.%20Smallest%20Index%20With%20Digit%20Sum%20Equal%20to%20Index.py) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time | Space | Problem | Solution |
@@ -397,6 +397,7 @@ This repository contains a collection of coding problems solved on various platf
 | 1248 | Count Number of Nice Subarrays | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/count-number-of-nice-subarrays/) | [python](leetcode/medium/1248.%20Count%20Number%20of%20Nice%20Subarrays.py) |
 | 1249 | Minimum Remove to Make Valid Parentheses | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [python](leetcode/medium/1249.%20Minimum%20Remove%20to%20Make%20Valid%20Parentheses.py) |
 | 1262 | Greatest Sum Divisible by Three | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/greatest-sum-divisible-by-three/) | [python](leetcode/medium/1262.%20Greatest%20Sum%20Divisible%20by%20Three.py) |
+| 1267 | Count Servers that Communicate | O(n*m) | O(n+m) | [leetcode.com](https://leetcode.com/problems/count-servers-that-communicate/) | [python](leetcode/medium/1267.%20Count%20Servers%20that%20Communicate.py) |
 | 1288 | Remove Covered Intervals | O(n log n) | O(1) | [leetcode.com](https://leetcode.com/problems/remove-covered-intervals/) | [python](leetcode/medium/1288.%20Remove%20Covered%20Intervals.py) |
 | 1291 | Sequential Digits | O(1) | O(1) | [leetcode.com](https://leetcode.com/problems/sequential-digits/) | [python](leetcode/medium/1291.%20Sequential%20Digits.py) |
 | 1292 | Maximum Side Length of a Square with Sum Less than or Equal to Threshold | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) | [python](leetcode/medium/1292.%20Maximum%20Side%20Length%20of%20a%20Square%20with%20Sum%20Less%20than%20or%20Equal%20to%20Threshold.py) |
