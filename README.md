@@ -40,10 +40,10 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
-| leetcode-easy | 139 | 2264 | 16 | 190 | 6 | 182 | 173 | 51 | 6 | 17 | 227 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
+| leetcode-easy | 140 | 2282 | 16 | 191 | 6 | 185 | 175 | 51 | 6 | 17 | 229 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
 | leetcode-medium | 216 | 5488 | 25 | 379 | 9 | 557 | 417 | 124 | 22 | 58 | 464 | 7 | 44 | 68 | 12 | 31 | 33 | 7 |
 | leetcode-hard | 37 | 1164 | 31 | 67 | 5 | 109 | 99 | 24 | 11 | 17 | 84 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
-| **total** | 437 | 10414 | 23 | 749 | 22 | 991 | 865 | 205 | 40 | 105 | 892 | 27 | 69 | 117 | 23 | 41 | 62 | 16 |
+| **total** | 438 | 10432 | 23 | 750 | 22 | 994 | 867 | 205 | 40 | 105 | 894 | 27 | 69 | 117 | 23 | 41 | 62 | 16 |
 
 ---
 
@@ -51,6 +51,7 @@ This repository contains a collection of coding problems solved on various platf
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-11-14 | LeetCode Easy | Minimum Positive Sum Subarray | [leetcode.com](https://leetcode.com/problems/minimum-positive-sum-subarray/) | [python](leetcode/easy/3364.%20Minimum%20Positive%20Sum%20Subarray.py) |
 | 2026-11-08 | LeetCode Medium | Count Servers that Communicate | [leetcode.com](https://leetcode.com/problems/count-servers-that-communicate/) | [python](leetcode/medium/1267.%20Count%20Servers%20that%20Communicate.py) |
 | 2026-11-07 | LeetCode Medium | Minimum Moves to Equal Array Elements II | [leetcode.com](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | [python](leetcode/medium/462.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20II.py) |
 | 2026-11-07 | LeetCode Medium | Count Islands With Total Value Divisible by K | [leetcode.com](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k) | [python](leetcode/medium/3619.%20Count%20Islands%20With%20Total%20Value%20Divisible%20by%20K.py) |
@@ -60,7 +61,6 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-10-13 | LeetCode Medium | Maximum Alternating Sum of Squares | [leetcode.com](https://leetcode.com/problems/maximum-alternating-sum-of-squares) | [python](leetcode/medium/3727.%20Maximum%20Alternating%20Sum%20of%20Squares.py) |
 | 2026-10-08 | LeetCode Medium | Score of Parentheses | [leetcode.com](https://leetcode.com/problems/score-of-parentheses) | [python](leetcode/medium/856.%20Score%20of%20Parentheses.py) |
 | 2026-10-08 | LeetCode Medium | Score of Parentheses | [leetcode.com](https://leetcode.com/problems/score-of-parentheses) | [python](leetcode/medium/856.%20Score%20of%20Parentheses.py) |
-| 2026-09-26 | LeetCode Medium | Evaluate the Bracket Pairs of a String | [leetcode.com](https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/) | [python](leetcode/medium/1807.%20Evaluate%20the%20Bracket%20Pairs%20of%20a%20String.py) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time | Space | Problem | Solution |
@@ -241,6 +241,7 @@ This repository contains a collection of coding problems solved on various platf
 | 3345 | Smallest Divisible Digit Product I | O(log n) | O(log n) | [leetcode.com](https://leetcode.com/problems/smallest-divisible-digit-product-i/) | [python](leetcode/easy/3345.%20Smallest%20Divisible%20Digit%20Product%20I.py) |
 | 3349 | Adjacent Increasing Subarrays Detection I | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/adjacent-increasing-subarrays-detection-i/) | [python](leetcode/easy/3349.%20Adjacent%20Increasing%20Subarrays%20Detection%20I.py) |
 | 3354 | Make Array Elements Equal to Zero | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/make-array-elements-equal-to-zero/) | [python](leetcode/easy/3354.%20Make%20Array%20Elements%20Equal%20to%20Zero.py) |
+| 3364 | Minimum Positive Sum Subarray | O(n*m) | O(1) | [leetcode.com](https://leetcode.com/problems/minimum-positive-sum-subarray/) | [python](leetcode/easy/3364.%20Minimum%20Positive%20Sum%20Subarray.py) |
 | 3370 | Smallest Number With All Set Bits | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/smallest-number-with-all-set-bits/) | [python](leetcode/easy/3370.%20Smallest%20Number%20With%20All%20Set%20Bits.py) |
 | 3432 | Count Partitions with Even Sum Difference | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/count-partitions-with-even-sum-difference/) | [python](leetcode/easy/3432.%20Count%20Partitions%20with%20Even%20Sum%20Difference.py) |
 | 3461 | Check If Digits Are Equal in String After Operations I | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/check-if-digits-are-equal-in-string-after-operations-i/) | [python](leetcode/easy/3461.%20Check%20If%20Digits%20Are%20Equal%20in%20String%20After%20Operations%20I.py) |
