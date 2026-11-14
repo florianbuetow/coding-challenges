@@ -2,7 +2,7 @@
 
 class Solution:
     def minimumSumSubarray(self, nums: List[int], l: int, r: int) -> int:
-        # O(n*m) time and O(1) space, n = len(nums)
+        # O(n*m) time and O(1) space, n = len(nums), m = r - l + 1
         result = float('inf')
         for window_size in range(l, r + 1):
             window_sum = 0
