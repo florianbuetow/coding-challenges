@@ -41,9 +41,9 @@ This repository contains a collection of coding problems solved on various platf
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
 | leetcode-easy | 140 | 2282 | 16 | 191 | 6 | 185 | 175 | 51 | 6 | 17 | 229 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
-| leetcode-medium | 216 | 5488 | 25 | 379 | 9 | 557 | 417 | 124 | 22 | 58 | 464 | 7 | 44 | 68 | 12 | 31 | 33 | 7 |
+| leetcode-medium | 217 | 5500 | 25 | 380 | 9 | 558 | 418 | 124 | 22 | 58 | 465 | 7 | 44 | 68 | 12 | 31 | 33 | 7 |
 | leetcode-hard | 37 | 1164 | 31 | 67 | 5 | 109 | 99 | 24 | 11 | 17 | 84 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
-| **total** | 438 | 10432 | 23 | 750 | 22 | 994 | 867 | 205 | 40 | 105 | 894 | 27 | 69 | 117 | 23 | 41 | 62 | 16 |
+| **total** | 439 | 10444 | 23 | 751 | 22 | 995 | 868 | 205 | 40 | 105 | 895 | 27 | 69 | 117 | 23 | 41 | 62 | 16 |
 
 ---
 
@@ -51,6 +51,8 @@ This repository contains a collection of coding problems solved on various platf
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-11-15 | LeetCode Medium | Number of Sub-arrays With Odd Sum | [leetcode.com](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | [python](leetcode/medium/1524.%20Number%20of%20Sub-arrays%20With%20Odd%20Sum.py) |
+| 2026-11-14 | LeetCode Easy | Minimum Positive Sum Subarray | [leetcode.com](https://leetcode.com/problems/minimum-positive-sum-subarray/) | [python](leetcode/easy/3364.%20Minimum%20Positive%20Sum%20Subarray.py) |
 | 2026-11-14 | LeetCode Easy | Minimum Positive Sum Subarray | [leetcode.com](https://leetcode.com/problems/minimum-positive-sum-subarray/) | [python](leetcode/easy/3364.%20Minimum%20Positive%20Sum%20Subarray.py) |
 | 2026-11-08 | LeetCode Medium | Count Servers that Communicate | [leetcode.com](https://leetcode.com/problems/count-servers-that-communicate/) | [python](leetcode/medium/1267.%20Count%20Servers%20that%20Communicate.py) |
 | 2026-11-07 | LeetCode Medium | Minimum Moves to Equal Array Elements II | [leetcode.com](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/) | [python](leetcode/medium/462.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20II.py) |
@@ -59,8 +61,6 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-11-07 | LeetCode Medium | Process Tasks Using Servers | [leetcode.com](https://leetcode.com/problems/process-tasks-using-servers/) | [python](leetcode/medium/1882.%20Process%20Tasks%20Using%20Servers.py) |
 | 2026-11-03 | LeetCode Easy | Minimum Moves to Equal Array Elements III | [leetcode.com](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | [python](leetcode/easy/3736.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20III.py) |
 | 2026-10-13 | LeetCode Medium | Maximum Alternating Sum of Squares | [leetcode.com](https://leetcode.com/problems/maximum-alternating-sum-of-squares) | [python](leetcode/medium/3727.%20Maximum%20Alternating%20Sum%20of%20Squares.py) |
-| 2026-10-08 | LeetCode Medium | Score of Parentheses | [leetcode.com](https://leetcode.com/problems/score-of-parentheses) | [python](leetcode/medium/856.%20Score%20of%20Parentheses.py) |
-| 2026-10-08 | LeetCode Medium | Score of Parentheses | [leetcode.com](https://leetcode.com/problems/score-of-parentheses) | [python](leetcode/medium/856.%20Score%20of%20Parentheses.py) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time | Space | Problem | Solution |
@@ -418,6 +418,7 @@ This repository contains a collection of coding problems solved on various platf
 | 1488 | Avoid Flood in The City | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/avoid-flood-in-the-city/) | [python](leetcode/medium/1488.%20Avoid%20Flood%20in%20The%20City.py) |
 | 1509 | Minimum Difference Between Largest and Small | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/minimum-difference-between-largest-and-small/) | [python](leetcode/medium/1509.%20Minimum%20Difference%20Between%20Largest%20and%20Small.py) |
 | 1513 | Number of Substrings With Only 1s | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/number-of-substrings-with-only-1s/) | [python](leetcode/medium/1513.%20Number%20of%20Substrings%20With%20Only%201s.py) |
+| 1524 | Number of Sub-arrays With Odd Sum | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | [python](leetcode/medium/1524.%20Number%20of%20Sub-arrays%20With%20Odd%20Sum.py) |
 | 1536 | Minimum Swaps to Arrange a Binary Grid | O(n*n) | O(n) | [leetcode.com](https://leetcode.com/problems/minimum-swaps-to-arrange-a-binary-grid/) | [python](leetcode/medium/1536.%20Minimum%20Swaps%20to%20Arrange%20a%20Binary%20Grid.py) |
 | 1559 | Detect Cycles in 2D Grid | O(n*m) | O(n*m) | [leetcode.com](https://leetcode.com/problems/detect-cycles-in-2d-grid/) | [python](leetcode/medium/1559.%20Detect%20Cycles%20in%202D%20Grid.py) |
 | 1580 | Put Boxes Into the Warehouse II | O(n log n) | O(1) | [leetcode.com](https://leetcode.com/problems/put-boxes-into-the-warehouse-ii/) | [python](leetcode/medium/1580.%20Put%20Boxes%20Into%20the%20Warehouse%20II.py) |
