@@ -40,10 +40,10 @@ This repository contains a collection of coding problems solved on various platf
 | deep-ml-medium | 5 | 69 | 13 | 5 | 0 | 1 | 7 | 0 | 0 | 0 | 8 | 2 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
-| leetcode-easy | 140 | 2282 | 16 | 191 | 6 | 185 | 175 | 51 | 6 | 17 | 229 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
+| leetcode-easy | 141 | 2300 | 16 | 193 | 6 | 186 | 177 | 54 | 6 | 17 | 231 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
 | leetcode-medium | 217 | 5500 | 25 | 380 | 9 | 558 | 418 | 124 | 22 | 58 | 465 | 7 | 44 | 68 | 12 | 31 | 33 | 7 |
 | leetcode-hard | 37 | 1164 | 31 | 67 | 5 | 109 | 99 | 24 | 11 | 17 | 84 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
-| **total** | 439 | 10444 | 23 | 751 | 22 | 995 | 868 | 205 | 40 | 105 | 895 | 27 | 69 | 117 | 23 | 41 | 62 | 16 |
+| **total** | 440 | 10462 | 23 | 753 | 22 | 996 | 870 | 208 | 40 | 105 | 897 | 27 | 69 | 117 | 23 | 41 | 62 | 16 |
 
 ---
 
@@ -51,6 +51,7 @@ This repository contains a collection of coding problems solved on various platf
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-11-16 | LeetCode Easy | Calculate Digit Sum of a String | [leetcode.com](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | [python](leetcode/easy/2243.%20Calculate%20Digit%20Sum%20of%20a%20String.py) |
 | 2026-11-15 | LeetCode Medium | Number of Sub-arrays With Odd Sum | [leetcode.com](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | [python](leetcode/medium/1524.%20Number%20of%20Sub-arrays%20With%20Odd%20Sum.py) |
 | 2026-11-14 | LeetCode Easy | Minimum Positive Sum Subarray | [leetcode.com](https://leetcode.com/problems/minimum-positive-sum-subarray/) | [python](leetcode/easy/3364.%20Minimum%20Positive%20Sum%20Subarray.py) |
 | 2026-11-14 | LeetCode Easy | Minimum Positive Sum Subarray | [leetcode.com](https://leetcode.com/problems/minimum-positive-sum-subarray/) | [python](leetcode/easy/3364.%20Minimum%20Positive%20Sum%20Subarray.py) |
@@ -60,7 +61,6 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-11-07 | LeetCode Easy | Create Grid With Exactly One Path | [leetcode.com](https://leetcode.com/problems/create-grid-with-exactly-one-path/) | [python](leetcode/easy/3963.%20Create%20Grid%20With%20Exactly%20One%20Path.py) |
 | 2026-11-07 | LeetCode Medium | Process Tasks Using Servers | [leetcode.com](https://leetcode.com/problems/process-tasks-using-servers/) | [python](leetcode/medium/1882.%20Process%20Tasks%20Using%20Servers.py) |
 | 2026-11-03 | LeetCode Easy | Minimum Moves to Equal Array Elements III | [leetcode.com](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | [python](leetcode/easy/3736.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20III.py) |
-| 2026-10-13 | LeetCode Medium | Maximum Alternating Sum of Squares | [leetcode.com](https://leetcode.com/problems/maximum-alternating-sum-of-squares) | [python](leetcode/medium/3727.%20Maximum%20Alternating%20Sum%20of%20Squares.py) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time | Space | Problem | Solution |
@@ -216,6 +216,7 @@ This repository contains a collection of coding problems solved on various platf
 | 2078 | Two Furthest Houses With Different Colors | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/two-furthest-houses-with-different-colors/) | [python](leetcode/easy/2078.%20Two%20Furthest%20Houses%20With%20Different%20Colors.py) |
 | 2144 | Minimum Cost of Buying Candies With Discount | O(n log n) | O(1) | [leetcode.com](https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/) | [python](leetcode/easy/2144.%20Minimum%20Cost%20of%20Buying%20Candies%20With%20Discount.py) |
 | 2154 | Keep Multiplying Found Values by Two | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/keep-multiplying-found-values-by-two/) | [python](leetcode/easy/2154.%20Keep%20Multiplying%20Found%20Values%20by%20Two.py) |
+| 2243 | Calculate Digit Sum of a String | O(n log n) | O(n) | [leetcode.com](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | [python](leetcode/easy/2243.%20Calculate%20Digit%20Sum%20of%20a%20String.py) |
 | 2273 | Find Resultant Array After Removing Anagrams | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams/) | [python](leetcode/easy/2273.%20Find%20Resultant%20Array%20After%20Removing%20Anagrams.py) |
 | 2331 | Evaluate Boolean Binary Tree | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | [python](leetcode/easy/2331.%20Evaluate%20Boolean%20Binary%20Tree.py) |
 | 2490 | Circular Sentence | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/circular-sentence/) | [python](leetcode/easy/2490.%20Circular%20Sentence.py) |
