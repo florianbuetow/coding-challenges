@@ -41,9 +41,9 @@ This repository contains a collection of coding problems solved on various platf
 | hackerrank-easy | 2 | 17 | 8 | 2 | 0 | 4 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | hackerrank-medium | 3 | 57 | 19 | 4 | 1 | 3 | 7 | 0 | 0 | 0 | 6 | 0 | 0 | 2 | 0 | 0 | 1 | 0 |
 | leetcode-easy | 141 | 2300 | 16 | 193 | 6 | 186 | 177 | 54 | 6 | 17 | 231 | 4 | 7 | 16 | 1 | 0 | 16 | 0 |
-| leetcode-medium | 217 | 5500 | 25 | 380 | 9 | 558 | 418 | 124 | 22 | 58 | 465 | 7 | 44 | 68 | 12 | 31 | 33 | 7 |
+| leetcode-medium | 218 | 5510 | 25 | 381 | 9 | 559 | 419 | 124 | 22 | 58 | 466 | 7 | 44 | 68 | 12 | 31 | 33 | 7 |
 | leetcode-hard | 37 | 1164 | 31 | 67 | 5 | 109 | 99 | 24 | 11 | 17 | 84 | 3 | 7 | 15 | 8 | 5 | 9 | 9 |
-| **total** | 440 | 10462 | 23 | 753 | 22 | 996 | 870 | 208 | 40 | 105 | 897 | 27 | 69 | 117 | 23 | 41 | 62 | 16 |
+| **total** | 441 | 10472 | 23 | 754 | 22 | 997 | 871 | 208 | 40 | 105 | 898 | 27 | 69 | 117 | 23 | 41 | 62 | 16 |
 
 ---
 
@@ -51,6 +51,7 @@ This repository contains a collection of coding problems solved on various platf
 
 | Date | Type | Challenge | Problem | Solution |
 | --- | --- | --- | --- | --- |
+| 2026-11-18 | LeetCode Medium | Minimum Number of Changes to Make Binary String Beautiful | [leetcode.com](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/) | [python](leetcode/medium/2914.%20Minimum%20Number%20of%20Changes%20to%20Make%20Binary%20String%20Beautiful.py) |
 | 2026-11-16 | LeetCode Easy | Calculate Digit Sum of a String | [leetcode.com](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | [python](leetcode/easy/2243.%20Calculate%20Digit%20Sum%20of%20a%20String.py) |
 | 2026-11-15 | LeetCode Medium | Number of Sub-arrays With Odd Sum | [leetcode.com](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | [python](leetcode/medium/1524.%20Number%20of%20Sub-arrays%20With%20Odd%20Sum.py) |
 | 2026-11-14 | LeetCode Easy | Minimum Positive Sum Subarray | [leetcode.com](https://leetcode.com/problems/minimum-positive-sum-subarray/) | [python](leetcode/easy/3364.%20Minimum%20Positive%20Sum%20Subarray.py) |
@@ -60,7 +61,6 @@ This repository contains a collection of coding problems solved on various platf
 | 2026-11-07 | LeetCode Medium | Count Islands With Total Value Divisible by K | [leetcode.com](https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k) | [python](leetcode/medium/3619.%20Count%20Islands%20With%20Total%20Value%20Divisible%20by%20K.py) |
 | 2026-11-07 | LeetCode Easy | Create Grid With Exactly One Path | [leetcode.com](https://leetcode.com/problems/create-grid-with-exactly-one-path/) | [python](leetcode/easy/3963.%20Create%20Grid%20With%20Exactly%20One%20Path.py) |
 | 2026-11-07 | LeetCode Medium | Process Tasks Using Servers | [leetcode.com](https://leetcode.com/problems/process-tasks-using-servers/) | [python](leetcode/medium/1882.%20Process%20Tasks%20Using%20Servers.py) |
-| 2026-11-03 | LeetCode Easy | Minimum Moves to Equal Array Elements III | [leetcode.com](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | [python](leetcode/easy/3736.%20Minimum%20Moves%20to%20Equal%20Array%20Elements%20III.py) |
 # Advent of Code
 ### 2025
 | Day | Challenge | Time | Space | Problem | Solution |
@@ -483,6 +483,7 @@ This repository contains a collection of coding problems solved on various platf
 | 2816 | Double a Number Represented as a Linked List | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/) | [python](leetcode/medium/2816.%20Double%20a%20Number%20Represented%20as%20a%20Linked%20List.py) |
 | 2904 | Shortest and Lexicographically Smallest Beautiful String | O(n*k) | O(n) | [leetcode.com](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/) | [python](leetcode/medium/2904.%20Shortest%20and%20Lexicographically%20Smallest%20Beautiful%20String.py) |
 | 2906 | Construct Product Matrix | O(n*m) | O(n*m) | [leetcode.com](https://leetcode.com/problems/construct-product-matrix/) | [python](leetcode/medium/2906.%20Construct%20Product%20Matrix.py) |
+| 2914 | Minimum Number of Changes to Make Binary String Beautiful | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/) | [python](leetcode/medium/2914.%20Minimum%20Number%20of%20Changes%20to%20Make%20Binary%20String%20Beautiful.py) |
 | 2943 | Maximize Area of Square Hole in Grid | O(n) | O(1) | [leetcode.com](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/) | [python](leetcode/medium/2943.%20Maximize%20Area%20of%20Square%20Hole%20in%20Grid.py) |
 | 2948 | Make Lexicographically Smallest Array by Swapping Elements | O(n log n) | O(n) | [leetcode.com](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/) | [python](leetcode/medium/2948.%20Make%20Lexicographically%20Smallest%20Array%20by%20Swapping%20Elements.py) |
 | 2958 | Length of Longest Subarray With at Most K Frequency | O(n) | O(n) | [leetcode.com](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) | [python](leetcode/medium/2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency.py) |
